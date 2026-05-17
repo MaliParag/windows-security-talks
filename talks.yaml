@@ -624,6 +624,155 @@
   url: https://hardwear.io/usa-2024/
   source: euro-asia-pwn2own
   normalized_category: code-integrity
+- title: Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012
+  venue: January 2016 — Foxglove Security blog post; technique developed ~2015
+  theme: 'Foundational pre-2024 talks, elapsed: 528s, total_turns: 0, duration: 507s'
+  url: https://foxglovesecurity.com/2016/01/16/hot-potato/
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM
+  venue: September 2016 — DerbyCon VI; blog post 26 September 2016
+  theme: Tricks DCOM/COM's `CoGetInstanceFromIStorage` to coerce `NT AUTHORITY\SYSTEM` to authenticate via NTLM to port 6666,
+    then relays and locally impersonates the resulting token
+  url: https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: RoguePotato
+  venue: April 2020 — GitHub release; preceded by blog post "We thought they were potatoes but they were beans"
+  theme: Works around Microsoft's post-1809 OXID resolver port-135 restriction by redirecting COM activation traffic through
+    a remote forwarder to a local fake OXID resolver, recovering a `SYSTEM` impersonation token
+  url: https://github.com/antonioCoco/RoguePotato
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Sharing a Logon Session a Little Too Much
+  venue: April 2020 — tiraniddo.dev blog post
+  theme: Demonstrates that the first `NETWORK SERVICE` logon session token (owned by RPCSS) is reused for all loopback SMB
+    named-pipe authentications, allowing any NETWORK SERVICE process to impersonate RPCSS and gain `AllAccess` to higher-privileged
+    service processes
+  url: https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: PrintNightmare (CVE-2021-1675 / CVE-2021-34527)
+  venue: June–July 2021 — GitHub PoC release, then Microsoft emergency advisory
+  theme: Exploits the Windows Print Spooler's `RpcAddPrinterDriverEx()` to load arbitrary DLLs as SYSTEM from a remote SMB
+    share, enabling unauthenticated RCE / LPE on all unpatched Windows versions
+  url: https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: 'Certified Pre-Owned: Abusing Active Directory Certificate Services'
+  venue: June 2021 — SpecterOps whitepaper; Black Hat USA 2021 talk
+  theme: Catalogues 11 AD CS domain-escalation misconfigurations (ESC1–ESC11) covering template abuse, certificate authority
+    misconfigs, and NTLM relay to web enrollment, showing how misconfigured PKI enables silent domain compromise
+  url: https://github.com/topotam/PetitPotam
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Six Degrees of Domain Admin
+  venue: September 2020 — Secura whitepaper; CVE patched August 2020 Patch Tuesday
+  theme: Exploits a cryptographic flaw in the Netlogon Remote Protocol's AES-CFB8 authentication scheme — an all-zero IV allows
+    brute-forcing the session key in ~256 attempts — to reset the domain controller machine account password to a known value
+    without any prior credentials
+  category: ad-attack
+  url: https://www.secura.com/blog/zero-logon
+  source: foundational-pre-2024
+  normalized_category: ad-attack
+- title: 'Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation'
+  venue: '2014–2015 — ADSecurity.org blog series; Black Hat USA 2015 talk "Red vs Blue: Modern Active Directory Attacks, Detection
+    and Protection"'
+  theme: Documents how possession of the KRBTGT account hash allows forging arbitrary Kerberos TGTs (Golden Tickets) that
+    are accepted without contacting the DC, enabling indefinite stealthy domain persistence
+  category: credentials
+  url: https://adsecurity.org/?p=1640
+  source: foundational-pre-2024
+  normalized_category: credentials
+- title: The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-Hash Toolkit"
+  venue: 1997 — Samba mailing list; 2008 — Black Hat DC
+  theme: NT/LAN Manager authentication can be satisfied by sending a captured NTLM hash directly — without knowing the cleartext
+    password — enabling lateral movement across Windows networks
+  url: https://en.hackndo.com/pass-the-hash/
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: 'MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege'
+  venue: November 2014 — Microsoft Security Bulletin; public PoC within weeks
+  theme: A validation flaw in the Kerberos KDC allows any domain user to forge a PAC with arbitrary group memberships (including
+    Domain Admins), granting full DA rights on any unpatched DC
+  url: https://adsecurity.org/?p=676
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Rubeus
+  venue: 2018 — GitHub release
+  theme: A C# toolset for raw Kerberos ticket requests, renewals, Kerberoasting, AS-REP roasting, Pass-the-Ticket, ticket
+    forgery (Golden/Silver/Diamond), and PKINIT operations — all without touching lsass.exe
+  url: https://github.com/GhostPack/Rubeus
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing)
+  venue: November 2021 — Patch Tuesday; public PoC December 2021
+  theme: Any low-privileged domain user can rename their machine account to impersonate the DC's short name, request a TGT,
+    then restore the name — the KDC appends "$" to the original DC account, yielding a DC-level PAC without needing its hash
+  url: https://github.com/Ridter/noPac
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Windows 10(HH) Symbolic Link Mitigations
+  venue: August 2015 — Project Zero blog
+  theme: Documents how Windows 10 and back-ported MS15-090 restrict low-privileged creation of Object Manager symbolic links
+    and NTFS mount points, explaining why these primitives were previously so powerful for EoP and how the new restrictions
+    work
+  url: https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: 'Windows Notification Facility: Useless or Useful? (blog series)'
+  venue: September–October 2019 — tiraniddo.dev four-part blog series
+  theme: Reverse-engineers the undocumented Windows Notification Facility (WNF), a kernel-level publish-subscribe mechanism,
+    revealing that WNF state data is accessible from user-mode and provides novel attack primitives for cross-process information
+    leakage and sandbox escape
+  url: https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Fileless UAC Bypass using eventvwr.exe and Registry Hijacking
+  venue: August 2016 — enigma0x3.net blog post
+  theme: The auto-elevated `eventvwr.exe` consults `HKCU\Software\Classes\mscfile\shell\open\command` before `HKCR`, allowing
+    any medium-integrity process to hijack the registry key and execute arbitrary code at high integrity without a file drop
+  category: defense-evasion
+  url: https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/
+  source: foundational-pre-2024
+  normalized_category: defense-evasion
+- title: Investigating COM Hijacking Techniques for Persistence and Privilege Escalation
+  venue: 2018–2022 — CERT/CC blog and vulnerability notes
+  theme: Many Windows in-box COM objects load DLLs or executables from HKCU-writable registry paths before checking HKLM,
+    allowing any user-mode process to hijack COM activation for persistence or elevation
+  url: https://vuls.cert.org/confluence/display/Wiki/COM+Object+Hijacking
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: Social Engineering the Windows Kernel
+  venue: 2015 — Shakacon / Black Hat USA 2015
+  theme: Surveys how Windows kernel code implicitly trusts user-mode data in dozens of IPC pathways — NtCreateFile handles,
+    ALPC, COM, named pipes — and how this trust can be abused to redirect privileged operations through user-controlled objects
+  url: https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: 'GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools'
+  venue: PowerSploit 2012; PowerView 2014–2016; GhostPack rebrand 2018
+  theme: A suite of C#/.NET offensive security tools (Seatbelt, SafetyKatz, SharpUp, Certify, Rubeus, SharpDPAPI, SharpDump)
+    covering host-enumeration, credential extraction, Kerberos abuse, and PKI exploitation
+  url: https://github.com/GhostPack
+  source: foundational-pre-2024
+  normalized_category: uncategorized
+- title: 'Kekeo: A Kerberos Toolkit with MS14-068 Exploitation'
+  venue: 2014 — GitHub release; expanded 2015–2018
+  theme: A companion toolkit to Mimikatz providing raw Kerberos ticket manipulation including MS14-068 PAC forgery exploitation,
+    S4U2self/S4U2proxy delegation abuse, and PKINIT certificate-based TGT acquisition
+  category: ad-attack
+  url: https://github.com/gentilkiwi/kekeo
+  source: foundational-pre-2024
+  normalized_category: ad-attack
+- title: Bypassing AMSI via .NET Reflection
+  venue: June 2016 — Twitter one-liner; blog documentation by various authors
+  theme: The `AmsiScanBuffer` field in the `amsi.dll` `AmsiContext` object can be patched to `0` from any medium-integrity
+    process via .NET reflection, disabling all AMSI scan calls for the process lifetime
+  category: defense-evasion
+  url: https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+  source: foundational-pre-2024
+  normalized_category: defense-evasion
 - title: Practical Exploitation of Registry Vulnerabilities in the Windows Kernel
   theme: 'OffensiveCon + Recon talks, elapsed: 476s, total_turns: 0, duration: 467s'
   source: offcon-recon

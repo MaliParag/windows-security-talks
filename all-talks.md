@@ -1,4 +1,4 @@
-# All Talks (91 total)
+# All Talks (111 total)
 
 | Year | Category | Title | Speakers | Venue | URL |
 |---|---|---|---|---|---|
@@ -78,6 +78,26 @@
 |  | post-exploit | Revisiting Cross-Session Activation Attacks | Fabian Mosch | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/tbuwdr/) |
 |  | ad-attack | Demystifying Managed Service Accounts: Best Practices, Security Measures, and Wi | Jorge de Almeida Pinto | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/e8vz8y/) |
 |  | code-integrity | A New Root of Trust: Changing Computing with TEE | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |
+|  | uncategorized | Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012 |  | January 2016 — Foxglove Securi | [link](https://foxglovesecurity.com/2016/01/16/hot-potato/) |
+|  | uncategorized | Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM |  | September 2016 — DerbyCon VI;  | [link](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/) |
+|  | uncategorized | RoguePotato |  | April 2020 — GitHub release; p | [link](https://github.com/antonioCoco/RoguePotato) |
+|  | uncategorized | Sharing a Logon Session a Little Too Much |  | April 2020 — tiraniddo.dev blo | [link](https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html) |
+|  | uncategorized | PrintNightmare (CVE-2021-1675 / CVE-2021-34527) |  | June–July 2021 — GitHub PoC re | [link](https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf) |
+|  | uncategorized | Certified Pre-Owned: Abusing Active Directory Certificate Services |  | June 2021 — SpecterOps whitepa | [link](https://github.com/topotam/PetitPotam) |
+|  | ad-attack | Six Degrees of Domain Admin |  | September 2020 — Secura whitep | [link](https://www.secura.com/blog/zero-logon) |
+|  | credentials | Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation |  | 2014–2015 — ADSecurity.org blo | [link](https://adsecurity.org/?p=1640) |
+|  | uncategorized | The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-H |  | 1997 — Samba mailing list; 200 | [link](https://en.hackndo.com/pass-the-hash/) |
+|  | uncategorized | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege |  | November 2014 — Microsoft Secu | [link](https://adsecurity.org/?p=676) |
+|  | uncategorized | Rubeus |  | 2018 — GitHub release | [link](https://github.com/GhostPack/Rubeus) |
+|  | uncategorized | noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing) |  | November 2021 — Patch Tuesday; | [link](https://github.com/Ridter/noPac) |
+|  | uncategorized | Windows 10(HH) Symbolic Link Mitigations |  | August 2015 — Project Zero blo | [link](https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html) |
+|  | uncategorized | Windows Notification Facility: Useless or Useful? (blog series) |  | September–October 2019 — tiran | [link](https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html) |
+|  | defense-evasion | Fileless UAC Bypass using eventvwr.exe and Registry Hijacking |  | August 2016 — enigma0x3.net bl | [link](https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/) |
+|  | uncategorized | Investigating COM Hijacking Techniques for Persistence and Privilege Escalation |  | 2018–2022 — CERT/CC blog and v | [link](https://vuls.cert.org/confluence/display/Wiki/COM+Object+Hijacking) |
+|  | uncategorized | Social Engineering the Windows Kernel |  | 2015 — Shakacon / Black Hat US | [link](https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw) |
+|  | uncategorized | GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools |  | PowerSploit 2012; PowerView 20 | [link](https://github.com/GhostPack) |
+|  | ad-attack | Kekeo: A Kerberos Toolkit with MS14-068 Exploitation |  | 2014 — GitHub release; expande | [link](https://github.com/gentilkiwi/kekeo) |
+|  | defense-evasion | Bypassing AMSI via .NET Reflection |  | June 2016 — Twitter one-liner; | [link](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell) |
 |  | uncategorized | Practical Exploitation of Registry Vulnerabilities in the Windows Kernel |  | offcon-recon |  |
 |  | kernel-exploit | Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remo |  | offcon-recon | [link](https://www.offensivecon.org/speakers/2024/mateusz-jurczyk.html) |
 |  | kernel-exploit | Almost Escaping the Sandbox: Attacking Windows Device Drivers |  | offcon-recon | [link](https://www.offensivecon.org/speakers/2024/erik-egsgard.html) |

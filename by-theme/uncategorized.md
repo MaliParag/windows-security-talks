@@ -1,6 +1,6 @@
 # uncategorized
 
-_27 talks_
+_42 talks_
 
 | Year | Title | Speakers | Venue | URL |
 |---|---|---|---|---|
@@ -29,5 +29,20 @@ _27 talks_
 |  | Ghosts in the Machine Check: Conjuring Hardware Failures for Cross-ring Privileg | Christopher Domas | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Yuval%20Gordon%20-%20The%20%28Un%29Rightful%20Heir%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin.pdf) |
 |  | Ghost Calls: Abusing Web Conferencing for Covert Command & Control | Adam Crosser | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Leon%20Jacobs%20-%207%20Vulns%20in%207%20Days%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built.pdf) |
 |  | Evading Modern Defenses When Phishing with Pixels | Melvin Langvik | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Vilage%20-%20Melvin%20Langvik%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels.pdf) |
+|  | Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012 |  | January 2016 — Foxglove Securi | [link](https://foxglovesecurity.com/2016/01/16/hot-potato/) |
+|  | Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM |  | September 2016 — DerbyCon VI;  | [link](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/) |
+|  | RoguePotato |  | April 2020 — GitHub release; p | [link](https://github.com/antonioCoco/RoguePotato) |
+|  | Sharing a Logon Session a Little Too Much |  | April 2020 — tiraniddo.dev blo | [link](https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html) |
+|  | PrintNightmare (CVE-2021-1675 / CVE-2021-34527) |  | June–July 2021 — GitHub PoC re | [link](https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf) |
+|  | Certified Pre-Owned: Abusing Active Directory Certificate Services |  | June 2021 — SpecterOps whitepa | [link](https://github.com/topotam/PetitPotam) |
+|  | The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-H |  | 1997 — Samba mailing list; 200 | [link](https://en.hackndo.com/pass-the-hash/) |
+|  | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege |  | November 2014 — Microsoft Secu | [link](https://adsecurity.org/?p=676) |
+|  | Rubeus |  | 2018 — GitHub release | [link](https://github.com/GhostPack/Rubeus) |
+|  | noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing) |  | November 2021 — Patch Tuesday; | [link](https://github.com/Ridter/noPac) |
+|  | Windows 10(HH) Symbolic Link Mitigations |  | August 2015 — Project Zero blo | [link](https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html) |
+|  | Windows Notification Facility: Useless or Useful? (blog series) |  | September–October 2019 — tiran | [link](https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html) |
+|  | Investigating COM Hijacking Techniques for Persistence and Privilege Escalation |  | 2018–2022 — CERT/CC blog and v | [link](https://vuls.cert.org/confluence/display/Wiki/COM+Object+Hijacking) |
+|  | Social Engineering the Windows Kernel |  | 2015 — Shakacon / Black Hat US | [link](https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw) |
+|  | GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools |  | PowerSploit 2012; PowerView 20 | [link](https://github.com/GhostPack) |
 |  | Practical Exploitation of Registry Vulnerabilities in the Windows Kernel |  | offcon-recon |  |
 |  | Back from the dead: Exhuming EBC |  | offcon-recon | [link](https://recon.cx/2025/sessions.html) |

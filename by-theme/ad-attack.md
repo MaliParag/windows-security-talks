@@ -1,6 +1,6 @@
 # ad-attack
 
-_11 talks_
+_13 talks_
 
 | Year | Title | Speakers | Venue | URL |
 |---|---|---|---|---|
@@ -15,3 +15,5 @@ _11 talks_
 |  | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/vxs8wy/) |
 |  | Analyzing and Executing ADCS Attack Paths with BloodHound | Andy Robbins, Jonas Bülow Knudsen | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/kzymd8/) |
 |  | Demystifying Managed Service Accounts: Best Practices, Security Measures, and Wi | Jorge de Almeida Pinto | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/e8vz8y/) |
+|  | Six Degrees of Domain Admin |  | September 2020 — Secura whitep | [link](https://www.secura.com/blog/zero-logon) |
+|  | Kekeo: A Kerberos Toolkit with MS14-068 Exploitation |  | 2014 — GitHub release; expande | [link](https://github.com/gentilkiwi/kekeo) |
