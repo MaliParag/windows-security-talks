@@ -2,8 +2,8 @@
 
 _3 talks_
 
-| Year | Title | Speakers | Venue | URL |
-|---|---|---|---|---|
-| 2024 | Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Acce | Dirk-jan Mollema | community | [link](https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/) |
-|  | Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate  | Yuya Chudo | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/tfsfqs/) |
-|  | RBAC: The Shady Place Behind Basic Entra ID Security | Martin Haller | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/3fsjh7/) |
+| Year | Title | Speakers | Venue | Slides | Watch |
+|---|---|---|---|---|---|
+| 2025 | Microsoft SharePoint RCE (auth bypass + insecure deserialization chain) | Dinh Ho Anh Khoa, Viettel Cyber Security | 2025 / Pwn2Own Berlin Day 2 | [link](https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results) |  |
+| 2024 | Tokens & Takeovers: Cloud-Powered Supply Chain Attacks | Nitesh Surana, Trend Micro + Gaurav Mathur, Micros |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |
+| 2024 | The two sides of UnOAuthorized | Eric Woodruff, Semperis + Cameron Vincent, Microso |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |

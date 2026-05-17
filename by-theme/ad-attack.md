@@ -1,19 +1,54 @@
 # ad-attack
 
-_13 talks_
+_48 talks_
 
-| Year | Title | Speakers | Venue | URL |
-|---|---|---|---|---|
-| 2025 | Extending AD CS Attack Surface to the Cloud with Intune Certificates | Dirk-jan Mollema | community | [link](https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/) |
-| 2024 | MaLDAPtive: Diving Deep into LDAP | Will Bohannon (affiliation unverified — likely IBM | blackhat-usa |  |
-| 2024 | Break the Wall from Bottom: Automated [Kernel Security Bypass] | [Last name: Wang] (full name and affiliation unver | blackhat-usa |  |
-| 2024 | ADCS Attack Paths in BloodHound — Part 1 (ESC1) | SpecterOps BloodHound Enterprise Team (Jonas B. Kn | community | [link](https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf) |
-| 2024 | ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate) | SpecterOps BloodHound Enterprise Team | community | [link](https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547) |
-| 2024 | Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool | Jonas B. Knudsen, SpecterOps | community | [link](https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9) |
-| 2024 | Azure AD / Entra ID Kerberos Integration Attack Paths | Eloy Pérez / Tarlogic team | community | [link](https://www.tarlogic.com/blog/) |
-| 2021 | Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 fo | Dirk-jan Mollema (dirkjanm) | community | [link](https://posts.specterops.io/certified-pre-owned-d95910965cd2) |
-|  | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/vxs8wy/) |
-|  | Analyzing and Executing ADCS Attack Paths with BloodHound | Andy Robbins, Jonas Bülow Knudsen | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/kzymd8/) |
-|  | Demystifying Managed Service Accounts: Best Practices, Security Measures, and Wi | Jorge de Almeida Pinto | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/e8vz8y/) |
-|  | Six Degrees of Domain Admin |  | September 2020 — Secura whitep | [link](https://www.secura.com/blog/zero-logon) |
-|  | Kekeo: A Kerberos Toolkit with MS14-068 Exploitation |  | 2014 — GitHub release; expande | [link](https://github.com/gentilkiwi/kekeo) |
+| Year | Title | Speakers | Venue | Slides | Watch |
+|---|---|---|---|---|---|
+| 2025 | Turning your Active Directory into the attacker's C2: modern Group Policy Objects enumerat | Quentin Roland; Wilfried Bécard | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Quentin%20Roland%20Wilfried%20B%C3%A9card%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20modern%20Group%20Policy%20Objects%20enumeration%20and%20exploitation.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
+| 2025 | The (Un)Rightful Heir: My dMSA Is Your New Domain Admin | Yuval Gordon | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Yuval%20Gordon%20-%20The%20%28Un%29Rightful%20Heir%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
+| 2025 | SCCM: The tree that always bears bad fruits | Mehdi Elyassa | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Mehdi%20Elyassa%20-%20SCCM%20The%20tree%20that%20always%20bears%20bad%20fruits.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
+| 2025 | Revisiting Cross-Session Activation Attacks | Fabian Mosch | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/tbuwdr/) |  |
+| 2025 | RBAC: The Shady Place Behind Basic Entra ID Security | Martin Haller | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/dukg9p/) |  |
+| 2025 | OverLAPS: Overriding LAPS Logic | Antoine Goichot | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Antoine%20Goichot%20-%20OverLAPS%20Overriding%20LAPS%20Logic.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
+| 2025 | Misconfiguration Manager: Still Overlooked, Still Overprivileged | Duane Michael, Garrett Foster | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/3fsjh7/) |  |
+| 2025 | Extending AD CS Attack Surface to the Cloud with Intune Certificates | Dirk-jan Mollema |  | [link](https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/) |  |
+| 2025 | Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Serv | Jorge de Almeida Pinto | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/e8vz8y/) |  |
+| 2025 | Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths | Jonas Bülow Knudsen | 2025 / TROOPERS 25, Heidelberg |  |  |
+| 2025 | Advanced Active Directory to Entra ID lateral movement techniques | Dirk-jan Mollema (dirkjanm / Outsider Security) | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
+| 2025 | Advanced AD to Entra ID Lateral Movement Techniques | Dirk-jan Mollema (inferred from filename "Mollema" |  |  |  |
+| 2024 | Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos Implementation | Michal Shagam, Eyal Ronen (Tel Aviv University / W | USENIX Security 2024 |  |  |
+| 2024 | Misconfiguration Manager: Overlooked and Overprivileged | Duane Michael, Chris Thompson | 2024 / TROOPERS 24, Heidelberg |  | [link](https://www.youtube.com/watch?v=GhT6nPes1h0) |
+| 2024 | MaLDAPtive: LDAP Obfuscation, Deobfuscation, and Detection | Daniel Bohannon; Sabajete Elezaj | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Daniel%20Bohannon%20Sabajete%20Elezaj%20-%20MaLDAPtive%20LDAP%20Obfuscation%20Deobfuscation%20and%20Detection.pdf) | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/) |
+| 2024 | MaLDAPtive: Diving Deep into LDAP | Will Bohannon (affiliation unverified — likely IBM |  |  |  |
+| 2024 | Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives) | Antonio Cobo / Tarlogic team |  | [link](https://www.tarlogic.com/blog/) |  |
+| 2024 | Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse | Carl Sörqvist |  | [link](https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/) |  |
+| 2024 | Exploiting Token-Based Authentication: Attacking and Defending Identities in the 2020s | Dr Nestori Syynimaa | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/z3dexp/) | [link](https://www.youtube.com/watch?v=-uHNcz3CF8s) |
+| 2024 | Azure AD / Entra ID Kerberos Integration Attack Paths | Eloy Pérez / Tarlogic team |  | [link](https://www.tarlogic.com/blog/) |  |
+| 2024 | Analyzing and Executing ADCS Attack Paths with BloodHound | Andy Robbins, Jonas Bülow Knudsen | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/kzymd8/) | [link](https://www.youtube.com/watch?v=2s6l0IkK52E) |
+| 2024 | ADillesHeel: Making the Impossible Possible in AD Attack Path Analysis | Shang-De Jiang, Che Yu Lin, Cheng-Lin Yang | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/uepkle/) | [link](https://www.youtube.com/watch?v=bQcTgVo3fYA) |
+| 2024 | ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities) | Jonas B. Knudsen, SpecterOps |  | [link](https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9) |  |
+| 2024 | ADCS ESC13 Abuse Technique | Stephen Hinck, SpecterOps (credit to Adam Burford  |  | [link](https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53) |  |
+| 2024 | ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate) | SpecterOps BloodHound Enterprise Team |  | [link](https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547) |  |
+| 2024 | ADCS Attack Paths in BloodHound — Part 1 (ESC1) | SpecterOps BloodHound Enterprise Team (Jonas B. Kn |  | [link](https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf) |  |
+| 2024 | ACE Up the Sleeve | [Last name: Roth] (full name and affiliation unver |  |  |  |
+| 2024 | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/vxs8wy/) | [link](https://www.youtube.com/watch?v=iTS14FhRlVA) |
+| 2022 | Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release) | Elad Shamir, SpecterOps |  | [link](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) |  |
+| 2021 | noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing) | Charlie Clark (@exploitph) — SpecterOps; detailed  | November 2021 — Patch Tuesday; |  |  |
+| 2021 | PrintNightmare (CVE-2021-1675 / CVE-2021-34527) | Original CVE-2021-1675 PoC: Zhiniang Peng (@edward | June–July 2021 — GitHub PoC re |  |  |
+| 2021 | PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services | Lionel Gilles (@topotam77) — independent researche | July 2021 — GitHub PoC release | [link](https://github.com/topotam/PetitPotam) |  |
+| 2021 | Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational | Will Schroeder (harmj0y), Lee Christensen (tifkin_ |  | [link](https://posts.specterops.io/certified-pre-owned-d95910965cd2) |  |
+| 2021 | Certified Pre-Owned: Abusing Active Directory Certificate Services | Will Schroeder (@harmj0y) + Lee Christensen (@tifk | June 2021 — SpecterOps whitepa | [link](https://posts.specterops.io/certified-pre-owned-d95910965cd2) |  |
+| 2020 | Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptograph | Tom Tervoort (Senior Security Specialist) — Secura | September 2020 — Secura whitep | [link](https://www.secura.com/blog/zero-logon) |  |
+| 2020 | Evil Printer: How to Hack Windows Machines with Printer Protocols | Zhipeng Huo (@R3dF09) + Yunhai Zhang (@cloudnine_s | August 2020 — Black Hat USA 20 | [link](https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf) | [link](https://www.youtube.com/watch?v=jlU7tIGFmf8) |
+| 2018 | SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN | Lee Christensen (@tifkin_) — SpecterOps | 2018 — GitHub release; present | [link](https://github.com/leechristensen/SpoolSample) |  |
+| 2018 | Rubeus | Will Schroeder (@harmj0y) — SpecterOps; co-contrib | 2018 — GitHub release (GhostPa | [link](https://github.com/GhostPack/Rubeus) |  |
+| 2016 | Six Degrees of Domain Admin | Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesu | August 2016 — DEF CON 24; init | [link](https://github.com/BloodHoundAD/BloodHound) |  |
+| 2015 | DCSync: Replicating AD Credentials Over the Network | Benjamin Delpy (@gentilkiwi) + Vincent Le Toux — i | August 2015 — Mimikatz update; | [link](https://adsecurity.org/?p=1729) |  |
+| 2014 | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSec | 2014–2015 — ADSecurity.org blo |  | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
+| 2014 | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege | Originally discovered by researchers (credited to  | November 2014 — Microsoft Secu |  |  |
+| 2014 | Kekeo: A Kerberos Toolkit with MS14-068 Exploitation | Benjamin Delpy (@gentilkiwi) — independent researc | 2014 — GitHub release; expande | [link](https://github.com/gentilkiwi/kekeo) |  |
+| 2014 | Attacking Kerberos: Kicking the Guard Dog of Hades | Tim Medin (@timmedin) — Red Siege Information Secu | August 2014 — DEF CON 22 | [link](https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf) |  |
+| 2014 | Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus | Sean Metcalf (@PyroTek3) — TrimarcSecurity | 2014–2022 — adsecurity.org blo | [link](https://adsecurity.org) |  |
+| 2012 | GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools | Will Schroeder (@harmj0y) + Matt Graeber (@mattife | PowerSploit 2012; PowerView 20 |  |  |
+| 2011 | Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation | Benjamin Delpy (@gentilkiwi) — independent researc | 2011 (initial release); Micros | [link](https://github.com/gentilkiwi/mimikatz) |  |
+| 1997 | The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-Hash Toolki | Original technique: Paul Ashton (Samba project), p | 1997 — Samba mailing list; 200 | [link](https://resources.oreilly.com/examples/9780596510978/) |  |

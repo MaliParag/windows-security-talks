@@ -1,95 +1,179 @@
 - title: 'Page-Oriented Programming: Subverting Control-Flow Integrity of Commodity Operating System Kernels with Non-Writable
     Code Pages'
+  speaker: Seunghun Han, Seong-Joong Kim, Wook Shin, Byung Joon Kim (The Affiliated Institute of ETRI); Jae-Cheol Ryou (Chungnam
+    National University)
+  venue: USENIX Security 2024
   theme: Kernel Exploitation / CFI Bypass
-  source: academic-windows
-  normalized_category: uncategorized
-- title: 'Windows into the Past: Exploiting Legacy Crypto in Modern OS''s Kerberos Implementation'
-  theme: Credentials / Active Directory Attack
   category: Windows Kernel / Exploitation Primitives
-  url: https://www.usenix.org/conference/usenixsecurity24/presentation/han-seunghun
+  year: '2024'
   source: academic-windows
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+- title: 'Windows into the Past: Exploiting Legacy Crypto in Modern OS''s Kerberos Implementation'
+  speaker: Michal Shagam, Eyal Ronen (Tel Aviv University / Weizmann Institute)
+  venue: USENIX Security 2024
+  theme: Credentials / Active Directory Attack
+  category: Kerberos / Authentication Protocol
+  year: '2024'
+  source: academic-windows
+  normalized_category: ad-attack
 - title: 'MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Windows Malware Detection
     Systems'
+  speaker: Xiang Ling, Jingzheng Wu, Tianyue Luo, Yanjun Wu (IIE/State Key Lab, Chinese Academy of Sciences); Zhiyu Wu, Shouling
+    Ji (Zhejiang University); Bin Wang (Xidian University); Wei Deng (Zhejiang University)
+  venue: USENIX Security 2024
   theme: EDR Evasion / Malware Detection
   category: Windows Malware / Adversarial ML
-  url: https://www.usenix.org/conference/usenixsecurity24/presentation/ling
+  year: '2024'
   source: academic-windows
-  normalized_category: uncategorized
-- title: 'Be Careful of What You Embed: Demystifying OLE Vulnerabilities'
+  normalized_category: edr-bypass
+- title: 'File Hijacking Vulnerability: The Elephant in the Room'
+  speaker: Chendong Yu, Yang Xiao, Yeting Li, Yifan Dong, Jian Wang, Jingyi Shi, Defang Bo, Wei Huo (IIE, Chinese Academy
+    of Sciences); Jie Lu, Lian Li (ICT, Chinese Academy of Sciences); Yuekang Li (UNSW)
+  venue: NDSS 2024
   theme: Windows Privilege Escalation / Post-Exploitation
   category: Windows Filesystem / File Hijacking
-  url: https://www.ndss-symposium.org/ndss-paper/file-hijacking-vulnerability-the-elephant-in-the-room/
+  year: '2024'
   source: academic-windows
-  normalized_category: filesystem
+  normalized_category: post-exploit
+- title: 'Be Careful of What You Embed: Demystifying OLE Vulnerabilities'
+  speaker: Yunpeng Tian, Tianyu Chen, Xu Zhou, Zhenyu Ning, Kai Lu (Huazhong University of Science and Technology); Yajin
+    Zhou (Zhejiang University)
+  venue: NDSS 2025
+  theme: Windows COM/OLE Vulnerability Analysis
+  category: Windows Office / Object Embedding
+  year: '2025'
+  source: academic-windows
+  normalized_category: office-attack
 - title: 'FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2'
+  speaker: Connor Glosner, Aravind Machiry (Purdue University)
+  venue: NDSS 2025
   theme: UEFI / Firmware Security
   category: Windows Boot / Pre-OS Security
-  url: https://www.ndss-symposium.org/ndss-paper/be-careful-of-what-you-embed-demystifying-ole-vulnerabilities/
+  year: '2025'
   source: academic-windows
-  normalized_category: uncategorized
+  normalized_category: boot-firmware
 - title: 'Sheep''s Clothing, Wolf''s Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC'
+  speaker: Fangming Gu, Qingli Guo, Qinghe Xie, Beibei Zhao, Hong Li, Xiaorui Gong (IIE, Chinese Academy of Sciences); Jie
+    Lu (ICT, Chinese Academy of Sciences); Kangjie Lu (University of Minnesota)
+  venue: NDSS 2025
   theme: Windows IPC Vulnerability Discovery
   category: Windows IPC / Privilege Escalation
-  url: https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/
+  year: '2025'
   source: academic-windows
-  normalized_category: uncategorized
-- title: 'PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts'
+  normalized_category: post-exploit
+- title: 'Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples'
+  speaker: Adrian Shuai Li, Elisa Bertino (Purdue University); Arun Iyengar (Intelligent Data Management and Analytics, LLC);
+    Ashish Kundu (Cisco Research)
+  venue: NDSS 2025
   theme: Windows Malware Detection / Concept Drift
   category: Windows Malware / ML-based Defense
-  url: https://www.ndss-symposium.org/ndss-paper/revisiting-concept-drift-in-windows-malware-detection-adaptation-to-real-drifted-malware-with-minimal-samples/
+  year: '2025'
   source: academic-windows
-  normalized_category: uncategorized
+  normalized_category: malware
+- title: 'PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts'
+  speaker: Ruijie Li, Wenbo Guo, Jiahao Liu, Yuqing Yang, Zhiqiang Lin (The Ohio State University); Wenchao Li (Alibaba Group)
+  venue: ACM CCS 2024
+  theme: Malware Analysis / Defense Evasion
+  category: Windows PowerShell / Malware
+  year: '2024'
+  source: academic-windows
+  normalized_category: defense-evasion
 - title: On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)
+  speaker: Lorenzo Davoli, Tamara Rezk (Inria, Sophia Antipolis)
+  venue: ACM CCS 2024
   theme: Microarchitecture / KASLR
   category: Windows Kernel / Spectre / ASLR Bypass
-  url: https://dl.acm.org/doi/10.1145/3658644.3670390
+  year: '2024'
   source: academic-windows
   normalized_category: kernel-exploit
 - title: Principled Microarchitectural Isolation on Cloud CPUs
+  speaker: Stavros Volos, Cédric Fournet, Jonas Hofmann, Boris Köpf, Oleksii Oleksenko (Microsoft Azure Research); Kapil Vaswani
+    (Microsoft Research)
+  venue: ACM CCS 2024
   theme: Hyper-V / Cloud Isolation
   category: Hyper-V / Microarchitectural Side Channels
-  url: https://dl.acm.org/doi/10.1145/3658644.3690322
+  year: '2024'
   source: academic-windows
-  normalized_category: kernel-exploit
-- title: 'Breaking the Barrier: Post-Barrier Spectre Attacks'
+  normalized_category: hyper-v
+- title: 'BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments'
+  speaker: Jonas De Meulemeester, Thomas Orsi, Arthur Beckers, Lennert Wouters, Jan Van den Bulck, Dave Singelée (KU Leuven,
+    DistriNet/COSIC)
+  venue: IEEE S&P 2025
   theme: TEE / Memory Security
   category: Hardware Attack / VBS / Confidential Computing
-  url: https://www.ieee-security.org/TC/SP2025/accepted-papers.html
+  year: '2025'
   source: academic-windows
   normalized_category: vbs-bypass
+- title: 'Breaking the Barrier: Post-Barrier Spectre Attacks'
+  speaker: Johannes Wikner, Kaveh Razavi (ETH Zurich, COMSEC)
+  venue: IEEE S&P 2025
+  theme: Spectre / Microarchitecture
+  category: Windows Kernel / Spectre Mitigation Bypass
+  year: '2025'
+  source: academic-windows
+  normalized_category: kernel-exploit
 - title: 'EvilEDR: Repurposing EDR as an Offensive Tool'
+  speaker: Kotaiba Alachkar, Eduardo Barbaro, Michel van Eeten, Yury Zhauniarovich (Delft University of Technology); Dirk
+    Gaastra (Independent Researcher)
+  venue: USENIX Security 2025
   theme: EDR Security / Offensive Security
   category: Windows EDR / Lateral Movement
-  url: https://www.usenix.org/conference/usenixsecurity25/presentation/alachkar
+  year: '2025'
   source: academic-windows
   normalized_category: post-exploit
 - title: 'LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System'
+  speaker: Bocheng Xiang, Yuan Zhang, Hao Huang, Fengyu Liu, Youkun Shi (Fudan University)
+  venue: NDSS 2026
   theme: Windows Filesystem Defense
   category: Windows Filesystem / Privilege Escalation Defense
-  url: https://www.ndss-symposium.org/ndss-paper/linkguard-a-lightweight-state-aware-runtime-guard-against-link-following-attacks-in-windows-file-system/
+  year: '2026'
   source: academic-windows
   normalized_category: filesystem
-- title: Understanding the Status and Strategies of the Code Signing Abuse Ecosystem
-  theme: Windows Code Signing / Threat Intelligence
+- title: 'Unveiling BYOVD Threats: Malware''s Use and Abuse of Kernel Drivers'
+  speaker: Andrea Monzani, Antonio Parata, Andrea Lanzi (University of Milan); Andrea Oliveri, Simone Aonzo, Davide Balzarotti
+    (EURECOM)
+  venue: NDSS 2026
+  theme: Windows Driver Security / EDR Evasion
   category: Windows Kernel Drivers / BYOVD
-  url: https://www.ndss-symposium.org/ndss-paper/unveiling-byovd-threats-malwares-use-and-abuse-of-kernel-drivers/
+  year: '2026'
   source: academic-windows
   normalized_category: byovd
+- title: Understanding the Status and Strategies of the Code Signing Abuse Ecosystem
+  speaker: Hanqing Zhao, Yiming Zhang, Baojun Liu, Haixin Duan, Zi-Quan You (Tsinghua University); Lingyun Ying, Shuhao Zhang
+    (QI-ANXIN Technology Research Institute); Mingming Zhang (Zhongguancun Laboratory)
+  venue: NDSS 2026
+  theme: Windows Code Signing / Threat Intelligence
+  category: Windows Malware / Code Signing
+  year: '2026'
+  source: academic-windows
+  normalized_category: code-integrity
 - title: 'Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments'
+  speaker: Andrea Infantino, Mir Masood Ali, Kostas Solomos, Jason Polakis (University of Illinois Chicago)
+  venue: NDSS 2026
   theme: Credential Theft / Windows Desktop Security
   category: Windows Password Manager / UI Attacks
-  url: https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/
+  year: '2026'
   source: academic-windows
   normalized_category: credentials
+- title: 'Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks'
+  speaker: Sander Wiebing, Cristiano Giuffrida (Vrije Universiteit Amsterdam)
+  venue: IEEE S&P 2025
+  theme: Spectre-v2 / Isolation Bypass
+  category: Microarchitecture / Cross-Domain Speculation
+  year: '2025'
+  source: academic-windows
+  normalized_category: kernel-exploit
 - title: 'Windows Downdate: Downgrade Attacks Using Windows Updates'
   speaker: Alon Leviev (SafeBreach)
   year: '2024'
-  venue: Type
   theme: Windows kernel/hypervisor security bypass via supply-chain update mechanism
   category: Windows kernel, Virtualization Based Security (VBS), Hyper-V, Credential Guard
   source: blackhat-usa
-  normalized_category: hyper-v
+  normalized_category: vbs-bypass
+  venue: DEF CON 32
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alon%20Leviev%20-%20Windows%20Downdate%20Downgrade%20Attacks%20Using%20Windows%20Updates.pdf
+  watch_url: https://www.youtube.com/watch?v=HHmxuxQ7bE8
+  watch_confidence: HIGH
 - title: 'MaLDAPtive: Diving Deep into LDAP'
   speaker: Will Bohannon (affiliation unverified — likely IBM/Security team)
   year: '2024'
@@ -97,6 +181,13 @@
   category: Active Directory, LDAP, detection evasion
   source: blackhat-usa
   normalized_category: ad-attack
+- title: Living Off Microsoft Copilot
+  speaker: Michael Bargury (Zenity)
+  year: '2024'
+  theme: Microsoft 365 Copilot as a Living-off-the-Land (LotL) attack platform
+  category: Microsoft 365, Copilot, prompt injection, data exfiltration, M365 ecosystem
+  source: blackhat-usa
+  normalized_category: ai-security
 - title: 15 Ways to Break Your Copilot
   speaker: Michael Bargury (Zenity)
   year: '2024'
@@ -104,18 +195,46 @@
   category: Microsoft 365, Copilot, AI security, prompt injection
   source: blackhat-usa
   normalized_category: ai-security
-- title: 'Break the Wall from Bottom: Automated [Kernel Security Bypass]'
-  speaker: '[Last name: Wang] (full name and affiliation unverified)'
+- title: 'UnOAuthorized: A Technique to Privilege Escalation to Global Administrator'
+  speaker: Brian Woodruff (affiliation unverified)
+  year: '2024'
+  theme: OAuth misconfiguration enabling Entra ID Global Administrator escalation
+  category: Entra ID, Azure AD, OAuth, privilege escalation, cloud identity
+  source: blackhat-usa
+  normalized_category: cloud-identity
+- title: ACE Up the Sleeve
+  speaker: '[Last name: Roth] (full name and affiliation unverified)'
   year: '2024'
   theme: Active Directory Access Control Entry (ACE) abuse for persistence and privilege escalation
   category: Active Directory, ACL/ACE abuse, Windows identity
   source: blackhat-usa
   normalized_category: ad-attack
+- title: 'Break the Wall from Bottom: Automated [Kernel Security Bypass]'
+  speaker: '[Last name: Wang] (full name and affiliation unverified)'
+  year: '2024'
+  theme: Automated Windows kernel/hypervisor security boundary defeat from below
+  category: Windows kernel, VBS/HVCI bypass, UEFI/firmware, automated exploitation
+  source: blackhat-usa
+  normalized_category: vbs-bypass
+- title: 'You''ve Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM?'
+  speaker: '[Last name: Matsuo] (full name and affiliation unverified)'
+  year: '2024'
+  theme: UEFI Option ROM-based persistent backdoor affecting Windows boot chain
+  category: UEFI, firmware security, Secure Boot, Windows boot
+  source: blackhat-usa
+  normalized_category: boot-firmware
 - title: 'All Your Secrets Belong to Us: Leveraging [Windows Credential Infrastructure?]'
   speaker: '[Last name: Dohrmann] (full name and affiliation unverified)'
   year: '2024'
   theme: Mass credential/secrets harvesting from Windows systems
   category: Windows credential theft, DPAPI, secrets management (tentative)
+  source: blackhat-usa
+  normalized_category: credentials
+- title: Windows Hello, No! for Business
+  speaker: '[Last name: David] (first name and affiliation unverified)'
+  year: '2025'
+  theme: Windows Hello for Business authentication bypass
+  category: Windows authentication, Windows Hello, smartcard/certificate auth, identity
   source: blackhat-usa
   normalized_category: credentials
 - title: 'BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets'
@@ -125,6 +244,17 @@
   category: BitLocker, Windows Recovery, drive encryption bypass, Windows security
   source: blackhat-usa
   normalized_category: boot-firmware
+  venue: DEF CON 33
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alon%20Leviev%20Netanel%20Ben%20Simon%20-%20BitUnlocker%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets.pdf
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: Advanced AD to Entra ID Lateral Movement Techniques
+  speaker: Dirk-jan Mollema (inferred from filename "Mollema" — known AD/Entra researcher at Semaphore/dirkjanm.io)
+  year: '2025'
+  theme: Advanced lateral movement from on-premises Active Directory to cloud-based Entra ID
+  category: Active Directory, Entra ID (Azure AD), hybrid identity, lateral movement
+  source: blackhat-usa
+  normalized_category: ad-attack
 - title: 'ShadeBIOS: Unleashing the Full Stealth of UEFI Malware'
   speaker: '[Last name: Matsuo] (likely same or related to BH-US-24 UEFI OROM presenter)'
   year: '2025'
@@ -132,23 +262,337 @@
   category: UEFI, firmware malware, Secure Boot bypass, Windows boot chain
   source: blackhat-usa
   normalized_category: boot-firmware
-- title: 'Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications'
-  speaker: Vaisha Bernard (Eye Research / Eye Security)
+- title: 'Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services'
+  speaker: '[Last name: Shi] (affiliation unverified; Chinese-authored PDF — Lang(zh))'
+  year: '2025'
+  theme: Pre-authentication vulnerability research in Windows HTTP stack
+  category: Windows kernel, HTTP.sys, IIS/WinHTTP, pre-auth RCE/LPE, Windows services
+  source: blackhat-usa
+  normalized_category: kernel-exploit
+- title: 'Out of Control: KCFG and KCET'
+  speaker: McGarr (first name and affiliation unverified)
   year: '2025'
   theme: Bypassing Windows Kernel Control Flow Guard (KCFG) and Kernel Control-flow Enforcement Technology (KCET)
   category: Windows kernel exploit mitigations, CFG/CET bypass, kernel exploit development
   source: blackhat-usa
   normalized_category: kernel-exploit
-- title: Speaker(s) & Affiliation
-  venue: '## REPOSITORIES DISCOVERED'
-  theme: Category
-  category: URL
+- title: 'Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications'
+  speaker: Vaisha Bernard (Eye Research / Eye Security)
+  year: '2025'
+  theme: Entra ID multi-tenant OAuth misconfiguration exploitation against internal Microsoft services
+  category: Entra ID, OAuth, Azure AD, multi-tenant applications, identity abuse
+  source: blackhat-usa
+  normalized_category: cloud-identity
+- title: 'Training Specialist Models: Automating Malware Development'
+  speaker: Kyle Avery (Outflank)
+  year: '2025'
+  theme: LLM fine-tuning to automate generation of Windows EDR-evasive shellcode loaders
+  category: Windows Defender for Endpoint, EDR bypass, malware development automation, AI+offensive
+  source: blackhat-usa
+  normalized_category: edr-bypass
+- title: BlueHat 2024 Day 1 Keynote
+  speaker: Chris Wysopal (AKA Weld Pond), Co-founder Veracode / L0pht Heavy Industries
+  theme: A founding hacker-turned-industry-leader reflects on 25+ years of security research and how the community shaped
+    today's threat landscape
+  category: Security History / Keynote
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
   source: bluehat
-  normalized_category: uncategorized
+  year: '2024'
+  normalized_category: keynote
+  watch_url: https://www.youtube.com/watch?v=w6SAqT4ZQik
+  watch_confidence: HIGH
+- title: BlueHat 2024 Day 2 Keynote
+  speaker: Amanda Silver, CVP Microsoft Developer Division
+  theme: Microsoft's CVP outlines how the Secure Future Initiative is reshaping developer tools and security-first engineering
+    culture
+  category: Developer Security / Keynote
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+  watch_url: https://www.youtube.com/watch?v=KOUaJIX9JEY
+  watch_confidence: HIGH
+- title: World of Scams
+  speaker: Amit Tambe, F-Secure
+  theme: Introduces a MITRE ATT&CK-inspired "Scam Tactics & Techniques Framework" covering 8 tactics and 31 techniques across
+    the full scam kill chain
+  category: Consumer Security / Fraud
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: Creating a Developer-Friendly Security Tool
+  speaker: Susan Krkasharian, Microsoft
+  theme: Demonstrates a security tool designed to reduce friction for developers embedding security checks into their workflows
+  category: Developer Security / Tooling
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: My Best Frenemy
+  speaker: Svetlana Gaivoronski + David B. Cross, Oracle
+  theme: Explores the dual role of cloud identity and trust mechanisms as both enabling technology and primary attack surface
+  category: Cloud Identity
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: cloud-identity
+- title: 'Scaling Out: Securing Open Source'
+  speaker: Zachary Steindler, Microsoft
+  theme: Presents the OpenSSF Securing Software Repositories Working Group's roadmap for deploying Trusted Publishing and
+    build provenance across package ecosystems
+  category: Open Source Security / Supply Chain
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: hardware-attack
+- title: Entitlements on macOS and why they matter
+  speaker: Yves Younan, Cisco Talos
+  theme: Explains how macOS entitlements control sandboxed application privileges and how misconfigurations create exploitable
+    attack paths
+  category: macOS Security / Platform Hardening
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: Getting In Tune with an Enterprise
+  speaker: Brett Hawkins, IBM
+  theme: Examines how attackers can exploit or researchers can audit Microsoft Intune MDM deployments to gain enterprise access
+  category: Enterprise Security / MDM
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: 'AI''s got Muffins: the RAG-a-muffins!!!'
+  speaker: Vivek Vinod Sharma, Microsoft
+  theme: Explores security considerations for Retrieval-Augmented Generation (RAG) architectures in enterprise AI deployments
+  category: AI/ML Security
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: ai-security
+- title: 'Ransomware Resilience: Turning the Tide Against Cyber Extortion'
+  speaker: Dr. Tom Williams (independent security practitioner, ~18 yrs experience)
+  theme: Uses SEC EDGAR data from 2,928 publicly traded companies across 146 industries to quantify ransomware risk trends
+    2020–2022 and proposes zero-trust/micro-segmentation resilience strategies
+  category: Ransomware / Cyber Resilience
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: kernel-exploit
+- title: SafeChatAI
+  speaker: Ayobami Olatunji, Microsoft
+  theme: Presents SafeChatAI, a Microsoft system for content safety and guardrailing in AI chat deployments
+  category: AI/ML Safety
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2020'
+  normalized_category: ai-security
+- title: 'Firmware Security: Middle Child of Security'
+  speaker: Nithin Sade, Google
+  theme: Argues that firmware occupies a critical but neglected layer between hardware and software and outlines why it needs
+    dedicated security investment
+  category: Firmware Security
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2020'
+  normalized_category: boot-firmware
+- title: The two sides of UnOAuthorized
+  speaker: Eric Woodruff, Semperis + Cameron Vincent, Microsoft
+  theme: Demonstrates how adversaries abuse OAuth authorization flows to achieve persistent, covert access to M365 environments,
+    and how defenders can detect it
+  category: Identity Security / OAuth
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: identity
+- title: 'Tokens & Takeovers: Cloud-Powered Supply Chain Attacks'
+  speaker: Nitesh Surana, Trend Micro + Gaurav Mathur, Microsoft
+  theme: Shows how identity tokens leaked from CI/CD pipelines (GitHub Actions, Azure DevOps) can be chained to execute cloud-powered
+    software supply chain attacks
+  category: Cloud Security / Supply Chain
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: identity
+- title: 'Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD'
+  speaker: Avihai Ben Yossef, Ilan Kalendarov, Elad Beber — Cymulate
+  theme: Demonstrates how a compromised on-premises Azure AD Pass-Through Authentication (PTA) agent can be weaponized to
+    harvest credentials for any tenant user without triggering alerts
+  category: Identity Security / Azure AD
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: cloud-identity
+- title: 'Echoes of Intrusion: Demystifying MS Graph API Attacks'
+  speaker: Miriam Wiesner, Microsoft
+  theme: Maps attacker techniques that abuse Microsoft Graph API for persistence, lateral movement, and data exfiltration
+    in compromised M365 tenants
+  category: Identity Security / Graph API
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: post-exploit
+- title: Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves
+  speaker: Nestori Syynimaa, Microsoft (MYSTIC team)
+  theme: Chronicles the repeated postponement of Azure AD Graph API retirement since 2019 and explains how defenders can detect
+    malicious usage before the June 2025 shutdown
+  category: Identity Security / API Migration
+  url: https://www.youtube.com/watch?v=wgXichA5ukY
+  source: bluehat
+  year: '2024'
+  normalized_category: cloud-identity
+- title: DCOM Research for Everyone!
+  speaker: James Forshaw, Google Project Zero
+  theme: Provides an accessible breakdown of Windows DCOM (Distributed Component Object Model) attack surface, including tools
+    and techniques for independent security research
+  category: Windows Platform Security
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2019'
+  normalized_category: ipc-rpc
+- title: 'Outlook Unleashing RCE Chaos: CVE-2024-30103, CVE-2024-38021 & CVE-2024-38173'
+  speaker: Michael Gorelik, Morphisec
+  theme: Discloses the technical root causes of three critical zero-click RCE vulnerabilities in Microsoft Outlook that could
+    be exploited without user interaction
+  category: Vulnerability Research / RCE
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: office-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
+- title: Pointer Problems – Why We're Refactoring the Windows Kernel
+  speaker: Joe Bialek, Microsoft
+  theme: Explains Microsoft's strategic shift to refactor safety-critical Windows kernel components in Rust to eliminate pointer-related
+    memory safety vulnerabilities at scale
+  category: Windows Kernel / Memory Safety
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: kernel-exploit
+- title: How Microsoft is Scaling DAST
+  speaker: Jason Geffner, Microsoft
+  theme: Presents Microsoft's innovative agents-based approach to auto-discovering API endpoints and transparently bypassing
+    auth for DAST scanning at enterprise scale inside Azure
+  category: AppSec / DAST
+  url: https://www.youtube.com/watch?v=kfuOzDwv874
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: 'When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems'
+  speaker: Mark Mager (Sr. Manager, Security Research) + Eric Forte, Elastic
+  theme: Reveals critical hardware and software vulnerabilities in millions of Wi-Fi cameras using the insecure PPPP P2P protocol,
+    enabling unauthenticated arbitrary access to devices from two vendors
+  category: IoT Security / Vulnerability Research
+  url: https://www.youtube.com/watch?v=FRW7g_SHC8Q
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day
+  speaker: Christine Fossaceca, Microsoft + Bill Marczak, Citizen Lab
+  theme: Microsoft and Citizen Lab jointly reconstruct the QuaDream/KingsPawn spyware's iOS zero-click exploit (ENDOFDAYS),
+    demonstrating how backdated iCalendar invites exploited XML parsing to deliver a no-interaction implant
+  category: Mobile Security / Spyware / 0-day
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: 'Patterns in the Shadows: Scaling Threat Hunting & Intel for Modern Adversaries'
+  speaker: Mark Parsons + Colin Cowie, Sophos
+  theme: Presents a methodology and tooling for scaling threat hunting operations against sophisticated modern adversaries
+    using behavioral pattern correlation across large telemetry datasets
+  category: Threat Hunting / Threat Intelligence
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: threat-intel
+- title: Scaling AppSec with an SDL for Citizen Development
+  speaker: Michael Bargury, Zenity/OWASP + Don Willits, Microsoft
+  theme: Describes how Microsoft built and deployed an SDL for low-code/no-code citizen developers in Power Platform, remediating
+    50,000 vulnerabilities in the first 3 months of 2024
+  category: AppSec / Low-Code Security
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: out-of-scope
+- title: 'Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG'
+  speaker: Jose Rodriguez, George Mason University
+  theme: Demonstrates how LLM-based Retrieval-Augmented Generation applied to structured Sysmon event logs can improve APT
+    detection via semantic similarity search
+  category: AI/ML Security / Threat Detection
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: ai-security
+- title: Three Decades of Network Security Evolution
+  speaker: Vern Paxson, Corelight
+  theme: Draws on 30 years of datasets from a dozen large operational environments to illuminate how network threats evolve
+    at wildly different speeds, with some changes arriving overnight while others take decades
+  category: Network Security / Research
+  url: https://www.youtube.com/watch?v=YFThifuJbMM
+  source: bluehat
+  year: '2024'
+  normalized_category: edr-bypass
+- title: 'MSTIC: A Threat Intelligence Year in Review'
+  speaker: Rachel Giacobozzi, Microsoft Threat Intelligence
+  theme: Surveys the 2024 threat landscape through MSTIC's lens, covering ransomware groups (Black Basta), nation-state actors
+    (Twill Typhoon, Peach Sandstorm, Star Blizzard, Moonstone Sleet), and financially motivated actors (OctoTempest)
+  category: Threat Intelligence
+  url: https://www.youtube.com/watch?v=U7p0J8aMZhM
+  source: bluehat
+  year: '2024'
+  normalized_category: malware
+- title: Minting Silver Bullets is Challenging
+  speaker: Josh Brown-White, Microsoft
+  theme: Argues that the quest for universal security solutions is fundamentally flawed given enterprise complexity, and proposes
+    a principles-based framework for accepting residual risk
+  category: Security Strategy / Risk Management
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: kernel-exploit
+- title: Lessons Learned from Red Teaming 100 Generative AI Applications
+  speaker: Blake Bullwinkel, Microsoft AI Red Team
+  theme: Shares systematic lessons from red-teaming over 100 GenAI products, cataloguing failure modes across prompt injection,
+    data exfiltration, content harms, and agentic misuse
+  category: AI/ML Security / Red Teaming
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: ai-security
+- title: 'PyRIT: From LLM Security Research to Practical Attacks'
+  speaker: Richard Lundeen, Microsoft AI Red Team
+  theme: Walks through how PyRIT (open-source Microsoft AI Red Team library) translates academic LLM attack research (PAIR,
+    Crescendo, tree-of-attacks) into practical, repeatable exploit pipelines
+  category: AI/ML Security / Red Teaming
+  url: https://www.youtube.com/watch?v=RFnOIYMOEeE
+  source: bluehat
+  year: '2024'
+  normalized_category: ai-security
+- title: 'SLIP: Securing LLMs IP Using Weights Decomposition'
+  speaker: Adam Hakim, Microsoft
+  theme: Introduces SLIP, a provably secure hybrid inference protocol that partitions LLM weights between secure and edge
+    resources via matrix decomposition, achieving zero accuracy loss while protecting model IP from theft
+  category: AI/ML Security / Model Protection
+  url: https://www.youtube.com/watch?v=CEZYfTanQFk
+  source: bluehat
+  year: '2024'
+  normalized_category: edr-bypass
+- title: Automate AI Red Teaming in your existing tool chain with PyRIT
+  speaker: Joris de Gruyter + Shiven Chawla, Microsoft
+  theme: Demonstrates PirateShip (a RESTful Docker layer over PyRIT) that integrates AI red-teaming into existing security
+    pipelines including Burp Suite, reducing manual effort for automated harmful-content testing
+  category: AI/ML Security / Red Teaming Tooling
+  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  source: bluehat
+  year: '2024'
+  normalized_category: ai-security
 - title: ADCS Attack Paths in BloodHound — Part 1 (ESC1)
   speaker: SpecterOps BloodHound Enterprise Team (Jonas B. Knudsen, et al.)
   year: '2024'
-  theme: 'SpecterOps + AD community, elapsed: 445s, total_turns: 0, duration: 431s'
+  theme: BloodHound CE now maps ESC1 requirements—certificate template enrolleesuppliessubject, authenticationenabled, CA
+    TrustedForNTAuth—as traversable graph edges (ADCSESC1), replacing manual Cypher queries
   category: AD-attack
   url: https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf
   source: community
@@ -156,23 +600,41 @@
 - title: ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate)
   speaker: SpecterOps BloodHound Enterprise Team
   year: '2024'
-  theme: Adds ESC3 (enrollment-agent certificate abuse), the `ADCSESC3` traversable edge, `DelegatedEnrollmentAgent` restrictions
-    modeling, and the `GoldenCert` edge from CA host compromise to domain
+  theme: Adds ESC3 (enrollment-agent certificate abuse), the ADCSESC3 traversable edge, DelegatedEnrollmentAgent restrictions
+    modeling, and the GoldenCert edge from CA host compromise to domain
   category: AD-attack
   url: https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547
   source: community
   normalized_category: ad-attack
-- title: 'Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release)'
+- title: ADCS ESC13 Abuse Technique
+  speaker: Stephen Hinck, SpecterOps (credit to Adam Burford for discovery)
+  year: '2024'
+  theme: 'ESC13: certificate templates carrying an issuance-policy OID with an msDS-OIDToGroupLink to a Universal AD group
+    let any enrollee-privileged user silently gain that group''s access upon certificate issuance'
+  category: AD-attack
+  url: https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53
+  source: community
+  normalized_category: ad-attack
+- title: ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities)
   speaker: Jonas B. Knudsen, SpecterOps
   year: '2024'
-  theme: ESC14 formalizes abuse of write-access to `altSecurityIdentities` to add explicit X.509 certificate mappings (X509IssuerSubject,
+  theme: ESC14 formalizes abuse of write-access to altSecurityIdentities to add explicit X.509 certificate mappings (X509IssuerSubject,
     X509SKI, X509SHA1PublicKey, etc.) enabling authentication as any principal whose attribute is controllable
   category: AD-attack
   url: https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9
   source: community
   normalized_category: ad-attack
+- title: 'Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release)'
+  speaker: Elad Shamir, SpecterOps
+  year: '2022'
+  theme: Writing to msDS-KeyCredentialLink with attacker-controlled public key allows PKINIT TGT request + U2U NT-hash recovery
+    as any writable user/computer without touching LSASS
+  category: AD-attack / credentials
+  url: https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab
+  source: community
+  normalized_category: ad-attack
 - title: 'Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational whitepaper)'
-  speaker: Dirk-jan Mollema (dirkjanm)
+  speaker: Will Schroeder (harmj0y), Lee Christensen (tifkin_), SpecterOps
   year: '2021'
   theme: Seminal framework defining 8 ADCS domain escalation classes (ESC1–ESC8) plus certificate-based persistence (PERSIST1–3)
     and domain persistence (DPERSIST1–3); released alongside Certify and ForgeCert
@@ -180,16 +642,36 @@
   url: https://posts.specterops.io/certified-pre-owned-d95910965cd2
   source: community
   normalized_category: ad-attack
+- title: One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)
+  speaker: Dirk-jan Mollema (dirkjanm)
+  year: '2025'
+  theme: 'Two-component critical flaw: Microsoft''s undocumented unsigned Actor impersonation tokens (used for S2S communication)
+    combined with a legacy Azure AD Graph API tenant-validation bypass allowed cross-tenant Global Admin impersonation without
+    any logs or Conditional Access controls'
+  category: cloud-identity
+  url: https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
+  source: community
+  normalized_category: cloud-identity
 - title: Extending AD CS Attack Surface to the Cloud with Intune Certificates
   speaker: Dirk-jan Mollema
   year: '2025'
-  theme: Intune PKCS/SCEP certificate connectors require `EnrolleeSuppliesSubject` templates; an Intune admin (or misconfigured
+  theme: Intune PKCS/SCEP certificate connectors require EnrolleeSuppliesSubject templates; an Intune admin (or misconfigured
     user-scope profile) can craft device certificates with arbitrary DNS SANs + SID strong-mapping URLs to impersonate a Domain
     Controller and compromise on-prem AD from cloud
   category: AD-attack / cloud-identity
   url: https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/
   source: community
   normalized_category: ad-attack
+- title: Persisting on Entra ID Applications and User Managed Identities with Federated Credentials
+  speaker: Dirk-jan Mollema
+  year: '2024'
+  theme: 'Federated credential abuse for persistence: attackers with app write-access or Managed Identity access can configure
+    federated credentials—bypassing traditional client-secret rotation—and persist as application principals; User Managed
+    Identities receiving federated credentials is a particularly novel attack surface'
+  category: cloud-identity
+  url: https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/
+  source: community
+  normalized_category: cloud-identity
 - title: Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Access Passes
   speaker: Dirk-jan Mollema
   year: '2024'
@@ -198,17 +680,34 @@
   category: identity-attack / credentials
   url: https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/
   source: community
-  normalized_category: identity
+  normalized_category: cloud-identity
+- title: 'Introducing Early Cascade Injection: From Windows Process Creation to Stealthy Injection'
+  speaker: Guido Miggelenbrink, Outflank
+  year: '2024'
+  theme: Novel process injection technique that targets LdrInitializeThunk before EDR user-land hooks are installed—combining
+    Early Bird APC Injection with EDR-Preloading principles—achieving top-tier EDR evasion without cross-process APC queuing
+  category: EDR-bypass / defense-evasion
+  url: https://outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/
+  source: community
+  normalized_category: edr-bypass
 - title: 'Will the real #GrimResource please stand up? — Abusing the MSC File Format'
   speaker: Outflank team
   year: '2024'
-  venue: please-stand-up-abusing-the-msc-file-format/
-  theme: The MMC `.msc` XML file format can embed XSL transform references that trigger arbitrary code execution via `apds.dll`/MSHTML
+  theme: The MMC .msc XML file format can embed XSL transform references that trigger arbitrary code execution via apds.dll/MSHTML
     without user interaction beyond opening the file—demonstrated as an initial-access/lateral-movement primitive in OST
   category: defense-evasion / post-exploitation
   url: https://outflank.nl/blog/2024/08/13/will-the-real-grimresource-please-stand-up-abusing-the-msc-file-format/
   source: community
   normalized_category: post-exploit
+- title: Unmanaged .NET Patching
+  speaker: Outflank team
+  year: '2024'
+  theme: Describes patching managed .NET functions (e.g., System.Environment.Exit) from unmanaged (native C++) implant code
+    in-process, using CLR hosting interfaces—avoiding fork&run sacrifice processes and AMSI layers
+  category: defense-evasion
+  url: https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/
+  source: community
+  normalized_category: edr-bypass
 - title: Secure Enclaves for Offensive Operations — Part I
   speaker: Matteo Malvica (OffSec) & Cedric Van Bockhaven, Outflank
   year: '2025'
@@ -217,9 +716,19 @@
   category: Hyper-V/virtualization / defense-evasion
   url: https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/
   source: community
+  normalized_category: vbs-bypass
+- title: 'Secure Enclaves for Offensive Operations — Part II: VTL1 Code Execution'
+  speaker: Cedric Van Bockhaven & Matteo Malvica, Outflank
+  year: '2025'
+  theme: Exploits a pointer-validation vulnerability (CVE-2024-21423 / TOCTOU in Microsoft Edge prefs enclave) to achieve
+    arbitrary read/write in VTL1, escalating to VTL1 code execution; weaponized as a Cobalt Strike Beacon sleep-mask that
+    hides implant memory even from EDR kernel drivers
+  category: Hyper-V/virtualization / EDR-bypass
+  url: https://outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/
+  source: community
   normalized_category: hyper-v
 - title: Async BOFs — "Wake Me Up, Before You Go Go"
-  speaker: Outflank team
+  speaker: Cornelis de Plaa (@Cneelis) et al., Outflank
   year: '2025'
   theme: Introduces asynchronous Beacon Object File (BOF) design enabling real-time event monitoring (e.g., "alert when admin
     logs in") with a C2-streaming architecture while the implant is sleep-masked
@@ -227,6 +736,15 @@
   url: https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/
   source: community
   normalized_category: post-exploit
+- title: 'Training Specialist Models: Automating Malware Development (Black Hat USA 2025)'
+  speaker: Outflank team
+  year: '2025'
+  theme: Uses reinforcement learning with verifiable rewards (RLVR) to train Dante-7B, a 7B-parameter self-hosted LLM that
+    generates functional, AV-evasive Cobalt Strike shellcode loaders bypassing Microsoft Defender for Endpoint
+  category: defense-evasion / other (AI-assisted malware)
+  url: https://outflank.nl/blog/2025/08/07/training-specialist-models/
+  source: community
+  normalized_category: defense-evasion
 - title: EDR Internals for macOS and Linux
   speaker: Outflank team
   year: '2024'
@@ -236,25 +754,52 @@
   url: https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/
   source: community
   normalized_category: edr-bypass
+- title: 'Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS'
+  speaker: Clément Labro (itm4n)
+  year: '2024'
+  theme: Demonstrates "Bring Your Own Vulnerable DLL" reintroducing a known vulnerability into Protected Process Light LSASS,
+    enabling arbitrary code execution inside a PPL process from user mode
+  category: credentials / defense-evasion
+  url: https://itm4n.github.io/ghost-in-the-ppl-part-2/
+  source: community
+  normalized_category: byovd
 - title: 'Ghost in the PPL Part 3: LSASS Memory Dump'
   speaker: Clément Labro (itm4n)
   year: '2024'
-  theme: Chains BYOVDLL → `xolehlp.dll`'s `WriteDumpThread` (invokes `MiniDumpWriteDump`) + WinSock2 Autodial DLL loading
-    trick (`AutodialDLL` registry key) to coerce PPL-protected LSASS into self-dumping without any external handle to the
-    process
+  theme: Chains BYOVDLL → xolehlp.dll's WriteDumpThread (invokes MiniDumpWriteDump) + WinSock2 Autodial DLL loading trick
+    (AutodialDLL registry key) to coerce PPL-protected LSASS into self-dumping without any external handle to the process
   category: credentials / defense-evasion
   url: https://itm4n.github.io/ghost-in-the-ppl-part-3/
   source: community
-  normalized_category: defense-evasion
+  normalized_category: byovd
+- title: The PrintNightmare is Not Over Yet — Point and Print Bypass via DNS Spoofing
+  speaker: Clément Labro (itm4n)
+  year: '2024'
+  theme: '"Package Point and Print — Approved Servers" GPO is bypassable via DNS spoofing of approved server names; even UNC
+    Path Hardening can be bypassed by intercepting RpcAsyncGetPrinterDriverPackagePath''s return value with Frida to substitute
+    a local driver path'
+  category: post-exploitation / defense-evasion
+  url: https://itm4n.github.io/printnightmare-not-over/
+  source: community
+  normalized_category: post-exploit
 - title: Reinventing PowerShell in C/C++
   speaker: Clément Labro (itm4n)
   year: '2025'
-  theme: Builds a full native C/C++ PowerShell launcher using CLR hosting (`ICLRMetaHost`, `ICLRRuntimeInfo`, `ICorRuntimeHost`)
+  theme: Builds a full native C/C++ PowerShell launcher using CLR hosting (ICLRMetaHost, ICLRRuntimeInfo, ICorRuntimeHost)
     that patches AMSI, disables CLM, and strips ScriptBlock logging and ETW—entirely in unmanaged code without a .NET dependency
   category: defense-evasion / EDR-bypass
   url: https://itm4n.github.io/reinventing-powershell/
   source: community
   normalized_category: edr-bypass
+- title: Hijacking the Windows "MareBackup" Scheduled Task for Privilege Escalation
+  speaker: Clément Labro (itm4n)
+  year: '2025'
+  theme: Built-in MareBackup scheduled task on vulnerable Windows versions is exploitable via executable search-order hijacking
+    by a low-privileged user to gain SYSTEM whenever the task fires
+  category: kernel-exploitation (EoP) / post-exploitation
+  url: https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/
+  source: community
+  normalized_category: kernel-exploit
 - title: Checking for Symantec Account Connectivity Credentials (ACCs) with PrivescCheck / Offline Extraction
   speaker: Clément Labro (itm4n)
   year: '2025'
@@ -263,25 +808,53 @@
   category: credentials / post-exploitation
   url: https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/
   source: community
-  normalized_category: post-exploit
-- title: Administrator Protection (Windows 11 25H2) — Overview, Research, and 9 UAC-Replacement Bypasses
-  speaker: James Forshaw, Google Project Zero
+  normalized_category: credentials
+- title: CVE-2026-20817 — Windows Error Reporting Service EoP (Patch Analysis)
+  speaker: Clément Labro (itm4n)
   year: '2026'
-  theme: Discovers `fveapi.dll`'s undocumented `FveGetStatus` / `FveOpenVolumeByHandle` functions (and private `_FVE_STATUS_V8/V9`
-    structures embedded in `bdechangepin.exe` resources) that expose full BitLocker authentication mode to low-privileged
-    callers
+  theme: 'Reverse-engineers WerSvc.dll''s SvcElevatedLaunch method: a low-privilege process sends an ALPC message with a file-mapping
+    handle; WerSvc opens the mapping, reads attacker-controlled command line options, and launches WerFault.exe as SYSTEM—Microsoft''s
+    fix entirely removed the feature'
+  category: post-exploitation (IPC/RPC / EoP)
+  url: https://itm4n.github.io/cve-2026-20817-wersvc-eop/
+  source: community
+  normalized_category: ipc-rpc
+- title: 'BitLocker''s Little Secrets: The Undocumented FVE API'
+  speaker: Clément Labro (itm4n)
+  year: '2026'
+  theme: Discovers fveapi.dll's undocumented FveGetStatus / FveOpenVolumeByHandle functions (and private _FVE_STATUS_V8/V9
+    structures embedded in bdechangepin.exe resources) that expose full BitLocker authentication mode to low-privileged callers
   category: other (Windows internals / security auditing)
   url: https://itm4n.github.io/bitlocker-little-secrets-the-undocumented-fve-api/
   source: community
-  normalized_category: uncategorized
+  normalized_category: boot-firmware
+- title: Administrator Protection (Windows 11 25H2) — Overview, Research, and 9 UAC-Replacement Bypasses
+  speaker: James Forshaw, Google Project Zero
+  year: '2025'
+  theme: Windows 11 25H2's new Administrator Protection feature (designed to replace UAC with a true security boundary) was
+    found to have 9 bypass vulnerabilities before GA release; Forshaw details the root cause of 5, focusing on UI Access's
+    long-standing privileged window-messaging loophole now finally being closed
+  category: kernel-exploitation (EoP / UAC bypass)
+  source: community
+  normalized_category: kernel-exploit
 - title: GetProcessHandleFromHwnd — UI Access, Shatter Attacks, and How Windows is Fixing Them
   speaker: James Forshaw, Google Project Zero
   year: '2025'
-  theme: Analyzes the poorly-documented `GetProcessHandleFromHwnd` Win32 API (which grants process handles via UIAccess window
+  theme: Analyzes the poorly-documented GetProcessHandleFromHwnd Win32 API (which grants process handles via UIAccess window
     hooks), traces the 20-year history of Shatter Attack mitigations, and explains how Administrator Protection's refactoring
     of UIAccess isolation finally addresses the class
   category: kernel-exploitation (EoP) / IPC/RPC
   url: https://googleprojectzero.blogspot.com
+  source: community
+  normalized_category: kernel-exploit
+- title: 'Windows Exploitation Techniques: Race Conditions with Path Lookups (originally 2016, republished 2025-12)'
+  speaker: James Forshaw, Google Project Zero
+  year: '2025'
+  theme: 'Seminal TOCTOU pattern in Windows path-lookup security checks: demonstrates how a check → access → secure-action
+    sequence creates a race condition window exploitable for privilege escalation; republished to honor Project Zero''s new
+    blog platform launch'
+  category: kernel-exploitation
+  url: https://googleprojectzero.blogspot.com/2025/12/windows-exploitation-techniques.html
   source: community
   normalized_category: kernel-exploit
 - title: 'Shellcode: Windows on ARM64 / AArch64'
@@ -294,12 +867,21 @@
   url: https://modexp.wordpress.com/2024/09/16/windows_arm64/
   source: community
   normalized_category: post-exploit
-- title: Azure AD / Entra ID Kerberos Integration Attack Paths
-  speaker: Eloy Pérez / Tarlogic team
+- title: Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives)
+  speaker: Antonio Cobo / Tarlogic team
   year: '2024'
   theme: Deep-dive Kerberos protocol attack techniques (AS-REQ/TGS-REQ abuse, Kerberoasting, AS-REP roasting, S4U2Self/S4U2Proxy)
     with Impacket PoC implementations and protocol-level analysis
   category: AD-attack / credentials
+  url: https://www.tarlogic.com/blog/
+  source: community
+  normalized_category: ad-attack
+- title: Azure AD / Entra ID Kerberos Integration Attack Paths
+  speaker: Eloy Pérez / Tarlogic team
+  year: '2024'
+  theme: Research into Kerberos Armoring (FAST), Cloud Kerberos Trust, and hybrid Kerberos bridge attacks between Entra ID
+    and on-premises AD
+  category: identity-attack / AD-attack
   url: https://www.tarlogic.com/blog/
   source: community
   normalized_category: ad-attack
@@ -312,26 +894,55 @@
   url: https://windows-internals.com/cet-on-windows/
   source: community
   normalized_category: kernel-exploit
+- title: Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) — Trail of Bits blog
+  speaker: Yarden Shafir (Trail of Bits)
+  year: '2023'
+  theme: 'ETW internals for offense and defense: ETW provider registration, WMI_LOGGER_CONTEXT internals, consumer authorization,
+    and detection opportunities'
+  category: other (ETW / detection engineering)
+  url: https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/
+  source: community
+  normalized_category: edr-bypass
 - title: 'Windows Internals: Dissecting Secure Image Objects — Part 1'
   speaker: Connor McGarr
   year: '2024'
-  theme: 'Reverse-engineers how `ntoskrnl.exe` creates `SECURE_IMAGE` objects for runtime drivers via Secure System Call #0x19
-    (`VslCreateSecureImageSection`), packing MDL and PFN arguments into `SECURE_IMAGE_CREATE_ARGS` for `securekernel!SkmmCreateSecureImageSection`
+  theme: 'Reverse-engineers how ntoskrnl.exe creates SECURE_IMAGE objects for runtime drivers via Secure System Call #0x19
+    (VslCreateSecureImageSection), packing MDL and PFN arguments into SECURE_IMAGE_CREATE_ARGS for securekernel!SkmmCreateSecureImageSection
     to enforce HVCI W^X pages'
   category: Hyper-V/virtualization / code-integrity
   url: https://connormcgarr.github.io/secure-images/
   source: community
-  normalized_category: hyper-v
+  normalized_category: vbs-bypass
+- title: 'Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows'
+  speaker: Connor McGarr
+  year: '2025'
+  theme: Traces the full kernel-mode Intel CET shadow stack lifecycle from nt!KiCreateKernelShadowStack through nt!MmCreateKernelStack
+    into securekernel.exe (debugged live with SourcePoint); explains why the Secure Kernel—not NT—maintains shadow stack integrity
+    under HVCI
+  category: code-integrity / kernel-exploitation
+  url: https://connormcgarr.github.io/km-shadow-stacks/
+  source: community
+  normalized_category: vbs-bypass
 - title: 'Windows Internals: Secure Calls — The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)'
   speaker: Connor McGarr
   year: '2025'
-  theme: 'Reverse-engineers the VTL 0→1 secure call interface (`HvCallVtlCall` hypercall #0x11), maps Hyper-V''s VM exit handler,
-    hypercall dispatch table, and the per-processor GS-segment structures; releases `SkBridge` tool for issuing arbitrary
-    secure calls with user-controlled parameters'
+  theme: 'Reverse-engineers the VTL 0→1 secure call interface (HvCallVtlCall hypercall #0x11), maps Hyper-V''s VM exit handler,
+    hypercall dispatch table, and the per-processor GS-segment structures; releases SkBridge tool for issuing arbitrary secure
+    calls with user-controlled parameters'
   category: Hyper-V/virtualization / tooling-release
   url: https://connormcgarr.github.io/secure-calls-and-skbridge/
   source: community
   normalized_category: hyper-v
+- title: 'Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC)'
+  speaker: Connor McGarr
+  year: '2025'
+  theme: 'First comprehensive public analysis of Windows 11 ARM64 PAC implementation: per-process signing keys (APIBKeyLo/Hi_EL1),
+    PointerAuthKernelIpKey seeded by SymCryptRngAesGenerate in winload.efi, HVCI-protected CFGRO page tables preventing key
+    overwrites, and unconditional user-mode PAC enrollment'
+  category: code-integrity / kernel-exploitation
+  url: https://connormcgarr.github.io/windows-pac-arm64/
+  source: community
+  normalized_category: vbs-bypass
 - title: 'Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windows under VHE'
   speaker: Connor McGarr
   year: '2025'
@@ -340,42 +951,103 @@
   category: Hyper-V/virtualization
   url: https://connormcgarr.github.io/arm64-windows-internals-basics/
   source: community
-  normalized_category: hyper-v
-- title: CVE-2024-21423 — Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)
-  speaker: Alex Gough (quidity), Google Project Zero
+  normalized_category: vbs-bypass
+- title: 'Windows ARM64 Internals: Pardon The Interruption! Interrupts on Windows for ARM'
+  speaker: Connor McGarr
   year: '2026'
-  theme: Discovers and abuses an undocumented `WMI_LOGGER_CONTEXT.Flags.SecurityTrace` bit (bit 14) protecting Defender's
-    `DefenderApiLogger`/`DefenderAuditLogger` AutoLogger ETW sessions; shows a path to consuming `Microsoft-Windows-Threat-Intelligence`
-    ETW events without Antimalware-PPL or a kernel driver; releases `ThreatIntelligenceConsumer` PoC
+  theme: 'ARM64 interrupt model on Windows: GIC (Generic Interrupt Controller) vs. APIC, ARM''s VBAR_EL1/VBAR_EL2 exception
+    vector tables, how the Windows IRQL model maps to ARM exception priorities, and implications for kernel-mode exploit techniques
+    relying on interrupt manipulation'
+  category: Hyper-V/virtualization / kernel-exploitation
+  url: https://connormcgarr.github.io/windows-arm64-interrupts/
+  source: community
+  normalized_category: hyper-v
+- title: 'Windows Internals: Check Your Privilege — The Curious Case of ETW''s SecurityTrace Flag'
+  speaker: Connor McGarr (Origin/Prelude Security)
+  year: '2026'
+  theme: Discovers and abuses an undocumented WMI_LOGGER_CONTEXT.Flags.SecurityTrace bit (bit 14) protecting Defender's DefenderApiLogger/DefenderAuditLogger
+    AutoLogger ETW sessions; shows a path to consuming Microsoft-Windows-Threat-Intelligence ETW events without Antimalware-PPL
+    or a kernel driver; releases ThreatIntelligenceConsumer PoC
   category: EDR-bypass / tooling-release
   url: https://connormcgarr.github.io/securitytrace-etw-ppl/
   source: community
   normalized_category: edr-bypass
+- title: CVE-2024-21423 — Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)
+  speaker: Alex Gough (quidity), Google Project Zero
+  year: '2024'
+  theme: TOCTOU race in Edge's prefs_enclave_x64.dll SealSettings/UnsealSettings allows arbitrary read/write in VTL1 enclave
+    memory due to user-supplied pointers not being copied before crossing the VTL0→VTL1 trust boundary
+  category: Hyper-V/virtualization / code-integrity
+  url: https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24
+  source: community
+  normalized_category: hyper-v
 - title: Abusing VBS Enclaves to Create Evasive Malware
   speaker: Ori David, Akamai
   year: '2025'
-  theme: 'PoC weaponizing the Microsoft Edge prefs enclave for sleep masking: shellcode is sealed into VTL1 via `SealSettings`
+  theme: 'PoC weaponizing the Microsoft Edge prefs enclave for sleep masking: shellcode is sealed into VTL1 via SealSettings
     during sleep, making it invisible to VTL0 kernel-mode inspection (EDR drivers) while the implant is dormant'
   category: EDR-bypass / defense-evasion
-  url: https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24
+  url: https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware
   source: community
-  normalized_category: edr-bypass
+  normalized_category: vbs-bypass
+- title: Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse
+  speaker: Carl Sörqvist
+  year: '2024'
+  theme: Groups configured with Authentication Mechanism Assurance (AMA) are implicitly trusted when any CA issues a certificate
+    mapped to those groups; a compromised CA not in NTAuthCertificates can still compromise AMA groups if the certificate
+    chain is trusted at a different level
+  category: AD-attack
+  url: https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/
+  source: community
+  normalized_category: ad-attack
 - title: 'DriverJack: Turning NTFS and Emulated Read-only Filesystems in an Infection and Persistence Vector'
   speaker: Alessandro Magnosi
   venue: DEF CON 32
   theme: Abuses NTFS filesystem structures and read-only emulated virtual disk mounts as novel vectors to load unsigned drivers
     and persist malware across Windows reboots while evading driver signature enforcement
+  category: defense-evasion (driver loading / BYOVD-adjacent via NTFS manipulation)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alessandro%20Magnosi%20-%20DriverJack%20-%20Turning%20NTFS%20and%20Emulated%20Read-only%20Filesystems%20in%20an%20Infection%20and%20Persistence%20Vector.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: byovd
+  watch_url: https://www.youtube.com/watch?v=kWSP4F5dxTw
+  watch_confidence: HIGH
+- title: Techniques for Creating Process Injection Attacks with Advanced Return-Oriented Programming
+  speaker: Bramwell Brizendine; Shiva Shashank Kusuma
+  venue: DEF CON 32
+  theme: Presents a new method for Windows process injection using advanced ROP chains, bypassing DEP/CFG mitigations without
+    shellcode by composing gadgets from Windows system DLLs
+  category: kernel-exploitation (ROP-based process injection on Windows)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Bramwell%20Brizendine%20Shiva%20Shashank%20Kusuma%20-%20Techniques%20for%20Creating%20Process%20Injection%20Attacks%20with%20Advanced%20Return-Oriented%20Programming.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: kernel-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
 - title: Abusing Windows Hello Without a Severed Hand
   speaker: Ceri Coburn; Dirk-jan Mollema (dirkjanm)
   venue: DEF CON 32
   theme: Demonstrates attacks against Windows Hello for Business (WHfB) that allow stealing/forging authentication tokens
     from enrolled devices without any physical biometric interaction, using the "Shwmae" toolset
+  category: credentials (Windows Hello for Business / PKINIT / certificate-based auth)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ceri%20Coburn%20Dirk-jan%20Mollema%20-%20Abusing%20Windows%20Hello%20Without%20a%20Severed%20Hand.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: credentials
+  watch_url: https://www.youtube.com/watch?v=mFJ-NUnFBac
+  watch_confidence: VERIFIED
+- title: 'MaLDAPtive: LDAP Obfuscation, Deobfuscation, and Detection'
+  speaker: Daniel Bohannon; Sabajete Elezaj
+  venue: DEF CON 32
+  theme: Introduces an LDAP-based obfuscation and deobfuscation framework for Active Directory queries, showing how attackers
+    can encode LDAP searches to evade EDR/SIEM detection, and builds a corresponding detection framework
+  category: AD-attack (LDAP obfuscation for Active Directory reconnaissance evasion)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Daniel%20Bohannon%20Sabajete%20Elezaj%20-%20MaLDAPtive%20LDAP%20Obfuscation%20Deobfuscation%20and%20Detection.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'HookChain: A new perspective for Bypassing EDR Solutions'
   speaker: Helvio Carvalho Junior
   venue: DEF CON 32
@@ -383,144 +1055,385 @@
     to bypass user-mode EDR hooks without triggering standard in-memory detections
   category: EDR-bypass
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Helvio%20Carvalho%20Junior%20-%20HookChain%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions.pdf
+  year: '2024'
   source: defcon
   normalized_category: edr-bypass
+  watch_url: https://www.youtube.com/watch?v=0L6TlFYwy2U
+  watch_confidence: HIGH
+- title: 'NTLM: The Last Ride'
+  speaker: Jim Rush; Tomais Williamson
+  venue: DEF CON 32
+  theme: A comprehensive audit of Windows NTLM authentication's remaining attack surface as Microsoft moves toward NTLM deprecation,
+    demonstrating still-exploitable relay, coercion, and authentication downgrade techniques
+  category: credentials (Windows NTLM relay / authentication coercion)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Jim%20Rush%20Tomais%20Williamson%20-%20NTLM%20-%20The%20Last%20Ride.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: ipc-rpc
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Outlook Unleashing RCE Chaos: CVE-2024-30103 & CVE-2024-38021'
   speaker: Michael Gorelik (Morphisec); Arnold Osipov (Morphisec)
   venue: DEF CON 32
   theme: Demonstrates zero-click (CVE-2024-38021) and one-click (CVE-2024-30103) remote code execution vulnerabilities in
     Microsoft Outlook leveraging DLL side-loading from malicious email-triggered UNC paths
+  category: malware-analysis (Windows Outlook RCE via DLL side-load / COM hijack)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Michael%20Gorelik%20Arnold%20Osipov%20-%20Outlook%20Unleashing%20RCE%20Chaos%20CVE-2024-30103%20%26%20CVE-2024-38021.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: post-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Sudos and Sudon''ts: Peering inside Sudo for Windows'
+  speaker: Michael Torres (Microsoft)
+  venue: DEF CON 32
+  theme: Analyzes Microsoft's new Sudo for Windows feature (shipped in Windows 11 24H2), dissecting its privilege boundary
+    model, IPC implementation, and security implications for both administrators and attackers
+  category: code-integrity (Windows privilege elevation surface analysis)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Michael%20Torres%20-%20Sudos%20and%20Sudon%27ts%20-%20Peering%20inside%20Sudo%20for%20Windows.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: code-integrity
+  watch_url: https://www.youtube.com/watch?v=-iNezAL_EF0
+  watch_confidence: HIGH
 - title: 'SHIM me what you got: Manipulating Shim and Office for Code Injection'
   speaker: Ron Ben-Yizhak (Deep Instinct); David Shandalov (Deep Instinct)
   venue: DEF CON 32
   theme: Explores abusing Windows Application Compatibility Shims and Microsoft Office COM objects as a code injection and
     persistence vector that survives reboots and evades most EDRs without requiring admin privileges
+  category: defense-evasion (Windows Shim Database / COM-based code injection)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ron%20Ben-Yizhak%20David%20Shandalov%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: post-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Defeating magic by magic: Using ALPC security features to compromise RPC services'
+  speaker: WangJunJie Zhang; YiSheng He
+  venue: DEF CON 32
+  theme: Demonstrates a novel exploitation class against Windows ALPC (Advanced Local Procedure Call) where security features
+    in the ALPC kernel implementation itself are twisted into a privilege escalation vector against RPC-based services
+  category: kernel-exploitation (Windows ALPC/RPC privilege escalation)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20WangJunJie%20Zhang%20YiSheng%20He%20-%20Defeating%20magic%20by%20magic%20Using%20ALPC%20security%20features%20to%20compromise%20RPC%20services.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: kernel-exploit
+  watch_url: https://www.youtube.com/watch?v=Eyl_0YxfnpQ
+  watch_confidence: HIGH
 - title: Defeating EDR-Evading Malware with Memory Forensics
   speaker: Andrew Case; Austin Sellers; Golden Richard III; David McDonald; Gustavo Moreira
   venue: DEF CON 32
   theme: Presents memory forensics techniques that detect advanced Windows EDR-evading malware (process hollowing, module
     stomping, heap-only shellcode) that bypass all telemetry-based EDR approaches, using the Volatility3 framework
+  category: malware-analysis (Windows memory forensics for EDR-evasion detection)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Andrew%20Case%20Austin%20Sellers%20Golden%20Richard%20David%20McDonald%20Gustavo%20Moreira%20-%20Defeating%20EDR%20Evading%20Malware%20with%20Memory%20Forensics.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: malware
+  watch_url: https://www.youtube.com/watch?v=PmqvBe1LSZc
+  watch_confidence: HIGH
+- title: 'QuickShell: Sharing is caring about an RCE attack chain on Quick Share'
+  speaker: Or Yair (SafeBreach); Shmuel Cohen (SafeBreach)
+  venue: DEF CON 32
+  theme: Chains ten CVEs in Google's Quick Share (Windows Nearby Sharing equivalent) into a zero-interaction remote code execution
+    exploit, fully weaponizing Windows peer-to-peer file transfer from across a network
+  category: post-exploitation (Windows app-layer RCE via peer-to-peer file sharing)
+  url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Or%20Yair%20Shmuel%20Cohen%20-%20QuickShell%20Sharing%20is%20caring%20about%20an%20RCE%20attack%20chain%20on%20Quick%20Share.pdf
+  year: '2024'
+  source: defcon
+  normalized_category: edr-bypass
+  watch_url: https://www.youtube.com/watch?v=wT9gyOeN6zY
+  watch_confidence: HIGH
 - title: 'Where''s the Money: Defeating ATM Disk Encryption'
   speaker: Matt Burch (Optiv)
   venue: DEF CON 32
   theme: Demonstrates practical physical and software attacks against Windows-based ATM disk encryption configurations (BitLocker
     and third-party equivalents), enabling cold-boot and offline credential extraction from bank machines
+  category: hardware-attack (Windows-based ATM disk encryption bypass)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: boot-firmware
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Kill Chain Reloaded: Abusing legacy paths for stealth persistence'
   speaker: Alejandro Hernando; Borja Martinez
   venue: DEF CON 33
   theme: Identifies multiple overlooked Windows legacy filesystem paths, COM registration entries, and service control paths
     that enable long-lived, stealthy persistence invisible to modern EDR behavioral monitoring
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alon%20Leviev%20Netanel%20Ben%20Simon%20-%20BitUnlocker%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets.pdf
+  category: post-exploitation (Windows legacy path-based persistence)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Hernando%20Borja%20Martinez%20-%20Kill%20Chain%20Reloaded%20Abusing%20legacy%20paths%20for%20stealth%20persistence.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: post-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Infecting the Boot to Own the Kernel: Bootkits and Rootkits Development'
+  speaker: Alejandro Vazquez Vazquez; Maria San Jose
+  venue: DEF CON 33
+  theme: A deep technical walkthrough of building modern Windows UEFI bootkits and kernel rootkits from scratch, demonstrating
+    pre-boot code execution chains that survive OS reinstall and bypass Secure Boot with vulnerable UEFI modules
+  category: kernel-exploitation (Windows bootkit / UEFI rootkit development)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Vazquez%20Vazquez%20Maria%20San%20Jose%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20Bootkits%20and%20Rootkits%20Development%20Presentation.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: kernel-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'OverLAPS: Overriding LAPS Logic'
   speaker: Antoine Goichot
   venue: DEF CON 33
   theme: Discovers multiple logic flaws in Windows Local Administrator Password Solution (LAPS) — both legacy and Microsoft
     LAPS — allowing low-privileged domain users to force LAPS password resets, enumerate credentials, and persist via registry
     manipulation
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Vazquez%20Vazquez%20Maria%20San%20Jose%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20Bootkits%20and%20Rootkits%20Development%20Presentation.pdf
+  category: credentials (Windows LAPS abuse / Active Directory credential control)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Antoine%20Goichot%20-%20OverLAPS%20Overriding%20LAPS%20Logic.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: Advanced Active Directory to Entra ID lateral movement techniques
+  speaker: Dirk-jan Mollema (dirkjanm / Outsider Security)
+  venue: DEF CON 33
+  theme: Presents novel lateral movement paths from on-premises Active Directory into Entra ID (Azure AD) cloud using hybrid
+    join trust relationships, Primary Refresh Token (PRT) manipulation, and Graph API abuse techniques
+  category: cloud-identity (AD-to-Entra lateral movement / hybrid identity attacks)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Can''t Stop the ROP: Automating Universal ASLR Bypasses for Windows'
   speaker: Dr. Bramwell Brizendine
   venue: DEF CON 33
   theme: Introduces automated tooling to discover universal ROP gadget chains that bypass ASLR across all Windows x64 system
     images at once, making previously impractical exploits programmatically buildable at scale
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf
+  category: kernel-exploitation (Windows ASLR bypass automation via universal ROP)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dr.%20Bramwell%20Brizendine%20-%20Can%27t%20Stop%20the%20ROP%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'What is Dead May Never Die: The Ghost of Internet Explorer in Windows MapUrlToZone'
+  speaker: George Hughey; Rohit Mothe
+  venue: DEF CON 33
+  theme: Reveals that IE-era URL zone mapping logic (MapUrlToZone) persists in Windows 11 and is actively used by Defender,
+    Outlook, and Shell components, with exploitable zone-confusion flaws enabling Mark-of-the-Web / Protected View bypasses
+  category: defense-evasion (Windows MotW/Protected View bypass via legacy IE zone logic)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/George%20Hughey%20Rohit%20Mothe%20-%20What%20is%20Dead%20May%20Never%20Die%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20MapUrlToZone.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: defense-evasion
 - title: Turning Microsoft's Login Page into our Phishing Infrastructure
   speaker: Keanu Nys
   venue: DEF CON 33
   theme: Demonstrates how Microsoft's own login.microsoftonline.com and federation infrastructure can be co-opted as a transparent
     phishing proxy through OAuth redirect abuse, federation misconfiguration, and Pass-Through Authentication (PTA) token
     capture
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/George%20Hughey%20Rohit%20Mothe%20-%20What%20is%20Dead%20May%20Never%20Die%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20MapUrlToZone.pdf
+  category: cloud-identity (Microsoft Entra ID / OAuth phishing infrastructure abuse)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Keanu%20Nys%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: cloud-identity
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'SCCM: The tree that always bears bad fruits'
+  speaker: Mehdi Elyassa
+  venue: DEF CON 33
+  theme: Uncovers new exploitation techniques against Microsoft System Center Configuration Manager (SCCM/ConfigMgr), enabling
+    domain privilege escalation, lateral movement to other SCCM-managed hosts, and credential extraction from SCCM distribution
+    points
+  category: AD-attack (Microsoft SCCM exploitation for domain privilege escalation)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Mehdi%20Elyassa%20-%20SCCM%20The%20tree%20that%20always%20bears%20bad%20fruits.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'ChromeAlone: Transforming a Browser into a C2 Platform'
   speaker: Michael "bouncyhat" Weber
   venue: DEF CON 33
   theme: Demonstrates a novel Windows post-exploitation C2 technique using Chrome's remote debugging interface and DevTools
     Protocol to exfiltrate data, execute scripts, and maintain persistence from within a trusted browser process — evading
     EDR process-injection detections entirely
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Mehdi%20Elyassa%20-%20SCCM%20The%20tree%20that%20always%20bears%20bad%20fruits.pdf
+  category: browser-windows-integration (Chrome DevTools Protocol as C2 on Windows)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Michael%20Weber%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Slides.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: post-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Win-DoS Epidemic: A crash course in abusing RPC for Win-DoS & Win-DDoS'
+  speaker: Or Yair (SafeBreach); Shahak Morag (SafeBreach)
+  venue: DEF CON 33
+  theme: Systematically maps Windows RPC service attack surface to trigger non-paged-pool exhaustion and kernel handle table
+    overflow conditions, producing unauthenticated local and network-sourced Windows denial-of-service from standard user
+    accounts
+  category: other (Windows RPC-based DoS / kernel resource exhaustion)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Or%20Yair%20Shahak%20Morag%20-%20Win-DoS%20Epidemic%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: ipc-rpc
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: Virtualization Based (In)Security
   speaker: Ori David (Akamai)
   venue: DEF CON 33
   theme: Audits Windows Virtualization-Based Security (VBS / HVCI) to reveal that features designed to protect Credential
     Guard and LSA secrets can be subverted from normal kernel mode, and that VBS-protected regions have exploitable side-channels
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Or%20Yair%20Shahak%20Morag%20-%20Win-DoS%20Epidemic%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS.pdf
+  category: Hyper-V/virtualization (Windows VBS/HVCI/Credential Guard bypass)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: vbs-bypass
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Turning your Active Directory into the attacker''s C2: modern Group Policy Objects enumeration and exploitation'
+  speaker: Quentin Roland; Wilfried Bécard
+  venue: DEF CON 33
+  theme: Demonstrates how Group Policy Object (GPO) link hierarchy and delegation can be enumerated and abused to deploy attacker-controlled
+    scripts and configurations across entire Active Directory organizational units without Domain Admin privileges
+  category: AD-attack (Group Policy Objects as lateral movement / persistence vectors)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Quentin%20Roland%20Wilfried%20B%C3%A9card%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20modern%20Group%20Policy%20Objects%20enumeration%20and%20exploitation.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'You snooze you lose: RPC-Racer — winning RPC endpoints against services'
   speaker: Ron Ben Yizhak (Deep Instinct)
   venue: DEF CON 33
   theme: Discovers a class of Windows TOCTOU (time-of-check/time-of-use) race conditions in high-privileged RPC server endpoints,
     enabling a low-privileged attacker to win races against SYSTEM-level services and escalate privileges by registering RPC
     endpoints between service start phases
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Quentin%20Roland%20Wilfried%20B%C3%A9card%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20modern%20Group%20Policy%20Objects%20enumeration%20and%20exploitation.pdf
+  category: kernel-exploitation (Windows RPC TOCTOU race for privilege escalation)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ron%20Ben%20Yizhak%20-%20You%20snooze%20you%20lose%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery'
+  speaker: Shang-De Jiang ("Kazma"); Dong-Yi Ye; Tung-Lin Lee ("Echo")
+  venue: DEF CON 33
+  theme: Demonstrates that Primary Refresh Tokens (PRTs) — a core Windows-and-macOS SSO mechanism for Entra ID — can be stolen
+    from macOS Enterprise SSO, then forged to register fake Entra ID-joined devices, enabling persistent cloud identity control
+    that survives password reset
+  category: cloud-identity (Entra ID PRT theft / hybrid device trust bypass)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: cloud-identity
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Mind the Data Voids: Hijacking Copilot Trust to Deliver C2 Instructions with Microsoft Authority'
   speaker: Tobias Diehl
   venue: DEF CON 33
   theme: Exploits Microsoft Copilot's search grounding and SharePoint/Teams data retrieval to inject attacker-controlled C2
     instructions into Copilot responses with apparent Microsoft authority, creating a prompt-injection C2 channel inside M365
     tenants
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf
+  category: cloud-identity (Microsoft Copilot/M365 prompt injection for C2)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Tobias%20Diehl%20-%20Mind%20the%20Data%20Voids%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20Microsoft%20Authority.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: cloud-identity
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: 'The (Un)Rightful Heir: My dMSA Is Your New Domain Admin'
+  speaker: Yuval Gordon
+  venue: DEF CON 33
+  theme: Demonstrates a novel Active Directory attack abusing Delegated Managed Service Accounts (dMSA) — a Windows Server
+    2025 feature — to grant a low-privileged account implicit Domain Admin rights via linked principal chaining that bypasses
+    standard ACL auditing
+  category: AD-attack (Windows Server 2025 dMSA delegation abuse to Domain Admin)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Yuval%20Gordon%20-%20The%20%28Un%29Rightful%20Heir%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: ad-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Ghosts in the Machine Check: Conjuring Hardware Failures for Cross-ring Privilege Escalation'
   speaker: Christopher Domas
   venue: DEF CON 33
   theme: Discovers that Intel Machine Check Architecture (MCA) exceptions — normally hardware fault signals — can be synthetically
     triggered from Ring 3, causing the Windows kernel's Machine Check Handler to execute attacker-influenced data paths and
     enabling Ring 3-to-Ring 0 privilege escalation
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Yuval%20Gordon%20-%20The%20%28Un%29Rightful%20Heir%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin.pdf
+  category: hardware-attack (Intel MCA / cross-ring privilege escalation on Windows)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Christopher%20Domas%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: hardware-attack
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
+- title: '7 Vulns in 7 Days: Breaking Bloatware Faster Than It''s Built'
+  speaker: Leon "leonjza" Jacobs
+  venue: DEF CON 33
+  theme: Documents seven separate remotely-/locally-exploitable vulnerabilities found in one week across Windows OEM bloatware
+    and driver-companion applications shipped pre-installed on major laptop brands, demonstrating systemic supply-chain quality
+    failures
+  category: supply-chain (Windows OEM bloatware / pre-installed software vulnerabilities)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Leon%20Jacobs%20-%207%20Vulns%20in%207%20Days%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: supply-chain
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'Ghost Calls: Abusing Web Conferencing for Covert Command & Control'
   speaker: Adam Crosser
   venue: DEF CON 33
   theme: Demonstrates using Microsoft Teams, Zoom, and Webex meeting APIs as a covert C2 channel running entirely inside trusted
     corporate processes on Windows, bypassing DLP, firewall inspection, and EDR network telemetry
-  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Leon%20Jacobs%20-%207%20Vulns%20in%207%20Days%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built.pdf
+  category: post-exploitation (Teams/conferencing apps as Windows C2 channel)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Adam%20Crosser%20-%20Ghost%20Calls%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control.pdf
+  year: '2025'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: edr-bypass
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+  watch_confidence: MED
 - title: Evading Modern Defenses When Phishing with Pixels
   speaker: Melvin Langvik
   venue: DEF CON 32
   theme: Demonstrates pixel-level steganographic and SVG-based phishing lure techniques that evade Windows Defender SmartScreen,
     Office Safe Links scanning, and email gateway attachment inspection
+  category: defense-evasion (Windows anti-phishing filter bypass)
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Vilage%20-%20Melvin%20Langvik%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels.pdf
+  year: '2024'
   source: defcon
-  normalized_category: uncategorized
+  normalized_category: defense-evasion
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/
+  watch_confidence: MED
+- title: Countering Forensics Software by Baiting Them
+  speaker: Weihan Goh; Joseph Lim; Isaac Soon
+  venue: DEF CON 33
+  theme: Presents anti-forensics techniques targeting Windows digital forensics tools (Autopsy, Volatility, FTK) by crafting
+    deliberately malicious forensic artifacts — corrupt MFT entries, weaponized registry hives, and tainted memory images
+    — that crash or mislead the analyst's tools
+  category: defense-evasion (anti-forensics against Windows investigation toolchains)
+  url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/DEF%20CON%2033%20-%20Adversary%20Village%20-%20Weihan%20Goh%20-%20Countering%20Forensics%20Software%20by%20Baiting%20Them.pdf
+  year: '2025'
+  source: defcon
+  normalized_category: defense-evasion
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/
+  watch_confidence: MED
 - title: 10 Years of Windows Privilege Escalation with "Potatoes"
   speaker: Andrea Pierini
-  venue: ⚠️ = conference known but detail page not accessible
-  theme: 'Euro/Asia confs + Pwn2Own, elapsed: 1093s, total_turns: 0, duration: 797s'
+  year: '2024'
+  venue: 2024 / TROOPERS 24, Heidelberg
+  theme: A decade-spanning tour of DCOM-based NTLM reflection and Cross-Session Activation exploits — RoguePotato through
+    LocalPotato (CVE-2023-21746), SilverPotato, and the still-under-MSRC-review FakePotato — showing how Microsoft's refusal
+    to treat WSH as a security boundary sustains the entire class
   category: kernel-exploitation / IPC/RPC
   url: https://troopers.de/troopers24/talks/cyzbj3/
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_url: https://www.youtube.com/watch?v=rPZx1zbKJnI
+  watch_confidence: HIGH
 - title: 'A Decade of Active Directory Attacks: What We''ve Learned & What''s Next'
   speaker: Sean Metcalf
+  year: '2024'
   venue: 2024 / TROOPERS 24, Heidelberg
   theme: Retrospective on the most effective AD and Azure AD/Entra ID attacks of 2014–2024 — Golden Ticket through modern
     cloud coercion — and how few organisations have actually closed the structural gaps despite rising security budgets
@@ -528,8 +1441,24 @@
   url: https://troopers.de/troopers24/talks/vxs8wy/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_url: https://www.youtube.com/watch?v=iTS14FhRlVA
+  watch_confidence: HIGH
+- title: 'ADillesHeel: Making the Impossible Possible in AD Attack Path Analysis'
+  speaker: Shang-De Jiang, Che Yu Lin, Cheng-Lin Yang
+  year: '2024'
+  venue: 2024 / TROOPERS 24, Heidelberg
+  theme: Novel graph-simplification methodology that makes exhaustive AD attack-path enumeration tractable at enterprise scale
+    (≥4 trillion paths in one customer environment); reveals that Tier-0 AD account counts are on average 580 % higher than
+    organisations believe
+  category: AD-attack
+  url: https://troopers.de/troopers24/talks/uepkle/
+  source: euro-asia-pwn2own
+  normalized_category: ad-attack
+  watch_url: https://www.youtube.com/watch?v=bQcTgVo3fYA
+  watch_confidence: HIGH
 - title: Analyzing and Executing ADCS Attack Paths with BloodHound
   speaker: Andy Robbins, Jonas Bülow Knudsen
+  year: '2024'
   venue: 2024 / TROOPERS 24, Heidelberg
   theme: 'Debut of native ADCS attack-path support in BloodHound: live demo of discovering, executing (via Rubeus/Certify),
     and practically remediating ESC-class privilege-escalation paths in Microsoft''s built-in PKI without business disruption'
@@ -537,8 +1466,24 @@
   url: https://troopers.de/troopers24/talks/kzymd8/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_url: https://www.youtube.com/watch?v=2s6l0IkK52E
+  watch_confidence: HIGH
+- title: Attacking Primary Refresh Tokens using their macOS Implementation
+  speaker: Olaf Hartong, Dirk-jan Mollema
+  year: '2024'
+  venue: 2024 / TROOPERS 24, Heidelberg
+  theme: First public analysis of how Microsoft implements Entra ID Primary Refresh Tokens on macOS; discovery of undocumented
+    deviceless PRTs that can be obtained during phishing and used to bypass Conditional Access and register attacker-controlled
+    devices — update to ROADtools released
+  category: identity-attack / credentials
+  url: https://troopers.de/troopers24/talks/3vlccy/
+  source: euro-asia-pwn2own
+  normalized_category: cloud-identity
+  watch_url: https://www.youtube.com/watch?v=wFhe0-RRkFA
+  watch_confidence: VERIFIED
 - title: 'Deep Dive into Windows Defender: Smart App Control and ETW'
   speaker: Tillmann Oßwald, Dr. Baptiste David
+  year: '2024'
   venue: 2024 / TROOPERS 24, Heidelberg
   theme: Comprehensive reverse-engineering of Windows Defender internals — unpublished RPC interfaces, Smart App Control (WDAC-to-cloud
     pipeline), and ETW provider enumeration — exposing information-disclosure and tampering opportunities that EDR vendors
@@ -546,27 +1491,67 @@
   category: EDR-bypass / code-integrity
   url: https://troopers.de/troopers24/talks/msxp97/
   source: euro-asia-pwn2own
-  normalized_category: edr-bypass
+  normalized_category: ipc-rpc
+  watch_url: https://www.youtube.com/watch?v=EzKOWIeC-54
+  watch_confidence: HIGH
+- title: 'Exploiting Token-Based Authentication: Attacking and Defending Identities in the 2020s'
+  speaker: Dr Nestori Syynimaa
+  year: '2024'
+  venue: 2024 / TROOPERS 24, Heidelberg
+  theme: Demo-heavy coverage of both token-replay (MITRE T1134.001) and token-forgery (T1606) across Kerberos, SAML, and OAuth
+    against Microsoft on-prem and Entra ID — showing attacker mechanics and detection paths for each
+  category: identity-attack / credentials
+  url: https://troopers.de/troopers24/talks/z3dexp/
+  source: euro-asia-pwn2own
+  normalized_category: ad-attack
+  watch_url: https://www.youtube.com/watch?v=-uHNcz3CF8s
+  watch_confidence: HIGH
 - title: 'Misconfiguration Manager: Overlooked and Overprivileged'
   speaker: Duane Michael, Chris Thompson
+  year: '2024'
   venue: 2024 / TROOPERS 24, Heidelberg
   theme: Comprehensive attack-and-defence matrix for SCCM/MECM misconfigurations — credential access, privilege escalation,
     and domain compromise paths actively exploited by ransomware actors — with first SCCM Attack & Defence Matrix release
   category: post-exploitation
-  url: https://troopers.de/troopers24/
   source: euro-asia-pwn2own
-  normalized_category: post-exploit
-- title: Authenticating through Windows Hello for Business — a Reverse Engineering Story
+  normalized_category: ad-attack
+  watch_url: https://www.youtube.com/watch?v=GhT6nPes1h0
+  watch_confidence: HIGH
+- title: 'Resurrecting Stuxnet in 2024: Leveraging Emulated Read-Only Filesystems and NTFS Glitches for Infection and Persistence'
+  speaker: Alessandro Magnosi
+  year: '2024'
+  venue: 2024 / TROOPERS 24, Heidelberg
+  theme: Modern re-imagination of Stuxnet's attack chain exploiting unpatched NTFS implementation quirks and emulated filesystem
+    weaknesses to deploy malicious drivers while evading HVCI/DSE; introduces "DriverJack" and new IOC patterns
+  category: malware-analysis / code-integrity
+  url: https://troopers.de/troopers24/talks/uvefjb/
+  source: euro-asia-pwn2own
+  normalized_category: vbs-bypass
+- title: 'Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover'
   speaker: Nick Powers
+  year: '2024'
   venue: 2024 / TROOPERS 24, Heidelberg
   theme: OPSEC-aware techniques for taking control of SMB port 445 on Windows systems to enable NTLM relay attacks with reduced
     defensive footprint
   category: IPC/RPC
-  url: https://troopers.de/troopers24/
   source: euro-asia-pwn2own
   normalized_category: ipc-rpc
-- title: 'Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths'
+  watch_url: https://www.youtube.com/watch?v=e84BtnLSKPQ
+  watch_confidence: HIGH
+- title: Authenticating through Windows Hello for Business — a Reverse Engineering Story
+  speaker: Dr. Baptiste David, Tillmann Oßwald
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: In-depth reverse engineering of Windows Hello for Business — specifically the TPM-protected biometric subsystem —
+    showing that the integrity and confidentiality of facial-recognition biometric data can be circumvented, undermining domain
+    authentication assurances
+  category: hardware-attack / credentials / code-integrity
+  url: https://troopers.de/troopers25/talks/ma3bfe/
+  source: euro-asia-pwn2own
+  normalized_category: credentials
+- title: 'Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation'
   speaker: Priyank Nigam
+  year: '2025'
   venue: 2025 / TROOPERS 25, Heidelberg
   theme: Post-LSASS credential-access methods in Entra ID environments — finding and exploiting OAuth/M365 authentication
     tokens in memory and on disk, abusing long-lived SSO tokens and WebView2-based Chromium apps — with defender monitoring
@@ -574,9 +1559,19 @@
   category: EDR-bypass / credentials
   url: https://troopers.de/troopers25/talks/rwhyvb/
   source: euro-asia-pwn2own
-  normalized_category: edr-bypass
-- title: 'Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)'
-  speaker: Yuya Chudo
+  normalized_category: cloud-identity
+- title: 'Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths'
+  speaker: Jonas Bülow Knudsen
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: Systematic analysis and tooling for mapping lateral-movement paths that cross Active Directory forest trust boundaries
+    — often invisible to single-forest tools — with BloodHound integration
+  category: AD-attack
+  source: euro-asia-pwn2own
+  normalized_category: ad-attack
+- title: Finding Entra ID Conditional Access Bypasses — the Structured Way
+  speaker: Dirk-jan Mollema, Fabian Bader
+  year: '2025'
   venue: 2025 / TROOPERS 25, Heidelberg
   theme: Automated, at-scale analysis of hundreds of Microsoft 365 app/resource/protocol combinations to find undocumented
     Conditional Access policy exceptions and bypasses — including hardcoded vendor-side exceptions — that can allow MFA/compliant-device
@@ -584,19 +1579,54 @@
   category: identity-attack / cloud-identity
   url: https://troopers.de/troopers25/talks/tfsfqs/
   source: euro-asia-pwn2own
-  normalized_category: identity
+  normalized_category: cloud-identity
+- title: 'Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)'
+  speaker: Yuya Chudo
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: Reverse engineering of undocumented Windows PKU2U (Public Key User-to-User) P2P certificate internals to extend Pass-the-Certificate
+    lateral movement across SMB, WinRM, and RDP to Entra-joined devices — bypassing MFA in some Conditional Access configurations.
+    New open-source multi-protocol tool released
+  category: identity-attack / credentials
+  url: https://troopers.de/troopers25/talks/afv8bw/
+  source: euro-asia-pwn2own
+  normalized_category: cloud-identity
+- title: 'Misconfiguration Manager: Still Overlooked, Still Overprivileged'
+  speaker: Duane Michael, Garrett Foster
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: 'One year on from TR24-8: new SCCM/MECM attack primitives discovered in 2024–2025, real-world ransomware case studies,
+    updated Attack & Defence Matrix, and an analysis of whether enterprise defenders have actually remediated what the previous
+    talk flagged'
+  category: post-exploitation
+  url: https://troopers.de/troopers25/talks/3fsjh7/
+  source: euro-asia-pwn2own
+  normalized_category: ad-attack
 - title: 'RBAC: The Shady Place Behind Basic Entra ID Security'
   speaker: Martin Haller
+  year: '2025'
   venue: 2025 / TROOPERS 25, Heidelberg
   theme: Demonstrates how RBAC misconfigurations across Intune, Defender, Exchange Online, Azure, Purview, and Power Platform
     create privilege-escalation, lateral-movement, and persistence chains that current scanning tools (PingCastle, BloodHound,
     ScubaGear) miss
   category: cloud-identity / identity-attack
-  url: https://troopers.de/troopers25/talks/3fsjh7/
+  url: https://troopers.de/troopers25/talks/dukg9p/
   source: euro-asia-pwn2own
-  normalized_category: identity
+  normalized_category: ad-attack
+- title: 'Restless Guest: A Novel Entra ID Vulnerability'
+  speaker: Simon Maxwell-Stewart
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: First-of-its-kind research into Azure guest users being able to create and own subscriptions in external tenants
+    without explicit privileges — a confirmed in-the-wild attack vector enabling lateral movement, backdoor identity creation,
+    and privilege escalation that most Azure threat models do not anticipate
+  category: cloud-identity
+  url: https://troopers.de/troopers25/talks/yh3x7e/
+  source: euro-asia-pwn2own
+  normalized_category: cloud-identity
 - title: Revisiting Cross-Session Activation Attacks
   speaker: Fabian Mosch
+  year: '2025'
   venue: 2025 / TROOPERS 25, Heidelberg
   theme: Current exploitability assessment of COM Cross-Session Activation as a privilege-escalation and credential-theft
     vector (including post-patch analysis of certifiedDCOM, ADCSPotato, SilverPotato); new attack vectors for remote Cross-Session
@@ -604,9 +1634,21 @@
   category: IPC/RPC / post-exploitation
   url: https://troopers.de/troopers25/talks/tbuwdr/
   source: euro-asia-pwn2own
-  normalized_category: post-exploit
+  normalized_category: ad-attack
+- title: 'The Crypto Game of North Korea: Stealing Money with Chrome 0-Days'
+  speaker: Boris Larin (Kaspersky GReAT)
+  year: '2025'
+  venue: 2025 / TROOPERS 25, Heidelberg
+  theme: 'Full-chain analysis of the May 2024 Lazarus Group campaign: a two-CVE V8-sandbox-escape chain (logic bugs only)
+    in Chrome used against cryptocurrency targets, combined with a custom social-engineering game deployed for months on social
+    media — critical for Windows defenders given Chrome''s dominant enterprise install base'
+  category: browser-windows-integration
+  url: https://troopers.de/troopers25/talks/h9scgh/
+  source: euro-asia-pwn2own
+  normalized_category: browser-sandbox
 - title: 'Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs'
   speaker: Jorge de Almeida Pinto
+  year: '2025'
   venue: 2025 / TROOPERS 25, Heidelberg
   theme: Security comparison of MSA → gMSA → dMSA (new in Windows Server 2025), showing migration risks, attack surface changes,
     and residual credential-theft paths that organisations create when adopting the newest account type incorrectly
@@ -614,8 +1656,19 @@
   url: https://troopers.de/troopers25/talks/e8vz8y/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+- title: 'TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws'
+  speaker: Not listed on archive page
+  year: '2024'
+  venue: 2024 / Hardwear.io USA, Santa Clara
+  theme: How TPM attestation pipelines can be used to detect and recover from firmware-level compromise — directly relevant
+    to Windows Secure Boot and device health attestation chains used by Entra ID Conditional Access
+  category: hardware-attack / code-integrity
+  url: https://hardwear.io/usa-2024/
+  source: euro-asia-pwn2own
+  normalized_category: cloud-identity
 - title: 'A New Root of Trust: Changing Computing with TEE'
   speaker: Not listed on archive page
+  year: '2024'
   venue: 2024 / Hardwear.io USA, Santa Clara
   theme: Examines Trusted Execution Environments (TEE) as a replacement root-of-trust — directly applicable to Microsoft Pluton,
     which moves the TPM security processor inside the CPU and is the foundational hardware layer for Credential Guard and
@@ -623,260 +1676,937 @@
   category: hardware-attack / code-integrity
   url: https://hardwear.io/usa-2024/
   source: euro-asia-pwn2own
-  normalized_category: code-integrity
+  normalized_category: vbs-bypass
+- title: 'Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE'
+  speaker: Not listed on archive page
+  year: '2024'
+  venue: 2024 / Hardwear.io USA, Santa Clara
+  theme: SRAM data remanence in TEE-protected SoCs can be exploited for covert key exfiltration — a hardware-level threat
+    to credentials sealed by TPM or Pluton under Windows Credential Guard/BitLocker
+  category: hardware-attack / credentials
+  url: https://hardwear.io/usa-2024/
+  source: euro-asia-pwn2own
+  normalized_category: vbs-bypass
+- title: Windows 11 LPE — successful escalation to SYSTEM
+  speaker: DEVCORE Research Team
+  year: '2024'
+  venue: 2024 / Pwn2Own Vancouver
+  theme: TOCTOU race condition plus a second unspecified bug chained to achieve local privilege escalation on a fully-patched
+    Windows 11 system
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: VMware Workstation guest-escape → SYSTEM on host Windows OS
+  speaker: Gwangun Jung (@pr0ln) & Junoh Lee (@bbbig12), Theori
+  year: '2024'
+  venue: 2024 / Pwn2Own Vancouver
+  theme: Three-bug chain — uninitialized variable + UAF + heap buffer overflow — used to escape VMware Workstation and execute
+    code as SYSTEM on the underlying Windows host OS
+  category: Hyper-V/virtualization
+  url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: hyper-v
+- title: Oracle VirtualBox guest-escape → SYSTEM on host Windows OS
+  speaker: Bruno PUJOS & Corentin BAYET, REverse Tactics
+  year: '2024'
+  venue: 2024 / Pwn2Own Vancouver
+  theme: Two Oracle VirtualBox bugs (including buffer overflow) combined with a Windows UAF to escape the guest OS and achieve
+    SYSTEM-level code execution on the Windows host
+  category: Hyper-V/virtualization
+  url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: hyper-v
+- title: Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)
+  speaker: Manfred Paul (@_manfp)
+  year: '2024'
+  venue: 2024 / Pwn2Own Vancouver
+  theme: CWE-1284 (Improper Validation of Specified Quantity in Input) exploited to achieve renderer RCE on both Edge and
+    Chrome simultaneously — notable as a single-bug cross-browser strike; Paul went on to win Master of Pwn with $202,500
+    total
+  category: browser-windows-integration / sandbox-escape
+  url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Windows 11 LPE — three independent researchers succeeded on Day 2
+  year: '2024'
+  venue: 2024 / Pwn2Own Vancouver Day 2
+  theme: Three independent Windows 11 kernel LPE exploits landed on Day 2, all via distinct bug classes (input validation,
+    race condition, reference count corruption) — illustrating the breadth of unpatched kernel attack surface
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Windows 11 LPE → SYSTEM
+  speaker: Chen Le Qi (@cplearns2h4ck), STARLabs SG
+  year: '2025'
+  venue: 2025 / Pwn2Own Berlin
+  theme: UAF chained with integer overflow to escalate privileges to SYSTEM on Windows 11
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Windows 11 LPE → SYSTEM (type confusion)
+  speaker: Hyeonjin Choi (@d4m0n_8), Out Of Bounds
+  year: '2025'
+  venue: 2025 / Pwn2Own Berlin
+  theme: Type confusion bug in Windows 11 kernel exploited to escalate to SYSTEM
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Microsoft SharePoint RCE (auth bypass + insecure deserialization chain)
+  speaker: Dinh Ho Anh Khoa, Viettel Cyber Security
+  year: '2025'
+  venue: 2025 / Pwn2Own Berlin Day 2
+  theme: Two-bug chain — authentication bypass combined with insecure deserialization — to achieve remote code execution on
+    Microsoft SharePoint Server
+  category: other (server-side RCE — SharePoint)
+  url: https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results
+  source: euro-asia-pwn2own
+  normalized_category: identity
+- title: VMware Workstation guest-escape + Windows 11 LPE → SYSTEM
+  speaker: Dung & Nguyen (@MochiNishimiya), STARLabs SG
+  year: '2025'
+  venue: 2025 / Pwn2Own Berlin Day 3
+  theme: TOCTOU race condition used to escape VMware Workstation, then Improper Validation of Array Index leveraged to escalate
+    privileges to SYSTEM on the Windows 11 host — full guest-to-host-SYSTEM chain
+  category: Hyper-V/virtualization / kernel-exploitation
+  url: https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results
+  source: euro-asia-pwn2own
+  normalized_category: hyper-v
+- title: Windows 11 LPE → SYSTEM (race condition)
+  speaker: Miloš Ivanović (@ynwarcs)
+  year: '2025'
+  venue: 2025 / Pwn2Own Berlin Day 3
+  theme: Race condition exploited for SYSTEM-level privilege escalation on Windows 11 — fourth-round win indicating the high
+    volume of independent researchers holding Windows LPE bugs
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Microsoft Edge sandbox escape (4-bug logic chain, full $175K payout)
+  speaker: Orange Tsai (@orange_8361), DEVCORE Research Team
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 1
+  theme: Four chained logic bugs in Microsoft Edge to achieve a complete sandbox escape — no memory corruption required; noteworthy
+    for using only logic/design flaws against a mature browser sandbox
+  category: browser-windows-integration / sandbox-escape
+  url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: browser-sandbox
+- title: Windows 11 LPE → SYSTEM (Improper Access Control)
+  speaker: Angelboy (@scwuaptx) & TwinkleStar03 (@_twinklestar03), DEVCORE Research Team
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 1
+  theme: Improper access control bug in Windows 11 exploited for SYSTEM-level privilege escalation
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Windows 11 LPE → SYSTEM (heap-based buffer overflow)
+  speaker: Marcin Wiążowski
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 1
+  theme: Heap-based buffer overflow in Windows 11 kernel exploited for LPE — Wiążowski's third consecutive Pwn2Own event with
+    a Windows 11 exploit (Vancouver 2024 × 1, Berlin 2025 × 1, Berlin 2026 × 1)
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Windows 11 LPE → SYSTEM (2 × UAF)
+  speaker: Kentaro Kawane, GMO Cybersecurity by Ierae
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 1
+  theme: Two chained use-after-free bugs exploited for SYSTEM-level privilege escalation on Windows 11
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Microsoft Exchange RCE as SYSTEM (3-bug chain)
+  speaker: Orange Tsai (@orange_8361), DEVCORE Research Team
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 2
+  theme: Three-bug chain to achieve remote code execution running as SYSTEM on Microsoft Exchange — maximum prize in the server
+    category; Orange Tsai achieved both Edge sandbox escape (Day 1) and Exchange RCE (Day 2) at the same event, powering DEVCORE
+    to Master of Pwn
+  category: other (Exchange server-side RCE)
+  url: https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results
+  source: euro-asia-pwn2own
+  normalized_category: browser-sandbox
+- title: Windows 11 LPE → SYSTEM (integer overflow)
+  speaker: Siyeon Wi
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 2
+  theme: Integer overflow exploited for Windows 11 SYSTEM-level privilege escalation
+  category: kernel-exploitation
+  url: https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results
+  source: euro-asia-pwn2own
+  normalized_category: kernel-exploit
+- title: Microsoft SharePoint RCE (2-bug chain)
+  speaker: splitline (@_splitline_), DEVCORE Research Team
+  year: '2026'
+  venue: 2026 / Pwn2Own Berlin Day 3
+  theme: Two-bug chain achieving remote code execution on Microsoft SharePoint Server — contributing to DEVCORE's dominant
+    Master of Pwn finish with $505,000 and 50.5 points across the three days
+  category: other (server-side RCE — SharePoint)
+  url: https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn
+  source: euro-asia-pwn2own
+  normalized_category: rce
 - title: Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012
+  speaker: Stephen Breen (@breenmachine) — Foxglove Security
+  year: '2016'
   venue: January 2016 — Foxglove Security blog post; technique developed ~2015
-  theme: 'Foundational pre-2024 talks, elapsed: 528s, total_turns: 0, duration: 507s'
+  theme: Combines local NBNS spoofing, fake WPAD proxy, and HTTP→SMB NTLM relay to escalate to NT AUTHORITY\SYSTEM from any
+    low-privilege Windows account
+  category: ipc-rpc / post-exploit
   url: https://foxglovesecurity.com/2016/01/16/hot-potato/
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ipc-rpc
 - title: Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM
+  speaker: Stephen Breen (@breenmachine) + Chris Mallz (@vvalien1) — Foxglove Security
+  year: '2016'
   venue: September 2016 — DerbyCon VI; blog post 26 September 2016
-  theme: Tricks DCOM/COM's `CoGetInstanceFromIStorage` to coerce `NT AUTHORITY\SYSTEM` to authenticate via NTLM to port 6666,
+  theme: Tricks DCOM/COM's CoGetInstanceFromIStorage to coerce NT AUTHORITY\SYSTEM to authenticate via NTLM to port 6666,
     then relays and locally impersonates the resulting token
+  category: ipc-rpc / post-exploit
   url: https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
+  code: https://github.com/foxglovesec/RottenPotato
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ipc-rpc
+- title: Juicy Potato (abusing the golden privileges)
+  speaker: Andrea Pierini (@decoder_it) + Giuseppe Trotta (@Giutro) — independent researchers / OHPE
+  year: '2018'
+  venue: October 2018 — GitHub release
+  theme: Extends RottenPotato to any DCOM COM server that implements IMarshal and runs as an elevated user, allowing custom
+    CLSID selection and custom COM listening port
+  category: ipc-rpc / post-exploit
+  url: https://github.com/ohpe/juicy-potato
+  source: foundational-pre-2024
+  normalized_category: ipc-rpc
 - title: RoguePotato
-  venue: April 2020 — GitHub release; preceded by blog post "We thought they were potatoes but they were beans"
+  speaker: Antonio Cocomazzi (@splinter_code) + Andrea Pierini (@decoder_it)
+  year: '2020'
+  venue: April 2020 — GitHub release; preceded by blog post "We thought they were potatoes but they were beans" (December
+    2019)
   theme: Works around Microsoft's post-1809 OXID resolver port-135 restriction by redirecting COM activation traffic through
-    a remote forwarder to a local fake OXID resolver, recovering a `SYSTEM` impersonation token
+    a remote forwarder to a local fake OXID resolver, recovering a SYSTEM impersonation token
+  category: ipc-rpc / post-exploit
   url: https://github.com/antonioCoco/RoguePotato
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ipc-rpc
+- title: PrintSpoofer — Abusing Impersonate Privileges on Windows 10 and Server 2019
+  speaker: Clément Labro (@itm4n) — independent researcher
+  year: '2020'
+  venue: May 2020 — itm4n.github.io blog post
+  theme: Uses the Windows Print Spooler's RpcRemoteFindFirstPrinterChangeNotification call to coerce SYSTEM to connect to
+    a named pipe, then calls ImpersonateNamedPipeClient() to steal the token — no COM/DCOM needed
+  category: post-exploit / ipc-rpc
+  url: https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/
+  code: https://github.com/itm4n/PrintSpoofer
+  source: foundational-pre-2024
+  normalized_category: ipc-rpc
 - title: Sharing a Logon Session a Little Too Much
+  speaker: James Forshaw (@tiraniddo) — Google Project Zero
+  year: '2020'
   venue: April 2020 — tiraniddo.dev blog post
-  theme: Demonstrates that the first `NETWORK SERVICE` logon session token (owned by RPCSS) is reused for all loopback SMB
-    named-pipe authentications, allowing any NETWORK SERVICE process to impersonate RPCSS and gain `AllAccess` to higher-privileged
-    service processes
+  theme: Demonstrates that the first NETWORK SERVICE logon session token (owned by RPCSS) is reused for all loopback SMB named-pipe
+    authentications, allowing any NETWORK SERVICE process to impersonate RPCSS and gain AllAccess to higher-privileged service
+    processes
+  category: ipc-rpc / post-exploit
   url: https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html
   source: foundational-pre-2024
-  normalized_category: uncategorized
-- title: PrintNightmare (CVE-2021-1675 / CVE-2021-34527)
-  venue: June–July 2021 — GitHub PoC release, then Microsoft emergency advisory
-  theme: Exploits the Windows Print Spooler's `RpcAddPrinterDriverEx()` to load arbitrary DLLs as SYSTEM from a remote SMB
-    share, enabling unauthenticated RCE / LPE on all unpatched Windows versions
+  normalized_category: ipc-rpc
+- title: 'Evil Printer: How to Hack Windows Machines with Printer Protocols'
+  speaker: Zhipeng Huo (@R3dF09) + Yunhai Zhang (@cloudnine_sec) — Tencent Security Xuanwu Lab
+  year: '2020'
+  venue: August 2020 — Black Hat USA 2020 (virtual)
+  theme: Surveys MS-RPRN, MS-PAR, and related printer RPC interfaces as coercion primitives to force domain controllers to
+    authenticate outbound, enabling NTLM relay and credential theft
+  category: ipc-rpc / ad-attack
   url: https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf
+  watch_url: https://www.youtube.com/watch?v=jlU7tIGFmf8
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: PrintNightmare (CVE-2021-1675 / CVE-2021-34527)
+  speaker: 'Original CVE-2021-1675 PoC: Zhiniang Peng (@edwardzpeng) + Xuefeng Li (@lxf02942370) — Sangfor Technologies; expanded
+    CVE-2021-34527 analysis and public RCE: Benjamin Delpy, Cube0x0, multiple researchers'
+  year: '2021'
+  venue: June–July 2021 — GitHub PoC release, then Microsoft emergency advisory
+  theme: Exploits the Windows Print Spooler's RpcAddPrinterDriverEx() to load arbitrary DLLs as SYSTEM from a remote SMB share,
+    enabling unauthenticated RCE / LPE on all unpatched Windows versions
+  category: ipc-rpc / post-exploit / ad-attack
+  source: foundational-pre-2024
+  normalized_category: ad-attack
+- title: PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services
+  speaker: Lionel Gilles (@topotam77) — independent researcher
+  year: '2021'
+  venue: July 2021 — GitHub PoC release
+  theme: Abuses MS-EFSRPC's EfsRpcOpenFileRaw (accessible unauthenticated via LSARPC named pipe) to coerce any Windows machine
+    including domain controllers to authenticate outbound to an attacker-controlled server, enabling relay to AD CS web enrollment
+    for domain-level certificate theft
+  category: ipc-rpc / ad-attack / identity
+  url: https://github.com/topotam/PetitPotam
+  source: foundational-pre-2024
+  normalized_category: ad-attack
 - title: 'Certified Pre-Owned: Abusing Active Directory Certificate Services'
+  speaker: Will Schroeder (@harmj0y) + Lee Christensen (@tifkin_) — SpecterOps
+  year: '2021'
   venue: June 2021 — SpecterOps whitepaper; Black Hat USA 2021 talk
   theme: Catalogues 11 AD CS domain-escalation misconfigurations (ESC1–ESC11) covering template abuse, certificate authority
     misconfigs, and NTLM relay to web enrollment, showing how misconfigured PKI enables silent domain compromise
-  url: https://github.com/topotam/PetitPotam
+  category: ad-attack / identity
+  url: https://posts.specterops.io/certified-pre-owned-d95910965cd2
   source: foundational-pre-2024
-  normalized_category: uncategorized
-- title: Six Degrees of Domain Admin
+  normalized_category: ad-attack
+- title: 'Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography'
+  speaker: Tom Tervoort (Senior Security Specialist) — Secura (Bureau Veritas Cybersecurity)
+  year: '2020'
   venue: September 2020 — Secura whitepaper; CVE patched August 2020 Patch Tuesday
   theme: Exploits a cryptographic flaw in the Netlogon Remote Protocol's AES-CFB8 authentication scheme — an all-zero IV allows
     brute-forcing the session key in ~256 attempts — to reset the domain controller machine account password to a known value
     without any prior credentials
-  category: ad-attack
+  category: ad-attack / identity
   url: https://www.secura.com/blog/zero-logon
   source: foundational-pre-2024
   normalized_category: ad-attack
-- title: 'Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation'
+- title: Six Degrees of Domain Admin
+  speaker: Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesus), Will Schroeder (@harmj0y) — then independent; later SpecterOps
+  year: '2016'
+  venue: August 2016 — DEF CON 24; initial GitHub release August 2016
+  theme: Applies graph theory (Neo4j + Cypher) to Active Directory relationships, revealing attack paths to Domain Admin that
+    are otherwise invisible to both attackers and defenders
+  category: ad-attack
+  url: https://github.com/BloodHoundAD/BloodHound
+  source: foundational-pre-2024
+  normalized_category: ad-attack
+- title: Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory
+  speaker: Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSecurity.org; derived from Benjamin Delpy's (@gentilkiwi) Mimikatz
+    implementation
+  year: '2014'
   venue: '2014–2015 — ADSecurity.org blog series; Black Hat USA 2015 talk "Red vs Blue: Modern Active Directory Attacks, Detection
     and Protection"'
   theme: Documents how possession of the KRBTGT account hash allows forging arbitrary Kerberos TGTs (Golden Tickets) that
     are accepted without contacting the DC, enabling indefinite stealthy domain persistence
-  category: credentials
-  url: https://adsecurity.org/?p=1640
+  category: ad-attack / identity
+  watch_url: https://www.youtube.com/watch?v=qlfdkf-9e0I
   source: foundational-pre-2024
-  normalized_category: credentials
+  normalized_category: ad-attack
+- title: 'Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation'
+  speaker: Benjamin Delpy (@gentilkiwi) — independent researcher
+  year: '2011'
+  venue: 2011 (initial release); Microsoft BlueHat 2014 presentation; actively maintained through 2023
+  theme: Extracts plaintext passwords, NTLM hashes, and Kerberos tickets directly from Windows LSASS memory and implements
+    Pass-the-Hash, Pass-the-Ticket, and Kerberos ticket forgery
+  category: credentials
+  url: https://github.com/gentilkiwi/mimikatz
+  source: foundational-pre-2024
+  normalized_category: ad-attack
 - title: The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-Hash Toolkit"
-  venue: 1997 — Samba mailing list; 2008 — Black Hat DC
+  speaker: 'Original technique: Paul Ashton (Samba project), posted to samba-technical mailing list April 1997; operationalised
+    for Windows by Hernan Ochoa (IOActive) in 2008 Pass-The-Hash Toolkit (Black Hat DC 2008)'
+  year: '1997'
+  venue: 1997 — Samba mailing list; 2008 — Black Hat DC (Ochoa toolkit)
   theme: NT/LAN Manager authentication can be satisfied by sending a captured NTLM hash directly — without knowing the cleartext
     password — enabling lateral movement across Windows networks
-  url: https://en.hackndo.com/pass-the-hash/
+  category: credentials / ad-attack
+  url: https://resources.oreilly.com/examples/9780596510978/
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: 'Attacking Kerberos: Kicking the Guard Dog of Hades'
+  speaker: Tim Medin (@timmedin) — Red Siege Information Security
+  year: '2014'
+  venue: August 2014 — DEF CON 22
+  theme: Any authenticated domain user can request a TGS service ticket for any SPN-registered account and take it offline
+    for password cracking, since the ticket is encrypted with the service account's NTLM hash
+  category: ad-attack / credentials
+  url: https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf
+  source: foundational-pre-2024
+  normalized_category: ad-attack
 - title: 'MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege'
+  speaker: Originally discovered by researchers (credited to Tom Maddock / NSA attribution debated); public PoC by Sylvain
+    Monné (@skipfish) and subsequently by Nikhil Mittal (@nikhil_mitt) "Kekeo" / PyKEK
+  year: '2014'
   venue: November 2014 — Microsoft Security Bulletin; public PoC within weeks
   theme: A validation flaw in the Kerberos KDC allows any domain user to forge a PAC with arbitrary group memberships (including
     Domain Admins), granting full DA rights on any unpatched DC
-  url: https://adsecurity.org/?p=676
+  category: ad-attack / identity
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: 'Empire: A PowerShell Post-Exploitation Framework'
+  speaker: Will Schroeder (@harmj0y), Justin Warner (@sixdub), Matt Nelson (@enigma0x3), rvrsh3ll, killswitch_gui, xorrior
+    — SpecterOps (then independent)
+  year: '2015'
+  venue: August 2015 — BSidesLV 2015 premiere
+  theme: A Python/PowerShell2 post-exploitation C2 framework that runs PowerShell agents without powershell.exe, implements
+    in-memory module loading, encrypted comms, and 300+ post-exploitation modules
+  category: post-exploit / defense-evasion
+  url: https://github.com/EmpireProject/Empire
+  source: foundational-pre-2024
+  normalized_category: post-exploit
 - title: Rubeus
-  venue: 2018 — GitHub release
+  speaker: Will Schroeder (@harmj0y) — SpecterOps; co-contributors Charlie Clark (@exploitph), Ceri Coburn (@_EthicalChaos_),
+    Elad Shamir
+  year: '2018'
+  venue: 2018 — GitHub release (GhostPack project)
   theme: A C# toolset for raw Kerberos ticket requests, renewals, Kerberoasting, AS-REP roasting, Pass-the-Ticket, ticket
     forgery (Golden/Silver/Diamond), and PKINIT operations — all without touching lsass.exe
+  category: ad-attack / credentials
   url: https://github.com/GhostPack/Rubeus
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: SharpDPAPI
+  speaker: Will Schroeder (@harmj0y) — SpecterOps (port of Benjamin Delpy's Mimikatz DPAPI logic)
+  year: '2018'
+  venue: 2018 — GitHub release (GhostPack project)
+  theme: Extracts and decrypts DPAPI master keys, Windows Credential Manager secrets, RDP passwords, Chrome/Edge browser credentials,
+    and certificate private keys without requiring SYSTEM privileges
+  category: credentials / post-exploit
+  url: https://github.com/GhostPack/SharpDPAPI
+  source: foundational-pre-2024
+  normalized_category: credentials
 - title: noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing)
+  speaker: Charlie Clark (@exploitph) — SpecterOps; detailed by Andrew Bartlett (Samba), public PoC by Cube0x0 and WazeHell
+  year: '2021'
   venue: November 2021 — Patch Tuesday; public PoC December 2021
   theme: Any low-privileged domain user can rename their machine account to impersonate the DC's short name, request a TGT,
     then restore the name — the KDC appends "$" to the original DC account, yielding a DC-level PAC without needing its hash
-  url: https://github.com/Ridter/noPac
+  category: ad-attack / identity
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: 'Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege'
+  speaker: James Forshaw (@tiraniddo) — Google Project Zero
+  year: '2015'
+  venue: '2015 — Project Zero bug tracker issue #325'
+  theme: The COM CoGetInstanceFromIStorage API can be abused to coerce the local SYSTEM account to perform NTLM authentication
+    to an attacker-controlled RPC endpoint, and the resulting NTLM exchange can be relayed back to obtain a SYSTEM-level impersonation
+    token
+  category: ipc-rpc / kernel-exploit
+  url: https://bugs.chromium.org/p/project-zero/issues/detail?id=325
+  source: foundational-pre-2024
+  normalized_category: kernel-exploit
 - title: Windows 10(HH) Symbolic Link Mitigations
+  speaker: James Forshaw (@tiraniddo) — Google Project Zero
+  year: '2015'
   venue: August 2015 — Project Zero blog
   theme: Documents how Windows 10 and back-ported MS15-090 restrict low-privileged creation of Object Manager symbolic links
     and NTFS mount points, explaining why these primitives were previously so powerful for EoP and how the new restrictions
     work
+  category: kernel-exploit / filesystem
   url: https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+- title: 'Bochspwn: Identifying 0-days via system-wide memory access pattern analysis'
+  speaker: Mateusz 'j00ru' Jurczyk + Gynvael Coldwind — Google
+  year: '2013'
+  venue: August 2013 — Black Hat USA 2013 (original); August 2017 — Black Hat USA 2017 (Reloaded)
+  theme: Uses Bochs x86 full-system emulation to instrument every memory access in a running OS, automatically detecting double-fetches
+    (race conditions) and uninitialized memory disclosures in the Windows/Linux kernel
+  category: fuzzing / kernel-exploit
+  source: foundational-pre-2024
+  normalized_category: kernel-exploit
 - title: 'Windows Notification Facility: Useless or Useful? (blog series)'
+  speaker: James Forshaw (@tiraniddo) — Google Project Zero
+  year: '2019'
   venue: September–October 2019 — tiraniddo.dev four-part blog series
   theme: Reverse-engineers the undocumented Windows Notification Facility (WNF), a kernel-level publish-subscribe mechanism,
     revealing that WNF state data is accessible from user-mode and provides novel attack primitives for cross-process information
     leakage and sandbox escape
+  category: ipc-rpc / kernel-exploit
   url: https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+- title: Reading Privileged Memory with a Side-Channel (Spectre/Meltdown)
+  speaker: Jann Horn (Project Zero); Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg; Daniel Gruss, Moritz Lipp, et
+    al
+  year: '2018'
+  venue: January 2018 — coordinated disclosure (Google Project Zero blog)
+  theme: CPU speculative execution and data-cache timing can be used to read arbitrary kernel and hypervisor memory from unprivileged
+    user-mode code, breaking all OS and hypervisor memory isolation assumptions
+  category: hardware-attack / hyper-v
+  url: https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
+  source: foundational-pre-2024
+  normalized_category: hyper-v
 - title: Fileless UAC Bypass using eventvwr.exe and Registry Hijacking
+  speaker: Matt Nelson (@enigma0x3) — SpecterOps
+  year: '2016'
   venue: August 2016 — enigma0x3.net blog post
-  theme: The auto-elevated `eventvwr.exe` consults `HKCU\Software\Classes\mscfile\shell\open\command` before `HKCR`, allowing
-    any medium-integrity process to hijack the registry key and execute arbitrary code at high integrity without a file drop
-  category: defense-evasion
+  theme: The auto-elevated eventvwr.exe consults HKCU\Software\Classes\mscfile\shell\open\command before HKCR, allowing any
+    medium-integrity process to hijack the registry key and execute arbitrary code at high integrity without a file drop
+  category: defense-evasion / post-exploit
   url: https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/
+  source: foundational-pre-2024
+  normalized_category: kernel-exploit
+- title: UACME — Defeating Windows User Account Control
+  speaker: hfiref0x (@hfiref0x) — independent researcher
+  year: '2014'
+  venue: 2014 — GitHub project (continuously updated through 2023)
+  theme: A systematic collection of 60+ UAC bypass techniques spanning all Windows versions, serving as the definitive reference
+    implementation and taxonomy for auto-elevation, COM object hijacking, and HKCU-registry manipulation bypasses
+  category: defense-evasion
+  url: https://github.com/hfiref0x/UACME
   source: foundational-pre-2024
   normalized_category: defense-evasion
 - title: Investigating COM Hijacking Techniques for Persistence and Privilege Escalation
+  speaker: Will Dormann (@wdormann) — CERT/CC; documented and researched extensively 2018–2022
+  year: '2018'
   venue: 2018–2022 — CERT/CC blog and vulnerability notes
   theme: Many Windows in-box COM objects load DLLs or executables from HKCU-writable registry paths before checking HKLM,
     allowing any user-mode process to hijack COM activation for persistence or elevation
-  url: https://vuls.cert.org/confluence/display/Wiki/COM+Object+Hijacking
+  category: defense-evasion / post-exploit
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: post-exploit
+- title: Mark-of-the-Web (MOTW) Bypass Research Series
+  speaker: Will Dormann (@wdormann) — CERT/CC (primary analyst); multiple CVEs filed 2018–2022; additional research by Outflank
+    researchers (Stan Hegt) 2022
+  year: '2018'
+  venue: 2018–2022 — CERT/CC VU notes + blog posts; major public wave 2022
+  theme: Various container formats (7-Zip, ISO, VHD, LNK containers) fail to propagate the Zone.Identifier NTFS alternate
+    data stream to extracted files, allowing downloaded malware to bypass Protected View and SmartScreen
+  category: office-attack / defense-evasion
+  source: foundational-pre-2024
+  normalized_category: kernel-exploit
 - title: Social Engineering the Windows Kernel
+  speaker: James Forshaw (@tiraniddo) — Google Project Zero
+  year: '2015'
   venue: 2015 — Shakacon / Black Hat USA 2015
   theme: Surveys how Windows kernel code implicitly trusts user-mode data in dozens of IPC pathways — NtCreateFile handles,
     ALPC, COM, named pipes — and how this trust can be abused to redirect privileged operations through user-controlled objects
+  category: kernel-exploit / ipc-rpc
   url: https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw
+  watch_url: https://www.youtube.com/watch?v=QRpfvmMbDMg
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: kernel-exploit
+- title: Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights
+  speaker: 'Multiple: Team Fluoroacetate (Amat Cama / Richard Zhu, Hyper-V guest→host 2019); Bruno Keith + Niklas Baumstark
+    (Edge/Chakra+Hyper-V 2018); DEVCORE (Orange Tsai, Exchange + Windows escalation chain 2021)'
+  year: '2018'
+  venue: 2018–2021 — Pwn2Own Vancouver
+  theme: Demonstrates complete guest→host Hyper-V escape chains using Type Confusion bugs in Chakra/Edge JavaScript engine,
+    VMBus driver vulnerabilities, and privileged RPC endpoints accessible from guest VMs
+  category: hyper-v / browser-sandbox
+  source: foundational-pre-2024
+  normalized_category: hyper-v
 - title: 'GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools'
+  speaker: Will Schroeder (@harmj0y) + Matt Graeber (@mattifestation) + others — SpecterOps
+  year: '2012'
   venue: PowerSploit 2012; PowerView 2014–2016; GhostPack rebrand 2018
   theme: A suite of C#/.NET offensive security tools (Seatbelt, SafetyKatz, SharpUp, Certify, Rubeus, SharpDPAPI, SharpDump)
     covering host-enumeration, credential extraction, Kerberos abuse, and PKI exploitation
-  url: https://github.com/GhostPack
+  category: post-exploit / credentials
   source: foundational-pre-2024
-  normalized_category: uncategorized
+  normalized_category: ad-attack
+- title: SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN
+  speaker: Lee Christensen (@tifkin_) — SpecterOps
+  year: '2018'
+  venue: 2018 — GitHub release; presented in various SpecterOps talks
+  theme: The RpcRemoteFindFirstPrinterChangeNotificationEx function in MS-RPRN can be called by any authenticated domain user
+    to force any Windows machine to authenticate outbound via NTLM, providing a coercion primitive for NTLM relay attacks
+  category: ipc-rpc / ad-attack
+  url: https://github.com/leechristensen/SpoolSample
+  source: foundational-pre-2024
+  normalized_category: ad-attack
 - title: 'Kekeo: A Kerberos Toolkit with MS14-068 Exploitation'
+  speaker: Benjamin Delpy (@gentilkiwi) — independent researcher
+  year: '2014'
   venue: 2014 — GitHub release; expanded 2015–2018
   theme: A companion toolkit to Mimikatz providing raw Kerberos ticket manipulation including MS14-068 PAC forgery exploitation,
     S4U2self/S4U2proxy delegation abuse, and PKINIT certificate-based TGT acquisition
-  category: ad-attack
+  category: ad-attack / credentials
   url: https://github.com/gentilkiwi/kekeo
   source: foundational-pre-2024
   normalized_category: ad-attack
-- title: Bypassing AMSI via .NET Reflection
-  venue: June 2016 — Twitter one-liner; blog documentation by various authors
-  theme: The `AmsiScanBuffer` field in the `amsi.dll` `AmsiContext` object can be patched to `0` from any medium-integrity
-    process via .NET reflection, disabling all AMSI scan calls for the process lifetime
-  category: defense-evasion
-  url: https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+- title: Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus
+  speaker: Sean Metcalf (@PyroTek3) — TrimarcSecurity
+  year: '2014'
+  venue: 2014–2022 — adsecurity.org blog; talks at Black Hat USA 2014, 2015, DerbyCon, BSides
+  theme: 'The most comprehensive public reference covering Active Directory attack techniques: DCSync, skeleton key, SID history
+    abuse, AdminSDHolder abuse, AS-REP roasting, Kerberoasting, and detection/hardening for each'
+  category: ad-attack
+  url: https://adsecurity.org
   source: foundational-pre-2024
-  normalized_category: defense-evasion
+  normalized_category: ad-attack
+- title: Bypassing AMSI via .NET Reflection
+  speaker: Matt Graeber (@mattifestation) — SpecterOps
+  year: '2016'
+  venue: June 2016 — Twitter one-liner; blog documentation by various authors
+  theme: The AmsiScanBuffer field in the amsi.dll AmsiContext object can be patched to 0 from any medium-integrity process
+    via .NET reflection, disabling all AMSI scan calls for the process lifetime
+  category: defense-evasion
+  source: foundational-pre-2024
+  normalized_category: edr-bypass
+- title: 'DCSync: Replicating AD Credentials Over the Network'
+  speaker: Benjamin Delpy (@gentilkiwi) + Vincent Le Toux — in Mimikatz lsadump::dcsync
+  year: '2015'
+  venue: August 2015 — Mimikatz update; documented by Sean Metcalf and widely disseminated
+  theme: Any account with the DS-Replication-Get-Changes-All extended right can call DRSGetNCChanges (the Directory Replication
+    Service RPC) to pull password hashes for any AD object without logging onto the DC or touching LSASS
+  category: ad-attack / credentials
+  url: https://adsecurity.org/?p=1729
+  source: foundational-pre-2024
+  normalized_category: ad-attack
 - title: Practical Exploitation of Registry Vulnerabilities in the Windows Kernel
-  theme: 'OffensiveCon + Recon talks, elapsed: 476s, total_turns: 0, duration: 467s'
-  source: offcon-recon
-  normalized_category: uncategorized
-- title: 'Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting'
+  speaker: Mateusz Jurczyk — Google Project Zero
+  venue: OffensiveCon 2024
   theme: Weaponising a novel "hive-based memory corruption" class discovered across 50+ Windows Registry kernel vulnerabilities
     to achieve reliable LPE past modern mitigations
   category: kernel-exploitation
   url: https://www.offensivecon.org/speakers/2024/mateusz-jurczyk.html
+  year: '2024'
   source: offcon-recon
   normalized_category: kernel-exploit
+- title: 'Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting'
+  speaker: Piotr Bazydło — Trend Micro Zero Day Initiative (ZDI)
+  venue: OffensiveCon 2024
+  theme: Post-ProxyNotShell bypass chain through Exchange PowerShell Remoting deserialization/reflection, covering ~11 CVEs
+    including RCE, arbitrary file read, and NTLM relay
+  category: post-exploitation
+  url: https://www.offensivecon.org/speakers/2024/piotr-bazydlo.html
+  year: '2024'
+  source: offcon-recon
+  normalized_category: ipc-rpc
 - title: 'Almost Escaping the Sandbox: Attacking Windows Device Drivers'
+  speaker: Erik Egsgard — Field Effect (Principal Security Developer)
+  venue: OffensiveCon 2024
   theme: Hunting exploitable device driver bugs accessible from AppContainer/browser sandboxes as a path to Windows LPE, covering
     the actual discovery journey for a patched driver vulnerability
   category: kernel-exploitation
   url: https://www.offensivecon.org/speakers/2024/erik-egsgard.html
+  year: '2024'
   source: offcon-recon
   normalized_category: kernel-exploit
+- title: 'Booting with Caution: Dissecting Secure Boot''s Third-Party Attack Surface'
+  speaker: Bill Demirkapi — Independent (formerly Microsoft; Windows internals specialist)
+  venue: OffensiveCon 2024
+  theme: Cataloguing the third-party UEFI code attack surface that undermines Windows Secure Boot, exposing systemic gaps
+    in Microsoft's and third-party vendor vulnerability response
+  category: code-integrity
+  url: https://www.offensivecon.org/speakers/2024/bill-demirkapi.html
+  year: '2024'
+  source: offcon-recon
+  normalized_category: boot-firmware
 - title: 'UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development'
+  speaker: Nika Korchok Wakulich (aka ic3qu33n) — Leviathan Security Group
+  venue: OffensiveCon 2024
   theme: A crash course in Windows UEFI/SMM exploit development using cross-architecture (x86-64, ARM64, RISC-V) self-replicating
     quines to explore SMM callout vulnerabilities — the ring-(-2) persistence attack surface targeting Windows Secure Boot
   category: code-integrity
   url: https://www.offensivecon.org/speakers/2024/nika-korchok-wakulich.html
+  year: '2024'
   source: offcon-recon
-  normalized_category: code-integrity
+  normalized_category: boot-firmware
+- title: Hunting for Overlooked Cookies in Windows 11 KTM and Baking Exploits for Them
+  speaker: Cedric Halbronn (PixiePoint Security / independent trainer) & Jael Koh (PixiePoint Security)
+  venue: OffensiveCon 2025
+  theme: Discovery and exploitation of two Use-After-Free vulnerabilities (CVE-2024-43570, CVE-2024-43535) in the Windows
+    Kernel Transaction Manager, demonstrating reliable exploits on Windows 11 against modern mitigations
+  category: kernel-exploitation
+  url: https://www.offensivecon.org/speakers/2025/cedric-halbronn-and-jael-koh.html
+  year: '2025'
+  source: offcon-recon
+  normalized_category: kernel-exploit
 - title: Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities
+  speaker: An-Jie Yang (aka Angelboy) — DEVCORE, Taiwan
+  venue: OffensiveCon 2025
   theme: New vulnerability classes in Windows Kernel Streaming via crafted webcam frames, yielding 10+ LPE bugs and demonstrating
     arbitrary physical memory write primitives that bypass modern Windows kernel mitigations (including KVA shadow, SMAP,
     SMEP)
   category: kernel-exploitation
   url: https://www.offensivecon.org/speakers/2025/angelboy.html
+  year: '2025'
   source: offcon-recon
   normalized_category: kernel-exploit
-- title: 'IRON GIANT: When The Vault Becomes The Victim'
+- title: 'Enhanced Insecurity Mode: 23 RCEs in Edge''s "Safe" WebAssembly Interpreter'
+  speaker: Nan Wang (sakura) & Ziling Chen (R1nd0) — Zellic
+  venue: OffensiveCon 2026
   theme: Systematic discovery of 23 RCEs in Microsoft Edge's DrumBrake WebAssembly interpreter (the engine underpinning Enhanced
     Security Mode), demonstrating that Edge's primary JIT-free mitigation becomes its largest attack surface
   category: browser-windows-integration
   url: https://www.offensivecon.org/speakers/2026/nan-wang-and-ziling-chen.html
+  year: '2026'
   source: offcon-recon
   normalized_category: browser-sandbox
+- title: 'IRON GIANT: When The Vault Becomes The Victim'
+  speaker: Erik Egsgard — Field Effect (Principal Security Developer)
+  venue: OffensiveCon 2026
+  theme: Comprehensive offensive research campaign against LSASS — Windows' authentication and credential management core
+    — targeting three distinct attack vectors across its "surprisingly wide" legacy and modern interface attack surface
+  category: credentials
+  url: https://www.offensivecon.org/speakers/2026/erik-egsgard.html
+  year: '2026'
+  source: offcon-recon
+  normalized_category: credentials
 - title: 'Tales From The Crypt: Bug Hunting in the Windows CryptoAPI'
+  speaker: Erik Egsgard — Field Effect
+  venue: Recon 2024
   theme: Vulnerability research in the Windows Cryptography API (CNG/CAPI), cataloguing unexplored attack surfaces in one
     of Windows' most security-critical components
   category: fuzzing-tooling
   url: https://recon.cx/2024/sessions.html
+  year: '2024'
   source: offcon-recon
   normalized_category: fuzzing
+- title: 'Peeling Back the Windows Registry Layers: A Bug Hunter''s Expedition'
+  speaker: Mateusz Jurczyk — Google Project Zero
+  venue: Recon 2024
+  theme: 'A reverse-engineering-focused companion to his OC 2024 talk: the hive file format internals and how the layered
+    registry architecture (used in container/sandbox scenarios) created previously unknown exploit primitives'
+  category: kernel-exploitation
+  url: https://recon.cx/2024/sessions.html
+  year: '2024'
+  source: offcon-recon
+  normalized_category: kernel-exploit
 - title: Hypervisor-enforced Paging Translation — The end of non data-driven Kernel Exploits?
+  speaker: Andrea Allievi (Microsoft) & Satoshi Tanda (Sony Interactive Entertainment, ex-Microsoft)
+  venue: Recon 2024
   theme: Deep-dive into HVPT (Hypervisor-Protected Page Tables), a Hyper-V–backed mitigation that prevents the traditional
     Windows kernel exploit primitives of arbitrary read/write, examining what exploit classes it eliminates and what data-oriented
     attack paths remain
   category: Hyper-V/virtualization
   url: https://recon.cx/2024/sessions.html
+  year: '2024'
   source: offcon-recon
   normalized_category: hyper-v
-- title: 'WinpMem: Volatility''s driver that lets malware volatilize'
+- title: 'HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections'
+  speaker: Andrei Lutas — Bitdefender
+  venue: Recon 2025
   theme: New Hyper-V offensive primitive enabling code injection into arbitrary VMs from a privileged position, reducing the
     complexity of VM-level code injection on Windows to parity with userland process injection
   category: Hyper-V/virtualization
   url: https://recon.cx/2025/sessions.html
+  year: '2025'
   source: offcon-recon
   normalized_category: hyper-v
-- title: Reverse Engineering Patch Tuesday
-  venue: a companion workshop session on the tooling underpinning this kind of patch analysis
+- title: 'WinpMem: Volatility''s driver that lets malware volatilize'
+  speaker: Dr. Baptiste David — ERNW
+  venue: Recon 2025
+  theme: Security analysis of the WinpMem Windows kernel driver used by Volatility for memory forensics, showing how the same
+    driver enables malware to abuse legitimate forensic tooling for anti-detection and evasion on Windows
+  category: EDR-bypass
+  url: https://recon.cx/2025/sessions.html
+  year: '2025'
+  source: offcon-recon
+  normalized_category: edr-bypass
+- title: The Finer Details of LSA Credential Recovery
+  speaker: Evan McBroom — SpecterOps
+  venue: Recon 2025
   theme: Low-level reverse engineering of the Windows LSA (Local Security Authority) credential management structures to recover
     credential material from memory, extending beyond Mimikatz-era techniques to address modern Windows 11 hardening
   category: credentials
   url: https://recon.cx/2025/sessions.html
+  year: '2025'
   source: offcon-recon
   normalized_category: credentials
+- title: Reverse Engineering Patch Tuesday
+  speaker: John McIntosh — Clearseclabs
+  venue: Recon 2025
+  theme: Systematic methodology for reverse-engineering Microsoft's monthly Windows patches to identify what was fixed, recover
+    diff-based vulnerability primitives, and assess exploitation risk — including tooling built on Ghidra
+  category: fuzzing-tooling
+  url: https://recon.cx/2025/sessions.html
+  year: '2025'
+  source: offcon-recon
+  normalized_category: fuzzing
 - title: Reversing Warbird for no fun and no profit
+  speaker: Philippe Laulheret — Cisco Talos
+  venue: Recon 2025
   theme: Reverse engineering of Windows Warbird (also known as Windows Kernel Code Protection / WKCP), the obfuscation and
     self-protection mechanism used by Windows itself to protect DRM-related and anti-cheat kernel code
   category: code-integrity
   url: https://recon.cx/2025/sessions.html
+  year: '2025'
   source: offcon-recon
   normalized_category: code-integrity
 - title: 'Back from the dead: Exhuming EBC'
+  speaker: Nika Korchok Wakulich (aka ic3qu33n) — Independent
+  venue: Recon 2025
   theme: Resurrection and analysis of the EFI Bytecode (EBC) architecture — a portable bytecode VM embedded in UEFI firmware
     on Windows-based systems — examining its use, reversibility, and potential as an exploitation target in the UEFI pre-boot
     environment
+  category: code-integrity (UEFI/EBC — Windows boot chain)
   url: https://recon.cx/2025/sessions.html
+  year: '2025'
   source: offcon-recon
-  normalized_category: uncategorized
+  normalized_category: boot-firmware
+- title: NET Exploitation Workshop
+  speaker: Sina Kheirkhah — Independent (Pwn2Own "Master of Pwn" 2025)
+  venue: Recon 2025
+  theme: Deep-dive workshop on low-level .NET CLR exploitation techniques targeting Windows — type confusion, unsafe memory
+    access, and .NET-to-native escalation paths — from a researcher with active Pwn2Own results in .NET targets
+  category: 'kernel-exploitation (other: .NET/CLR exploitation on Windows)'
+  url: https://recon.cx/2025/sessions.html
+  year: '2025'
+  source: offcon-recon
+  normalized_category: kernel-exploit
 - title: Chaining Microsoft binaries to get privileged primitives in Windows kernel
+  speaker: Alejandro Pinna — affiliation not confirmed from available pages
+  venue: Recon 2026
   theme: Using Microsoft-signed binaries as links in a privilege escalation chain to obtain exploitable kernel primitives
     — likely targeting LOLBAS-class Windows binaries that provide kernel-level access paths
   category: kernel-exploitation
-  url: https://recon.cx/2026/en/sessions.html
+  url: https://cfp.recon.cx/recon-2026/talk/ECTXZH/
+  year: '2026'
   source: offcon-recon
   normalized_category: kernel-exploit
+- title: 'Click Once and Stay Forever: uncovering a new abuse of the ClickOnce technology'
+  speaker: Mathilde Venault — affiliation not confirmed from available pages
+  venue: Recon 2026
+  theme: Novel abuse of Microsoft's ClickOnce Windows application deployment framework to achieve persistent code execution
+    — likely exploiting its auto-update mechanism or trust model for persistent implantation
+  category: defense-evasion
+  url: https://cfp.recon.cx/recon-2026/talk/EZTMNB/
+  year: '2026'
+  source: offcon-recon
+  normalized_category: defense-evasion
 - title: How real-world malware disables EDR systems
+  speaker: Holger Unterbrink — Cisco Talos
+  venue: Recon 2026
   theme: Empirical survey of how real-world Windows malware families (ransomware, infostealers, APT tools) bypass, disable,
     or neuter endpoint detection and response platforms — covering kernel-driver unloading, kernel callbacks removal, and
     ETW patching
   category: EDR-bypass
-  url: https://recon.cx/2026/en/sessions.html
+  url: https://cfp.recon.cx/recon-2026/talk/GG7SEM/
+  year: '2026'
   source: offcon-recon
   normalized_category: edr-bypass
+- title: 'Prism Internals: Reversing Microsoft''s x86-to-ARM64 Binary Translator'
+  speaker: Hugo (surname not disclosed in sessions listing) — affiliation unknown
+  venue: Recon 2026
+  theme: Reverse engineering of Microsoft Prism, the closed-source x86-to-ARM64 JIT binary translator built into Windows 11
+    on ARM, exposing its internal IR, translation pipeline, and potential security attack surface
+  category: other (Windows NT internals / binary translation)
+  url: https://cfp.recon.cx/recon-2026/talk/V3THYR/
+  year: '2026'
+  source: offcon-recon
+  normalized_category: rce
 - title: 'Paper Werewolf''s Toolbox: Reversing XLL Delivery, EchoGather, and a WinRAR Exploit Chain Targeting Russia'
-  venue: Year
+  speaker: Nicole Fishbein — Intezer (malware analyst)
+  venue: Recon 2026
   theme: Reverse-engineering the Windows-targeted toolchain of the Paper Werewolf (GOFFEE) Russian-nexus threat actor, including
     XLL-based macro delivery, a custom infostealer, and a WinRAR exploit chain — all Windows-native attack vectors
   category: malware-analysis
-  url: https://recon.cx/2026/en/sessions.html
+  url: https://cfp.recon.cx/recon-2026/talk/AAPSD9/
+  year: '2026'
   source: offcon-recon
   normalized_category: malware
+- speaker: Mateusz Jurczyk
+  year: '2024'
+  theme: Windows kernel registry subsystem — research overview and bug statistics
+  category: Kernel exploitation / fuzzing
+  url: https://projectzero.google/2024/04/the-windows-registry-adventure-1.html
+  title: 'The Windows Registry Adventure #1: Introduction and Research Results'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: Mateusz Jurczyk
+  year: '2024'
+  theme: Historical evolution of the Windows Registry from MS-DOS through Windows 11; architectural decisions
+  category: Security research context / historical analysis
+  url: https://projectzero.google/2024/04/the-windows-registry-adventure-2.html
+  title: 'The Windows Registry Adventure #2: A Brief History of the Feature'
+  source: project-zero
+  normalized_category: registry
+- speaker: Mateusz Jurczyk
+  year: '2024'
+  theme: Fuzzing infrastructure and tooling for Windows Registry research
+  category: Fuzzing tooling / kernel security research methodology
+  url: https://projectzero.google/2024/06/the-windows-registry-adventure-3.html
+  title: 'The Windows Registry Adventure #3: Learning Resources'
+  source: project-zero
+  normalized_category: fuzzing
+- speaker: Mateusz Jurczyk
+  year: '2024'
+  theme: Deep dive into Windows Registry kernel data structures and hive memory layout
+  category: Kernel exploitation / attack surface analysis
+  url: https://projectzero.google/2024/10/the-windows-registry-adventure-4-hives.html
+  title: 'The Windows Registry Adventure #4: Hives and the Registry Layout'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: Mateusz Jurczyk
+  year: '2024'
+  theme: Binary regf hive file format — parsing bugs as attack entry point
+  category: File-format parsing / kernel exploitation
+  url: https://projectzero.google/2024/12/the-windows-registry-adventure-5-regf.html
+  title: 'The Windows Registry Adventure #5: The regf File Format'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: James Forshaw
+  year: '2024'
+  theme: COM/DCOM attack surface inspection tooling — OleView.NET major update
+  category: IPC/RPC security tooling; COM security research
+  url: https://projectzero.google/2024/12/windows-tooling-updates-oleviewnet.html
+  title: 'Windows Tooling Updates: OleView.NET'
+  source: project-zero
+  normalized_category: ipc-rpc
+- speaker: Mateusz Jurczyk
+  year: '2025'
+  theme: Kernel-mode object lifecycle in registry subsystem — reference counting, CM_KEY_BODY, KCB objects
+  category: Kernel exploitation / object lifecycle
+  url: https://projectzero.google/2025/04/the-windows-registry-adventure-6-kernel.html
+  title: 'The Windows Registry Adventure #6: Kernel-Mode Objects'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: Mateusz Jurczyk
+  year: '2025'
+  theme: Comprehensive taxonomy of all registry bug classes found; attack surface map
+  category: Kernel exploitation / attack surface taxonomy
+  url: https://projectzero.google/2025/05/the-windows-registry-adventure-7-attack-surface.html
+  title: 'The Windows Registry Adventure #7: Attack Surface Analysis'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: Mateusz Jurczyk
+  year: '2025'
+  theme: Full Windows 11 kernel LPE exploit chain via registry hive memory corruption
+  category: Kernel exploitation / privilege escalation
+  url: https://projectzero.google/2025/05/the-windows-registry-adventure-8-exploitation.html
+  title: 'The Windows Registry Adventure #8: Practical Exploitation of Hive Memory Corruption'
+  source: project-zero
+  normalized_category: kernel-exploit
+- speaker: James Forshaw
+  year: '2025'
+  theme: Updated technique for trapping virtual memory access — SMB alternative-port feature in Win11 24H2
+  category: Exploitation technique / TOCTOU tooling
+  url: https://projectzero.google/2025/01/windows-exploitation-tricks-trapping.html
+  title: 'Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)'
+  source: project-zero
+  normalized_category: filesystem
+- speaker: James Forshaw
+  year: '2025'
+  theme: COM IDispatch type-info marshaling — TOCTOU exploitation to instantiate arbitrary CLSIDs in privileged server context
+  category: IPC/COM security / sandbox escape / privilege escalation
+  url: https://projectzero.google/2025/01/windows-bug-class-accessing-trapped-com.html
+  title: 'Windows Bug Class: Accessing Trapped COM Objects with IDispatch'
+  source: project-zero
+  normalized_category: browser-sandbox
+- speaker: James Forshaw
+  year: '2025'
+  theme: Object Manager Namespace (OMNS) path-lookup timing for TOCTOU race window expansion
+  category: Exploitation technique / TOCTOU / kernel security
+  url: https://projectzero.google/2025/12/windows-exploitation-techniques.html
+  title: 'Windows Exploitation Techniques: Winning Race Conditions with Path Lookups'
+  source: project-zero
+  normalized_category: filesystem
+- speaker: James Forshaw
+  year: '2026'
+  theme: Windows 11 25H2 Administrator Protection — feature overview, UAC comparison, first bypass (logon session DOS device
+    hijacking)
+  category: Privilege escalation / UAC bypass / Windows security boundary research
+  title: Bypassing Windows Administrator Protection (Introduction)
+  source: project-zero
+  normalized_category: post-exploit
+- speaker: James Forshaw
+  year: '2026'
+  theme: UI Access flag in Windows Vista+ — root cause of 5 of 9 Administrator Protection bypasses
+  category: Privilege escalation / UAC bypass / Windows integrity model
+  url: https://projectzero.google/2026/02/windows-administrator-protection.html
+  title: Bypassing Administrator Protection by Abusing UI Access
+  source: project-zero
+  normalized_category: post-exploit
+- speaker: James Forshaw
+  year: '2026'
+  theme: Code archaeology of GetProcessHandleFromHwnd — 4 implementation versions across Windows Vista–Win11 24H2; KernelMode
+    access bypass
+  category: Windows kernel API security / privilege escalation
+  url: https://projectzero.google/2026/02/gphfh-deep-dive.html
+  title: A Deep Dive into the GetProcessHandleFromHwnd API
+  source: project-zero
+  normalized_category: post-exploit
