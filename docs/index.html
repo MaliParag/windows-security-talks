@@ -97,13 +97,16 @@
   }
   .stats .count { color: var(--text); font-weight: 600; }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--panel);
+  .table-wrap {
+    overflow-x: auto;
     border: 1px solid var(--border);
     border-radius: 8px;
-    overflow: hidden;
+    background: var(--panel);
+  }
+  table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: collapse;
   }
   thead th {
     background: var(--panel-2);
@@ -194,6 +197,27 @@
     margin-right: 4px;
     color: var(--muted);
   }
+  .actions {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin: 12px 0 4px;
+  }
+  .action-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 12px;
+    border: 1px solid var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px; font-weight: 500;
+  }
+  .action-btn:hover { background: var(--accent); color: white; }
+  .action-btn .url {
+    color: var(--muted); font-size: 11px; font-weight: 400;
+    max-width: 320px; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .action-btn:hover .url { color: rgba(255,255,255,0.8); }
   .embed-frame {
     width: 100%; max-width: 720px;
     aspect-ratio: 16 / 9;
@@ -201,6 +225,9 @@
     border-radius: 6px;
     margin-top: 10px;
     background: black;
+  }
+  .embed-hint {
+    font-size: 12px; color: var(--muted); margin-top: 6px;
   }
   .empty {
     text-align: center; padding: 60px 20px; color: var(--muted);
@@ -256,22 +283,27 @@
 
   <div class="stats">
     Showing <span class="count" id="visible-count">0</span> of <span id="total-count">0</span> talks.
-    Click any row to expand theme, slides, and embedded video where available.
+    Each row has <span style="white-space:nowrap;border:1px solid var(--border);padding:1px 6px;border-radius:4px;color:var(--accent);font-weight:600;font-size:11px">PDF</span>
+    and <span style="white-space:nowrap;border:1px solid var(--border);padding:1px 6px;border-radius:4px;color:var(--accent);font-weight:600;font-size:11px">▶</span>
+    buttons (rightmost column — scroll horizontally if hidden). Click a row to expand for theme,
+    full links, and embedded YouTube where available.
   </div>
 
-  <table id="t">
-    <thead>
-      <tr>
-        <th data-sort="year">Year <span class="arrow" id="arrow-year">▼</span></th>
-        <th data-sort="category">Category <span class="arrow" id="arrow-category"></span></th>
-        <th data-sort="title">Title <span class="arrow" id="arrow-title"></span></th>
-        <th data-sort="speaker">Speaker(s) <span class="arrow" id="arrow-speaker"></span></th>
-        <th data-sort="venue">Venue <span class="arrow" id="arrow-venue"></span></th>
-        <th>Links</th>
-      </tr>
-    </thead>
-    <tbody id="tbody"></tbody>
-  </table>
+  <div class="table-wrap">
+    <table id="t">
+      <thead>
+        <tr>
+          <th data-sort="year">Year <span class="arrow" id="arrow-year">▼</span></th>
+          <th data-sort="category">Category <span class="arrow" id="arrow-category"></span></th>
+          <th data-sort="title">Title <span class="arrow" id="arrow-title"></span></th>
+          <th data-sort="speaker">Speaker(s) <span class="arrow" id="arrow-speaker"></span></th>
+          <th data-sort="venue">Venue <span class="arrow" id="arrow-venue"></span></th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
 
   <div class="empty" id="empty" style="display:none">
     No talks match these filters.
@@ -373,7 +405,7 @@ function render(rows) {
   tbody.innerHTML = "";
   document.getElementById("visible-count").textContent = rows.length;
   document.getElementById("empty").style.display = rows.length ? "none" : "block";
-  document.getElementById("t").style.display = rows.length ? "" : "none";
+  document.querySelector(".table-wrap").style.display = rows.length ? "" : "none";
 
   for (const r of rows) {
     const id = r._id;
@@ -427,6 +459,22 @@ function renderDetail(r) {
     meta.appendChild(el("span", null, " · ", ...mkMeta("Raw category", r.category)));
   td.appendChild(meta);
 
+  // Prominent action buttons for slides + watch links, with the URL visible.
+  const actions = el("div", { class: "actions" });
+  if (r.url) {
+    actions.appendChild(el("a", {
+      class: "action-btn",
+      href: r.url, target: "_blank", rel: "noopener",
+    }, "📄 Slides / paper", el("span", { class: "url" }, prettyUrl(r.url))));
+  }
+  if (r.watch_url) {
+    actions.appendChild(el("a", {
+      class: "action-btn",
+      href: r.watch_url, target: "_blank", rel: "noopener",
+    }, "▶ Watch recording", el("span", { class: "url" }, prettyUrl(r.watch_url))));
+  }
+  if (actions.children.length) td.appendChild(actions);
+
   const embed = youtubeEmbed(r.watch_url);
   if (embed) {
     td.appendChild(el("iframe", {
@@ -436,9 +484,27 @@ function renderDetail(r) {
       allowfullscreen: "",
       loading: "lazy",
     }));
+  } else if (r.watch_url) {
+    // Non-YouTube recording (e.g. media.defcon.org directory listing): can't embed.
+    let hint = "Recording can't be embedded — open the link above. ";
+    if (r.watch_url.includes("media.defcon.org")) {
+      hint += "DEF CON publishes per-talk MP4s in the linked directory; look for the file matching the speaker name.";
+    }
+    td.appendChild(el("div", { class: "embed-hint" }, hint));
   }
   tr.appendChild(td);
   return tr;
+}
+
+function prettyUrl(u) {
+  try {
+    const url = new URL(u);
+    let p = url.pathname;
+    if (p.length > 40) p = p.slice(0, 18) + "…" + p.slice(-20);
+    return url.host + p;
+  } catch (e) {
+    return u;
+  }
 }
 
 function mkMeta(label, value) {
