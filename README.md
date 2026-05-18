@@ -1,8 +1,12 @@
 # Windows Security Talks
 
+**🔎 Browse the interactive site: https://maliparag.github.io/windows-security-talks/**
+
 A curated index of conference talks, blog posts, and research about Microsoft Windows security — covering the foundational pre-2024 canon plus the 2024–2026 research wave.
 
 **265 talks** across **27 themes**, with watch links on 50 entries where YouTube/media.defcon.org recordings could be verified.
+
+The static site at the URL above supports free-text search, filters (category / year / venue / has-video), sortable columns, and embedded YouTube playback when the talk has a confirmed video.
 
 ## What This Is
 
