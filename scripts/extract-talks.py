@@ -560,12 +560,102 @@ def parse_watch_table(path: Path):
     return rows
 
 
-def merge_watch_urls(records, watch_rows):
-    """Fuzzy-match titles to add watch_url + watch_confidence to records.
+def source_for_url(url):
+    """Classify a watch URL by its host + specificity."""
+    if not url:
+        return None
+    if "youtube.com" in url or "youtu.be" in url:
+        return "YouTube"
+    if "media.defcon.org" in url:
+        if url.endswith(".mp4") or url.endswith(".webm"):
+            return "DEF CON MP4"
+        return "DEF CON archive"
+    if "media.ccc.de" in url:
+        return "media.ccc.de"
+    if "recon.cx" in url:
+        return "recon.cx"
+    if "vimeo.com" in url:
+        return "Vimeo"
+    if "infocondb.org" in url:
+        return "InfoconDB"
+    if "i.blackhat.com" in url:
+        return "Black Hat slides"
+    if "blackhat.com" in url:
+        return "Black Hat"
+    if "troopers.de" in url:
+        return "Troopers"
+    if "offensivecon.org" in url:
+        return "OffensiveCon"
+    import urllib.parse as _u
+    try:
+        return _u.urlparse(url).hostname or "external"
+    except Exception:
+        return "external"
 
-    Skip table rows where the agent flagged confidence as NONE (those rows often
-    repeat the slides URL as a placeholder, which is not actually a watch link).
+
+def watch_quality(entry):
+    """Higher = better. Embeddable YouTube > playable MP4 > host page > directory listing."""
+    url = entry.get("url", "")
+    conf = (entry.get("confidence") or "").upper()
+    score = 0
+    if "youtube.com/watch" in url or "youtu.be/" in url:
+        score = 100
+    elif url.endswith(".mp4") or url.endswith(".webm"):
+        score = 80
+    elif "media.ccc.de/v/" in url or "/talks/" in url or "/sessions/" in url:
+        score = 60
+    elif url.endswith("/"):
+        score = 5  # bare directory listing — pretty useless when we have a specific link
+    else:
+        score = 40
+    if conf == "VERIFIED": score += 5
+    elif conf == "HIGH": score += 3
+    elif conf == "MED": score += 1
+    return score
+
+
+def add_watch_url(record, url, confidence="HIGH"):
+    """Append a watch URL to record's watch_urls list, deduped by URL.
+    Drops bare directory listings if a more-specific link from the same host
+    already exists. Maintains watch_url (singular, best) for backward compat.
+
+    Returns True if newly added.
     """
+    if not url or "://" not in url:
+        return False
+    if url == record.get("url"):
+        return False
+    record.setdefault("watch_urls", [])
+    if any(w.get("url") == url for w in record["watch_urls"]):
+        return False
+
+    record["watch_urls"].append({
+        "url": url,
+        "source": source_for_url(url),
+        "confidence": confidence,
+    })
+
+    # If any non-directory URL exists for a host, drop bare directory URLs
+    # from the same host (they're useless once we have a specific link).
+    import urllib.parse as _u
+    def _host(u):
+        try: return _u.urlparse(u).hostname or ""
+        except Exception: return ""
+
+    hosts_with_specific = {_host(w["url"]) for w in record["watch_urls"] if not w["url"].endswith("/")}
+    record["watch_urls"] = [
+        w for w in record["watch_urls"]
+        if not (w["url"].endswith("/") and _host(w["url"]) in hosts_with_specific)
+    ]
+
+    best = max(record["watch_urls"], key=watch_quality)
+    record["watch_url"] = best["url"]
+    record["watch_confidence"] = best["confidence"]
+    return True
+
+
+def merge_watch_urls(records, watch_rows):
+    """Fuzzy-match titles to add watch URLs to records as a deduped list."""
     idx = {}
     for w in watch_rows:
         if (w.get("watch_confidence") or "").strip().upper() == "NONE":
@@ -574,8 +664,6 @@ def merge_watch_urls(records, watch_rows):
 
     matched = 0
     for r in records:
-        if r.get("watch_url"):
-            continue
         key = title_key(r.get("title", ""))
         hit = idx.get(key)
         if not hit:
@@ -586,10 +674,7 @@ def merge_watch_urls(records, watch_rows):
                         hit = w
                         break
         if hit:
-            # Skip if the watch URL is just a re-statement of the slides URL.
-            if hit["watch_url"] and hit["watch_url"] != r.get("url"):
-                r["watch_url"] = hit["watch_url"]
-                r["watch_confidence"] = hit["watch_confidence"]
+            if add_watch_url(r, hit["watch_url"], hit.get("watch_confidence", "HIGH")):
                 matched += 1
     return matched
 

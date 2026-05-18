@@ -172,6 +172,13 @@
   normalized_category: vbs-bypass
   venue: DEF CON 32
   url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alon%20Leviev%20-%20Windows%20Downdate%20Downgrade%20Attacks%20Using%20Windows%20Updates.pdf
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=HHmxuxQ7bE8
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Windows%20Downdate%20-%20Downgrade%20Attacks%20Using%20Windows%20Updates%20-%20Alon%20Leviev.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=HHmxuxQ7bE8
   watch_confidence: HIGH
 - title: 'MaLDAPtive: Diving Deep into LDAP'
@@ -246,8 +253,12 @@
   normalized_category: boot-firmware
   venue: DEF CON 33
   url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alon%20Leviev%20Netanel%20Ben%20Simon%20-%20BitUnlocker%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets.pdf
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4
+  watch_confidence: HIGH
 - title: Advanced AD to Entra ID Lateral Movement Techniques
   speaker: Dirk-jan Mollema (inferred from filename "Mollema" — known AD/Entra researcher at Semaphore/dirkjanm.io)
   year: '2025'
@@ -299,6 +310,10 @@
   source: bluehat
   year: '2024'
   normalized_category: keynote
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=w6SAqT4ZQik
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=w6SAqT4ZQik
   watch_confidence: HIGH
 - title: BlueHat 2024 Day 2 Keynote
@@ -310,6 +325,10 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=KOUaJIX9JEY
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=KOUaJIX9JEY
   watch_confidence: HIGH
 - title: World of Scams
@@ -406,6 +425,12 @@
   source: bluehat
   year: '2024'
   normalized_category: identity
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=hBGkmpBD20o
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=hBGkmpBD20o
+  watch_confidence: HIGH
 - title: 'Tokens & Takeovers: Cloud-Powered Supply Chain Attacks'
   speaker: Nitesh Surana, Trend Micro + Gaurav Mathur, Microsoft
   theme: Shows how identity tokens leaked from CI/CD pipelines (GitHub Actions, Azure DevOps) can be chained to execute cloud-powered
@@ -415,6 +440,12 @@
   source: bluehat
   year: '2024'
   normalized_category: identity
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=diJl15Uwv8I
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=diJl15Uwv8I
+  watch_confidence: HIGH
 - title: 'Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD'
   speaker: Avihai Ben Yossef, Ilan Kalendarov, Elad Beber — Cymulate
   theme: Demonstrates how a compromised on-premises Azure AD Pass-Through Authentication (PTA) agent can be weaponized to
@@ -433,6 +464,12 @@
   source: bluehat
   year: '2024'
   normalized_category: post-exploit
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=OyTQB9oXe3s
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=OyTQB9oXe3s
+  watch_confidence: HIGH
 - title: Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves
   speaker: Nestori Syynimaa, Microsoft (MYSTIC team)
   theme: Chronicles the repeated postponement of Azure AD Graph API retirement since 2019 and explains how defenders can detect
@@ -451,6 +488,12 @@
   source: bluehat
   year: '2019'
   normalized_category: ipc-rpc
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=DzIkehasir4
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=DzIkehasir4
+  watch_confidence: HIGH
 - title: 'Outlook Unleashing RCE Chaos: CVE-2024-30103, CVE-2024-38021 & CVE-2024-38173'
   speaker: Michael Gorelik, Morphisec
   theme: Discloses the technical root causes of three critical zero-click RCE vulnerabilities in Microsoft Outlook that could
@@ -460,8 +503,12 @@
   source: bluehat
   year: '2024'
   normalized_category: office-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=EQh6apPSRP0
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=EQh6apPSRP0
+  watch_confidence: HIGH
 - title: Pointer Problems – Why We're Refactoring the Windows Kernel
   speaker: Joe Bialek, Microsoft
   theme: Explains Microsoft's strategic shift to refactor safety-critical Windows kernel components in Rust to eliminate pointer-related
@@ -471,6 +518,12 @@
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=-3jxVIFGuQw
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=-3jxVIFGuQw
+  watch_confidence: HIGH
 - title: How Microsoft is Scaling DAST
   speaker: Jason Geffner, Microsoft
   theme: Presents Microsoft's innovative agents-based approach to auto-discovering API endpoints and transparently bypassing
@@ -498,6 +551,12 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=Uij5AGtIKCI
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=Uij5AGtIKCI
+  watch_confidence: HIGH
 - title: 'Patterns in the Shadows: Scaling Threat Hunting & Intel for Modern Adversaries'
   speaker: Mark Parsons + Colin Cowie, Sophos
   theme: Presents a methodology and tooling for scaling threat hunting operations against sophisticated modern adversaries
@@ -507,6 +566,12 @@
   source: bluehat
   year: '2024'
   normalized_category: threat-intel
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=n7GVxDxwOUc
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=n7GVxDxwOUc
+  watch_confidence: HIGH
 - title: Scaling AppSec with an SDL for Citizen Development
   speaker: Michael Bargury, Zenity/OWASP + Don Willits, Microsoft
   theme: Describes how Microsoft built and deployed an SDL for low-code/no-code citizen developers in Power Platform, remediating
@@ -516,6 +581,12 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=0jGUiaWAU04
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=0jGUiaWAU04
+  watch_confidence: HIGH
 - title: 'Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG'
   speaker: Jose Rodriguez, George Mason University
   theme: Demonstrates how LLM-based Retrieval-Augmented Generation applied to structured Sysmon event logs can improve APT
@@ -525,6 +596,12 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=fFcyn6E98H8
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=fFcyn6E98H8
+  watch_confidence: HIGH
 - title: Three Decades of Network Security Evolution
   speaker: Vern Paxson, Corelight
   theme: Draws on 30 years of datasets from a dozen large operational environments to illuminate how network threats evolve
@@ -561,6 +638,12 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=qi2DneFkRf4
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=qi2DneFkRf4
+  watch_confidence: HIGH
 - title: 'PyRIT: From LLM Security Research to Practical Attacks'
   speaker: Richard Lundeen, Microsoft AI Red Team
   theme: Walks through how PyRIT (open-source Microsoft AI Red Team library) translates academic LLM attack research (PAIR,
@@ -1010,6 +1093,13 @@
   year: '2024'
   source: defcon
   normalized_category: byovd
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=kWSP4F5dxTw
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20DriverJack%20-%20Turning%20NTFS%20and%20Emulated%20Read%20-%20only%20Filesystems%20in%20an%20Infection%20and%20Persistence%20Vector%20-%20Alessandro%20Magnosi.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=kWSP4F5dxTw
   watch_confidence: HIGH
 - title: Techniques for Creating Process Injection Attacks with Advanced Return-Oriented Programming
@@ -1022,6 +1112,10 @@
   year: '2024'
   source: defcon
   normalized_category: kernel-exploit
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
   watch_confidence: MED
 - title: Abusing Windows Hello Without a Severed Hand
@@ -1034,6 +1128,10 @@
   year: '2024'
   source: defcon
   normalized_category: credentials
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=mFJ-NUnFBac
+    source: YouTube
+    confidence: VERIFIED
   watch_url: https://www.youtube.com/watch?v=mFJ-NUnFBac
   watch_confidence: VERIFIED
 - title: 'MaLDAPtive: LDAP Obfuscation, Deobfuscation, and Detection'
@@ -1046,6 +1144,10 @@
   year: '2024'
   source: defcon
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
   watch_confidence: MED
 - title: 'HookChain: A new perspective for Bypassing EDR Solutions'
@@ -1058,6 +1160,13 @@
   year: '2024'
   source: defcon
   normalized_category: edr-bypass
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=0L6TlFYwy2U
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20HookChain%20-%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions%20-%20Helvio%20Carvalho%20Junior.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=0L6TlFYwy2U
   watch_confidence: HIGH
 - title: 'NTLM: The Last Ride'
@@ -1070,6 +1179,10 @@
   year: '2024'
   source: defcon
   normalized_category: ipc-rpc
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
   watch_confidence: MED
 - title: 'Outlook Unleashing RCE Chaos: CVE-2024-30103 & CVE-2024-38021'
@@ -1082,8 +1195,12 @@
   year: '2024'
   source: defcon
   normalized_category: post-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Outlook%20Unleashing%20RCE%20Chaos%20-%20CVE%20-%202024%20-%2030103%20-%20Michael%20Gorelik%2C%20Arnold%20Osipov.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Outlook%20Unleashing%20RCE%20Chaos%20-%20CVE%20-%202024%20-%2030103%20-%20Michael%20Gorelik%2C%20Arnold%20Osipov.mp4
+  watch_confidence: HIGH
 - title: 'Sudos and Sudon''ts: Peering inside Sudo for Windows'
   speaker: Michael Torres (Microsoft)
   venue: DEF CON 32
@@ -1094,6 +1211,13 @@
   year: '2024'
   source: defcon
   normalized_category: code-integrity
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=-iNezAL_EF0
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Sudos%20and%20Sudon%E2%80%99ts%20-%20Peering%20inside%20Sudo%20for%20Windows%20-%20Michael%20Torres.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=-iNezAL_EF0
   watch_confidence: HIGH
 - title: 'SHIM me what you got: Manipulating Shim and Office for Code Injection'
@@ -1106,8 +1230,12 @@
   year: '2024'
   source: defcon
   normalized_category: post-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection%20-%20Ron%20Ben%20-%20Yizhak%2C%20David%20Shandalov.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection%20-%20Ron%20Ben%20-%20Yizhak%2C%20David%20Shandalov.mp4
+  watch_confidence: HIGH
 - title: 'Defeating magic by magic: Using ALPC security features to compromise RPC services'
   speaker: WangJunJie Zhang; YiSheng He
   venue: DEF CON 32
@@ -1118,6 +1246,13 @@
   year: '2024'
   source: defcon
   normalized_category: kernel-exploit
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=Eyl_0YxfnpQ
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Defeating%20magic%20by%20magic%20-%20Using%20ALPC%20security%20features%20to%20compromise%20RPC%20services%20-%20WangJunJie%20Zhang%2C%20YiSheng%20He.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=Eyl_0YxfnpQ
   watch_confidence: HIGH
 - title: Defeating EDR-Evading Malware with Memory Forensics
@@ -1130,6 +1265,13 @@
   year: '2024'
   source: defcon
   normalized_category: malware
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=PmqvBe1LSZc
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Defeating%20EDR%20Evading%20Malware%20with%20Memory%20Forensics%20-%20Andrew%20Case%2C%20Austin%20Sellers%2C%20Golden%20Richard%2C%20David%20McDonald.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=PmqvBe1LSZc
   watch_confidence: HIGH
 - title: 'QuickShell: Sharing is caring about an RCE attack chain on Quick Share'
@@ -1142,6 +1284,13 @@
   year: '2024'
   source: defcon
   normalized_category: edr-bypass
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=wT9gyOeN6zY
+    source: YouTube
+    confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20QuickShell%20-%20Sharing%20is%20caring%20about%20an%20RCE%20attack%20chain%20on%20Quick%20Share%20-%20Or%20Yair%2C%20Shmuel%20Cohen.mp4
+    source: DEF CON MP4
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=wT9gyOeN6zY
   watch_confidence: HIGH
 - title: 'Where''s the Money: Defeating ATM Disk Encryption'
@@ -1154,6 +1303,10 @@
   year: '2024'
   source: defcon
   normalized_category: boot-firmware
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
   watch_confidence: MED
 - title: 'Kill Chain Reloaded: Abusing legacy paths for stealth persistence'
@@ -1166,8 +1319,12 @@
   year: '2025'
   source: defcon
   normalized_category: post-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Kill%20Chain%20Reloaded%20-%20Abusing%20legacy%20paths%20for%20stealth%20persistence%20-%20Alejandro%20Hernando%2C%20Borja%20Martinez.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Kill%20Chain%20Reloaded%20-%20Abusing%20legacy%20paths%20for%20stealth%20persistence%20-%20Alejandro%20Hernando%2C%20Borja%20Martinez.mp4
+  watch_confidence: HIGH
 - title: 'Infecting the Boot to Own the Kernel: Bootkits and Rootkits Development'
   speaker: Alejandro Vazquez Vazquez; Maria San Jose
   venue: DEF CON 33
@@ -1178,8 +1335,12 @@
   year: '2025'
   source: defcon
   normalized_category: kernel-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4
+  watch_confidence: HIGH
 - title: 'OverLAPS: Overriding LAPS Logic'
   speaker: Antoine Goichot
   venue: DEF CON 33
@@ -1191,8 +1352,12 @@
   year: '2025'
   source: defcon
   normalized_category: ad-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20OverLAPS%20-%20Overriding%20LAPS%20Logic%20-%20Antoine%20Goichot.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20OverLAPS%20-%20Overriding%20LAPS%20Logic%20-%20Antoine%20Goichot.mp4
+  watch_confidence: HIGH
 - title: Advanced Active Directory to Entra ID lateral movement techniques
   speaker: Dirk-jan Mollema (dirkjanm / Outsider Security)
   venue: DEF CON 33
@@ -1203,8 +1368,12 @@
   year: '2025'
   source: defcon
   normalized_category: ad-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4
+  watch_confidence: HIGH
 - title: 'Can''t Stop the ROP: Automating Universal ASLR Bypasses for Windows'
   speaker: Dr. Bramwell Brizendine
   venue: DEF CON 33
@@ -1215,8 +1384,12 @@
   year: '2025'
   source: defcon
   normalized_category: kernel-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Can%27t%20Stop%20the%20ROP%20-%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows-Bramwell%20Brizendine.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Can%27t%20Stop%20the%20ROP%20-%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows-Bramwell%20Brizendine.mp4
+  watch_confidence: HIGH
 - title: 'What is Dead May Never Die: The Ghost of Internet Explorer in Windows MapUrlToZone'
   speaker: George Hughey; Rohit Mothe
   venue: DEF CON 33
@@ -1227,6 +1400,12 @@
   year: '2025'
   source: defcon
   normalized_category: defense-evasion
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20What%20is%20Dead%20May%20Never%20Die%20-%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20-%20George%20Hughey%2C%20Rohit%20Mothe.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20What%20is%20Dead%20May%20Never%20Die%20-%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20-%20George%20Hughey%2C%20Rohit%20Mothe.mp4
+  watch_confidence: HIGH
 - title: Turning Microsoft's Login Page into our Phishing Infrastructure
   speaker: Keanu Nys
   venue: DEF CON 33
@@ -1238,8 +1417,12 @@
   year: '2025'
   source: defcon
   normalized_category: cloud-identity
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure%20-%20Keanu%20%27RedByte%27%20Nys%20Spotit.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure%20-%20Keanu%20%27RedByte%27%20Nys%20Spotit.mp4
+  watch_confidence: HIGH
 - title: 'SCCM: The tree that always bears bad fruits'
   speaker: Mehdi Elyassa
   venue: DEF CON 33
@@ -1251,8 +1434,12 @@
   year: '2025'
   source: defcon
   normalized_category: ad-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20SCCM%20-%20The%20tree%20that%20always%20bears%20bad%20fruits%20-%20Mehdi%20%27kalimer0x00%27%20Elyassa.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20SCCM%20-%20The%20tree%20that%20always%20bears%20bad%20fruits%20-%20Mehdi%20%27kalimer0x00%27%20Elyassa.mp4
+  watch_confidence: HIGH
 - title: 'ChromeAlone: Transforming a Browser into a C2 Platform'
   speaker: Michael "bouncyhat" Weber
   venue: DEF CON 33
@@ -1264,8 +1451,12 @@
   year: '2025'
   source: defcon
   normalized_category: post-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Platform%20-%20Michael%20%27bouncyhat%27%20Weber.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Platform%20-%20Michael%20%27bouncyhat%27%20Weber.mp4
+  watch_confidence: HIGH
 - title: 'Win-DoS Epidemic: A crash course in abusing RPC for Win-DoS & Win-DDoS'
   speaker: Or Yair (SafeBreach); Shahak Morag (SafeBreach)
   venue: DEF CON 33
@@ -1277,8 +1468,12 @@
   year: '2025'
   source: defcon
   normalized_category: ipc-rpc
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Win-DoS%20Epidemic%20-%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS%20-%20Or%20%27oryair1999%27%20Yair%2C%20Shahak%20Morag.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Win-DoS%20Epidemic%20-%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS%20-%20Or%20%27oryair1999%27%20Yair%2C%20Shahak%20Morag.mp4
+  watch_confidence: HIGH
 - title: Virtualization Based (In)Security
   speaker: Ori David (Akamai)
   venue: DEF CON 33
@@ -1289,8 +1484,12 @@
   year: '2025'
   source: defcon
   normalized_category: vbs-bypass
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4
+  watch_confidence: HIGH
 - title: 'Turning your Active Directory into the attacker''s C2: modern Group Policy Objects enumeration and exploitation'
   speaker: Quentin Roland; Wilfried Bécard
   venue: DEF CON 33
@@ -1301,8 +1500,12 @@
   year: '2025'
   source: defcon
   normalized_category: ad-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20-%20Quentin%20Roland%2C%20Wilfried%20B%C3%A9card.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20-%20Quentin%20Roland%2C%20Wilfried%20B%C3%A9card.mp4
+  watch_confidence: HIGH
 - title: 'You snooze you lose: RPC-Racer — winning RPC endpoints against services'
   speaker: Ron Ben Yizhak (Deep Instinct)
   venue: DEF CON 33
@@ -1314,8 +1517,12 @@
   year: '2025'
   source: defcon
   normalized_category: kernel-exploit
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20You%20snooze%20you%20lose%20-%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services%20-%20Ron%20Ben%20Yizhak.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20You%20snooze%20you%20lose%20-%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services%20-%20Ron%20Ben%20Yizhak.mp4
+  watch_confidence: HIGH
 - title: 'Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery'
   speaker: Shang-De Jiang ("Kazma"); Dong-Yi Ye; Tung-Lin Lee ("Echo")
   venue: DEF CON 33
@@ -1327,6 +1534,10 @@
   year: '2025'
   source: defcon
   normalized_category: cloud-identity
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
   watch_confidence: MED
 - title: 'Mind the Data Voids: Hijacking Copilot Trust to Deliver C2 Instructions with Microsoft Authority'
@@ -1340,8 +1551,12 @@
   year: '2025'
   source: defcon
   normalized_category: cloud-identity
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Mind%20the%20Data%20Voids%20-%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20MSFT%20Authority%20-%20Tobias%20Diehl.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Mind%20the%20Data%20Voids%20-%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20MSFT%20Authority%20-%20Tobias%20Diehl.mp4
+  watch_confidence: HIGH
 - title: 'The (Un)Rightful Heir: My dMSA Is Your New Domain Admin'
   speaker: Yuval Gordon
   venue: DEF CON 33
@@ -1353,8 +1568,12 @@
   year: '2025'
   source: defcon
   normalized_category: ad-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20The%20%28Un%29Rightful%20Heir%20-%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin%20-%20Yuval%20Gordon.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20The%20%28Un%29Rightful%20Heir%20-%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin%20-%20Yuval%20Gordon.mp4
+  watch_confidence: HIGH
 - title: 'Ghosts in the Machine Check: Conjuring Hardware Failures for Cross-ring Privilege Escalation'
   speaker: Christopher Domas
   venue: DEF CON 33
@@ -1366,8 +1585,12 @@
   year: '2025'
   source: defcon
   normalized_category: hardware-attack
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation%20-%20Christopher%20Domas.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation%20-%20Christopher%20Domas.mp4
+  watch_confidence: HIGH
 - title: '7 Vulns in 7 Days: Breaking Bloatware Faster Than It''s Built'
   speaker: Leon "leonjza" Jacobs
   venue: DEF CON 33
@@ -1379,8 +1602,12 @@
   year: '2025'
   source: defcon
   normalized_category: supply-chain
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%207%20Vulns%20in%207%20Days%20-%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built%20-%20Leon%20%27leonjza%27%20Jacobs.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%207%20Vulns%20in%207%20Days%20-%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built%20-%20Leon%20%27leonjza%27%20Jacobs.mp4
+  watch_confidence: HIGH
 - title: 'Ghost Calls: Abusing Web Conferencing for Covert Command & Control'
   speaker: Adam Crosser
   venue: DEF CON 33
@@ -1391,8 +1618,12 @@
   year: '2025'
   source: defcon
   normalized_category: edr-bypass
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghost%20Calls%20-%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control%20-%20Adam%20%27UNC1739%27%20Crosser.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghost%20Calls%20-%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control%20-%20Adam%20%27UNC1739%27%20Crosser.mp4
+  watch_confidence: HIGH
 - title: Evading Modern Defenses When Phishing with Pixels
   speaker: Melvin Langvik
   venue: DEF CON 32
@@ -1403,8 +1634,12 @@
   year: '2024'
   source: defcon
   normalized_category: defense-evasion
-  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/
-  watch_confidence: MED
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4
+    source: DEF CON MP4
+    confidence: HIGH
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4
+  watch_confidence: HIGH
 - title: Countering Forensics Software by Baiting Them
   speaker: Weihan Goh; Joseph Lim; Isaac Soon
   venue: DEF CON 33
@@ -1416,6 +1651,10 @@
   year: '2025'
   source: defcon
   normalized_category: defense-evasion
+  watch_urls:
+  - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/
   watch_confidence: MED
 - title: 10 Years of Windows Privilege Escalation with "Potatoes"
@@ -1429,6 +1668,10 @@
   url: https://troopers.de/troopers24/talks/cyzbj3/
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=rPZx1zbKJnI
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=rPZx1zbKJnI
   watch_confidence: HIGH
 - title: 'A Decade of Active Directory Attacks: What We''ve Learned & What''s Next'
@@ -1441,6 +1684,10 @@
   url: https://troopers.de/troopers24/talks/vxs8wy/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=iTS14FhRlVA
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=iTS14FhRlVA
   watch_confidence: HIGH
 - title: 'ADillesHeel: Making the Impossible Possible in AD Attack Path Analysis'
@@ -1454,6 +1701,10 @@
   url: https://troopers.de/troopers24/talks/uepkle/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=bQcTgVo3fYA
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=bQcTgVo3fYA
   watch_confidence: HIGH
 - title: Analyzing and Executing ADCS Attack Paths with BloodHound
@@ -1466,6 +1717,10 @@
   url: https://troopers.de/troopers24/talks/kzymd8/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=2s6l0IkK52E
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=2s6l0IkK52E
   watch_confidence: HIGH
 - title: Attacking Primary Refresh Tokens using their macOS Implementation
@@ -1479,6 +1734,10 @@
   url: https://troopers.de/troopers24/talks/3vlccy/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=wFhe0-RRkFA
+    source: YouTube
+    confidence: VERIFIED
   watch_url: https://www.youtube.com/watch?v=wFhe0-RRkFA
   watch_confidence: VERIFIED
 - title: 'Deep Dive into Windows Defender: Smart App Control and ETW'
@@ -1492,6 +1751,10 @@
   url: https://troopers.de/troopers24/talks/msxp97/
   source: euro-asia-pwn2own
   normalized_category: ipc-rpc
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=EzKOWIeC-54
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=EzKOWIeC-54
   watch_confidence: HIGH
 - title: 'Exploiting Token-Based Authentication: Attacking and Defending Identities in the 2020s'
@@ -1504,6 +1767,10 @@
   url: https://troopers.de/troopers24/talks/z3dexp/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=-uHNcz3CF8s
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=-uHNcz3CF8s
   watch_confidence: HIGH
 - title: 'Misconfiguration Manager: Overlooked and Overprivileged'
@@ -1515,6 +1782,10 @@
   category: post-exploitation
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=GhT6nPes1h0
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=GhT6nPes1h0
   watch_confidence: HIGH
 - title: 'Resurrecting Stuxnet in 2024: Leveraging Emulated Read-Only Filesystems and NTFS Glitches for Infection and Persistence'
@@ -1536,6 +1807,10 @@
   category: IPC/RPC
   source: euro-asia-pwn2own
   normalized_category: ipc-rpc
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=e84BtnLSKPQ
+    source: YouTube
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=e84BtnLSKPQ
   watch_confidence: HIGH
 - title: Authenticating through Windows Hello for Business — a Reverse Engineering Story
@@ -1925,9 +2200,14 @@
     authenticate outbound, enabling NTLM relay and credential theft
   category: ipc-rpc / ad-attack
   url: https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf
-  watch_url: https://www.youtube.com/watch?v=jlU7tIGFmf8
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=jlU7tIGFmf8
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=jlU7tIGFmf8
+  watch_confidence: HIGH
 - title: PrintNightmare (CVE-2021-1675 / CVE-2021-34527)
   speaker: 'Original CVE-2021-1675 PoC: Zhiniang Peng (@edwardzpeng) + Xuefeng Li (@lxf02942370) — Sangfor Technologies; expanded
     CVE-2021-34527 analysis and public RCE: Benjamin Delpy, Cube0x0, multiple researchers'
@@ -1989,9 +2269,14 @@
   theme: Documents how possession of the KRBTGT account hash allows forging arbitrary Kerberos TGTs (Golden Tickets) that
     are accepted without contacting the DC, enabling indefinite stealthy domain persistence
   category: ad-attack / identity
-  watch_url: https://www.youtube.com/watch?v=qlfdkf-9e0I
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=qlfdkf-9e0I
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=qlfdkf-9e0I
+  watch_confidence: HIGH
 - title: 'Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation'
   speaker: Benjamin Delpy (@gentilkiwi) — independent researcher
   year: '2011'
@@ -2174,9 +2459,14 @@
     ALPC, COM, named pipes — and how this trust can be abused to redirect privileged operations through user-controlled objects
   category: kernel-exploit / ipc-rpc
   url: https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw
-  watch_url: https://www.youtube.com/watch?v=QRpfvmMbDMg
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=QRpfvmMbDMg
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=QRpfvmMbDMg
+  watch_confidence: HIGH
 - title: Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights
   speaker: 'Multiple: Team Fluoroacetate (Amat Cama / Richard Zhu, Hyper-V guest→host 2019); Bruno Keith + Niklas Baumstark
     (Edge/Chakra+Hyper-V 2018); DEVCORE (Orange Tsai, Exchange + Windows escalation chain 2021)'

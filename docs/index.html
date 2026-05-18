@@ -128,18 +128,28 @@
     font-weight: 600;
   }
   .search-wrap { position: relative; }
-  .search-wrap::before {
-    content: "🔍"; position: absolute; left: 11px; top: 50%;
-    transform: translateY(-50%); font-size: 13px; opacity: 0.7; pointer-events: none;
+  .search-wrap .search-icon {
+    position: absolute; left: 12px; top: 50%;
+    transform: translateY(-50%);
+    width: 14px; height: 14px;
+    color: var(--muted); pointer-events: none;
+    display: flex; align-items: center; justify-content: center;
   }
-  .search-wrap input { padding-left: 34px; }
+  .search-wrap .search-icon svg { width: 14px; height: 14px; display: block; }
+  .search-wrap input { padding-left: 36px; padding-right: 40px; }
   .search-wrap kbd {
-    position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
-    padding: 1px 6px; border: 1px solid var(--border); border-radius: 4px;
-    font-size: 10px; color: var(--muted); background: var(--panel-2);
+    position: absolute; right: 9px; top: 50%; transform: translateY(-50%);
+    padding: 2px 6px; border: 1px solid var(--border); border-radius: 4px;
+    font-size: 11px; line-height: 1; color: var(--muted); background: var(--panel-2);
     font-family: ui-monospace, "SF Mono", Menlo, monospace;
     pointer-events: none;
   }
+  /* Inline SVG icons inherit color from text. */
+  .icn { display: inline-flex; align-items: center; justify-content: center; }
+  .icn svg { width: 14px; height: 14px; display: block; }
+  .icn.sm svg { width: 12px; height: 12px; }
+  .icn.lg svg { width: 18px; height: 18px; }
+  .icn.xl svg { width: 24px; height: 24px; }
   input[type="search"], select {
     width: 100%; padding: 8px 11px;
     background: var(--panel); border: 1px solid var(--border);
@@ -170,6 +180,7 @@
     color: var(--muted); cursor: pointer; font-size: 12px;
     font-family: inherit; font-weight: 500;
     border-right: 1px solid var(--border);
+    display: inline-flex; align-items: center; gap: 6px;
   }
   .view-toggle button:last-child { border-right: none; }
   .view-toggle button.active {
@@ -428,6 +439,7 @@
     <div class="ctrl">
       <label for="q">Search</label>
       <div class="search-wrap">
+        <span class="search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
         <input id="q" type="search" placeholder="title, speaker, theme…" autocomplete="off" autofocus>
         <kbd>/</kbd>
       </div>
@@ -458,8 +470,14 @@
   <div class="meta-bar">
     <div class="count">Showing <strong id="visible-count">0</strong> of <strong id="total-count">0</strong> talks.</div>
     <div class="view-toggle">
-      <button data-view="grid" class="active">▦ Cards</button>
-      <button data-view="list">☰ List</button>
+      <button data-view="grid" class="active" aria-label="Card view">
+        <span class="icn sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+        Cards
+      </button>
+      <button data-view="list" aria-label="List view">
+        <span class="icn sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></span>
+        List
+      </button>
     </div>
   </div>
 
@@ -503,6 +521,23 @@ const el = (tag, attrs, ...children) => {
   return e;
 };
 
+// SVG icon set (Lucide-style line icons, plus YouTube glyph).
+const ICONS = {
+  search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+  play:  '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg>',
+  file:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>',
+  code:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>',
+  grid:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>',
+  list:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>',
+  close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
+  external: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>',
+  youtube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>',
+  film: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>',
+};
+
+function icon(name) {
+  return el("span", { class: "icn", html: ICONS[name] || "" });
+}
 function youtubeId(url) {
   if (!url) return null;
   const m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([\w-]{6,})/);
@@ -515,6 +550,29 @@ function youtubeEmbed(url) {
 function youtubeThumb(url) {
   const id = youtubeId(url);
   return id ? `https://img.youtube.com/vi/${id}/hqdefault.jpg` : null;
+}
+function bestThumbUrl(r) {
+  // Walk watch_urls and return first YouTube thumbnail.
+  const list = r.watch_urls || (r.watch_url ? [{url: r.watch_url}] : []);
+  for (const w of list) {
+    const t = youtubeThumb(w.url);
+    if (t) return t;
+  }
+  return null;
+}
+function bestEmbedYT(r) {
+  const list = r.watch_urls || (r.watch_url ? [{url: r.watch_url}] : []);
+  for (const w of list) {
+    if (youtubeId(w.url)) return w;
+  }
+  return null;
+}
+function bestMP4(r) {
+  const list = r.watch_urls || (r.watch_url ? [{url: r.watch_url}] : []);
+  for (const w of list) {
+    if (/\.(mp4|webm)$/i.test(w.url)) return w;
+  }
+  return null;
 }
 function prettyDomain(u) {
   try { return new URL(u).host.replace(/^www\./, ""); }
@@ -538,7 +596,6 @@ function deriveVenueKey(v) {
   return "";
 }
 function categoryColor(cat) {
-  // Pull from CSS custom property if defined, else fall back.
   const v = getComputedStyle(document.documentElement).getPropertyValue(`--c-${cat}`).trim();
   return v || "#8b949e";
 }
@@ -555,9 +612,11 @@ function applyFilters() {
     if (cat && r.normalized_category !== cat) return false;
     if (year && (r.year || "") !== year) return false;
     if (venue && (r._venue_key || "") !== venue) return false;
-    if (hasWatch === "1" && !r.watch_url) return false;
-    if (hasWatch === "0" && r.watch_url) return false;
-    if (hasWatch === "yt" && !youtubeId(r.watch_url)) return false;
+    const hasAnyWatch = !!(r.watch_urls && r.watch_urls.length);
+    const hasYT = !!bestEmbedYT(r);
+    if (hasWatch === "1" && !hasAnyWatch) return false;
+    if (hasWatch === "0" && hasAnyWatch) return false;
+    if (hasWatch === "yt" && !hasYT) return false;
     if (q && !r._search.includes(q)) return false;
     return true;
   });
@@ -565,7 +624,7 @@ function applyFilters() {
     // Default sort: year desc, then has-video desc, then category, then title.
     const ya = parseInt(a.year) || 0, yb = parseInt(b.year) || 0;
     if (yb !== ya) return yb - ya;
-    const va = a.watch_url ? 1 : 0, vb = b.watch_url ? 1 : 0;
+    const va = (a.watch_urls || []).length ? 1 : 0, vb = (b.watch_urls || []).length ? 1 : 0;
     if (vb !== va) return vb - va;
     return (a.title || "").localeCompare(b.title || "");
   });
@@ -596,53 +655,58 @@ function renderGrid() {
 
 function renderCard(r) {
   const color = categoryColor(r.normalized_category);
-  const thumb = youtubeThumb(r.watch_url);
-  const ytId = youtubeId(r.watch_url);
+  const thumb = bestThumbUrl(r);
+  const ytEntry = bestEmbedYT(r);
+  const mp4Entry = bestMP4(r);
+  const watchUrls = r.watch_urls || (r.watch_url ? [{url: r.watch_url, source: sourceOf(r.watch_url)}] : []);
 
   const hero = el("div", { class: "hero", style: { "--cat-color": color } });
   if (thumb) {
-    const img = el("img", { src: thumb, alt: "", loading: "lazy",
-      onerror: function () { this.remove(); }
-    });
-    hero.appendChild(img);
+    hero.appendChild(el("img", { src: thumb, alt: "", loading: "lazy",
+      onerror: function () { this.remove(); } }));
   } else {
-    // First letters of category as a subtle text watermark
     const initials = (r.normalized_category || "?").split("-").map(s => s[0]).join("").toUpperCase();
     hero.appendChild(el("div", { class: "placeholder" }, initials));
   }
   const overlay = el("div", { class: "play-overlay" });
-  if (ytId) overlay.appendChild(el("div", { class: "play-icon" }, "▶"));
+  if (ytEntry || mp4Entry) overlay.appendChild(el("div", { class: "play-icon", html: ICONS.play }));
   hero.appendChild(overlay);
+
+  // Hero meta: year, venue, plus number of mirrors when multiple.
+  const heroRight = (watchUrls.length > 1)
+    ? el("span", null, watchUrls.length + " sources")
+    : el("span", null, r._venue_key || r.venue || "");
   hero.appendChild(el("div", { class: "hero-meta" },
     el("span", null, r.year || ""),
-    el("span", null, r._venue_key || r.venue || "")
+    heroRight,
   ));
 
+  // Pick the most-embed-friendly watch source for the primary card button.
+  const primaryWatch = ytEntry || mp4Entry || watchUrls[0];
   const slides = r.url
     ? el("a", { class: "primary", href: r.url, target: "_blank", rel: "noopener",
-                onclick: (e) => e.stopPropagation() }, "📄 Slides")
-    : el("a", { class: "disabled" }, "📄 No slides");
-  const watch = r.watch_url
-    ? el("a", { class: ytId ? "primary" : "", href: r.watch_url, target: "_blank", rel: "noopener",
-                onclick: (e) => e.stopPropagation() }, "▶ " + (ytId ? "Watch" : "Recording"))
-    : el("a", { class: "disabled" }, "▶ No recording");
+                onclick: (e) => e.stopPropagation() }, icon("file"), " Slides")
+    : el("a", { class: "disabled" }, icon("file"), " No slides");
+  const watch = primaryWatch
+    ? el("a", { class: ytEntry ? "primary" : "", href: primaryWatch.url, target: "_blank", rel: "noopener",
+                onclick: (e) => e.stopPropagation() },
+        ytEntry ? icon("youtube") : (mp4Entry ? icon("film") : icon("play")),
+        " " + (ytEntry ? "Watch" : mp4Entry ? "Stream" : "Recording"))
+    : el("a", { class: "disabled" }, icon("play"), " No recording");
 
-  const card = el("div", { class: "card", style: { "--cat-color": color },
+  return el("div", { class: "card", style: { "--cat-color": color },
                   onclick: () => openModal(r),
                   role: "button", tabindex: "0",
                   onkeydown: (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(r); } } },
     hero,
     el("div", { class: "body" },
-      el("div", { class: "row-meta" },
-        el("span", { class: "chip" }, r.normalized_category || "—"),
-      ),
+      el("div", { class: "row-meta" }, el("span", { class: "chip" }, r.normalized_category || "—")),
       el("div", { class: "title" }, r.title || ""),
       r.speaker ? el("div", { class: "speaker" }, r.speaker) : null,
       r.venue ? el("div", { class: "venue" }, r.venue) : null,
       el("div", { class: "actions" }, slides, watch),
     )
   );
-  return card;
 }
 
 function renderList() {
@@ -652,12 +716,19 @@ function renderList() {
   for (const r of FILTERED) {
     const slidesLink = r.url
       ? el("a", { class: "ilink", href: r.url, target: "_blank", rel: "noopener",
-                  title: "Slides", onclick: (e) => e.stopPropagation() }, "PDF")
-      : el("span", { class: "ilink disabled" }, "PDF");
-    const watchLink = r.watch_url
-      ? el("a", { class: "ilink", href: r.watch_url, target: "_blank", rel: "noopener",
-                  title: "Recording", onclick: (e) => e.stopPropagation() }, "▶")
-      : el("span", { class: "ilink disabled" }, "▶");
+                  title: "Slides", onclick: (e) => e.stopPropagation() },
+          el("span", { class: "icn sm", html: ICONS.file }))
+      : el("span", { class: "ilink disabled" }, el("span", { class: "icn sm", html: ICONS.file }));
+    const primaryWatch = bestEmbedYT(r) || bestMP4(r) || (r.watch_urls && r.watch_urls[0]);
+    const watchIcon = bestEmbedYT(r) ? "youtube" : (bestMP4(r) ? "film" : "play");
+    const watchUrls = r.watch_urls || [];
+    const watchLink = primaryWatch
+      ? el("a", { class: "ilink", href: primaryWatch.url, target: "_blank", rel: "noopener",
+                  title: watchUrls.length > 1 ? `${watchUrls.length} sources — click row for all` : "Recording",
+                  onclick: (e) => e.stopPropagation() },
+          el("span", { class: "icn sm", html: ICONS[watchIcon] }),
+          watchUrls.length > 1 ? el("span", { style: { marginLeft: "3px", fontSize: "10px" } }, "×" + watchUrls.length) : null)
+      : el("span", { class: "ilink disabled" }, el("span", { class: "icn sm", html: ICONS.play }));
 
     const row = el("div", { class: "list-row",
                             onclick: () => openModal(r),
@@ -684,36 +755,42 @@ function openModal(r) {
   closeModal();
   MODAL_OPEN = r;
   const color = categoryColor(r.normalized_category);
-  const embed = youtubeEmbed(r.watch_url);
+  const watchUrls = r.watch_urls || (r.watch_url ? [{url: r.watch_url, source: sourceOf(r.watch_url), confidence: r.watch_confidence}] : []);
 
-  const video = embed
-    ? el("div", { class: "video-wrap" }, el("iframe", { src: embed,
-        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-        allowfullscreen: "", loading: "eager" }))
-    : el("div", { class: "no-video", style: { "--cat-color": color } },
-        r.watch_url
-          ? `No embeddable player. ${r.watch_url.includes("media.defcon.org")
-              ? "DEF CON publishes per-talk MP4s in the linked directory — open the recording link below."
-              : "Open the recording link below."}`
-          : "No recording link known for this talk.");
+  // Pick the best embeddable source for the preview area.
+  const ytEntry = watchUrls.find(w => youtubeId(w.url));
+  const mp4Entry = watchUrls.find(w => /\.(mp4|webm)$/i.test(w.url));
+  const preview = previewBlock(r, ytEntry, mp4Entry, color);
 
+  // Build action buttons: slides, code, and EVERY watch_url so users can
+  // pick their preferred mirror if one goes down.
   const actions = [];
-  if (r.url) actions.push(el("a", { href: r.url, target: "_blank", rel: "noopener" },
-    "📄 Slides / paper", el("span", { class: "domain" }, prettyDomain(r.url))));
-  if (r.watch_url) actions.push(el("a", { href: r.watch_url, target: "_blank", rel: "noopener" },
-    "▶ Watch recording", el("span", { class: "domain" }, prettyDomain(r.watch_url))));
-  if (r.code) actions.push(el("a", { href: r.code, target: "_blank", rel: "noopener" },
-    "{} Code", el("span", { class: "domain" }, prettyDomain(r.code))));
+  if (r.url) actions.push(linkButton({
+    href: r.url, label: "Slides / paper", icon: "file", domain: prettyDomain(r.url),
+  }));
+  for (const w of watchUrls) {
+    const isYT = youtubeId(w.url);
+    const isMP4 = /\.(mp4|webm)$/i.test(w.url);
+    const label = isYT ? `Watch on ${w.source}` : isMP4 ? `Stream MP4 · ${w.source}` : `Watch on ${w.source}`;
+    actions.push(linkButton({
+      href: w.url, label, icon: isYT ? "youtube" : "play",
+      domain: prettyDomain(w.url),
+    }));
+  }
+  if (r.code) actions.push(linkButton({
+    href: r.code, label: "Code", icon: "code", domain: prettyDomain(r.code),
+  }));
 
   const meta = [];
   if (r.source) meta.push(el("span", null, el("strong", null, "Source: "), r.source));
-  if (r.watch_confidence) meta.push(el("span", null, el("strong", null, "Watch confidence: "), r.watch_confidence));
+  if (watchUrls.length > 1) meta.push(el("span", null, el("strong", null, "Mirrors: "), String(watchUrls.length)));
   if (r.category && r.category !== r.normalized_category)
     meta.push(el("span", null, el("strong", null, "Raw category: "), r.category));
 
   const modal = el("div", { class: "modal", style: { "--cat-color": color }, onclick: (e) => e.stopPropagation() },
-    el("button", { class: "modal-close", "aria-label": "Close", onclick: closeModal }, "×"),
-    video,
+    el("button", { class: "modal-close", "aria-label": "Close", onclick: closeModal },
+      el("span", { class: "icn", html: ICONS.close })),
+    preview,
     el("div", { class: "modal-body" },
       el("span", { class: "chip" }, r.normalized_category || "—"),
       el("h2", null, r.title || ""),
@@ -728,6 +805,50 @@ function openModal(r) {
   const backdrop = el("div", { class: "modal-backdrop", id: "modal-backdrop", onclick: closeModal }, modal);
   document.body.appendChild(backdrop);
   document.body.style.overflow = "hidden";
+}
+
+function previewBlock(r, ytEntry, mp4Entry, color) {
+  if (ytEntry) {
+    const embedUrl = "https://www.youtube.com/embed/" + youtubeId(ytEntry.url);
+    return el("div", { class: "video-wrap" }, el("iframe", {
+      src: embedUrl,
+      allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      allowfullscreen: "", loading: "eager",
+    }));
+  }
+  if (mp4Entry) {
+    return el("div", { class: "video-wrap" }, el("video", {
+      src: mp4Entry.url, controls: "", preload: "metadata",
+      style: { width: "100%", height: "100%", background: "black" },
+    }));
+  }
+  const watchUrls = r.watch_urls || [];
+  const hint = watchUrls.length
+    ? `${watchUrls.length} recording link${watchUrls.length > 1 ? "s" : ""} available below — none can be embedded directly.`
+    : "No recording link known for this talk.";
+  return el("div", { class: "no-video", style: { "--cat-color": color } }, hint);
+}
+
+function linkButton({ href, label, icon, domain }) {
+  return el("a", { href, target: "_blank", rel: "noopener" },
+    icon ? el("span", { class: "icn", html: ICONS[icon] || "" }) : null,
+    " " + label,
+    domain ? el("span", { class: "domain" }, domain) : null,
+  );
+}
+
+function sourceOf(url) {
+  if (!url) return "external";
+  if (youtubeId(url)) return "YouTube";
+  if (/\.(mp4|webm)$/i.test(url)) {
+    if (url.includes("media.defcon.org")) return "DEF CON MP4";
+    return "MP4";
+  }
+  if (url.includes("media.defcon.org")) return "DEF CON archive";
+  if (url.includes("media.ccc.de")) return "media.ccc.de";
+  if (url.includes("recon.cx")) return "recon.cx";
+  if (url.includes("vimeo.com")) return "Vimeo";
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return "external"; }
 }
 function closeModal() {
   const b = $("modal-backdrop");
@@ -770,12 +891,16 @@ async function load() {
   });
 
   $("total-count").textContent = TALKS.length;
-  const ytCount = TALKS.filter(t => youtubeId(t.watch_url)).length;
-  const recCount = TALKS.filter(t => t.watch_url).length;
+  const ytCount = TALKS.filter(t => bestEmbedYT(t)).length;
+  const mp4Count = TALKS.filter(t => bestMP4(t)).length;
+  const recCount = TALKS.filter(t => (t.watch_urls || []).length).length;
+  const totalLinks = TALKS.reduce((a, t) => a + (t.watch_urls || []).length, 0);
+  const multiCount = TALKS.filter(t => (t.watch_urls || []).length > 1).length;
   $("stats-pill").innerHTML =
     `<span><strong>${TALKS.length}</strong> talks</span>` +
-    `<span><strong>${ytCount}</strong> with embedded video</span>` +
-    `<span><strong>${recCount - ytCount}</strong> with recording link</span>` +
+    `<span><strong>${recCount}</strong> with recordings</span>` +
+    `<span><strong>${ytCount}</strong> embeddable</span>` +
+    `<span title="Talks with multiple recording sources">${multiCount} with backup mirrors</span>` +
     `<span><strong>${cats.size}</strong> themes</span>`;
 
   populateFilter("cat", Array.from(cats));
