@@ -1421,8 +1421,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Kill%20Chain%20Reloaded%20-%20Abusing%20legacy%20paths%20for%20stealth%20persistence%20-%20Alejandro%20Hernando%2C%20Borja%20Martinez.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Kill%20Chain%20Reloaded%20-%20Abusing%20legacy%20paths%20for%20stealth%20persistence%20-%20Alejandro%20Hernando%2C%20Borja%20Martinez.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=6D29iw3B2nM
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=6D29iw3B2nM
+  watch_confidence: VERIFIED
 - title: 'Infecting the Boot to Own the Kernel: Bootkits and Rootkits Development'
   speaker: Alejandro Vazquez Vazquez; Maria San Jose
   venue: DEF CON 33
@@ -1437,8 +1440,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=iS0XJVyxA3M
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=iS0XJVyxA3M
+  watch_confidence: VERIFIED
 - title: 'OverLAPS: Overriding LAPS Logic'
   speaker: Antoine Goichot
   venue: DEF CON 33
@@ -1454,8 +1460,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20OverLAPS%20-%20Overriding%20LAPS%20Logic%20-%20Antoine%20Goichot.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20OverLAPS%20-%20Overriding%20LAPS%20Logic%20-%20Antoine%20Goichot.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=stGRkxldg-U
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=stGRkxldg-U
+  watch_confidence: VERIFIED
 - title: Advanced Active Directory to Entra ID lateral movement techniques
   speaker: Dirk-jan Mollema (dirkjanm / Outsider Security)
   venue: DEF CON 33
@@ -1486,8 +1495,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Can%27t%20Stop%20the%20ROP%20-%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows-Bramwell%20Brizendine.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Can%27t%20Stop%20the%20ROP%20-%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows-Bramwell%20Brizendine.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=NrTNNi9PP5Y
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=NrTNNi9PP5Y
+  watch_confidence: VERIFIED
 - title: 'What is Dead May Never Die: The Ghost of Internet Explorer in Windows MapUrlToZone'
   speaker: George Hughey; Rohit Mothe
   venue: DEF CON 33
@@ -1502,8 +1514,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20What%20is%20Dead%20May%20Never%20Die%20-%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20-%20George%20Hughey%2C%20Rohit%20Mothe.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20What%20is%20Dead%20May%20Never%20Die%20-%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20-%20George%20Hughey%2C%20Rohit%20Mothe.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=8cb_OF_6Ek8
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=8cb_OF_6Ek8
+  watch_confidence: VERIFIED
 - title: Turning Microsoft's Login Page into our Phishing Infrastructure
   speaker: Keanu Nys
   venue: DEF CON 33
@@ -1519,8 +1534,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure%20-%20Keanu%20%27RedByte%27%20Nys%20Spotit.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure%20-%20Keanu%20%27RedByte%27%20Nys%20Spotit.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=B4pVpByWOcI
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=B4pVpByWOcI
+  watch_confidence: VERIFIED
 - title: 'SCCM: The tree that always bears bad fruits'
   speaker: Mehdi Elyassa
   venue: DEF CON 33
@@ -1536,8 +1554,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20SCCM%20-%20The%20tree%20that%20always%20bears%20bad%20fruits%20-%20Mehdi%20%27kalimer0x00%27%20Elyassa.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20SCCM%20-%20The%20tree%20that%20always%20bears%20bad%20fruits%20-%20Mehdi%20%27kalimer0x00%27%20Elyassa.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=epyI3b8Vl0M
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=epyI3b8Vl0M
+  watch_confidence: VERIFIED
 - title: 'ChromeAlone: Transforming a Browser into a C2 Platform'
   speaker: Michael "bouncyhat" Weber
   venue: DEF CON 33
@@ -1570,8 +1591,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Win-DoS%20Epidemic%20-%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS%20-%20Or%20%27oryair1999%27%20Yair%2C%20Shahak%20Morag.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Win-DoS%20Epidemic%20-%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS%20-%20Or%20%27oryair1999%27%20Yair%2C%20Shahak%20Morag.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=JLMsfH2MVCE
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=JLMsfH2MVCE
+  watch_confidence: VERIFIED
 - title: Virtualization Based (In)Security
   speaker: Ori David (Akamai)
   venue: DEF CON 33
@@ -1586,8 +1610,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=DqC4LZTTCa0
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=DqC4LZTTCa0
+  watch_confidence: VERIFIED
 - title: 'Turning your Active Directory into the attacker''s C2: modern Group Policy Objects enumeration and exploitation'
   speaker: Quentin Roland; Wilfried Bécard
   venue: DEF CON 33
@@ -1602,8 +1629,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20-%20Quentin%20Roland%2C%20Wilfried%20B%C3%A9card.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20-%20Quentin%20Roland%2C%20Wilfried%20B%C3%A9card.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=_l9_lNUCjP4
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=_l9_lNUCjP4
+  watch_confidence: VERIFIED
 - title: 'You snooze you lose: RPC-Racer — winning RPC endpoints against services'
   speaker: Ron Ben Yizhak (Deep Instinct)
   venue: DEF CON 33
@@ -1619,8 +1649,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20You%20snooze%20you%20lose%20-%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services%20-%20Ron%20Ben%20Yizhak.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20You%20snooze%20you%20lose%20-%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services%20-%20Ron%20Ben%20Yizhak.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=vBz8TBVxwk4
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=vBz8TBVxwk4
+  watch_confidence: VERIFIED
 - title: 'Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery'
   speaker: Shang-De Jiang ("Kazma"); Dong-Yi Ye; Tung-Lin Lee ("Echo")
   venue: DEF CON 33
@@ -1636,8 +1669,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
     source: DEF CON archive
     confidence: MED
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/
-  watch_confidence: MED
+  - url: https://www.youtube.com/watch?v=T13YfM8z0lE
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=T13YfM8z0lE
+  watch_confidence: VERIFIED
 - title: 'Mind the Data Voids: Hijacking Copilot Trust to Deliver C2 Instructions with Microsoft Authority'
   speaker: Tobias Diehl
   venue: DEF CON 33
@@ -1653,8 +1689,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Mind%20the%20Data%20Voids%20-%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20MSFT%20Authority%20-%20Tobias%20Diehl.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Mind%20the%20Data%20Voids%20-%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20MSFT%20Authority%20-%20Tobias%20Diehl.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=NgjyBKfqJEs
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=NgjyBKfqJEs
+  watch_confidence: VERIFIED
 - title: 'The (Un)Rightful Heir: My dMSA Is Your New Domain Admin'
   speaker: Yuval Gordon
   venue: DEF CON 33
@@ -1670,8 +1709,11 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20The%20%28Un%29Rightful%20Heir%20-%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin%20-%20Yuval%20Gordon.mp4
     source: DEF CON MP4
     confidence: HIGH
-  watch_url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20The%20%28Un%29Rightful%20Heir%20-%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin%20-%20Yuval%20Gordon.mp4
-  watch_confidence: HIGH
+  - url: https://www.youtube.com/watch?v=ftNaF20RWt4
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=ftNaF20RWt4
+  watch_confidence: VERIFIED
 - title: 'Ghosts in the Machine Check: Conjuring Hardware Failures for Cross-ring Privilege Escalation'
   speaker: Christopher Domas
   venue: DEF CON 33
