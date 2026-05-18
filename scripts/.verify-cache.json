@@ -1,0 +1,1424 @@
+{
+ "https://www.youtube.com/watch?v=EQh6apPSRP0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.1241226
+ },
+ "https://projectzero.google/2025/01/windows-bug-class-accessing-trapped-com.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.4892802
+ },
+ "https://www.youtube.com/watch?v=wFhe0-RRkFA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.5732536
+ },
+ "https://itm4n.github.io/ghost-in-the-ppl-part-3/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.720418
+ },
+ "https://projectzero.google/2025/05/the-windows-registry-adventure-8-exploitation.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.7344878
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Christopher%20Domas%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.7920454
+ },
+ "https://troopers.de/troopers25/talks/tbuwdr/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.8109443
+ },
+ "https://troopers.de/troopers25/talks/ma3bfe/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.844486
+ },
+ "https://connormcgarr.github.io/securitytrace-etw-ppl/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.8474305
+ },
+ "https://connormcgarr.github.io/secure-images/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.8525443
+ },
+ "https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.862014
+ },
+ "https://www.youtube.com/watch?v=rPZx1zbKJnI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.8663933
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Bramwell%20Brizendine%20Shiva%20Shashank%20Kusuma%20-%20Techniques%20for%20Creating%20Process%20Injection%20Attacks%20with%20Advanced%20Return-Oriented%20Programming.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.8810873
+ },
+ "https://troopers.de/troopers24/talks/uvefjb/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.884415
+ },
+ "https://www.youtube.com/watch?v=0L6TlFYwy2U": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9164093
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Defeating%20magic%20by%20magic%20-%20Using%20ALPC%20security%20features%20to%20compromise%20RPC%20services%20-%20WangJunJie%20Zhang%2C%20YiSheng%20He.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.935057
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9363496
+ },
+ "https://www.thezdi.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9400706
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Vilage%20-%20Melvin%20Langvik%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9702601
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20The%20%28Un%29Rightful%20Heir%20-%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin%20-%20Yuval%20Gordon.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9929278
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9952078
+ },
+ "https://connormcgarr.github.io/arm64-windows-internals-basics/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072222.9987924
+ },
+ "https://www.offensivecon.org/speakers/2026/erik-egsgard.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.0684826
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%207%20Vulns%20in%207%20Days%20-%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built%20-%20Leon%20%27leonjza%27%20Jacobs.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.0713887
+ },
+ "https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.082434
+ },
+ "https://www.youtube.com/watch?v=-iNezAL_EF0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.092211
+ },
+ "https://itm4n.github.io/printnightmare-not-over/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.1169517
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Quentin%20Roland%20Wilfried%20B%C3%A9card%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20modern%20Group%20Policy%20Objects%20enumeration%20and%20exploitation.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.1259205
+ },
+ "https://www.youtube.com/watch?v=2s6l0IkK52E": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.126591
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Win-DoS%20Epidemic%20-%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS%20-%20Or%20%27oryair1999%27%20Yair%2C%20Shahak%20Morag.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.1397307
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection%20-%20Ron%20Ben%20-%20Yizhak%2C%20David%20Shandalov.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.15542
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20You%20snooze%20you%20lose%20-%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services%20-%20Ron%20Ben%20Yizhak.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.1587534
+ },
+ "https://projectzero.google/2025/01/windows-exploitation-tricks-trapping.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.1804001
+ },
+ "https://adsecurity.org": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.3171878
+ },
+ "https://www.youtube.com/watch?v=FRW7g_SHC8Q": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.3623986
+ },
+ "https://troopers.de/troopers24/talks/kzymd8/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.3774264
+ },
+ "https://troopers.de/troopers24/talks/uepkle/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.4059463
+ },
+ "https://www.youtube.com/watch?v=EzKOWIeC-54": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.4871867
+ },
+ "https://github.com/EmpireProject/Empire": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.6065836
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ron%20Ben%20Yizhak%20-%20You%20snooze%20you%20lose%20RPC-Racer%20winning%20RPC%20endpoints%20against%20services.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.6501977
+ },
+ "https://www.youtube.com/watch?v=-3jxVIFGuQw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.6512158
+ },
+ "https://github.com/topotam/PetitPotam": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.682988
+ },
+ "https://troopers.de/troopers25/talks/h9scgh/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.756899
+ },
+ "https://itm4n.github.io/ghost-in-the-ppl-part-2/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.7879586
+ },
+ "https://cfp.recon.cx/recon-2026/talk/V3THYR/": {
+  "ok": false,
+  "status": 0,
+  "note": "HEAD=0 GET=0",
+  "checked_at": 1779072223.796346
+ },
+ "https://www.youtube.com/watch?v=e84BtnLSKPQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.7971084
+ },
+ "https://troopers.de/troopers24/talks/cyzbj3/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.7996025
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dr.%20Bramwell%20Brizendine%20-%20Can%27t%20Stop%20the%20ROP%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.8308024
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ron%20Ben-Yizhak%20David%20Shandalov%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.8333426
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Michael%20Torres%20-%20Sudos%20and%20Sudon%27ts%20-%20Peering%20inside%20Sudo%20for%20Windows.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.8453972
+ },
+ "https://projectzero.google/2024/06/the-windows-registry-adventure-3.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.85626
+ },
+ "https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.8752763
+ },
+ "https://www.youtube.com/watch?v=w6SAqT4ZQik": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.8902738
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20SCCM%20-%20The%20tree%20that%20always%20bears%20bad%20fruits%20-%20Mehdi%20%27kalimer0x00%27%20Elyassa.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.911721
+ },
+ "https://googleprojectzero.blogspot.com": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.9194217
+ },
+ "https://www.youtube.com/watch?v=-uHNcz3CF8s": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.9202714
+ },
+ "https://projectzero.google/2025/05/the-windows-registry-adventure-7-attack-surface.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.9406836
+ },
+ "https://itm4n.github.io/reinventing-powershell/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.9437604
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20HookChain%20-%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions%20-%20Helvio%20Carvalho%20Junior.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072223.9903753
+ },
+ "https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.0069082
+ },
+ "https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.084401
+ },
+ "https://troopers.de/troopers25/talks/rwhyvb/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.0900183
+ },
+ "https://modexp.wordpress.com/2024/09/16/windows_arm64/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.1023448
+ },
+ "https://www.youtube.com/watch?v=QRpfvmMbDMg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.3304412
+ },
+ "https://projectzero.google/2024/04/the-windows-registry-adventure-2.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.4093697
+ },
+ "https://www.youtube.com/watch?v=KOUaJIX9JEY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.4564564
+ },
+ "https://cfp.recon.cx/recon-2026/talk/GG7SEM/": {
+  "ok": false,
+  "status": 0,
+  "note": "HEAD=0 GET=0",
+  "checked_at": 1779072224.4835727
+ },
+ "https://itm4n.github.io/bitlocker-little-secrets-the-undocumented-fve-api/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.5230975
+ },
+ "https://github.com/foxglovesec/RottenPotato": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.5262706
+ },
+ "https://github.com/gentilkiwi/mimikatz": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.574095
+ },
+ "https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.6137323
+ },
+ "https://www.offensivecon.org/speakers/2024/erik-egsgard.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.6205263
+ },
+ "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.653561
+ },
+ "https://www.tarlogic.com/blog/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.6961381
+ },
+ "https://projectzero.google/2025/12/windows-exploitation-techniques.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.7001064
+ },
+ "https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.7703807
+ },
+ "https://troopers.de/troopers25/talks/3fsjh7/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.8142452
+ },
+ "https://troopers.de/troopers24/talks/vxs8wy/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.816426
+ },
+ "https://github.com/GhostPack/Rubeus": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.876729
+ },
+ "https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072224.9014926
+ },
+ "https://www.youtube.com/watch?v=Uij5AGtIKCI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.0339215
+ },
+ "https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.0639024
+ },
+ "https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072225.0799167
+ },
+ "https://troopers.de/troopers24/talks/z3dexp/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.1415296
+ },
+ "https://connormcgarr.github.io/secure-calls-and-skbridge/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.1614287
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Hernando%20Borja%20Martinez%20-%20Kill%20Chain%20Reloaded%20Abusing%20legacy%20paths%20for%20stealth%20persistence.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.2263944
+ },
+ "https://projectzero.google/2026/02/gphfh-deep-dive.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.2764895
+ },
+ "https://github.com/ohpe/juicy-potato": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.2838738
+ },
+ "https://github.com/antonioCoco/RoguePotato": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.2838836
+ },
+ "https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.2842448
+ },
+ "https://foxglovesecurity.com/2016/01/16/hot-potato/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.3009121
+ },
+ "https://github.com/GhostPack/SharpDPAPI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.328453
+ },
+ "https://www.youtube.com/watch?v=jlU7tIGFmf8": {
+  "ok": false,
+  "status": 404,
+  "note": "video private / removed / region-locked",
+  "checked_at": 1779072225.3913891
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghost%20Calls%20-%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control%20-%20Adam%20%27UNC1739%27%20Crosser.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.425454
+ },
+ "https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072225.4853523
+ },
+ "https://www.youtube.com/watch?v=CEZYfTanQFk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.4984767
+ },
+ "https://projectzero.google/2024/04/the-windows-registry-adventure-1.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.5344236
+ },
+ "https://outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072225.6536407
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20What%20is%20Dead%20May%20Never%20Die%20-%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20-%20George%20Hughey%2C%20Rohit%20Mothe.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.778208
+ },
+ "https://www.youtube.com/watch?v=U7p0J8aMZhM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.7917383
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Kill%20Chain%20Reloaded%20-%20Abusing%20legacy%20paths%20for%20stealth%20persistence%20-%20Alejandro%20Hernando%2C%20Borja%20Martinez.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8101113
+ },
+ "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8184557
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Helvio%20Carvalho%20Junior%20-%20HookChain%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8229258
+ },
+ "https://www.youtube.com/watch?v=qi2DneFkRf4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8276496
+ },
+ "https://troopers.de/troopers25/talks/dukg9p/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8344872
+ },
+ "https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8394046
+ },
+ "https://www.youtube.com/watch?v=fFcyn6E98H8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.845572
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.88853
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.8965185
+ },
+ "https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.9383688
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Platform%20-%20Michael%20%27bouncyhat%27%20Weber.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.9789622
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Outlook%20Unleashing%20RCE%20Chaos%20-%20CVE%20-%202024%20-%2030103%20-%20Michael%20Gorelik%2C%20Arnold%20Osipov.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072225.9879534
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alessandro%20Magnosi%20-%20DriverJack%20-%20Turning%20NTFS%20and%20Emulated%20Read-only%20Filesystems%20in%20an%20Infection%20and%20Persistence%20Vector.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.0055966
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Antoine%20Goichot%20-%20OverLAPS%20Overriding%20LAPS%20Logic.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.037056
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20your%20Active%20Directory%20into%20the%20attacker%E2%80%99s%20C2%20-%20Quentin%20Roland%2C%20Wilfried%20B%C3%A9card.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.0543296
+ },
+ "https://projectzero.google/2024/10/the-windows-registry-adventure-4-hives.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.0563474
+ },
+ "https://www.youtube.com/watch?v=YFThifuJbMM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.1026554
+ },
+ "https://troopers.de/troopers25/talks/afv8bw/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.1440387
+ },
+ "https://www.youtube.com/watch?v=kWSP4F5dxTw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.2189124
+ },
+ "https://www.youtube.com/watch?v=RFnOIYMOEeE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.2373977
+ },
+ "https://outflank.nl/blog/2024/08/13/will-the-real-grimresource-please-stand-up-abusing-the-msc-file-format/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072226.2596564
+ },
+ "https://bugs.chromium.org/p/project-zero/issues/detail?id=325": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.269412
+ },
+ "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.2908988
+ },
+ "https://www.offensivecon.org/speakers/2024/mateusz-jurczyk.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.3034425
+ },
+ "https://connormcgarr.github.io/km-shadow-stacks/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.5646038
+ },
+ "https://www.secura.com/blog/zero-logon": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.6088827
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Mehdi%20Elyassa%20-%20SCCM%20The%20tree%20that%20always%20bears%20bad%20fruits.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.635478
+ },
+ "https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.6815772
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.700272
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.7088575
+ },
+ "https://www.youtube.com/watch?v=mFJ-NUnFBac": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.7377193
+ },
+ "https://www.youtube.com/watch?v=HHmxuxQ7bE8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.747007
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ceri%20Coburn%20Dirk-jan%20Mollema%20-%20Abusing%20Windows%20Hello%20Without%20a%20Severed%20Hand.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.7675316
+ },
+ "https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.787957
+ },
+ "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.788588
+ },
+ "https://itm4n.github.io/cve-2026-20817-wersvc-eop/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.815257
+ },
+ "https://projectzero.google/2024/12/windows-tooling-updates-oleviewnet.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.8259437
+ },
+ "https://github.com/BloodHoundAD/BloodHound": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.8525715
+ },
+ "https://cfp.recon.cx/recon-2026/talk/AAPSD9/": {
+  "ok": false,
+  "status": 0,
+  "note": "HEAD=0 GET=0",
+  "checked_at": 1779072226.8619134
+ },
+ "https://projectzero.google/2024/12/the-windows-registry-adventure-5-regf.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.8717747
+ },
+ "https://troopers.de/troopers24/talks/msxp97/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.8899395
+ },
+ "https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.9243264
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20WangJunJie%20Zhang%20YiSheng%20He%20-%20Defeating%20magic%20by%20magic%20Using%20ALPC%20security%20features%20to%20compromise%20RPC%20services.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072226.9469206
+ },
+ "https://www.offensivecon.org/speakers/2026/nan-wang-and-ziling-chen.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.0026553
+ },
+ "https://www.youtube.com/watch?v=qlfdkf-9e0I": {
+  "ok": false,
+  "status": 404,
+  "note": "video private / removed / region-locked",
+  "checked_at": 1779072227.0353165
+ },
+ "https://troopers.de/troopers25/talks/e8vz8y/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.0570083
+ },
+ "https://www.offensivecon.org/speakers/2024/bill-demirkapi.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.0778503
+ },
+ "https://www.offensivecon.org/speakers/2024/piotr-bazydlo.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.0811107
+ },
+ "https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.1389265
+ },
+ "https://troopers.de/troopers24/talks/3vlccy/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.2061453
+ },
+ "https://hardwear.io/usa-2024/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.2318988
+ },
+ "https://www.youtube.com/watch?v=GhT6nPes1h0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.3770072
+ },
+ "https://www.youtube.com/watch?v=hBGkmpBD20o": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.484945
+ },
+ "https://googleprojectzero.blogspot.com/2025/12/windows-exploitation-techniques.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.4849572
+ },
+ "https://projectzero.google/2025/04/the-windows-registry-adventure-6-kernel.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.6043477
+ },
+ "https://www.youtube.com/watch?v=DzIkehasir4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.6313877
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Windows%20Downdate%20-%20Downgrade%20Attacks%20Using%20Windows%20Updates%20-%20Alon%20Leviev.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.632297
+ },
+ "https://www.offensivecon.org/speakers/2024/nika-korchok-wakulich.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.6391892
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20DriverJack%20-%20Turning%20NTFS%20and%20Emulated%20Read%20-%20only%20Filesystems%20in%20an%20Infection%20and%20Persistence%20Vector%20-%20Alessandro%20Magnosi.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.6907945
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Vazquez%20Vazquez%20Maria%20San%20Jose%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20Bootkits%20and%20Rootkits%20Development%20Presentation.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.6974967
+ },
+ "https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.7254903
+ },
+ "https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072227.7781816
+ },
+ "https://www.youtube.com/watch?v=wgXichA5ukY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.7908924
+ },
+ "https://connormcgarr.github.io/windows-pac-arm64/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.8439107
+ },
+ "https://troopers.de/troopers25/talks/tfsfqs/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.8439257
+ },
+ "https://www.offensivecon.org/speakers/2025/angelboy.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.8569388
+ },
+ "https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072227.9087708
+ },
+ "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.0264316
+ },
+ "https://www.youtube.com/watch?v=OyTQB9oXe3s": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.0650177
+ },
+ "https://www.youtube.com/watch?v=kfuOzDwv874": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.095607
+ },
+ "https://www.offensivecon.org/speakers/2025/cedric-halbronn-and-jael-koh.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.154188
+ },
+ "https://www.youtube.com/watch?v=Eyl_0YxfnpQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.1984873
+ },
+ "https://www.youtube.com/watch?v=diJl15Uwv8I": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.3372047
+ },
+ "https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.3547301
+ },
+ "https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.4047604
+ },
+ "https://www.youtube.com/watch?v=PmqvBe1LSZc": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.4434419
+ },
+ "https://www.youtube.com/watch?v=0jGUiaWAU04": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.4683955
+ },
+ "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.5354145
+ },
+ "https://www.youtube.com/watch?v=wT9gyOeN6zY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.5995457
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Can%27t%20Stop%20the%20ROP%20-%20Automating%20Universal%20ASLR%20Bypasses%20for%20Windows-Bramwell%20Brizendine.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.6217542
+ },
+ "https://posts.specterops.io/certified-pre-owned-d95910965cd2": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.8063812
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Adam%20Crosser%20-%20Ghost%20Calls%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.8162365
+ },
+ "https://cfp.recon.cx/recon-2026/talk/ECTXZH/": {
+  "ok": false,
+  "status": 0,
+  "note": "HEAD=0 GET=0",
+  "checked_at": 1779072228.920416
+ },
+ "https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.9530025
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Michael%20Gorelik%20Arnold%20Osipov%20-%20Outlook%20Unleashing%20RCE%20Chaos%20CVE-2024-30103%20%26%20CVE-2024-38021.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.9558623
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Defeating%20EDR%20Evading%20Malware%20with%20Memory%20Forensics%20-%20Andrew%20Case%2C%20Austin%20Sellers%2C%20Golden%20Richard%2C%20David%20McDonald.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.9617734
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Daniel%20Bohannon%20Sabajete%20Elezaj%20-%20MaLDAPtive%20LDAP%20Obfuscation%20Deobfuscation%20and%20Detection.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072228.9701734
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.0016289
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Michael%20Weber%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Slides.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.085115
+ },
+ "https://www.youtube.com/watch?v=bQcTgVo3fYA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.1059008
+ },
+ "https://troopers.de/troopers25/talks/yh3x7e/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.248514
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alon%20Leviev%20-%20Windows%20Downdate%20Downgrade%20Attacks%20Using%20Windows%20Updates.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.257904
+ },
+ "https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.2842374
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Andrew%20Case%20Austin%20Sellers%20Golden%20Richard%20David%20McDonald%20Gustavo%20Moreira%20-%20Defeating%20EDR%20Evading%20Malware%20with%20Memory%20Forensics.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.2889292
+ },
+ "https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072229.3006616
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20QuickShell%20-%20Sharing%20is%20caring%20about%20an%20RCE%20attack%20chain%20on%20Quick%20Share%20-%20Or%20Yair%2C%20Shmuel%20Cohen.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.3056505
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Keanu%20Nys%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.3562334
+ },
+ "https://outflank.nl/blog/2025/08/07/training-specialist-models/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072229.4366062
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.4832702
+ },
+ "https://connormcgarr.github.io/windows-arm64-interrupts/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.4835203
+ },
+ "https://github.com/gentilkiwi/kekeo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.562936
+ },
+ "https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072229.6303153
+ },
+ "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.780501
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Or%20Yair%20Shahak%20Morag%20-%20Win-DoS%20Epidemic%20A%20crash%20course%20in%20abusing%20RPC%20for%20Win-DoS%20%26%20Win-DDoS.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.833619
+ },
+ "https://resources.oreilly.com/examples/9780596510978/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779072229.8566658
+ },
+ "https://github.com/itm4n/PrintSpoofer": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.9019706
+ },
+ "https://recon.cx/2025/sessions.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072229.9048908
+ },
+ "https://github.com/leechristensen/SpoolSample": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.030556
+ },
+ "https://cfp.recon.cx/recon-2026/talk/EZTMNB/": {
+  "ok": false,
+  "status": 0,
+  "note": "HEAD=0 GET=0",
+  "checked_at": 1779072230.0447104
+ },
+ "https://www.youtube.com/watch?v=iTS14FhRlVA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.071946
+ },
+ "https://outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072230.0780802
+ },
+ "https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072230.0805314
+ },
+ "https://projectzero.google/2026/02/windows-administrator-protection.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.1161275
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Yuval%20Gordon%20-%20The%20%28Un%29Rightful%20Heir%20My%20dMSA%20Is%20Your%20New%20Domain%20Admin.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.124071
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Tobias%20Diehl%20-%20Mind%20the%20Data%20Voids%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20Microsoft%20Authority.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.1344397
+ },
+ "https://www.youtube.com/watch?v=n7GVxDxwOUc": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.1706305
+ },
+ "https://github.com/hfiref0x/UACME": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.3112152
+ },
+ "https://recon.cx/2024/sessions.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.3203435
+ },
+ "https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.3903272
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.475205
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.479415
+ },
+ "https://adsecurity.org/?p=1729": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072230.6033103
+ },
+ "https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779072231.1713746
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Jim%20Rush%20Tomais%20Williamson%20-%20NTLM%20-%20The%20Last%20Ride.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072231.2067626
+ },
+ "https://windows-internals.com/cet-on-windows/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072231.355049
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation%20-%20Christopher%20Domas.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072231.9705822
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072231.9769456
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/DEF%20CON%2033%20-%20Adversary%20Village%20-%20Weihan%20Goh%20-%20Countering%20Forensics%20Software%20by%20Baiting%20Them.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072233.1560001
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Sudos%20and%20Sudon%E2%80%99ts%20-%20Peering%20inside%20Sudo%20for%20Windows%20-%20Michael%20Torres.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072233.333797
+ },
+ "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Or%20Yair%20Shmuel%20Cohen%20-%20QuickShell%20Sharing%20is%20caring%20about%20an%20RCE%20attack%20chain%20on%20Quick%20Share.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072233.4115574
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alon%20Leviev%20Netanel%20Ben%20Simon%20-%20BitUnlocker%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072233.4184697
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20OverLAPS%20-%20Overriding%20LAPS%20Logic%20-%20Antoine%20Goichot.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072233.4527624
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure%20-%20Keanu%20%27RedByte%27%20Nys%20Spotit.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072234.0768528
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072234.1922605
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Leon%20Jacobs%20-%207%20Vulns%20in%207%20Days%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072234.9409091
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/George%20Hughey%20Rohit%20Mothe%20-%20What%20is%20Dead%20May%20Never%20Die%20The%20Ghost%20of%20Internet%20Explorer%20in%20Windows%20MapUrlToZone.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072235.154446
+ },
+ "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Mind%20the%20Data%20Voids%20-%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20MSFT%20Authority%20-%20Tobias%20Diehl.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779072236.1175632
+ }
+}

@@ -891,16 +891,21 @@ async function load() {
   });
 
   $("total-count").textContent = TALKS.length;
+  // Normalize legacy records that only have watch_url (string) -> watch_urls list.
+  for (const t of TALKS) {
+    if (!t.watch_urls && t.watch_url) {
+      t.watch_urls = [{ url: t.watch_url, source: sourceOf(t.watch_url), confidence: t.watch_confidence || "HIGH" }];
+    }
+  }
   const ytCount = TALKS.filter(t => bestEmbedYT(t)).length;
   const mp4Count = TALKS.filter(t => bestMP4(t)).length;
-  const recCount = TALKS.filter(t => (t.watch_urls || []).length).length;
-  const totalLinks = TALKS.reduce((a, t) => a + (t.watch_urls || []).length, 0);
+  const recCount = TALKS.filter(t => (t.watch_urls || []).length > 0 || t.watch_url).length;
   const multiCount = TALKS.filter(t => (t.watch_urls || []).length > 1).length;
   $("stats-pill").innerHTML =
     `<span><strong>${TALKS.length}</strong> talks</span>` +
     `<span><strong>${recCount}</strong> with recordings</span>` +
-    `<span><strong>${ytCount}</strong> embeddable</span>` +
-    `<span title="Talks with multiple recording sources">${multiCount} with backup mirrors</span>` +
+    `<span><strong>${ytCount + mp4Count}</strong> embeddable</span>` +
+    (multiCount ? `<span title="Talks with multiple recording sources"><strong>${multiCount}</strong> with mirrors</span>` : "") +
     `<span><strong>${cats.size}</strong> themes</span>`;
 
   populateFilter("cat", Array.from(cats));

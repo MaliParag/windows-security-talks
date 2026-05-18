@@ -7,7 +7,8 @@
   "category": "Windows Kernel / Exploitation Primitives",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos Implementation",
@@ -17,7 +18,8 @@
   "category": "Kerberos / Authentication Protocol",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Windows Malware Detection Systems",
@@ -27,7 +29,8 @@
   "category": "Windows Malware / Adversarial ML",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "File Hijacking Vulnerability: The Elephant in the Room",
@@ -37,7 +40,8 @@
   "category": "Windows Filesystem / File Hijacking",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Be Careful of What You Embed: Demystifying OLE Vulnerabilities",
@@ -47,7 +51,8 @@
   "category": "Windows Office / Object Embedding",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "office-attack"
+  "normalized_category": "office-attack",
+  "watch_urls": []
  },
  {
   "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
@@ -57,7 +62,8 @@
   "category": "Windows Boot / Pre-OS Security",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "Sheep's Clothing, Wolf's Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC",
@@ -67,7 +73,8 @@
   "category": "Windows IPC / Privilege Escalation",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples",
@@ -77,7 +84,8 @@
   "category": "Windows Malware / ML-based Defense",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "malware"
+  "normalized_category": "malware",
+  "watch_urls": []
  },
  {
   "title": "PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts",
@@ -87,7 +95,8 @@
   "category": "Windows PowerShell / Malware",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "defense-evasion"
+  "normalized_category": "defense-evasion",
+  "watch_urls": []
  },
  {
   "title": "On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)",
@@ -97,7 +106,8 @@
   "category": "Windows Kernel / Spectre / ASLR Bypass",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Principled Microarchitectural Isolation on Cloud CPUs",
@@ -107,7 +117,8 @@
   "category": "Hyper-V / Microarchitectural Side Channels",
   "year": "2024",
   "source": "academic-windows",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments",
@@ -117,7 +128,8 @@
   "category": "Hardware Attack / VBS / Confidential Computing",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Breaking the Barrier: Post-Barrier Spectre Attacks",
@@ -127,7 +139,8 @@
   "category": "Windows Kernel / Spectre Mitigation Bypass",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "EvilEDR: Repurposing EDR as an Offensive Tool",
@@ -137,7 +150,8 @@
   "category": "Windows EDR / Lateral Movement",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System",
@@ -147,7 +161,8 @@
   "category": "Windows Filesystem / Privilege Escalation Defense",
   "year": "2026",
   "source": "academic-windows",
-  "normalized_category": "filesystem"
+  "normalized_category": "filesystem",
+  "watch_urls": []
  },
  {
   "title": "Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers",
@@ -157,7 +172,8 @@
   "category": "Windows Kernel Drivers / BYOVD",
   "year": "2026",
   "source": "academic-windows",
-  "normalized_category": "byovd"
+  "normalized_category": "byovd",
+  "watch_urls": []
  },
  {
   "title": "Understanding the Status and Strategies of the Code Signing Abuse Ecosystem",
@@ -167,7 +183,8 @@
   "category": "Windows Malware / Code Signing",
   "year": "2026",
   "source": "academic-windows",
-  "normalized_category": "code-integrity"
+  "normalized_category": "code-integrity",
+  "watch_urls": []
  },
  {
   "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
@@ -177,7 +194,8 @@
   "category": "Windows Password Manager / UI Attacks",
   "year": "2026",
   "source": "academic-windows",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks",
@@ -187,7 +205,8 @@
   "category": "Microarchitecture / Cross-Domain Speculation",
   "year": "2025",
   "source": "academic-windows",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows Downdate: Downgrade Attacks Using Windows Updates",
@@ -221,7 +240,8 @@
   "theme": "LDAP obfuscation for bypassing Active Directory security monitoring",
   "category": "Active Directory, LDAP, detection evasion",
   "source": "blackhat-usa",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Living Off Microsoft Copilot",
@@ -230,7 +250,8 @@
   "theme": "Microsoft 365 Copilot as a Living-off-the-Land (LotL) attack platform",
   "category": "Microsoft 365, Copilot, prompt injection, data exfiltration, M365 ecosystem",
   "source": "blackhat-usa",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "15 Ways to Break Your Copilot",
@@ -239,7 +260,8 @@
   "theme": "Comprehensive offensive attack surface of Microsoft 365 Copilot",
   "category": "Microsoft 365, Copilot, AI security, prompt injection",
   "source": "blackhat-usa",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "UnOAuthorized: A Technique to Privilege Escalation to Global Administrator",
@@ -248,7 +270,8 @@
   "theme": "OAuth misconfiguration enabling Entra ID Global Administrator escalation",
   "category": "Entra ID, Azure AD, OAuth, privilege escalation, cloud identity",
   "source": "blackhat-usa",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "ACE Up the Sleeve",
@@ -257,7 +280,8 @@
   "theme": "Active Directory Access Control Entry (ACE) abuse for persistence and privilege escalation",
   "category": "Active Directory, ACL/ACE abuse, Windows identity",
   "source": "blackhat-usa",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Break the Wall from Bottom: Automated [Kernel Security Bypass]",
@@ -266,7 +290,8 @@
   "theme": "Automated Windows kernel/hypervisor security boundary defeat from below",
   "category": "Windows kernel, VBS/HVCI bypass, UEFI/firmware, automated exploitation",
   "source": "blackhat-usa",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "You've Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM?",
@@ -275,7 +300,8 @@
   "theme": "UEFI Option ROM-based persistent backdoor affecting Windows boot chain",
   "category": "UEFI, firmware security, Secure Boot, Windows boot",
   "source": "blackhat-usa",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "All Your Secrets Belong to Us: Leveraging [Windows Credential Infrastructure?]",
@@ -284,7 +310,8 @@
   "theme": "Mass credential/secrets harvesting from Windows systems",
   "category": "Windows credential theft, DPAPI, secrets management (tentative)",
   "source": "blackhat-usa",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "Windows Hello, No! for Business",
@@ -293,7 +320,8 @@
   "theme": "Windows Hello for Business authentication bypass",
   "category": "Windows authentication, Windows Hello, smartcard/certificate auth, identity",
   "source": "blackhat-usa",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets",
@@ -322,7 +350,8 @@
   "theme": "Advanced lateral movement from on-premises Active Directory to cloud-based Entra ID",
   "category": "Active Directory, Entra ID (Azure AD), hybrid identity, lateral movement",
   "source": "blackhat-usa",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "ShadeBIOS: Unleashing the Full Stealth of UEFI Malware",
@@ -331,7 +360,8 @@
   "theme": "Advanced UEFI malware with complete pre-boot stealth capabilities",
   "category": "UEFI, firmware malware, Secure Boot bypass, Windows boot chain",
   "source": "blackhat-usa",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services",
@@ -340,7 +370,8 @@
   "theme": "Pre-authentication vulnerability research in Windows HTTP stack",
   "category": "Windows kernel, HTTP.sys, IIS/WinHTTP, pre-auth RCE/LPE, Windows services",
   "source": "blackhat-usa",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Out of Control: KCFG and KCET",
@@ -349,7 +380,8 @@
   "theme": "Bypassing Windows Kernel Control Flow Guard (KCFG) and Kernel Control-flow Enforcement Technology (KCET)",
   "category": "Windows kernel exploit mitigations, CFG/CET bypass, kernel exploit development",
   "source": "blackhat-usa",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications",
@@ -358,7 +390,8 @@
   "theme": "Entra ID multi-tenant OAuth misconfiguration exploitation against internal Microsoft services",
   "category": "Entra ID, OAuth, Azure AD, multi-tenant applications, identity abuse",
   "source": "blackhat-usa",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Training Specialist Models: Automating Malware Development",
@@ -367,7 +400,8 @@
   "theme": "LLM fine-tuning to automate generation of Windows EDR-evasive shellcode loaders",
   "category": "Windows Defender for Endpoint, EDR bypass, malware development automation, AI+offensive",
   "source": "blackhat-usa",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "BlueHat 2024 Day 1 Keynote",
@@ -415,7 +449,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "Creating a Developer-Friendly Security Tool",
@@ -425,7 +460,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "My Best Frenemy",
@@ -435,7 +471,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Scaling Out: Securing Open Source",
@@ -445,7 +482,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "hardware-attack"
+  "normalized_category": "hardware-attack",
+  "watch_urls": []
  },
  {
   "title": "Entitlements on macOS and why they matter",
@@ -455,7 +493,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "Getting In Tune with an Enterprise",
@@ -465,7 +504,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "AI's got Muffins: the RAG-a-muffins!!!",
@@ -475,7 +515,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "Ransomware Resilience: Turning the Tide Against Cyber Extortion",
@@ -485,7 +526,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "SafeChatAI",
@@ -495,7 +537,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2020",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "Firmware Security: Middle Child of Security",
@@ -505,7 +548,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2020",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "The two sides of UnOAuthorized",
@@ -553,7 +597,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Echoes of Intrusion: Demystifying MS Graph API Attacks",
@@ -582,7 +627,8 @@
   "url": "https://www.youtube.com/watch?v=wgXichA5ukY",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "DCOM Research for Everyone!",
@@ -649,7 +695,8 @@
   "url": "https://www.youtube.com/watch?v=kfuOzDwv874",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems",
@@ -659,7 +706,8 @@
   "url": "https://www.youtube.com/watch?v=FRW7g_SHC8Q",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "out-of-scope"
+  "normalized_category": "out-of-scope",
+  "watch_urls": []
  },
  {
   "title": "Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day",
@@ -745,7 +793,8 @@
   "url": "https://www.youtube.com/watch?v=YFThifuJbMM",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "MSTIC: A Threat Intelligence Year in Review",
@@ -755,7 +804,8 @@
   "url": "https://www.youtube.com/watch?v=U7p0J8aMZhM",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "malware"
+  "normalized_category": "malware",
+  "watch_urls": []
  },
  {
   "title": "Minting Silver Bullets is Challenging",
@@ -765,7 +815,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Lessons Learned from Red Teaming 100 Generative AI Applications",
@@ -794,7 +845,8 @@
   "url": "https://www.youtube.com/watch?v=RFnOIYMOEeE",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "SLIP: Securing LLMs IP Using Weights Decomposition",
@@ -804,7 +856,8 @@
   "url": "https://www.youtube.com/watch?v=CEZYfTanQFk",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Automate AI Red Teaming in your existing tool chain with PyRIT",
@@ -814,7 +867,8 @@
   "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
   "source": "bluehat",
   "year": "2024",
-  "normalized_category": "ai-security"
+  "normalized_category": "ai-security",
+  "watch_urls": []
  },
  {
   "title": "ADCS Attack Paths in BloodHound — Part 1 (ESC1)",
@@ -824,7 +878,8 @@
   "category": "AD-attack",
   "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate)",
@@ -834,7 +889,8 @@
   "category": "AD-attack",
   "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "ADCS ESC13 Abuse Technique",
@@ -844,7 +900,8 @@
   "category": "AD-attack",
   "url": "https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities)",
@@ -854,7 +911,8 @@
   "category": "AD-attack",
   "url": "https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release)",
@@ -864,7 +922,8 @@
   "category": "AD-attack / credentials",
   "url": "https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational whitepaper)",
@@ -874,7 +933,8 @@
   "category": "AD-attack / tooling-release",
   "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)",
@@ -884,7 +944,8 @@
   "category": "cloud-identity",
   "url": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
   "source": "community",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Extending AD CS Attack Surface to the Cloud with Intune Certificates",
@@ -894,7 +955,8 @@
   "category": "AD-attack / cloud-identity",
   "url": "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Persisting on Entra ID Applications and User Managed Identities with Federated Credentials",
@@ -904,7 +966,8 @@
   "category": "cloud-identity",
   "url": "https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/",
   "source": "community",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Access Passes",
@@ -914,7 +977,8 @@
   "category": "identity-attack / credentials",
   "url": "https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/",
   "source": "community",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Introducing Early Cascade Injection: From Windows Process Creation to Stealthy Injection",
@@ -924,7 +988,8 @@
   "category": "EDR-bypass / defense-evasion",
   "url": "https://outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Will the real #GrimResource please stand up? — Abusing the MSC File Format",
@@ -934,7 +999,8 @@
   "category": "defense-evasion / post-exploitation",
   "url": "https://outflank.nl/blog/2024/08/13/will-the-real-grimresource-please-stand-up-abusing-the-msc-file-format/",
   "source": "community",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Unmanaged .NET Patching",
@@ -944,7 +1010,8 @@
   "category": "defense-evasion",
   "url": "https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Secure Enclaves for Offensive Operations — Part I",
@@ -954,7 +1021,8 @@
   "category": "Hyper-V/virtualization / defense-evasion",
   "url": "https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Secure Enclaves for Offensive Operations — Part II: VTL1 Code Execution",
@@ -964,7 +1032,8 @@
   "category": "Hyper-V/virtualization / EDR-bypass",
   "url": "https://outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/",
   "source": "community",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Async BOFs — \"Wake Me Up, Before You Go Go\"",
@@ -974,7 +1043,8 @@
   "category": "tooling-release / post-exploitation",
   "url": "https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/",
   "source": "community",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Training Specialist Models: Automating Malware Development (Black Hat USA 2025)",
@@ -984,7 +1054,8 @@
   "category": "defense-evasion / other (AI-assisted malware)",
   "url": "https://outflank.nl/blog/2025/08/07/training-specialist-models/",
   "source": "community",
-  "normalized_category": "defense-evasion"
+  "normalized_category": "defense-evasion",
+  "watch_urls": []
  },
  {
   "title": "EDR Internals for macOS and Linux",
@@ -994,7 +1065,8 @@
   "category": "EDR-bypass",
   "url": "https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS",
@@ -1004,7 +1076,8 @@
   "category": "credentials / defense-evasion",
   "url": "https://itm4n.github.io/ghost-in-the-ppl-part-2/",
   "source": "community",
-  "normalized_category": "byovd"
+  "normalized_category": "byovd",
+  "watch_urls": []
  },
  {
   "title": "Ghost in the PPL Part 3: LSASS Memory Dump",
@@ -1014,7 +1087,8 @@
   "category": "credentials / defense-evasion",
   "url": "https://itm4n.github.io/ghost-in-the-ppl-part-3/",
   "source": "community",
-  "normalized_category": "byovd"
+  "normalized_category": "byovd",
+  "watch_urls": []
  },
  {
   "title": "The PrintNightmare is Not Over Yet — Point and Print Bypass via DNS Spoofing",
@@ -1024,7 +1098,8 @@
   "category": "post-exploitation / defense-evasion",
   "url": "https://itm4n.github.io/printnightmare-not-over/",
   "source": "community",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Reinventing PowerShell in C/C++",
@@ -1034,7 +1109,8 @@
   "category": "defense-evasion / EDR-bypass",
   "url": "https://itm4n.github.io/reinventing-powershell/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Hijacking the Windows \"MareBackup\" Scheduled Task for Privilege Escalation",
@@ -1044,7 +1120,8 @@
   "category": "kernel-exploitation (EoP) / post-exploitation",
   "url": "https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/",
   "source": "community",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Checking for Symantec Account Connectivity Credentials (ACCs) with PrivescCheck / Offline Extraction",
@@ -1054,7 +1131,8 @@
   "category": "credentials / post-exploitation",
   "url": "https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/",
   "source": "community",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "CVE-2026-20817 — Windows Error Reporting Service EoP (Patch Analysis)",
@@ -1064,7 +1142,8 @@
   "category": "post-exploitation (IPC/RPC / EoP)",
   "url": "https://itm4n.github.io/cve-2026-20817-wersvc-eop/",
   "source": "community",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "BitLocker's Little Secrets: The Undocumented FVE API",
@@ -1074,7 +1153,8 @@
   "category": "other (Windows internals / security auditing)",
   "url": "https://itm4n.github.io/bitlocker-little-secrets-the-undocumented-fve-api/",
   "source": "community",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "Administrator Protection (Windows 11 25H2) — Overview, Research, and 9 UAC-Replacement Bypasses",
@@ -1083,7 +1163,8 @@
   "theme": "Windows 11 25H2's new Administrator Protection feature (designed to replace UAC with a true security boundary) was found to have 9 bypass vulnerabilities before GA release; Forshaw details the root cause of 5, focusing on UI Access's long-standing privileged window-messaging loophole now finally being closed",
   "category": "kernel-exploitation (EoP / UAC bypass)",
   "source": "community",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "GetProcessHandleFromHwnd — UI Access, Shatter Attacks, and How Windows is Fixing Them",
@@ -1093,7 +1174,8 @@
   "category": "kernel-exploitation (EoP) / IPC/RPC",
   "url": "https://googleprojectzero.blogspot.com",
   "source": "community",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows Exploitation Techniques: Race Conditions with Path Lookups (originally 2016, republished 2025-12)",
@@ -1103,7 +1185,8 @@
   "category": "kernel-exploitation",
   "url": "https://googleprojectzero.blogspot.com/2025/12/windows-exploitation-techniques.html",
   "source": "community",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Shellcode: Windows on ARM64 / AArch64",
@@ -1113,7 +1196,8 @@
   "category": "post-exploitation / tooling-release",
   "url": "https://modexp.wordpress.com/2024/09/16/windows_arm64/",
   "source": "community",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives)",
@@ -1123,7 +1207,8 @@
   "category": "AD-attack / credentials",
   "url": "https://www.tarlogic.com/blog/",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Azure AD / Entra ID Kerberos Integration Attack Paths",
@@ -1133,7 +1218,8 @@
   "category": "identity-attack / AD-attack",
   "url": "https://www.tarlogic.com/blog/",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)",
@@ -1143,7 +1229,8 @@
   "category": "code-integrity / kernel-exploitation",
   "url": "https://windows-internals.com/cet-on-windows/",
   "source": "community",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) — Trail of Bits blog",
@@ -1153,7 +1240,8 @@
   "category": "other (ETW / detection engineering)",
   "url": "https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Windows Internals: Dissecting Secure Image Objects — Part 1",
@@ -1163,7 +1251,8 @@
   "category": "Hyper-V/virtualization / code-integrity",
   "url": "https://connormcgarr.github.io/secure-images/",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows",
@@ -1173,7 +1262,8 @@
   "category": "code-integrity / kernel-exploitation",
   "url": "https://connormcgarr.github.io/km-shadow-stacks/",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Windows Internals: Secure Calls — The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)",
@@ -1183,7 +1273,8 @@
   "category": "Hyper-V/virtualization / tooling-release",
   "url": "https://connormcgarr.github.io/secure-calls-and-skbridge/",
   "source": "community",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC)",
@@ -1193,7 +1284,8 @@
   "category": "code-integrity / kernel-exploitation",
   "url": "https://connormcgarr.github.io/windows-pac-arm64/",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windows under VHE",
@@ -1203,7 +1295,8 @@
   "category": "Hyper-V/virtualization",
   "url": "https://connormcgarr.github.io/arm64-windows-internals-basics/",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Windows ARM64 Internals: Pardon The Interruption! Interrupts on Windows for ARM",
@@ -1213,7 +1306,8 @@
   "category": "Hyper-V/virtualization / kernel-exploitation",
   "url": "https://connormcgarr.github.io/windows-arm64-interrupts/",
   "source": "community",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Windows Internals: Check Your Privilege — The Curious Case of ETW's SecurityTrace Flag",
@@ -1223,7 +1317,8 @@
   "category": "EDR-bypass / tooling-release",
   "url": "https://connormcgarr.github.io/securitytrace-etw-ppl/",
   "source": "community",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "CVE-2024-21423 — Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)",
@@ -1233,7 +1328,8 @@
   "category": "Hyper-V/virtualization / code-integrity",
   "url": "https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24",
   "source": "community",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Abusing VBS Enclaves to Create Evasive Malware",
@@ -1243,7 +1339,8 @@
   "category": "EDR-bypass / defense-evasion",
   "url": "https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware",
   "source": "community",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse",
@@ -1253,7 +1350,8 @@
   "category": "AD-attack",
   "url": "https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/",
   "source": "community",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "DriverJack: Turning NTFS and Emulated Read-only Filesystems in an Infection and Persistence Vector",
@@ -2133,7 +2231,8 @@
   "category": "malware-analysis / code-integrity",
   "url": "https://troopers.de/troopers24/talks/uvefjb/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover",
@@ -2163,7 +2262,8 @@
   "category": "hardware-attack / credentials / code-integrity",
   "url": "https://troopers.de/troopers25/talks/ma3bfe/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation",
@@ -2174,7 +2274,8 @@
   "category": "EDR-bypass / credentials",
   "url": "https://troopers.de/troopers25/talks/rwhyvb/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths",
@@ -2184,7 +2285,8 @@
   "theme": "Systematic analysis and tooling for mapping lateral-movement paths that cross Active Directory forest trust boundaries — often invisible to single-forest tools — with BloodHound integration",
   "category": "AD-attack",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Finding Entra ID Conditional Access Bypasses — the Structured Way",
@@ -2195,7 +2297,8 @@
   "category": "identity-attack / cloud-identity",
   "url": "https://troopers.de/troopers25/talks/tfsfqs/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)",
@@ -2206,7 +2309,8 @@
   "category": "identity-attack / credentials",
   "url": "https://troopers.de/troopers25/talks/afv8bw/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Misconfiguration Manager: Still Overlooked, Still Overprivileged",
@@ -2217,7 +2321,8 @@
   "category": "post-exploitation",
   "url": "https://troopers.de/troopers25/talks/3fsjh7/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "RBAC: The Shady Place Behind Basic Entra ID Security",
@@ -2228,7 +2333,8 @@
   "category": "cloud-identity / identity-attack",
   "url": "https://troopers.de/troopers25/talks/dukg9p/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Restless Guest: A Novel Entra ID Vulnerability",
@@ -2239,7 +2345,8 @@
   "category": "cloud-identity",
   "url": "https://troopers.de/troopers25/talks/yh3x7e/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "Revisiting Cross-Session Activation Attacks",
@@ -2250,7 +2357,8 @@
   "category": "IPC/RPC / post-exploitation",
   "url": "https://troopers.de/troopers25/talks/tbuwdr/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "The Crypto Game of North Korea: Stealing Money with Chrome 0-Days",
@@ -2261,7 +2369,8 @@
   "category": "browser-windows-integration",
   "url": "https://troopers.de/troopers25/talks/h9scgh/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "browser-sandbox"
+  "normalized_category": "browser-sandbox",
+  "watch_urls": []
  },
  {
   "title": "Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs",
@@ -2272,7 +2381,8 @@
   "category": "AD-attack / credentials",
   "url": "https://troopers.de/troopers25/talks/e8vz8y/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
@@ -2283,7 +2393,8 @@
   "category": "hardware-attack / code-integrity",
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "cloud-identity"
+  "normalized_category": "cloud-identity",
+  "watch_urls": []
  },
  {
   "title": "A New Root of Trust: Changing Computing with TEE",
@@ -2294,7 +2405,8 @@
   "category": "hardware-attack / code-integrity",
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE",
@@ -2305,7 +2417,8 @@
   "category": "hardware-attack / credentials",
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "vbs-bypass"
+  "normalized_category": "vbs-bypass",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE — successful escalation to SYSTEM",
@@ -2316,7 +2429,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "VMware Workstation guest-escape → SYSTEM on host Windows OS",
@@ -2327,7 +2441,8 @@
   "category": "Hyper-V/virtualization",
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Oracle VirtualBox guest-escape → SYSTEM on host Windows OS",
@@ -2338,7 +2453,8 @@
   "category": "Hyper-V/virtualization",
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)",
@@ -2349,7 +2465,8 @@
   "category": "browser-windows-integration / sandbox-escape",
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE — three independent researchers succeeded on Day 2",
@@ -2359,7 +2476,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM",
@@ -2370,7 +2488,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (type confusion)",
@@ -2381,7 +2500,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Microsoft SharePoint RCE (auth bypass + insecure deserialization chain)",
@@ -2392,7 +2512,8 @@
   "category": "other (server-side RCE — SharePoint)",
   "url": "https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "identity"
+  "normalized_category": "identity",
+  "watch_urls": []
  },
  {
   "title": "VMware Workstation guest-escape + Windows 11 LPE → SYSTEM",
@@ -2403,7 +2524,8 @@
   "category": "Hyper-V/virtualization / kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (race condition)",
@@ -2414,7 +2536,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Microsoft Edge sandbox escape (4-bug logic chain, full $175K payout)",
@@ -2425,7 +2548,8 @@
   "category": "browser-windows-integration / sandbox-escape",
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "browser-sandbox"
+  "normalized_category": "browser-sandbox",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (Improper Access Control)",
@@ -2436,7 +2560,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (heap-based buffer overflow)",
@@ -2447,7 +2572,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (2 × UAF)",
@@ -2458,7 +2584,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Microsoft Exchange RCE as SYSTEM (3-bug chain)",
@@ -2469,7 +2596,8 @@
   "category": "other (Exchange server-side RCE)",
   "url": "https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "browser-sandbox"
+  "normalized_category": "browser-sandbox",
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (integer overflow)",
@@ -2480,7 +2608,8 @@
   "category": "kernel-exploitation",
   "url": "https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Microsoft SharePoint RCE (2-bug chain)",
@@ -2491,7 +2620,8 @@
   "category": "other (server-side RCE — SharePoint)",
   "url": "https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn",
   "source": "euro-asia-pwn2own",
-  "normalized_category": "rce"
+  "normalized_category": "rce",
+  "watch_urls": []
  },
  {
   "title": "Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012",
@@ -2502,7 +2632,8 @@
   "category": "ipc-rpc / post-exploit",
   "url": "https://foxglovesecurity.com/2016/01/16/hot-potato/",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM",
@@ -2514,7 +2645,8 @@
   "url": "https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/",
   "code": "https://github.com/foxglovesec/RottenPotato",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "Juicy Potato (abusing the golden privileges)",
@@ -2525,7 +2657,8 @@
   "category": "ipc-rpc / post-exploit",
   "url": "https://github.com/ohpe/juicy-potato",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "RoguePotato",
@@ -2536,7 +2669,8 @@
   "category": "ipc-rpc / post-exploit",
   "url": "https://github.com/antonioCoco/RoguePotato",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "PrintSpoofer — Abusing Impersonate Privileges on Windows 10 and Server 2019",
@@ -2548,7 +2682,8 @@
   "url": "https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/",
   "code": "https://github.com/itm4n/PrintSpoofer",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "Sharing a Logon Session a Little Too Much",
@@ -2559,7 +2694,8 @@
   "category": "ipc-rpc / post-exploit",
   "url": "https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html",
   "source": "foundational-pre-2024",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "Evil Printer: How to Hack Windows Machines with Printer Protocols",
@@ -2571,15 +2707,7 @@
   "url": "https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=jlU7tIGFmf8",
-    "source": "YouTube",
-    "confidence": "HIGH"
-   }
-  ],
-  "watch_url": "https://www.youtube.com/watch?v=jlU7tIGFmf8",
-  "watch_confidence": "HIGH"
+  "watch_urls": []
  },
  {
   "title": "PrintNightmare (CVE-2021-1675 / CVE-2021-34527)",
@@ -2589,7 +2717,8 @@
   "theme": "Exploits the Windows Print Spooler's RpcAddPrinterDriverEx() to load arbitrary DLLs as SYSTEM from a remote SMB share, enabling unauthenticated RCE / LPE on all unpatched Windows versions",
   "category": "ipc-rpc / post-exploit / ad-attack",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services",
@@ -2600,7 +2729,8 @@
   "category": "ipc-rpc / ad-attack / identity",
   "url": "https://github.com/topotam/PetitPotam",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services",
@@ -2611,7 +2741,8 @@
   "category": "ad-attack / identity",
   "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography",
@@ -2622,7 +2753,8 @@
   "category": "ad-attack / identity",
   "url": "https://www.secura.com/blog/zero-logon",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Six Degrees of Domain Admin",
@@ -2633,7 +2765,8 @@
   "category": "ad-attack",
   "url": "https://github.com/BloodHoundAD/BloodHound",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory",
@@ -2644,15 +2777,7 @@
   "category": "ad-attack / identity",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=qlfdkf-9e0I",
-    "source": "YouTube",
-    "confidence": "HIGH"
-   }
-  ],
-  "watch_url": "https://www.youtube.com/watch?v=qlfdkf-9e0I",
-  "watch_confidence": "HIGH"
+  "watch_urls": []
  },
  {
   "title": "Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation",
@@ -2663,7 +2788,8 @@
   "category": "credentials",
   "url": "https://github.com/gentilkiwi/mimikatz",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "The original NTLM Pass-the-Hash attack; later operationalised in the \"Pass-The-Hash Toolkit\"",
@@ -2672,9 +2798,10 @@
   "venue": "1997 — Samba mailing list; 2008 — Black Hat DC (Ochoa toolkit)",
   "theme": "NT/LAN Manager authentication can be satisfied by sending a captured NTLM hash directly — without knowing the cleartext password — enabling lateral movement across Windows networks",
   "category": "credentials / ad-attack",
-  "url": "https://resources.oreilly.com/examples/9780596510978/",
+  "url": null,
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Attacking Kerberos: Kicking the Guard Dog of Hades",
@@ -2685,7 +2812,8 @@
   "category": "ad-attack / credentials",
   "url": "https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege",
@@ -2695,7 +2823,8 @@
   "theme": "A validation flaw in the Kerberos KDC allows any domain user to forge a PAC with arbitrary group memberships (including Domain Admins), granting full DA rights on any unpatched DC",
   "category": "ad-attack / identity",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Empire: A PowerShell Post-Exploitation Framework",
@@ -2706,7 +2835,8 @@
   "category": "post-exploit / defense-evasion",
   "url": "https://github.com/EmpireProject/Empire",
   "source": "foundational-pre-2024",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Rubeus",
@@ -2717,7 +2847,8 @@
   "category": "ad-attack / credentials",
   "url": "https://github.com/GhostPack/Rubeus",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "SharpDPAPI",
@@ -2728,7 +2859,8 @@
   "category": "credentials / post-exploit",
   "url": "https://github.com/GhostPack/SharpDPAPI",
   "source": "foundational-pre-2024",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing)",
@@ -2738,7 +2870,8 @@
   "theme": "Any low-privileged domain user can rename their machine account to impersonate the DC's short name, request a TGT, then restore the name — the KDC appends \"$\" to the original DC account, yielding a DC-level PAC without needing its hash",
   "category": "ad-attack / identity",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege",
@@ -2749,7 +2882,8 @@
   "category": "ipc-rpc / kernel-exploit",
   "url": "https://bugs.chromium.org/p/project-zero/issues/detail?id=325",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows 10(HH) Symbolic Link Mitigations",
@@ -2760,7 +2894,8 @@
   "category": "kernel-exploit / filesystem",
   "url": "https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Bochspwn: Identifying 0-days via system-wide memory access pattern analysis",
@@ -2770,7 +2905,8 @@
   "theme": "Uses Bochs x86 full-system emulation to instrument every memory access in a running OS, automatically detecting double-fetches (race conditions) and uninitialized memory disclosures in the Windows/Linux kernel",
   "category": "fuzzing / kernel-exploit",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Windows Notification Facility: Useless or Useful? (blog series)",
@@ -2781,7 +2917,8 @@
   "category": "ipc-rpc / kernel-exploit",
   "url": "https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Reading Privileged Memory with a Side-Channel (Spectre/Meltdown)",
@@ -2792,7 +2929,8 @@
   "category": "hardware-attack / hyper-v",
   "url": "https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html",
   "source": "foundational-pre-2024",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "Fileless UAC Bypass using eventvwr.exe and Registry Hijacking",
@@ -2803,7 +2941,8 @@
   "category": "defense-evasion / post-exploit",
   "url": "https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "UACME — Defeating Windows User Account Control",
@@ -2814,7 +2953,8 @@
   "category": "defense-evasion",
   "url": "https://github.com/hfiref0x/UACME",
   "source": "foundational-pre-2024",
-  "normalized_category": "defense-evasion"
+  "normalized_category": "defense-evasion",
+  "watch_urls": []
  },
  {
   "title": "Investigating COM Hijacking Techniques for Persistence and Privilege Escalation",
@@ -2824,7 +2964,8 @@
   "theme": "Many Windows in-box COM objects load DLLs or executables from HKCU-writable registry paths before checking HKLM, allowing any user-mode process to hijack COM activation for persistence or elevation",
   "category": "defense-evasion / post-exploit",
   "source": "foundational-pre-2024",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "title": "Mark-of-the-Web (MOTW) Bypass Research Series",
@@ -2834,7 +2975,8 @@
   "theme": "Various container formats (7-Zip, ISO, VHD, LNK containers) fail to propagate the Zone.Identifier NTFS alternate data stream to extracted files, allowing downloaded malware to bypass Protected View and SmartScreen",
   "category": "office-attack / defense-evasion",
   "source": "foundational-pre-2024",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Social Engineering the Windows Kernel",
@@ -2864,7 +3006,8 @@
   "theme": "Demonstrates complete guest→host Hyper-V escape chains using Type Confusion bugs in Chakra/Edge JavaScript engine, VMBus driver vulnerabilities, and privileged RPC endpoints accessible from guest VMs",
   "category": "hyper-v / browser-sandbox",
   "source": "foundational-pre-2024",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools",
@@ -2874,7 +3017,8 @@
   "theme": "A suite of C#/.NET offensive security tools (Seatbelt, SafetyKatz, SharpUp, Certify, Rubeus, SharpDPAPI, SharpDump) covering host-enumeration, credential extraction, Kerberos abuse, and PKI exploitation",
   "category": "post-exploit / credentials",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN",
@@ -2885,7 +3029,8 @@
   "category": "ipc-rpc / ad-attack",
   "url": "https://github.com/leechristensen/SpoolSample",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Kekeo: A Kerberos Toolkit with MS14-068 Exploitation",
@@ -2896,7 +3041,8 @@
   "category": "ad-attack / credentials",
   "url": "https://github.com/gentilkiwi/kekeo",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus",
@@ -2907,7 +3053,8 @@
   "category": "ad-attack",
   "url": "https://adsecurity.org",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Bypassing AMSI via .NET Reflection",
@@ -2917,7 +3064,8 @@
   "theme": "The AmsiScanBuffer field in the amsi.dll AmsiContext object can be patched to 0 from any medium-integrity process via .NET reflection, disabling all AMSI scan calls for the process lifetime",
   "category": "defense-evasion",
   "source": "foundational-pre-2024",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "DCSync: Replicating AD Credentials Over the Network",
@@ -2928,7 +3076,8 @@
   "category": "ad-attack / credentials",
   "url": "https://adsecurity.org/?p=1729",
   "source": "foundational-pre-2024",
-  "normalized_category": "ad-attack"
+  "normalized_category": "ad-attack",
+  "watch_urls": []
  },
  {
   "title": "Practical Exploitation of Registry Vulnerabilities in the Windows Kernel",
@@ -2939,7 +3088,8 @@
   "url": "https://www.offensivecon.org/speakers/2024/mateusz-jurczyk.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting",
@@ -2950,7 +3100,8 @@
   "url": "https://www.offensivecon.org/speakers/2024/piotr-bazydlo.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "title": "Almost Escaping the Sandbox: Attacking Windows Device Drivers",
@@ -2961,7 +3112,8 @@
   "url": "https://www.offensivecon.org/speakers/2024/erik-egsgard.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Booting with Caution: Dissecting Secure Boot's Third-Party Attack Surface",
@@ -2972,7 +3124,8 @@
   "url": "https://www.offensivecon.org/speakers/2024/bill-demirkapi.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development",
@@ -2983,7 +3136,8 @@
   "url": "https://www.offensivecon.org/speakers/2024/nika-korchok-wakulich.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "Hunting for Overlooked Cookies in Windows 11 KTM and Baking Exploits for Them",
@@ -2994,7 +3148,8 @@
   "url": "https://www.offensivecon.org/speakers/2025/cedric-halbronn-and-jael-koh.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities",
@@ -3005,7 +3160,8 @@
   "url": "https://www.offensivecon.org/speakers/2025/angelboy.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Enhanced Insecurity Mode: 23 RCEs in Edge's \"Safe\" WebAssembly Interpreter",
@@ -3016,7 +3172,8 @@
   "url": "https://www.offensivecon.org/speakers/2026/nan-wang-and-ziling-chen.html",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "browser-sandbox"
+  "normalized_category": "browser-sandbox",
+  "watch_urls": []
  },
  {
   "title": "IRON GIANT: When The Vault Becomes The Victim",
@@ -3027,7 +3184,8 @@
   "url": "https://www.offensivecon.org/speakers/2026/erik-egsgard.html",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "Tales From The Crypt: Bug Hunting in the Windows CryptoAPI",
@@ -3038,7 +3196,8 @@
   "url": "https://recon.cx/2024/sessions.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "fuzzing"
+  "normalized_category": "fuzzing",
+  "watch_urls": []
  },
  {
   "title": "Peeling Back the Windows Registry Layers: A Bug Hunter's Expedition",
@@ -3049,7 +3208,8 @@
   "url": "https://recon.cx/2024/sessions.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Hypervisor-enforced Paging Translation — The end of non data-driven Kernel Exploits?",
@@ -3060,7 +3220,8 @@
   "url": "https://recon.cx/2024/sessions.html",
   "year": "2024",
   "source": "offcon-recon",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections",
@@ -3071,7 +3232,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "hyper-v"
+  "normalized_category": "hyper-v",
+  "watch_urls": []
  },
  {
   "title": "WinpMem: Volatility's driver that lets malware volatilize",
@@ -3082,7 +3244,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "The Finer Details of LSA Credential Recovery",
@@ -3093,7 +3256,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "credentials"
+  "normalized_category": "credentials",
+  "watch_urls": []
  },
  {
   "title": "Reverse Engineering Patch Tuesday",
@@ -3104,7 +3268,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "fuzzing"
+  "normalized_category": "fuzzing",
+  "watch_urls": []
  },
  {
   "title": "Reversing Warbird for no fun and no profit",
@@ -3115,7 +3280,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "code-integrity"
+  "normalized_category": "code-integrity",
+  "watch_urls": []
  },
  {
   "title": "Back from the dead: Exhuming EBC",
@@ -3126,7 +3292,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "boot-firmware"
+  "normalized_category": "boot-firmware",
+  "watch_urls": []
  },
  {
   "title": "NET Exploitation Workshop",
@@ -3137,7 +3304,8 @@
   "url": "https://recon.cx/2025/sessions.html",
   "year": "2025",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Chaining Microsoft binaries to get privileged primitives in Windows kernel",
@@ -3148,7 +3316,8 @@
   "url": "https://cfp.recon.cx/recon-2026/talk/ECTXZH/",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "title": "Click Once and Stay Forever: uncovering a new abuse of the ClickOnce technology",
@@ -3159,7 +3328,8 @@
   "url": "https://cfp.recon.cx/recon-2026/talk/EZTMNB/",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "defense-evasion"
+  "normalized_category": "defense-evasion",
+  "watch_urls": []
  },
  {
   "title": "How real-world malware disables EDR systems",
@@ -3170,7 +3340,8 @@
   "url": "https://cfp.recon.cx/recon-2026/talk/GG7SEM/",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "edr-bypass"
+  "normalized_category": "edr-bypass",
+  "watch_urls": []
  },
  {
   "title": "Prism Internals: Reversing Microsoft's x86-to-ARM64 Binary Translator",
@@ -3181,7 +3352,8 @@
   "url": "https://cfp.recon.cx/recon-2026/talk/V3THYR/",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "rce"
+  "normalized_category": "rce",
+  "watch_urls": []
  },
  {
   "title": "Paper Werewolf's Toolbox: Reversing XLL Delivery, EchoGather, and a WinRAR Exploit Chain Targeting Russia",
@@ -3192,7 +3364,8 @@
   "url": "https://cfp.recon.cx/recon-2026/talk/AAPSD9/",
   "year": "2026",
   "source": "offcon-recon",
-  "normalized_category": "malware"
+  "normalized_category": "malware",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3202,7 +3375,8 @@
   "url": "https://projectzero.google/2024/04/the-windows-registry-adventure-1.html",
   "title": "The Windows Registry Adventure #1: Introduction and Research Results",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3212,7 +3386,8 @@
   "url": "https://projectzero.google/2024/04/the-windows-registry-adventure-2.html",
   "title": "The Windows Registry Adventure #2: A Brief History of the Feature",
   "source": "project-zero",
-  "normalized_category": "registry"
+  "normalized_category": "registry",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3222,7 +3397,8 @@
   "url": "https://projectzero.google/2024/06/the-windows-registry-adventure-3.html",
   "title": "The Windows Registry Adventure #3: Learning Resources",
   "source": "project-zero",
-  "normalized_category": "fuzzing"
+  "normalized_category": "fuzzing",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3232,7 +3408,8 @@
   "url": "https://projectzero.google/2024/10/the-windows-registry-adventure-4-hives.html",
   "title": "The Windows Registry Adventure #4: Hives and the Registry Layout",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3242,7 +3419,8 @@
   "url": "https://projectzero.google/2024/12/the-windows-registry-adventure-5-regf.html",
   "title": "The Windows Registry Adventure #5: The regf File Format",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3252,7 +3430,8 @@
   "url": "https://projectzero.google/2024/12/windows-tooling-updates-oleviewnet.html",
   "title": "Windows Tooling Updates: OleView.NET",
   "source": "project-zero",
-  "normalized_category": "ipc-rpc"
+  "normalized_category": "ipc-rpc",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3262,7 +3441,8 @@
   "url": "https://projectzero.google/2025/04/the-windows-registry-adventure-6-kernel.html",
   "title": "The Windows Registry Adventure #6: Kernel-Mode Objects",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3272,7 +3452,8 @@
   "url": "https://projectzero.google/2025/05/the-windows-registry-adventure-7-attack-surface.html",
   "title": "The Windows Registry Adventure #7: Attack Surface Analysis",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "Mateusz Jurczyk",
@@ -3282,7 +3463,8 @@
   "url": "https://projectzero.google/2025/05/the-windows-registry-adventure-8-exploitation.html",
   "title": "The Windows Registry Adventure #8: Practical Exploitation of Hive Memory Corruption",
   "source": "project-zero",
-  "normalized_category": "kernel-exploit"
+  "normalized_category": "kernel-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3292,7 +3474,8 @@
   "url": "https://projectzero.google/2025/01/windows-exploitation-tricks-trapping.html",
   "title": "Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)",
   "source": "project-zero",
-  "normalized_category": "filesystem"
+  "normalized_category": "filesystem",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3302,7 +3485,8 @@
   "url": "https://projectzero.google/2025/01/windows-bug-class-accessing-trapped-com.html",
   "title": "Windows Bug Class: Accessing Trapped COM Objects with IDispatch",
   "source": "project-zero",
-  "normalized_category": "browser-sandbox"
+  "normalized_category": "browser-sandbox",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3312,7 +3496,8 @@
   "url": "https://projectzero.google/2025/12/windows-exploitation-techniques.html",
   "title": "Windows Exploitation Techniques: Winning Race Conditions with Path Lookups",
   "source": "project-zero",
-  "normalized_category": "filesystem"
+  "normalized_category": "filesystem",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3321,7 +3506,8 @@
   "category": "Privilege escalation / UAC bypass / Windows security boundary research",
   "title": "Bypassing Windows Administrator Protection (Introduction)",
   "source": "project-zero",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3331,7 +3517,8 @@
   "url": "https://projectzero.google/2026/02/windows-administrator-protection.html",
   "title": "Bypassing Administrator Protection by Abusing UI Access",
   "source": "project-zero",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  },
  {
   "speaker": "James Forshaw",
@@ -3341,6 +3528,7 @@
   "url": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
   "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
   "source": "project-zero",
-  "normalized_category": "post-exploit"
+  "normalized_category": "post-exploit",
+  "watch_urls": []
  }
 ]

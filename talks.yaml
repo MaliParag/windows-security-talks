@@ -8,6 +8,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Windows into the Past: Exploiting Legacy Crypto in Modern OS''s Kerberos Implementation'
   speaker: Michal Shagam, Eyal Ronen (Tel Aviv University / Weizmann Institute)
   venue: USENIX Security 2024
@@ -16,6 +17,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Windows Malware Detection
     Systems'
   speaker: Xiang Ling, Jingzheng Wu, Tianyue Luo, Yanjun Wu (IIE/State Key Lab, Chinese Academy of Sciences); Zhiyu Wu, Shouling
@@ -26,6 +28,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'File Hijacking Vulnerability: The Elephant in the Room'
   speaker: Chendong Yu, Yang Xiao, Yeting Li, Yifan Dong, Jian Wang, Jingyi Shi, Defang Bo, Wei Huo (IIE, Chinese Academy
     of Sciences); Jie Lu, Lian Li (ICT, Chinese Academy of Sciences); Yuekang Li (UNSW)
@@ -35,6 +38,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: post-exploit
+  watch_urls: []
 - title: 'Be Careful of What You Embed: Demystifying OLE Vulnerabilities'
   speaker: Yunpeng Tian, Tianyu Chen, Xu Zhou, Zhenyu Ning, Kai Lu (Huazhong University of Science and Technology); Yajin
     Zhou (Zhejiang University)
@@ -44,6 +48,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: office-attack
+  watch_urls: []
 - title: 'FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2'
   speaker: Connor Glosner, Aravind Machiry (Purdue University)
   venue: NDSS 2025
@@ -52,6 +57,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: boot-firmware
+  watch_urls: []
 - title: 'Sheep''s Clothing, Wolf''s Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC'
   speaker: Fangming Gu, Qingli Guo, Qinghe Xie, Beibei Zhao, Hong Li, Xiaorui Gong (IIE, Chinese Academy of Sciences); Jie
     Lu (ICT, Chinese Academy of Sciences); Kangjie Lu (University of Minnesota)
@@ -61,6 +67,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: post-exploit
+  watch_urls: []
 - title: 'Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples'
   speaker: Adrian Shuai Li, Elisa Bertino (Purdue University); Arun Iyengar (Intelligent Data Management and Analytics, LLC);
     Ashish Kundu (Cisco Research)
@@ -70,6 +77,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: malware
+  watch_urls: []
 - title: 'PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts'
   speaker: Ruijie Li, Wenbo Guo, Jiahao Liu, Yuqing Yang, Zhiqiang Lin (The Ohio State University); Wenchao Li (Alibaba Group)
   venue: ACM CCS 2024
@@ -78,6 +86,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: defense-evasion
+  watch_urls: []
 - title: On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)
   speaker: Lorenzo Davoli, Tamara Rezk (Inria, Sophia Antipolis)
   venue: ACM CCS 2024
@@ -86,6 +95,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Principled Microarchitectural Isolation on Cloud CPUs
   speaker: Stavros Volos, Cédric Fournet, Jonas Hofmann, Boris Köpf, Oleksii Oleksenko (Microsoft Azure Research); Kapil Vaswani
     (Microsoft Research)
@@ -95,6 +105,7 @@
   year: '2024'
   source: academic-windows
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments'
   speaker: Jonas De Meulemeester, Thomas Orsi, Arthur Beckers, Lennert Wouters, Jan Van den Bulck, Dave Singelée (KU Leuven,
     DistriNet/COSIC)
@@ -104,6 +115,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Breaking the Barrier: Post-Barrier Spectre Attacks'
   speaker: Johannes Wikner, Kaveh Razavi (ETH Zurich, COMSEC)
   venue: IEEE S&P 2025
@@ -112,6 +124,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'EvilEDR: Repurposing EDR as an Offensive Tool'
   speaker: Kotaiba Alachkar, Eduardo Barbaro, Michel van Eeten, Yury Zhauniarovich (Delft University of Technology); Dirk
     Gaastra (Independent Researcher)
@@ -121,6 +134,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: post-exploit
+  watch_urls: []
 - title: 'LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System'
   speaker: Bocheng Xiang, Yuan Zhang, Hao Huang, Fengyu Liu, Youkun Shi (Fudan University)
   venue: NDSS 2026
@@ -129,6 +143,7 @@
   year: '2026'
   source: academic-windows
   normalized_category: filesystem
+  watch_urls: []
 - title: 'Unveiling BYOVD Threats: Malware''s Use and Abuse of Kernel Drivers'
   speaker: Andrea Monzani, Antonio Parata, Andrea Lanzi (University of Milan); Andrea Oliveri, Simone Aonzo, Davide Balzarotti
     (EURECOM)
@@ -138,6 +153,7 @@
   year: '2026'
   source: academic-windows
   normalized_category: byovd
+  watch_urls: []
 - title: Understanding the Status and Strategies of the Code Signing Abuse Ecosystem
   speaker: Hanqing Zhao, Yiming Zhang, Baojun Liu, Haixin Duan, Zi-Quan You (Tsinghua University); Lingyun Ying, Shuhao Zhang
     (QI-ANXIN Technology Research Institute); Mingming Zhang (Zhongguancun Laboratory)
@@ -147,6 +163,7 @@
   year: '2026'
   source: academic-windows
   normalized_category: code-integrity
+  watch_urls: []
 - title: 'Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments'
   speaker: Andrea Infantino, Mir Masood Ali, Kostas Solomos, Jason Polakis (University of Illinois Chicago)
   venue: NDSS 2026
@@ -155,6 +172,7 @@
   year: '2026'
   source: academic-windows
   normalized_category: credentials
+  watch_urls: []
 - title: 'Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks'
   speaker: Sander Wiebing, Cristiano Giuffrida (Vrije Universiteit Amsterdam)
   venue: IEEE S&P 2025
@@ -163,6 +181,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Windows Downdate: Downgrade Attacks Using Windows Updates'
   speaker: Alon Leviev (SafeBreach)
   year: '2024'
@@ -188,6 +207,7 @@
   category: Active Directory, LDAP, detection evasion
   source: blackhat-usa
   normalized_category: ad-attack
+  watch_urls: []
 - title: Living Off Microsoft Copilot
   speaker: Michael Bargury (Zenity)
   year: '2024'
@@ -195,6 +215,7 @@
   category: Microsoft 365, Copilot, prompt injection, data exfiltration, M365 ecosystem
   source: blackhat-usa
   normalized_category: ai-security
+  watch_urls: []
 - title: 15 Ways to Break Your Copilot
   speaker: Michael Bargury (Zenity)
   year: '2024'
@@ -202,6 +223,7 @@
   category: Microsoft 365, Copilot, AI security, prompt injection
   source: blackhat-usa
   normalized_category: ai-security
+  watch_urls: []
 - title: 'UnOAuthorized: A Technique to Privilege Escalation to Global Administrator'
   speaker: Brian Woodruff (affiliation unverified)
   year: '2024'
@@ -209,6 +231,7 @@
   category: Entra ID, Azure AD, OAuth, privilege escalation, cloud identity
   source: blackhat-usa
   normalized_category: cloud-identity
+  watch_urls: []
 - title: ACE Up the Sleeve
   speaker: '[Last name: Roth] (full name and affiliation unverified)'
   year: '2024'
@@ -216,6 +239,7 @@
   category: Active Directory, ACL/ACE abuse, Windows identity
   source: blackhat-usa
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Break the Wall from Bottom: Automated [Kernel Security Bypass]'
   speaker: '[Last name: Wang] (full name and affiliation unverified)'
   year: '2024'
@@ -223,6 +247,7 @@
   category: Windows kernel, VBS/HVCI bypass, UEFI/firmware, automated exploitation
   source: blackhat-usa
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'You''ve Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM?'
   speaker: '[Last name: Matsuo] (full name and affiliation unverified)'
   year: '2024'
@@ -230,6 +255,7 @@
   category: UEFI, firmware security, Secure Boot, Windows boot
   source: blackhat-usa
   normalized_category: boot-firmware
+  watch_urls: []
 - title: 'All Your Secrets Belong to Us: Leveraging [Windows Credential Infrastructure?]'
   speaker: '[Last name: Dohrmann] (full name and affiliation unverified)'
   year: '2024'
@@ -237,6 +263,7 @@
   category: Windows credential theft, DPAPI, secrets management (tentative)
   source: blackhat-usa
   normalized_category: credentials
+  watch_urls: []
 - title: Windows Hello, No! for Business
   speaker: '[Last name: David] (first name and affiliation unverified)'
   year: '2025'
@@ -244,6 +271,7 @@
   category: Windows authentication, Windows Hello, smartcard/certificate auth, identity
   source: blackhat-usa
   normalized_category: credentials
+  watch_urls: []
 - title: 'BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets'
   speaker: 'Alon Leviev (SafeBreach); PDF metadata shows "Author: Alex DeDonker" (likely Microsoft co-researcher)'
   year: '2025'
@@ -266,6 +294,7 @@
   category: Active Directory, Entra ID (Azure AD), hybrid identity, lateral movement
   source: blackhat-usa
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'ShadeBIOS: Unleashing the Full Stealth of UEFI Malware'
   speaker: '[Last name: Matsuo] (likely same or related to BH-US-24 UEFI OROM presenter)'
   year: '2025'
@@ -273,6 +302,7 @@
   category: UEFI, firmware malware, Secure Boot bypass, Windows boot chain
   source: blackhat-usa
   normalized_category: boot-firmware
+  watch_urls: []
 - title: 'Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services'
   speaker: '[Last name: Shi] (affiliation unverified; Chinese-authored PDF — Lang(zh))'
   year: '2025'
@@ -280,6 +310,7 @@
   category: Windows kernel, HTTP.sys, IIS/WinHTTP, pre-auth RCE/LPE, Windows services
   source: blackhat-usa
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Out of Control: KCFG and KCET'
   speaker: McGarr (first name and affiliation unverified)
   year: '2025'
@@ -287,6 +318,7 @@
   category: Windows kernel exploit mitigations, CFG/CET bypass, kernel exploit development
   source: blackhat-usa
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications'
   speaker: Vaisha Bernard (Eye Research / Eye Security)
   year: '2025'
@@ -294,6 +326,7 @@
   category: Entra ID, OAuth, Azure AD, multi-tenant applications, identity abuse
   source: blackhat-usa
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Training Specialist Models: Automating Malware Development'
   speaker: Kyle Avery (Outflank)
   year: '2025'
@@ -301,6 +334,7 @@
   category: Windows Defender for Endpoint, EDR bypass, malware development automation, AI+offensive
   source: blackhat-usa
   normalized_category: edr-bypass
+  watch_urls: []
 - title: BlueHat 2024 Day 1 Keynote
   speaker: Chris Wysopal (AKA Weld Pond), Co-founder Veracode / L0pht Heavy Industries
   theme: A founding hacker-turned-industry-leader reflects on 25+ years of security research and how the community shaped
@@ -340,6 +374,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: Creating a Developer-Friendly Security Tool
   speaker: Susan Krkasharian, Microsoft
   theme: Demonstrates a security tool designed to reduce friction for developers embedding security checks into their workflows
@@ -348,6 +383,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: My Best Frenemy
   speaker: Svetlana Gaivoronski + David B. Cross, Oracle
   theme: Explores the dual role of cloud identity and trust mechanisms as both enabling technology and primary attack surface
@@ -356,6 +392,7 @@
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Scaling Out: Securing Open Source'
   speaker: Zachary Steindler, Microsoft
   theme: Presents the OpenSSF Securing Software Repositories Working Group's roadmap for deploying Trusted Publishing and
@@ -365,6 +402,7 @@
   source: bluehat
   year: '2024'
   normalized_category: hardware-attack
+  watch_urls: []
 - title: Entitlements on macOS and why they matter
   speaker: Yves Younan, Cisco Talos
   theme: Explains how macOS entitlements control sandboxed application privileges and how misconfigurations create exploitable
@@ -374,6 +412,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: Getting In Tune with an Enterprise
   speaker: Brett Hawkins, IBM
   theme: Examines how attackers can exploit or researchers can audit Microsoft Intune MDM deployments to gain enterprise access
@@ -382,6 +421,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: 'AI''s got Muffins: the RAG-a-muffins!!!'
   speaker: Vivek Vinod Sharma, Microsoft
   theme: Explores security considerations for Retrieval-Augmented Generation (RAG) architectures in enterprise AI deployments
@@ -390,6 +430,7 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
+  watch_urls: []
 - title: 'Ransomware Resilience: Turning the Tide Against Cyber Extortion'
   speaker: Dr. Tom Williams (independent security practitioner, ~18 yrs experience)
   theme: Uses SEC EDGAR data from 2,928 publicly traded companies across 146 industries to quantify ransomware risk trends
@@ -399,6 +440,7 @@
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: SafeChatAI
   speaker: Ayobami Olatunji, Microsoft
   theme: Presents SafeChatAI, a Microsoft system for content safety and guardrailing in AI chat deployments
@@ -407,6 +449,7 @@
   source: bluehat
   year: '2020'
   normalized_category: ai-security
+  watch_urls: []
 - title: 'Firmware Security: Middle Child of Security'
   speaker: Nithin Sade, Google
   theme: Argues that firmware occupies a critical but neglected layer between hardware and software and outlines why it needs
@@ -416,6 +459,7 @@
   source: bluehat
   year: '2020'
   normalized_category: boot-firmware
+  watch_urls: []
 - title: The two sides of UnOAuthorized
   speaker: Eric Woodruff, Semperis + Cameron Vincent, Microsoft
   theme: Demonstrates how adversaries abuse OAuth authorization flows to achieve persistent, covert access to M365 environments,
@@ -455,6 +499,7 @@
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Echoes of Intrusion: Demystifying MS Graph API Attacks'
   speaker: Miriam Wiesner, Microsoft
   theme: Maps attacker techniques that abuse Microsoft Graph API for persistence, lateral movement, and data exfiltration
@@ -479,6 +524,7 @@
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
+  watch_urls: []
 - title: DCOM Research for Everyone!
   speaker: James Forshaw, Google Project Zero
   theme: Provides an accessible breakdown of Windows DCOM (Distributed Component Object Model) attack surface, including tools
@@ -533,6 +579,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: 'When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems'
   speaker: Mark Mager (Sr. Manager, Security Research) + Eric Forte, Elastic
   theme: Reveals critical hardware and software vulnerabilities in millions of Wi-Fi cameras using the insecure PPPP P2P protocol,
@@ -542,6 +589,7 @@
   source: bluehat
   year: '2024'
   normalized_category: out-of-scope
+  watch_urls: []
 - title: Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day
   speaker: Christine Fossaceca, Microsoft + Bill Marczak, Citizen Lab
   theme: Microsoft and Citizen Lab jointly reconstruct the QuaDream/KingsPawn spyware's iOS zero-click exploit (ENDOFDAYS),
@@ -611,6 +659,7 @@
   source: bluehat
   year: '2024'
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'MSTIC: A Threat Intelligence Year in Review'
   speaker: Rachel Giacobozzi, Microsoft Threat Intelligence
   theme: Surveys the 2024 threat landscape through MSTIC's lens, covering ransomware groups (Black Basta), nation-state actors
@@ -620,6 +669,7 @@
   source: bluehat
   year: '2024'
   normalized_category: malware
+  watch_urls: []
 - title: Minting Silver Bullets is Challenging
   speaker: Josh Brown-White, Microsoft
   theme: Argues that the quest for universal security solutions is fundamentally flawed given enterprise complexity, and proposes
@@ -629,6 +679,7 @@
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Lessons Learned from Red Teaming 100 Generative AI Applications
   speaker: Blake Bullwinkel, Microsoft AI Red Team
   theme: Shares systematic lessons from red-teaming over 100 GenAI products, cataloguing failure modes across prompt injection,
@@ -653,6 +704,7 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
+  watch_urls: []
 - title: 'SLIP: Securing LLMs IP Using Weights Decomposition'
   speaker: Adam Hakim, Microsoft
   theme: Introduces SLIP, a provably secure hybrid inference protocol that partitions LLM weights between secure and edge
@@ -662,6 +714,7 @@
   source: bluehat
   year: '2024'
   normalized_category: edr-bypass
+  watch_urls: []
 - title: Automate AI Red Teaming in your existing tool chain with PyRIT
   speaker: Joris de Gruyter + Shiven Chawla, Microsoft
   theme: Demonstrates PirateShip (a RESTful Docker layer over PyRIT) that integrates AI red-teaming into existing security
@@ -671,6 +724,7 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
+  watch_urls: []
 - title: ADCS Attack Paths in BloodHound — Part 1 (ESC1)
   speaker: SpecterOps BloodHound Enterprise Team (Jonas B. Knudsen, et al.)
   year: '2024'
@@ -680,6 +734,7 @@
   url: https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate)
   speaker: SpecterOps BloodHound Enterprise Team
   year: '2024'
@@ -689,6 +744,7 @@
   url: https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: ADCS ESC13 Abuse Technique
   speaker: Stephen Hinck, SpecterOps (credit to Adam Burford for discovery)
   year: '2024'
@@ -698,6 +754,7 @@
   url: https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities)
   speaker: Jonas B. Knudsen, SpecterOps
   year: '2024'
@@ -707,6 +764,7 @@
   url: https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release)'
   speaker: Elad Shamir, SpecterOps
   year: '2022'
@@ -716,6 +774,7 @@
   url: https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational whitepaper)'
   speaker: Will Schroeder (harmj0y), Lee Christensen (tifkin_), SpecterOps
   year: '2021'
@@ -725,6 +784,7 @@
   url: https://posts.specterops.io/certified-pre-owned-d95910965cd2
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)
   speaker: Dirk-jan Mollema (dirkjanm)
   year: '2025'
@@ -735,6 +795,7 @@
   url: https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
   source: community
   normalized_category: cloud-identity
+  watch_urls: []
 - title: Extending AD CS Attack Surface to the Cloud with Intune Certificates
   speaker: Dirk-jan Mollema
   year: '2025'
@@ -745,6 +806,7 @@
   url: https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: Persisting on Entra ID Applications and User Managed Identities with Federated Credentials
   speaker: Dirk-jan Mollema
   year: '2024'
@@ -755,6 +817,7 @@
   url: https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/
   source: community
   normalized_category: cloud-identity
+  watch_urls: []
 - title: Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Access Passes
   speaker: Dirk-jan Mollema
   year: '2024'
@@ -764,6 +827,7 @@
   url: https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/
   source: community
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Introducing Early Cascade Injection: From Windows Process Creation to Stealthy Injection'
   speaker: Guido Miggelenbrink, Outflank
   year: '2024'
@@ -773,6 +837,7 @@
   url: https://outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'Will the real #GrimResource please stand up? — Abusing the MSC File Format'
   speaker: Outflank team
   year: '2024'
@@ -782,6 +847,7 @@
   url: https://outflank.nl/blog/2024/08/13/will-the-real-grimresource-please-stand-up-abusing-the-msc-file-format/
   source: community
   normalized_category: post-exploit
+  watch_urls: []
 - title: Unmanaged .NET Patching
   speaker: Outflank team
   year: '2024'
@@ -791,6 +857,7 @@
   url: https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: Secure Enclaves for Offensive Operations — Part I
   speaker: Matteo Malvica (OffSec) & Cedric Van Bockhaven, Outflank
   year: '2025'
@@ -800,6 +867,7 @@
   url: https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Secure Enclaves for Offensive Operations — Part II: VTL1 Code Execution'
   speaker: Cedric Van Bockhaven & Matteo Malvica, Outflank
   year: '2025'
@@ -810,6 +878,7 @@
   url: https://outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/
   source: community
   normalized_category: hyper-v
+  watch_urls: []
 - title: Async BOFs — "Wake Me Up, Before You Go Go"
   speaker: Cornelis de Plaa (@Cneelis) et al., Outflank
   year: '2025'
@@ -819,6 +888,7 @@
   url: https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/
   source: community
   normalized_category: post-exploit
+  watch_urls: []
 - title: 'Training Specialist Models: Automating Malware Development (Black Hat USA 2025)'
   speaker: Outflank team
   year: '2025'
@@ -828,6 +898,7 @@
   url: https://outflank.nl/blog/2025/08/07/training-specialist-models/
   source: community
   normalized_category: defense-evasion
+  watch_urls: []
 - title: EDR Internals for macOS and Linux
   speaker: Outflank team
   year: '2024'
@@ -837,6 +908,7 @@
   url: https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS'
   speaker: Clément Labro (itm4n)
   year: '2024'
@@ -846,6 +918,7 @@
   url: https://itm4n.github.io/ghost-in-the-ppl-part-2/
   source: community
   normalized_category: byovd
+  watch_urls: []
 - title: 'Ghost in the PPL Part 3: LSASS Memory Dump'
   speaker: Clément Labro (itm4n)
   year: '2024'
@@ -855,6 +928,7 @@
   url: https://itm4n.github.io/ghost-in-the-ppl-part-3/
   source: community
   normalized_category: byovd
+  watch_urls: []
 - title: The PrintNightmare is Not Over Yet — Point and Print Bypass via DNS Spoofing
   speaker: Clément Labro (itm4n)
   year: '2024'
@@ -865,6 +939,7 @@
   url: https://itm4n.github.io/printnightmare-not-over/
   source: community
   normalized_category: post-exploit
+  watch_urls: []
 - title: Reinventing PowerShell in C/C++
   speaker: Clément Labro (itm4n)
   year: '2025'
@@ -874,6 +949,7 @@
   url: https://itm4n.github.io/reinventing-powershell/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: Hijacking the Windows "MareBackup" Scheduled Task for Privilege Escalation
   speaker: Clément Labro (itm4n)
   year: '2025'
@@ -883,6 +959,7 @@
   url: https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/
   source: community
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Checking for Symantec Account Connectivity Credentials (ACCs) with PrivescCheck / Offline Extraction
   speaker: Clément Labro (itm4n)
   year: '2025'
@@ -892,6 +969,7 @@
   url: https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/
   source: community
   normalized_category: credentials
+  watch_urls: []
 - title: CVE-2026-20817 — Windows Error Reporting Service EoP (Patch Analysis)
   speaker: Clément Labro (itm4n)
   year: '2026'
@@ -902,6 +980,7 @@
   url: https://itm4n.github.io/cve-2026-20817-wersvc-eop/
   source: community
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: 'BitLocker''s Little Secrets: The Undocumented FVE API'
   speaker: Clément Labro (itm4n)
   year: '2026'
@@ -911,6 +990,7 @@
   url: https://itm4n.github.io/bitlocker-little-secrets-the-undocumented-fve-api/
   source: community
   normalized_category: boot-firmware
+  watch_urls: []
 - title: Administrator Protection (Windows 11 25H2) — Overview, Research, and 9 UAC-Replacement Bypasses
   speaker: James Forshaw, Google Project Zero
   year: '2025'
@@ -920,6 +1000,7 @@
   category: kernel-exploitation (EoP / UAC bypass)
   source: community
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: GetProcessHandleFromHwnd — UI Access, Shatter Attacks, and How Windows is Fixing Them
   speaker: James Forshaw, Google Project Zero
   year: '2025'
@@ -930,6 +1011,7 @@
   url: https://googleprojectzero.blogspot.com
   source: community
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Windows Exploitation Techniques: Race Conditions with Path Lookups (originally 2016, republished 2025-12)'
   speaker: James Forshaw, Google Project Zero
   year: '2025'
@@ -940,6 +1022,7 @@
   url: https://googleprojectzero.blogspot.com/2025/12/windows-exploitation-techniques.html
   source: community
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Shellcode: Windows on ARM64 / AArch64'
   speaker: modexp
   year: '2024'
@@ -950,6 +1033,7 @@
   url: https://modexp.wordpress.com/2024/09/16/windows_arm64/
   source: community
   normalized_category: post-exploit
+  watch_urls: []
 - title: Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives)
   speaker: Antonio Cobo / Tarlogic team
   year: '2024'
@@ -959,6 +1043,7 @@
   url: https://www.tarlogic.com/blog/
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: Azure AD / Entra ID Kerberos Integration Attack Paths
   speaker: Eloy Pérez / Tarlogic team
   year: '2024'
@@ -968,6 +1053,7 @@
   url: https://www.tarlogic.com/blog/
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)
   speaker: Yarden Shafir & Alex Ionescu
   year: '2020'
@@ -977,6 +1063,7 @@
   url: https://windows-internals.com/cet-on-windows/
   source: community
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) — Trail of Bits blog
   speaker: Yarden Shafir (Trail of Bits)
   year: '2023'
@@ -986,6 +1073,7 @@
   url: https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'Windows Internals: Dissecting Secure Image Objects — Part 1'
   speaker: Connor McGarr
   year: '2024'
@@ -996,6 +1084,7 @@
   url: https://connormcgarr.github.io/secure-images/
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows'
   speaker: Connor McGarr
   year: '2025'
@@ -1006,6 +1095,7 @@
   url: https://connormcgarr.github.io/km-shadow-stacks/
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Windows Internals: Secure Calls — The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)'
   speaker: Connor McGarr
   year: '2025'
@@ -1016,6 +1106,7 @@
   url: https://connormcgarr.github.io/secure-calls-and-skbridge/
   source: community
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC)'
   speaker: Connor McGarr
   year: '2025'
@@ -1026,6 +1117,7 @@
   url: https://connormcgarr.github.io/windows-pac-arm64/
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windows under VHE'
   speaker: Connor McGarr
   year: '2025'
@@ -1035,6 +1127,7 @@
   url: https://connormcgarr.github.io/arm64-windows-internals-basics/
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Windows ARM64 Internals: Pardon The Interruption! Interrupts on Windows for ARM'
   speaker: Connor McGarr
   year: '2026'
@@ -1045,6 +1138,7 @@
   url: https://connormcgarr.github.io/windows-arm64-interrupts/
   source: community
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'Windows Internals: Check Your Privilege — The Curious Case of ETW''s SecurityTrace Flag'
   speaker: Connor McGarr (Origin/Prelude Security)
   year: '2026'
@@ -1055,6 +1149,7 @@
   url: https://connormcgarr.github.io/securitytrace-etw-ppl/
   source: community
   normalized_category: edr-bypass
+  watch_urls: []
 - title: CVE-2024-21423 — Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)
   speaker: Alex Gough (quidity), Google Project Zero
   year: '2024'
@@ -1064,6 +1159,7 @@
   url: https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24
   source: community
   normalized_category: hyper-v
+  watch_urls: []
 - title: Abusing VBS Enclaves to Create Evasive Malware
   speaker: Ori David, Akamai
   year: '2025'
@@ -1073,6 +1169,7 @@
   url: https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware
   source: community
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse
   speaker: Carl Sörqvist
   year: '2024'
@@ -1083,6 +1180,7 @@
   url: https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/
   source: community
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'DriverJack: Turning NTFS and Emulated Read-only Filesystems in an Infection and Persistence Vector'
   speaker: Alessandro Magnosi
   venue: DEF CON 32
@@ -1798,6 +1896,7 @@
   url: https://troopers.de/troopers24/talks/uvefjb/
   source: euro-asia-pwn2own
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover'
   speaker: Nick Powers
   year: '2024'
@@ -1824,6 +1923,7 @@
   url: https://troopers.de/troopers25/talks/ma3bfe/
   source: euro-asia-pwn2own
   normalized_category: credentials
+  watch_urls: []
 - title: 'Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation'
   speaker: Priyank Nigam
   year: '2025'
@@ -1835,6 +1935,7 @@
   url: https://troopers.de/troopers25/talks/rwhyvb/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths'
   speaker: Jonas Bülow Knudsen
   year: '2025'
@@ -1844,6 +1945,7 @@
   category: AD-attack
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls: []
 - title: Finding Entra ID Conditional Access Bypasses — the Structured Way
   speaker: Dirk-jan Mollema, Fabian Bader
   year: '2025'
@@ -1855,6 +1957,7 @@
   url: https://troopers.de/troopers25/talks/tfsfqs/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)'
   speaker: Yuya Chudo
   year: '2025'
@@ -1866,6 +1969,7 @@
   url: https://troopers.de/troopers25/talks/afv8bw/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'Misconfiguration Manager: Still Overlooked, Still Overprivileged'
   speaker: Duane Michael, Garrett Foster
   year: '2025'
@@ -1877,6 +1981,7 @@
   url: https://troopers.de/troopers25/talks/3fsjh7/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'RBAC: The Shady Place Behind Basic Entra ID Security'
   speaker: Martin Haller
   year: '2025'
@@ -1888,6 +1993,7 @@
   url: https://troopers.de/troopers25/talks/dukg9p/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Restless Guest: A Novel Entra ID Vulnerability'
   speaker: Simon Maxwell-Stewart
   year: '2025'
@@ -1899,6 +2005,7 @@
   url: https://troopers.de/troopers25/talks/yh3x7e/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls: []
 - title: Revisiting Cross-Session Activation Attacks
   speaker: Fabian Mosch
   year: '2025'
@@ -1910,6 +2017,7 @@
   url: https://troopers.de/troopers25/talks/tbuwdr/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'The Crypto Game of North Korea: Stealing Money with Chrome 0-Days'
   speaker: Boris Larin (Kaspersky GReAT)
   year: '2025'
@@ -1921,6 +2029,7 @@
   url: https://troopers.de/troopers25/talks/h9scgh/
   source: euro-asia-pwn2own
   normalized_category: browser-sandbox
+  watch_urls: []
 - title: 'Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs'
   speaker: Jorge de Almeida Pinto
   year: '2025'
@@ -1931,6 +2040,7 @@
   url: https://troopers.de/troopers25/talks/e8vz8y/
   source: euro-asia-pwn2own
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws'
   speaker: Not listed on archive page
   year: '2024'
@@ -1941,6 +2051,7 @@
   url: https://hardwear.io/usa-2024/
   source: euro-asia-pwn2own
   normalized_category: cloud-identity
+  watch_urls: []
 - title: 'A New Root of Trust: Changing Computing with TEE'
   speaker: Not listed on archive page
   year: '2024'
@@ -1952,6 +2063,7 @@
   url: https://hardwear.io/usa-2024/
   source: euro-asia-pwn2own
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: 'Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE'
   speaker: Not listed on archive page
   year: '2024'
@@ -1962,6 +2074,7 @@
   url: https://hardwear.io/usa-2024/
   source: euro-asia-pwn2own
   normalized_category: vbs-bypass
+  watch_urls: []
 - title: Windows 11 LPE — successful escalation to SYSTEM
   speaker: DEVCORE Research Team
   year: '2024'
@@ -1972,6 +2085,7 @@
   url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: VMware Workstation guest-escape → SYSTEM on host Windows OS
   speaker: Gwangun Jung (@pr0ln) & Junoh Lee (@bbbig12), Theori
   year: '2024'
@@ -1982,6 +2096,7 @@
   url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
   source: euro-asia-pwn2own
   normalized_category: hyper-v
+  watch_urls: []
 - title: Oracle VirtualBox guest-escape → SYSTEM on host Windows OS
   speaker: Bruno PUJOS & Corentin BAYET, REverse Tactics
   year: '2024'
@@ -1992,6 +2107,7 @@
   url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
   source: euro-asia-pwn2own
   normalized_category: hyper-v
+  watch_urls: []
 - title: Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)
   speaker: Manfred Paul (@_manfp)
   year: '2024'
@@ -2003,6 +2119,7 @@
   url: https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 11 LPE — three independent researchers succeeded on Day 2
   year: '2024'
   venue: 2024 / Pwn2Own Vancouver Day 2
@@ -2012,6 +2129,7 @@
   url: https://www.thezdi.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM
   speaker: Chen Le Qi (@cplearns2h4ck), STARLabs SG
   year: '2025'
@@ -2021,6 +2139,7 @@
   url: https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (type confusion)
   speaker: Hyeonjin Choi (@d4m0n_8), Out Of Bounds
   year: '2025'
@@ -2030,6 +2149,7 @@
   url: https://www.thezdi.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Microsoft SharePoint RCE (auth bypass + insecure deserialization chain)
   speaker: Dinh Ho Anh Khoa, Viettel Cyber Security
   year: '2025'
@@ -2040,6 +2160,7 @@
   url: https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results
   source: euro-asia-pwn2own
   normalized_category: identity
+  watch_urls: []
 - title: VMware Workstation guest-escape + Windows 11 LPE → SYSTEM
   speaker: Dung & Nguyen (@MochiNishimiya), STARLabs SG
   year: '2025'
@@ -2050,6 +2171,7 @@
   url: https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results
   source: euro-asia-pwn2own
   normalized_category: hyper-v
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (race condition)
   speaker: Miloš Ivanović (@ynwarcs)
   year: '2025'
@@ -2060,6 +2182,7 @@
   url: https://www.thezdi.com/blog/2025/5/17/pwn2own-berlin-2025-day-three-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Microsoft Edge sandbox escape (4-bug logic chain, full $175K payout)
   speaker: Orange Tsai (@orange_8361), DEVCORE Research Team
   year: '2026'
@@ -2070,6 +2193,7 @@
   url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
   source: euro-asia-pwn2own
   normalized_category: browser-sandbox
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (Improper Access Control)
   speaker: Angelboy (@scwuaptx) & TwinkleStar03 (@_twinklestar03), DEVCORE Research Team
   year: '2026'
@@ -2079,6 +2203,7 @@
   url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (heap-based buffer overflow)
   speaker: Marcin Wiążowski
   year: '2026'
@@ -2089,6 +2214,7 @@
   url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (2 × UAF)
   speaker: Kentaro Kawane, GMO Cybersecurity by Ierae
   year: '2026'
@@ -2098,6 +2224,7 @@
   url: https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Microsoft Exchange RCE as SYSTEM (3-bug chain)
   speaker: Orange Tsai (@orange_8361), DEVCORE Research Team
   year: '2026'
@@ -2109,6 +2236,7 @@
   url: https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results
   source: euro-asia-pwn2own
   normalized_category: browser-sandbox
+  watch_urls: []
 - title: Windows 11 LPE → SYSTEM (integer overflow)
   speaker: Siyeon Wi
   year: '2026'
@@ -2118,6 +2246,7 @@
   url: https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results
   source: euro-asia-pwn2own
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Microsoft SharePoint RCE (2-bug chain)
   speaker: splitline (@_splitline_), DEVCORE Research Team
   year: '2026'
@@ -2128,6 +2257,7 @@
   url: https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn
   source: euro-asia-pwn2own
   normalized_category: rce
+  watch_urls: []
 - title: Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012
   speaker: Stephen Breen (@breenmachine) — Foxglove Security
   year: '2016'
@@ -2138,6 +2268,7 @@
   url: https://foxglovesecurity.com/2016/01/16/hot-potato/
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM
   speaker: Stephen Breen (@breenmachine) + Chris Mallz (@vvalien1) — Foxglove Security
   year: '2016'
@@ -2149,6 +2280,7 @@
   code: https://github.com/foxglovesec/RottenPotato
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: Juicy Potato (abusing the golden privileges)
   speaker: Andrea Pierini (@decoder_it) + Giuseppe Trotta (@Giutro) — independent researchers / OHPE
   year: '2018'
@@ -2159,6 +2291,7 @@
   url: https://github.com/ohpe/juicy-potato
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: RoguePotato
   speaker: Antonio Cocomazzi (@splinter_code) + Andrea Pierini (@decoder_it)
   year: '2020'
@@ -2170,6 +2303,7 @@
   url: https://github.com/antonioCoco/RoguePotato
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: PrintSpoofer — Abusing Impersonate Privileges on Windows 10 and Server 2019
   speaker: Clément Labro (@itm4n) — independent researcher
   year: '2020'
@@ -2181,6 +2315,7 @@
   code: https://github.com/itm4n/PrintSpoofer
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: Sharing a Logon Session a Little Too Much
   speaker: James Forshaw (@tiraniddo) — Google Project Zero
   year: '2020'
@@ -2192,6 +2327,7 @@
   url: https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html
   source: foundational-pre-2024
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: 'Evil Printer: How to Hack Windows Machines with Printer Protocols'
   speaker: Zhipeng Huo (@R3dF09) + Yunhai Zhang (@cloudnine_sec) — Tencent Security Xuanwu Lab
   year: '2020'
@@ -2202,12 +2338,7 @@
   url: https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf
   source: foundational-pre-2024
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=jlU7tIGFmf8
-    source: YouTube
-    confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=jlU7tIGFmf8
-  watch_confidence: HIGH
+  watch_urls: []
 - title: PrintNightmare (CVE-2021-1675 / CVE-2021-34527)
   speaker: 'Original CVE-2021-1675 PoC: Zhiniang Peng (@edwardzpeng) + Xuefeng Li (@lxf02942370) — Sangfor Technologies; expanded
     CVE-2021-34527 analysis and public RCE: Benjamin Delpy, Cube0x0, multiple researchers'
@@ -2218,6 +2349,7 @@
   category: ipc-rpc / post-exploit / ad-attack
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services
   speaker: Lionel Gilles (@topotam77) — independent researcher
   year: '2021'
@@ -2229,6 +2361,7 @@
   url: https://github.com/topotam/PetitPotam
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Certified Pre-Owned: Abusing Active Directory Certificate Services'
   speaker: Will Schroeder (@harmj0y) + Lee Christensen (@tifkin_) — SpecterOps
   year: '2021'
@@ -2239,6 +2372,7 @@
   url: https://posts.specterops.io/certified-pre-owned-d95910965cd2
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography'
   speaker: Tom Tervoort (Senior Security Specialist) — Secura (Bureau Veritas Cybersecurity)
   year: '2020'
@@ -2250,6 +2384,7 @@
   url: https://www.secura.com/blog/zero-logon
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: Six Degrees of Domain Admin
   speaker: Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesus), Will Schroeder (@harmj0y) — then independent; later SpecterOps
   year: '2016'
@@ -2260,6 +2395,7 @@
   url: https://github.com/BloodHoundAD/BloodHound
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory
   speaker: Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSecurity.org; derived from Benjamin Delpy's (@gentilkiwi) Mimikatz
     implementation
@@ -2271,12 +2407,7 @@
   category: ad-attack / identity
   source: foundational-pre-2024
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=qlfdkf-9e0I
-    source: YouTube
-    confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=qlfdkf-9e0I
-  watch_confidence: HIGH
+  watch_urls: []
 - title: 'Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation'
   speaker: Benjamin Delpy (@gentilkiwi) — independent researcher
   year: '2011'
@@ -2287,6 +2418,7 @@
   url: https://github.com/gentilkiwi/mimikatz
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-Hash Toolkit"
   speaker: 'Original technique: Paul Ashton (Samba project), posted to samba-technical mailing list April 1997; operationalised
     for Windows by Hernan Ochoa (IOActive) in 2008 Pass-The-Hash Toolkit (Black Hat DC 2008)'
@@ -2295,9 +2427,10 @@
   theme: NT/LAN Manager authentication can be satisfied by sending a captured NTLM hash directly — without knowing the cleartext
     password — enabling lateral movement across Windows networks
   category: credentials / ad-attack
-  url: https://resources.oreilly.com/examples/9780596510978/
+  url: null
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Attacking Kerberos: Kicking the Guard Dog of Hades'
   speaker: Tim Medin (@timmedin) — Red Siege Information Security
   year: '2014'
@@ -2308,6 +2441,7 @@
   url: https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege'
   speaker: Originally discovered by researchers (credited to Tom Maddock / NSA attribution debated); public PoC by Sylvain
     Monné (@skipfish) and subsequently by Nikhil Mittal (@nikhil_mitt) "Kekeo" / PyKEK
@@ -2318,6 +2452,7 @@
   category: ad-attack / identity
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Empire: A PowerShell Post-Exploitation Framework'
   speaker: Will Schroeder (@harmj0y), Justin Warner (@sixdub), Matt Nelson (@enigma0x3), rvrsh3ll, killswitch_gui, xorrior
     — SpecterOps (then independent)
@@ -2329,6 +2464,7 @@
   url: https://github.com/EmpireProject/Empire
   source: foundational-pre-2024
   normalized_category: post-exploit
+  watch_urls: []
 - title: Rubeus
   speaker: Will Schroeder (@harmj0y) — SpecterOps; co-contributors Charlie Clark (@exploitph), Ceri Coburn (@_EthicalChaos_),
     Elad Shamir
@@ -2340,6 +2476,7 @@
   url: https://github.com/GhostPack/Rubeus
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: SharpDPAPI
   speaker: Will Schroeder (@harmj0y) — SpecterOps (port of Benjamin Delpy's Mimikatz DPAPI logic)
   year: '2018'
@@ -2350,6 +2487,7 @@
   url: https://github.com/GhostPack/SharpDPAPI
   source: foundational-pre-2024
   normalized_category: credentials
+  watch_urls: []
 - title: noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing)
   speaker: Charlie Clark (@exploitph) — SpecterOps; detailed by Andrew Bartlett (Samba), public PoC by Cube0x0 and WazeHell
   year: '2021'
@@ -2359,6 +2497,7 @@
   category: ad-attack / identity
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege'
   speaker: James Forshaw (@tiraniddo) — Google Project Zero
   year: '2015'
@@ -2370,6 +2509,7 @@
   url: https://bugs.chromium.org/p/project-zero/issues/detail?id=325
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Windows 10(HH) Symbolic Link Mitigations
   speaker: James Forshaw (@tiraniddo) — Google Project Zero
   year: '2015'
@@ -2381,6 +2521,7 @@
   url: https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Bochspwn: Identifying 0-days via system-wide memory access pattern analysis'
   speaker: Mateusz 'j00ru' Jurczyk + Gynvael Coldwind — Google
   year: '2013'
@@ -2390,6 +2531,7 @@
   category: fuzzing / kernel-exploit
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Windows Notification Facility: Useless or Useful? (blog series)'
   speaker: James Forshaw (@tiraniddo) — Google Project Zero
   year: '2019'
@@ -2401,6 +2543,7 @@
   url: https://www.tiraniddo.dev/2019/09/overview-of-windows-notification.html
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Reading Privileged Memory with a Side-Channel (Spectre/Meltdown)
   speaker: Jann Horn (Project Zero); Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg; Daniel Gruss, Moritz Lipp, et
     al
@@ -2412,6 +2555,7 @@
   url: https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
   source: foundational-pre-2024
   normalized_category: hyper-v
+  watch_urls: []
 - title: Fileless UAC Bypass using eventvwr.exe and Registry Hijacking
   speaker: Matt Nelson (@enigma0x3) — SpecterOps
   year: '2016'
@@ -2422,6 +2566,7 @@
   url: https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: UACME — Defeating Windows User Account Control
   speaker: hfiref0x (@hfiref0x) — independent researcher
   year: '2014'
@@ -2432,6 +2577,7 @@
   url: https://github.com/hfiref0x/UACME
   source: foundational-pre-2024
   normalized_category: defense-evasion
+  watch_urls: []
 - title: Investigating COM Hijacking Techniques for Persistence and Privilege Escalation
   speaker: Will Dormann (@wdormann) — CERT/CC; documented and researched extensively 2018–2022
   year: '2018'
@@ -2441,6 +2587,7 @@
   category: defense-evasion / post-exploit
   source: foundational-pre-2024
   normalized_category: post-exploit
+  watch_urls: []
 - title: Mark-of-the-Web (MOTW) Bypass Research Series
   speaker: Will Dormann (@wdormann) — CERT/CC (primary analyst); multiple CVEs filed 2018–2022; additional research by Outflank
     researchers (Stan Hegt) 2022
@@ -2451,6 +2598,7 @@
   category: office-attack / defense-evasion
   source: foundational-pre-2024
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Social Engineering the Windows Kernel
   speaker: James Forshaw (@tiraniddo) — Google Project Zero
   year: '2015'
@@ -2477,6 +2625,7 @@
   category: hyper-v / browser-sandbox
   source: foundational-pre-2024
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools'
   speaker: Will Schroeder (@harmj0y) + Matt Graeber (@mattifestation) + others — SpecterOps
   year: '2012'
@@ -2486,6 +2635,7 @@
   category: post-exploit / credentials
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN
   speaker: Lee Christensen (@tifkin_) — SpecterOps
   year: '2018'
@@ -2496,6 +2646,7 @@
   url: https://github.com/leechristensen/SpoolSample
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: 'Kekeo: A Kerberos Toolkit with MS14-068 Exploitation'
   speaker: Benjamin Delpy (@gentilkiwi) — independent researcher
   year: '2014'
@@ -2506,6 +2657,7 @@
   url: https://github.com/gentilkiwi/kekeo
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus
   speaker: Sean Metcalf (@PyroTek3) — TrimarcSecurity
   year: '2014'
@@ -2516,6 +2668,7 @@
   url: https://adsecurity.org
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: Bypassing AMSI via .NET Reflection
   speaker: Matt Graeber (@mattifestation) — SpecterOps
   year: '2016'
@@ -2525,6 +2678,7 @@
   category: defense-evasion
   source: foundational-pre-2024
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'DCSync: Replicating AD Credentials Over the Network'
   speaker: Benjamin Delpy (@gentilkiwi) + Vincent Le Toux — in Mimikatz lsadump::dcsync
   year: '2015'
@@ -2535,6 +2689,7 @@
   url: https://adsecurity.org/?p=1729
   source: foundational-pre-2024
   normalized_category: ad-attack
+  watch_urls: []
 - title: Practical Exploitation of Registry Vulnerabilities in the Windows Kernel
   speaker: Mateusz Jurczyk — Google Project Zero
   venue: OffensiveCon 2024
@@ -2545,6 +2700,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting'
   speaker: Piotr Bazydło — Trend Micro Zero Day Initiative (ZDI)
   venue: OffensiveCon 2024
@@ -2555,6 +2711,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: ipc-rpc
+  watch_urls: []
 - title: 'Almost Escaping the Sandbox: Attacking Windows Device Drivers'
   speaker: Erik Egsgard — Field Effect (Principal Security Developer)
   venue: OffensiveCon 2024
@@ -2565,6 +2722,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Booting with Caution: Dissecting Secure Boot''s Third-Party Attack Surface'
   speaker: Bill Demirkapi — Independent (formerly Microsoft; Windows internals specialist)
   venue: OffensiveCon 2024
@@ -2575,6 +2733,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: boot-firmware
+  watch_urls: []
 - title: 'UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development'
   speaker: Nika Korchok Wakulich (aka ic3qu33n) — Leviathan Security Group
   venue: OffensiveCon 2024
@@ -2585,6 +2744,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: boot-firmware
+  watch_urls: []
 - title: Hunting for Overlooked Cookies in Windows 11 KTM and Baking Exploits for Them
   speaker: Cedric Halbronn (PixiePoint Security / independent trainer) & Jael Koh (PixiePoint Security)
   venue: OffensiveCon 2025
@@ -2595,6 +2755,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities
   speaker: An-Jie Yang (aka Angelboy) — DEVCORE, Taiwan
   venue: OffensiveCon 2025
@@ -2606,6 +2767,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Enhanced Insecurity Mode: 23 RCEs in Edge''s "Safe" WebAssembly Interpreter'
   speaker: Nan Wang (sakura) & Ziling Chen (R1nd0) — Zellic
   venue: OffensiveCon 2026
@@ -2616,6 +2778,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: browser-sandbox
+  watch_urls: []
 - title: 'IRON GIANT: When The Vault Becomes The Victim'
   speaker: Erik Egsgard — Field Effect (Principal Security Developer)
   venue: OffensiveCon 2026
@@ -2626,6 +2789,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: credentials
+  watch_urls: []
 - title: 'Tales From The Crypt: Bug Hunting in the Windows CryptoAPI'
   speaker: Erik Egsgard — Field Effect
   venue: Recon 2024
@@ -2636,6 +2800,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: fuzzing
+  watch_urls: []
 - title: 'Peeling Back the Windows Registry Layers: A Bug Hunter''s Expedition'
   speaker: Mateusz Jurczyk — Google Project Zero
   venue: Recon 2024
@@ -2646,6 +2811,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Hypervisor-enforced Paging Translation — The end of non data-driven Kernel Exploits?
   speaker: Andrea Allievi (Microsoft) & Satoshi Tanda (Sony Interactive Entertainment, ex-Microsoft)
   venue: Recon 2024
@@ -2657,6 +2823,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections'
   speaker: Andrei Lutas — Bitdefender
   venue: Recon 2025
@@ -2667,6 +2834,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: hyper-v
+  watch_urls: []
 - title: 'WinpMem: Volatility''s driver that lets malware volatilize'
   speaker: Dr. Baptiste David — ERNW
   venue: Recon 2025
@@ -2677,6 +2845,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: edr-bypass
+  watch_urls: []
 - title: The Finer Details of LSA Credential Recovery
   speaker: Evan McBroom — SpecterOps
   venue: Recon 2025
@@ -2687,6 +2856,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: credentials
+  watch_urls: []
 - title: Reverse Engineering Patch Tuesday
   speaker: John McIntosh — Clearseclabs
   venue: Recon 2025
@@ -2697,6 +2867,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: fuzzing
+  watch_urls: []
 - title: Reversing Warbird for no fun and no profit
   speaker: Philippe Laulheret — Cisco Talos
   venue: Recon 2025
@@ -2707,6 +2878,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: code-integrity
+  watch_urls: []
 - title: 'Back from the dead: Exhuming EBC'
   speaker: Nika Korchok Wakulich (aka ic3qu33n) — Independent
   venue: Recon 2025
@@ -2718,6 +2890,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: boot-firmware
+  watch_urls: []
 - title: NET Exploitation Workshop
   speaker: Sina Kheirkhah — Independent (Pwn2Own "Master of Pwn" 2025)
   venue: Recon 2025
@@ -2728,6 +2901,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: Chaining Microsoft binaries to get privileged primitives in Windows kernel
   speaker: Alejandro Pinna — affiliation not confirmed from available pages
   venue: Recon 2026
@@ -2738,6 +2912,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: kernel-exploit
+  watch_urls: []
 - title: 'Click Once and Stay Forever: uncovering a new abuse of the ClickOnce technology'
   speaker: Mathilde Venault — affiliation not confirmed from available pages
   venue: Recon 2026
@@ -2748,6 +2923,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: defense-evasion
+  watch_urls: []
 - title: How real-world malware disables EDR systems
   speaker: Holger Unterbrink — Cisco Talos
   venue: Recon 2026
@@ -2759,6 +2935,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: edr-bypass
+  watch_urls: []
 - title: 'Prism Internals: Reversing Microsoft''s x86-to-ARM64 Binary Translator'
   speaker: Hugo (surname not disclosed in sessions listing) — affiliation unknown
   venue: Recon 2026
@@ -2769,6 +2946,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: rce
+  watch_urls: []
 - title: 'Paper Werewolf''s Toolbox: Reversing XLL Delivery, EchoGather, and a WinRAR Exploit Chain Targeting Russia'
   speaker: Nicole Fishbein — Intezer (malware analyst)
   venue: Recon 2026
@@ -2779,6 +2957,7 @@
   year: '2026'
   source: offcon-recon
   normalized_category: malware
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2024'
   theme: Windows kernel registry subsystem — research overview and bug statistics
@@ -2787,6 +2966,7 @@
   title: 'The Windows Registry Adventure #1: Introduction and Research Results'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2024'
   theme: Historical evolution of the Windows Registry from MS-DOS through Windows 11; architectural decisions
@@ -2795,6 +2975,7 @@
   title: 'The Windows Registry Adventure #2: A Brief History of the Feature'
   source: project-zero
   normalized_category: registry
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2024'
   theme: Fuzzing infrastructure and tooling for Windows Registry research
@@ -2803,6 +2984,7 @@
   title: 'The Windows Registry Adventure #3: Learning Resources'
   source: project-zero
   normalized_category: fuzzing
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2024'
   theme: Deep dive into Windows Registry kernel data structures and hive memory layout
@@ -2811,6 +2993,7 @@
   title: 'The Windows Registry Adventure #4: Hives and the Registry Layout'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2024'
   theme: Binary regf hive file format — parsing bugs as attack entry point
@@ -2819,6 +3002,7 @@
   title: 'The Windows Registry Adventure #5: The regf File Format'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: James Forshaw
   year: '2024'
   theme: COM/DCOM attack surface inspection tooling — OleView.NET major update
@@ -2827,6 +3011,7 @@
   title: 'Windows Tooling Updates: OleView.NET'
   source: project-zero
   normalized_category: ipc-rpc
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2025'
   theme: Kernel-mode object lifecycle in registry subsystem — reference counting, CM_KEY_BODY, KCB objects
@@ -2835,6 +3020,7 @@
   title: 'The Windows Registry Adventure #6: Kernel-Mode Objects'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2025'
   theme: Comprehensive taxonomy of all registry bug classes found; attack surface map
@@ -2843,6 +3029,7 @@
   title: 'The Windows Registry Adventure #7: Attack Surface Analysis'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: Mateusz Jurczyk
   year: '2025'
   theme: Full Windows 11 kernel LPE exploit chain via registry hive memory corruption
@@ -2851,6 +3038,7 @@
   title: 'The Windows Registry Adventure #8: Practical Exploitation of Hive Memory Corruption'
   source: project-zero
   normalized_category: kernel-exploit
+  watch_urls: []
 - speaker: James Forshaw
   year: '2025'
   theme: Updated technique for trapping virtual memory access — SMB alternative-port feature in Win11 24H2
@@ -2859,6 +3047,7 @@
   title: 'Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)'
   source: project-zero
   normalized_category: filesystem
+  watch_urls: []
 - speaker: James Forshaw
   year: '2025'
   theme: COM IDispatch type-info marshaling — TOCTOU exploitation to instantiate arbitrary CLSIDs in privileged server context
@@ -2867,6 +3056,7 @@
   title: 'Windows Bug Class: Accessing Trapped COM Objects with IDispatch'
   source: project-zero
   normalized_category: browser-sandbox
+  watch_urls: []
 - speaker: James Forshaw
   year: '2025'
   theme: Object Manager Namespace (OMNS) path-lookup timing for TOCTOU race window expansion
@@ -2875,6 +3065,7 @@
   title: 'Windows Exploitation Techniques: Winning Race Conditions with Path Lookups'
   source: project-zero
   normalized_category: filesystem
+  watch_urls: []
 - speaker: James Forshaw
   year: '2026'
   theme: Windows 11 25H2 Administrator Protection — feature overview, UAC comparison, first bypass (logon session DOS device
@@ -2883,6 +3074,7 @@
   title: Bypassing Windows Administrator Protection (Introduction)
   source: project-zero
   normalized_category: post-exploit
+  watch_urls: []
 - speaker: James Forshaw
   year: '2026'
   theme: UI Access flag in Windows Vista+ — root cause of 5 of 9 Administrator Protection bypasses
@@ -2891,6 +3083,7 @@
   title: Bypassing Administrator Protection by Abusing UI Access
   source: project-zero
   normalized_category: post-exploit
+  watch_urls: []
 - speaker: James Forshaw
   year: '2026'
   theme: Code archaeology of GetProcessHandleFromHwnd — 4 implementation versions across Windows Vista–Win11 24H2; KernelMode
@@ -2900,3 +3093,4 @@
   title: A Deep Dive into the GetProcessHandleFromHwnd API
   source: project-zero
   normalized_category: post-exploit
+  watch_urls: []
