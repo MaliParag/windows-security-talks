@@ -567,11 +567,33 @@ function bestEmbedYT(r) {
   }
   return null;
 }
+// Hosts that block cross-origin <video> embedding (CORS/COEP/CORP same-origin).
+// MP4s from these hosts only play when opened in a new tab on the host's own origin.
+const NON_EMBEDDABLE_HOSTS = new Set([
+  "media.defcon.org",
+]);
+
+function isEmbeddableMP4Url(url) {
+  if (!url) return false;
+  if (!/\.(mp4|webm)$/i.test(url)) return false;
+  try {
+    const h = new URL(url).hostname.replace(/^www\./, "");
+    return !NON_EMBEDDABLE_HOSTS.has(h);
+  } catch (e) { return false; }
+}
+
 function bestMP4(r) {
+  // Best MP4 entry — flags "has video file" but does not guarantee cross-origin
+  // embeddability. Use bestEmbeddableMP4() to gate the inline <video> tag.
   const list = r.watch_urls || (r.watch_url ? [{url: r.watch_url}] : []);
   for (const w of list) {
     if (/\.(mp4|webm)$/i.test(w.url)) return w;
   }
+  return null;
+}
+function bestEmbeddableMP4(r) {
+  const list = r.watch_urls || (r.watch_url ? [{url: r.watch_url}] : []);
+  for (const w of list) if (isEmbeddableMP4Url(w.url)) return w;
   return null;
 }
 function prettyDomain(u) {
@@ -816,11 +838,33 @@ function previewBlock(r, ytEntry, mp4Entry, color) {
       allowfullscreen: "", loading: "eager",
     }));
   }
-  if (mp4Entry) {
+  // Inline <video> only works for MP4s on hosts that allow cross-origin embedding.
+  // media.defcon.org sends cross-origin-resource-policy: same-origin which blocks it.
+  const embedMP4 = bestEmbeddableMP4(r);
+  if (embedMP4) {
     return el("div", { class: "video-wrap" }, el("video", {
-      src: mp4Entry.url, controls: "", preload: "metadata",
+      src: embedMP4.url, controls: "", preload: "metadata",
       style: { width: "100%", height: "100%", background: "black" },
     }));
+  }
+  // We have an MP4 link but the host blocks embedding (e.g. DEF CON archive).
+  if (mp4Entry) {
+    let hostName = "the host";
+    try { hostName = new URL(mp4Entry.url).hostname; } catch (e) {}
+    return el("div", { class: "no-video", style: { "--cat-color": color } },
+      el("div", { style: { marginBottom: "10px", fontWeight: "600", fontSize: "14px", color: "white" } },
+        "Recording available — opens at " + hostName),
+      el("div", { style: { fontSize: "12px", opacity: "0.85" } },
+        hostName.includes("defcon")
+          ? "DEF CON's media server blocks cross-origin embedding. Click the watch button below to play the talk on media.defcon.org."
+          : "This host blocks cross-origin embedding. Open the watch link below to play."),
+      el("a", {
+        href: mp4Entry.url, target: "_blank", rel: "noopener",
+        style: { marginTop: "14px", padding: "8px 18px", background: "white", color: "black",
+                 borderRadius: "8px", textDecoration: "none", fontWeight: "600", fontSize: "13px",
+                 display: "inline-flex", alignItems: "center", gap: "6px" }
+      }, el("span", { class: "icn", html: ICONS.play }), " Open MP4"),
+    );
   }
   const watchUrls = r.watch_urls || [];
   const hint = watchUrls.length
@@ -898,13 +942,14 @@ async function load() {
     }
   }
   const ytCount = TALKS.filter(t => bestEmbedYT(t)).length;
+  const embedMP4Count = TALKS.filter(t => bestEmbeddableMP4(t)).length;
   const mp4Count = TALKS.filter(t => bestMP4(t)).length;
   const recCount = TALKS.filter(t => (t.watch_urls || []).length > 0 || t.watch_url).length;
   const multiCount = TALKS.filter(t => (t.watch_urls || []).length > 1).length;
   $("stats-pill").innerHTML =
     `<span><strong>${TALKS.length}</strong> talks</span>` +
     `<span><strong>${recCount}</strong> with recordings</span>` +
-    `<span><strong>${ytCount + mp4Count}</strong> embeddable</span>` +
+    `<span title="Plays inline in the modal"><strong>${ytCount + embedMP4Count}</strong> embeddable</span>` +
     (multiCount ? `<span title="Talks with multiple recording sources"><strong>${multiCount}</strong> with mirrors</span>` : "") +
     `<span><strong>${cats.size}</strong> themes</span>`;
 
