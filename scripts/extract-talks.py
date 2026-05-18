@@ -659,6 +659,13 @@ def main():
         yaml.safe_dump(all_records, f, sort_keys=False, allow_unicode=True, width=120)
     print(f"\n[OK] wrote {DST / 'talks.yaml'}")
 
+    # Also emit a JSON copy for the static GitHub Pages site.
+    import json
+    (DST / "docs").mkdir(exist_ok=True)
+    with open(DST / "docs" / "talks.json", "w") as f:
+        json.dump(all_records, f, ensure_ascii=False, indent=1)
+    print(f"[OK] wrote {DST / 'docs' / 'talks.json'}")
+
     (DST / "by-theme").mkdir(exist_ok=True)
     # Wipe stale per-theme files first.
     for p in (DST / "by-theme").glob("*.md"):

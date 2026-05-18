@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows Security Talks — curated index</title>
+<meta name="description" content="A curated, theme-clustered index of conference talks and research about Microsoft Windows security. 265 talks across DEF CON, Black Hat, BlueHat, OffensiveCon, Recon, Project Zero, academic venues, and community blogs.">
+<style>
+  :root {
+    --bg: #0e1117;
+    --panel: #161b22;
+    --panel-2: #1c232c;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-soft: #1f6feb33;
+    --chip-bg: #21262d;
+    --chip-border: #30363d;
+    --hover: #1f2630;
+    --tag-kernel: #f78166;
+    --tag-ad: #58a6ff;
+    --tag-credentials: #d2a8ff;
+    --tag-cloud: #79c0ff;
+    --tag-ipc: #ffa657;
+    --tag-default: #8b949e;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #ffffff;
+      --panel: #f6f8fa;
+      --panel-2: #ffffff;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --muted: #57606a;
+      --accent: #0969da;
+      --accent-soft: #0969da1a;
+      --chip-bg: #f6f8fa;
+      --chip-border: #d0d7de;
+      --hover: #eef1f4;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-size: 14px; line-height: 1.5;
+  }
+  header {
+    padding: 28px 32px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  header h1 {
+    margin: 0 0 6px; font-size: 22px; font-weight: 600;
+  }
+  header .subtitle {
+    color: var(--muted); font-size: 13px;
+  }
+  header a { color: var(--accent); text-decoration: none; }
+  header a:hover { text-decoration: underline; }
+  .container { padding: 18px 32px 80px; max-width: 1400px; margin: 0 auto; }
+  .controls {
+    display: grid;
+    grid-template-columns: minmax(260px, 1.5fr) repeat(4, minmax(140px, 1fr));
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: end;
+  }
+  @media (max-width: 900px) {
+    .controls { grid-template-columns: 1fr 1fr; }
+  }
+  .ctrl label {
+    display: block; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--muted); margin-bottom: 4px;
+  }
+  input[type="search"], select {
+    width: 100%;
+    padding: 7px 10px;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+  }
+  input[type="search"]:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .stats {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .stats .count { color: var(--text); font-weight: 600; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  thead th {
+    background: var(--panel-2);
+    color: var(--muted);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th .arrow { color: var(--accent); margin-left: 4px; }
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--hover); }
+  tbody td {
+    padding: 10px 12px;
+    vertical-align: top;
+    font-size: 13px;
+  }
+  td.year { white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
+  td.title { font-weight: 500; }
+  td.title a { color: var(--accent); text-decoration: none; }
+  td.title a:hover { text-decoration: underline; }
+  td.speaker { color: var(--muted); max-width: 280px; }
+  td.venue { color: var(--muted); white-space: nowrap; }
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    background: var(--chip-bg);
+    border: 1px solid var(--chip-border);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .chip.kernel-exploit { color: var(--tag-kernel); border-color: #f7816644; }
+  .chip.ad-attack { color: var(--tag-ad); border-color: #58a6ff44; }
+  .chip.credentials { color: var(--tag-credentials); border-color: #d2a8ff44; }
+  .chip.cloud-identity { color: var(--tag-cloud); border-color: #79c0ff44; }
+  .chip.ipc-rpc { color: var(--tag-ipc); border-color: #ffa65744; }
+  .icons { white-space: nowrap; }
+  .icon-link {
+    display: inline-block;
+    width: 28px; height: 24px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--muted);
+    margin-right: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .icon-link:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+  .icon-link.disabled { opacity: 0.3; pointer-events: none; }
+
+  .row-detail {
+    background: var(--panel-2);
+    padding: 14px 16px;
+    border-top: 1px dashed var(--border);
+  }
+  .row-detail .theme {
+    color: var(--text);
+    margin-bottom: 10px;
+    line-height: 1.55;
+    max-width: 75ch;
+  }
+  .row-detail .meta {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .row-detail .meta .label {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    margin-right: 4px;
+    color: var(--muted);
+  }
+  .embed-frame {
+    width: 100%; max-width: 720px;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-top: 10px;
+    background: black;
+  }
+  .empty {
+    text-align: center; padding: 60px 20px; color: var(--muted);
+  }
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Windows Security Talks</h1>
+  <div class="subtitle">
+    A curated, theme-clustered index of research about Microsoft Windows security.
+    Source repo: <a href="https://github.com/MaliParag/windows-security-talks">MaliParag/windows-security-talks</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="controls">
+    <div class="ctrl">
+      <label for="q">Search</label>
+      <input id="q" type="search" placeholder="title, speaker, theme…" autocomplete="off">
+    </div>
+    <div class="ctrl">
+      <label for="cat">Category</label>
+      <select id="cat"><option value="">All</option></select>
+    </div>
+    <div class="ctrl">
+      <label for="year">Year</label>
+      <select id="year"><option value="">All</option></select>
+    </div>
+    <div class="ctrl">
+      <label for="venue">Venue</label>
+      <select id="venue"><option value="">All</option></select>
+    </div>
+    <div class="ctrl">
+      <label for="has-watch">Watch link</label>
+      <select id="has-watch">
+        <option value="">Any</option>
+        <option value="1">Has video</option>
+        <option value="0">No video</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="stats">
+    Showing <span class="count" id="visible-count">0</span> of <span id="total-count">0</span> talks.
+    Click any row to expand theme, slides, and embedded video where available.
+  </div>
+
+  <table id="t">
+    <thead>
+      <tr>
+        <th data-sort="year">Year <span class="arrow" id="arrow-year">▼</span></th>
+        <th data-sort="category">Category <span class="arrow" id="arrow-category"></span></th>
+        <th data-sort="title">Title <span class="arrow" id="arrow-title"></span></th>
+        <th data-sort="speaker">Speaker(s) <span class="arrow" id="arrow-speaker"></span></th>
+        <th data-sort="venue">Venue <span class="arrow" id="arrow-venue"></span></th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <div class="empty" id="empty" style="display:none">
+    No talks match these filters.
+  </div>
+
+  <footer>
+    Curated for <a href="https://paragmali.com">paragmali.com</a>.
+    Data licensed CC-BY-4.0; linked talks are property of their respective authors.
+    Built with the parallel-research pipeline described in
+    <a href="https://github.com/MaliParag/windows-security-talks/blob/master/README.md">README</a>.
+  </footer>
+</div>
+
+<script>
+let TALKS = [];
+let SORT = { key: "year", dir: -1 }; // -1 desc, 1 asc
+let EXPANDED = new Set();
+
+function el(tag, attrs, ...children) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") e.className = v;
+    else if (k === "html") e.innerHTML = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v);
+  }
+  for (const c of children) {
+    if (c == null) continue;
+    e.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  }
+  return e;
+}
+
+function youtubeEmbed(url) {
+  if (!url) return null;
+  // Match youtube.com/watch?v=ID, youtu.be/ID, youtube.com/embed/ID
+  const m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([\w-]{6,})/);
+  if (m) return "https://www.youtube.com/embed/" + m[1];
+  return null;
+}
+
+function fmtSpeaker(s) {
+  if (!s) return "";
+  s = s.replace(/\s+/g, " ").trim();
+  return s.length > 80 ? s.slice(0, 77) + "…" : s;
+}
+
+function populateFilter(id, values) {
+  const sel = document.getElementById(id);
+  values.sort();
+  for (const v of values) {
+    if (!v) continue;
+    sel.appendChild(el("option", { value: v }, v));
+  }
+}
+
+function applyFilters() {
+  const q = document.getElementById("q").value.toLowerCase().trim();
+  const cat = document.getElementById("cat").value;
+  const year = document.getElementById("year").value;
+  const venue = document.getElementById("venue").value;
+  const hasWatch = document.getElementById("has-watch").value;
+
+  let filtered = TALKS.filter(r => {
+    if (cat && r.normalized_category !== cat) return false;
+    if (year && (r.year || "") !== year) return false;
+    if (venue && !((r.venue || "").includes(venue) || (r._venue_key || "") === venue)) return false;
+    if (hasWatch === "1" && !r.watch_url) return false;
+    if (hasWatch === "0" && r.watch_url) return false;
+    if (q) {
+      const hay = [r.title, r.speaker, r.theme, r.venue, r.normalized_category]
+        .filter(Boolean).join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    let av = a[SORT.key] || "", bv = b[SORT.key] || "";
+    if (SORT.key === "year") { av = parseInt(av) || 0; bv = parseInt(bv) || 0; }
+    if (SORT.key === "category") { av = a.normalized_category || ""; bv = b.normalized_category || ""; }
+    if (av < bv) return -SORT.dir;
+    if (av > bv) return SORT.dir;
+    return 0;
+  });
+
+  render(filtered);
+
+  // Update arrows.
+  for (const th of document.querySelectorAll("[data-sort]")) {
+    const k = th.dataset.sort;
+    document.getElementById("arrow-" + k).textContent =
+      (SORT.key === k) ? (SORT.dir === -1 ? "▼" : "▲") : "";
+  }
+}
+
+function render(rows) {
+  const tbody = document.getElementById("tbody");
+  tbody.innerHTML = "";
+  document.getElementById("visible-count").textContent = rows.length;
+  document.getElementById("empty").style.display = rows.length ? "none" : "block";
+  document.getElementById("t").style.display = rows.length ? "" : "none";
+
+  for (const r of rows) {
+    const id = r._id;
+    const slidesLink = r.url
+      ? el("a", { class: "icon-link", href: r.url, target: "_blank", rel: "noopener", title: "Slides / paper" }, "PDF")
+      : el("span", { class: "icon-link disabled" }, "PDF");
+    const watchLink = r.watch_url
+      ? el("a", { class: "icon-link", href: r.watch_url, target: "_blank", rel: "noopener", title: "Recording" }, "▶")
+      : el("span", { class: "icon-link disabled" }, "▶");
+
+    const catChip = el("span", { class: "chip " + (r.normalized_category || "") },
+                       r.normalized_category || "—");
+
+    const tr = el("tr", { onclick: (e) => toggleRow(id, e) },
+      el("td", { class: "year" }, r.year || ""),
+      el("td", null, catChip),
+      el("td", { class: "title" }, r.title || ""),
+      el("td", { class: "speaker" }, fmtSpeaker(r.speaker)),
+      el("td", { class: "venue" }, r.venue || r.source || ""),
+      el("td", { class: "icons" }, slidesLink, watchLink),
+    );
+    tbody.appendChild(tr);
+
+    if (EXPANDED.has(id)) {
+      tbody.appendChild(renderDetail(r));
+    }
+  }
+}
+
+function toggleRow(id, e) {
+  // Clicks on links inside the row should not toggle the row.
+  if (e.target.closest("a")) return;
+  if (EXPANDED.has(id)) EXPANDED.delete(id);
+  else EXPANDED.add(id);
+  applyFilters();
+}
+
+function renderDetail(r) {
+  const tr = document.createElement("tr");
+  const td = document.createElement("td");
+  td.colSpan = 6;
+  td.className = "row-detail";
+
+  if (r.theme) {
+    td.appendChild(el("div", { class: "theme" }, r.theme));
+  }
+  const meta = el("div", { class: "meta" });
+  if (r.source) meta.appendChild(el("span", null, ...mkMeta("Source", r.source)));
+  if (r.watch_confidence) meta.appendChild(el("span", null, " · ", ...mkMeta("Watch confidence", r.watch_confidence)));
+  if (r.category && r.category !== r.normalized_category)
+    meta.appendChild(el("span", null, " · ", ...mkMeta("Raw category", r.category)));
+  td.appendChild(meta);
+
+  const embed = youtubeEmbed(r.watch_url);
+  if (embed) {
+    td.appendChild(el("iframe", {
+      class: "embed-frame",
+      src: embed,
+      allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      allowfullscreen: "",
+      loading: "lazy",
+    }));
+  }
+  tr.appendChild(td);
+  return tr;
+}
+
+function mkMeta(label, value) {
+  return [el("span", { class: "label" }, label + ":"), " " + value];
+}
+
+function deriveVenueKey(v) {
+  v = (v || "").toLowerCase();
+  if (v.includes("def con") || v.includes("defcon")) return "DEF CON";
+  if (v.includes("black hat") || v.includes("blackhat")) return "Black Hat USA";
+  if (v.includes("bluehat")) return "BlueHat";
+  if (v.includes("offensivecon")) return "OffensiveCon";
+  if (v.includes("recon")) return "Recon";
+  if (v.includes("troopers")) return "Troopers";
+  if (v.includes("pwn2own")) return "Pwn2Own";
+  if (v.includes("hardwear")) return "Hardwear.io";
+  if (v.includes("project zero")) return "Project Zero";
+  if (v.includes("usenix")) return "USENIX Security";
+  if (v.includes("ccs")) return "ACM CCS";
+  if (v.includes("ieee") || v.includes("s&p")) return "IEEE S&P";
+  if (v.includes("ndss")) return "NDSS";
+  return "";
+}
+
+async function load() {
+  const r = await fetch("talks.json");
+  TALKS = await r.json();
+
+  // Attach an id and a venue key for filtering.
+  const cats = new Set(), years = new Set(), venues = new Set();
+  TALKS.forEach((t, i) => {
+    t._id = i;
+    t._venue_key = deriveVenueKey(t.venue || t.source);
+    if (t.normalized_category) cats.add(t.normalized_category);
+    if (t.year) years.add(t.year);
+    if (t._venue_key) venues.add(t._venue_key);
+  });
+
+  document.getElementById("total-count").textContent = TALKS.length;
+  populateFilter("cat", Array.from(cats));
+  populateFilter("year", Array.from(years).sort((a, b) => b.localeCompare(a)));
+  populateFilter("venue", Array.from(venues));
+
+  // Wire up controls.
+  for (const id of ["q", "cat", "year", "venue", "has-watch"]) {
+    const e = document.getElementById(id);
+    const evt = (id === "q") ? "input" : "change";
+    e.addEventListener(evt, applyFilters);
+  }
+  // Sort columns.
+  for (const th of document.querySelectorAll("[data-sort]")) {
+    th.addEventListener("click", () => {
+      const k = th.dataset.sort;
+      if (SORT.key === k) SORT.dir *= -1;
+      else { SORT.key = k; SORT.dir = (k === "year") ? -1 : 1; }
+      applyFilters();
+    });
+  }
+
+  applyFilters();
+}
+
+load().catch(e => {
+  document.getElementById("tbody").innerHTML =
+    "<tr><td colspan='6' style='padding:20px;color:#f78166'>Failed to load talks.json: " + e + "</td></tr>";
+});
+</script>
+
+</body>
+</html>
