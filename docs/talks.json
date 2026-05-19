@@ -8,7 +8,15 @@
   "year": "2024",
   "source": "academic-windows",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=wSMByLg-ibs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=wSMByLg-ibs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos Implementation",
@@ -19,7 +27,15 @@
   "year": "2024",
   "source": "academic-windows",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=7EKRHgwyXlQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=7EKRHgwyXlQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Windows Malware Detection Systems",
@@ -41,7 +57,15 @@
   "year": "2024",
   "source": "academic-windows",
   "normalized_category": "post-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=lnv6pLrnwLs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=lnv6pLrnwLs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Be Careful of What You Embed: Demystifying OLE Vulnerabilities",
@@ -52,7 +76,15 @@
   "year": "2025",
   "source": "academic-windows",
   "normalized_category": "office-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=tFBx79sHFEw",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=tFBx79sHFEw",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
@@ -63,7 +95,15 @@
   "year": "2025",
   "source": "academic-windows",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=qhpCzHJVOAU",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=qhpCzHJVOAU",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Sheep's Clothing, Wolf's Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC",
@@ -74,7 +114,15 @@
   "year": "2025",
   "source": "academic-windows",
   "normalized_category": "post-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=0-gHqAidfsA",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=0-gHqAidfsA",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples",
@@ -85,7 +133,15 @@
   "year": "2025",
   "source": "academic-windows",
   "normalized_category": "malware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=32CnhtoSVKI",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=32CnhtoSVKI",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts",
@@ -173,7 +229,15 @@
   "year": "2026",
   "source": "academic-windows",
   "normalized_category": "byovd",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=wj_gFhKIJ6w",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=wj_gFhKIJ6w",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Understanding the Status and Strategies of the Code Signing Abuse Ecosystem",
@@ -184,7 +248,15 @@
   "year": "2026",
   "source": "academic-windows",
   "normalized_category": "code-integrity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=ih0XF-kXAN0",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=ih0XF-kXAN0",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
@@ -195,7 +267,15 @@
   "year": "2026",
   "source": "academic-windows",
   "normalized_category": "credentials",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=rFnhiYS5GbE",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=rFnhiYS5GbE",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks",
@@ -241,7 +321,15 @@
   "category": "Active Directory, LDAP, detection evasion",
   "source": "blackhat-usa",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=3HrGoSPT8cU",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=3HrGoSPT8cU",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Living Off Microsoft Copilot",
@@ -251,7 +339,15 @@
   "category": "Microsoft 365, Copilot, prompt injection, data exfiltration, M365 ecosystem",
   "source": "blackhat-usa",
   "normalized_category": "ai-security",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=FH6P288i2PE",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=FH6P288i2PE",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "15 Ways to Break Your Copilot",
@@ -261,7 +357,15 @@
   "category": "Microsoft 365, Copilot, AI security, prompt injection",
   "source": "blackhat-usa",
   "normalized_category": "ai-security",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=KTyyeXWJFmk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=KTyyeXWJFmk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "UnOAuthorized: A Technique to Privilege Escalation to Global Administrator",
@@ -301,7 +405,15 @@
   "category": "UEFI, firmware security, Secure Boot, Windows boot",
   "source": "blackhat-usa",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=_S6EymfaBqQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=_S6EymfaBqQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "All Your Secrets Belong to Us: Leveraging [Windows Credential Infrastructure?]",
@@ -321,7 +433,15 @@
   "category": "Windows authentication, Windows Hello, smartcard/certificate auth, identity",
   "source": "blackhat-usa",
   "normalized_category": "credentials",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=_sNjQ9Z2Xws",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=_sNjQ9Z2Xws",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets",
@@ -338,10 +458,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Cc6vrQSVMII",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=Cc6vrQSVMII",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Advanced AD to Entra ID Lateral Movement Techniques",
@@ -361,7 +486,15 @@
   "category": "UEFI, firmware malware, Secure Boot bypass, Windows boot chain",
   "source": "blackhat-usa",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=t17YEHymwE4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=t17YEHymwE4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services",
@@ -371,7 +504,15 @@
   "category": "Windows kernel, HTTP.sys, IIS/WinHTTP, pre-auth RCE/LPE, Windows services",
   "source": "blackhat-usa",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=CD-1s2uBqmQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=CD-1s2uBqmQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Out of Control: KCFG and KCET",
@@ -401,7 +542,15 @@
   "category": "Windows Defender for Endpoint, EDR bypass, malware development automation, AI+offensive",
   "source": "blackhat-usa",
   "normalized_category": "edr-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "BlueHat 2024 Day 1 Keynote",
@@ -450,7 +599,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "out-of-scope",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=sGQ7cQChdMQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=sGQ7cQChdMQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Creating a Developer-Friendly Security Tool",
@@ -461,7 +618,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "out-of-scope",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=qLrbP1po6gs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=qLrbP1po6gs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "My Best Frenemy",
@@ -472,7 +637,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=o-W8YcUmLqM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=o-W8YcUmLqM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Scaling Out: Securing Open Source",
@@ -483,7 +656,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "hardware-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=5gt18zjFWBM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=5gt18zjFWBM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Entitlements on macOS and why they matter",
@@ -494,7 +675,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "out-of-scope",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=Kl7Dop1IGko",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=Kl7Dop1IGko",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Getting In Tune with an Enterprise",
@@ -516,7 +705,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "ai-security",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=UWPlw7VvSA4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=UWPlw7VvSA4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Ransomware Resilience: Turning the Tide Against Cyber Extortion",
@@ -527,7 +724,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=tKgYjA86ah4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=tKgYjA86ah4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "SafeChatAI",
@@ -538,7 +743,15 @@
   "source": "bluehat",
   "year": "2020",
   "normalized_category": "ai-security",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=tt2RNENASZo",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=tt2RNENASZo",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Firmware Security: Middle Child of Security",
@@ -549,7 +762,15 @@
   "source": "bluehat",
   "year": "2020",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=1R4X3ST_aZg",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=1R4X3ST_aZg",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "The two sides of UnOAuthorized",
@@ -598,7 +819,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=4Yrslt6wXN4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=4Yrslt6wXN4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Echoes of Intrusion: Demystifying MS Graph API Attacks",
@@ -816,7 +1045,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=J1QMbdgnY8M",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=J1QMbdgnY8M",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Lessons Learned from Red Teaming 100 Generative AI Applications",
@@ -868,7 +1105,15 @@
   "source": "bluehat",
   "year": "2024",
   "normalized_category": "ai-security",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=wna5aIVfucI",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=wna5aIVfucI",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "ADCS Attack Paths in BloodHound — Part 1 (ESC1)",
@@ -879,7 +1124,15 @@
   "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf",
   "source": "community",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate)",
@@ -890,7 +1143,15 @@
   "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547",
   "source": "community",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "ADCS ESC13 Abuse Technique",
@@ -923,7 +1184,15 @@
   "url": "https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab",
   "source": "community",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=6IyG_DA_0Vg",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=6IyG_DA_0Vg",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational whitepaper)",
@@ -934,7 +1203,15 @@
   "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
   "source": "community",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)",
@@ -1055,7 +1332,15 @@
   "url": "https://outflank.nl/blog/2025/08/07/training-specialist-models/",
   "source": "community",
   "normalized_category": "defense-evasion",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "EDR Internals for macOS and Linux",
@@ -1066,7 +1351,15 @@
   "url": "https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/",
   "source": "community",
   "normalized_category": "edr-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=Ml5jkW7d-UM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=Ml5jkW7d-UM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS",
@@ -1121,7 +1414,15 @@
   "url": "https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/",
   "source": "community",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=OKJJjprxC4E",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=OKJJjprxC4E",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Checking for Symantec Account Connectivity Credentials (ACCs) with PrivescCheck / Offline Extraction",
@@ -1143,7 +1444,15 @@
   "url": "https://itm4n.github.io/cve-2026-20817-wersvc-eop/",
   "source": "community",
   "normalized_category": "ipc-rpc",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=5YzTgyPQd4M",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=5YzTgyPQd4M",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "BitLocker's Little Secrets: The Undocumented FVE API",
@@ -1219,7 +1528,15 @@
   "url": "https://www.tarlogic.com/blog/",
   "source": "community",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=NsYRqHHb4rQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=NsYRqHHb4rQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)",
@@ -1433,10 +1750,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
     "source": "DEF CON archive",
     "confidence": "MED"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=3HrGoSPT8cU",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
-  "watch_confidence": "MED"
+  "watch_url": "https://www.youtube.com/watch?v=3HrGoSPT8cU",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "HookChain: A new perspective for Bypassing EDR Solutions",
@@ -1478,10 +1800,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
     "source": "DEF CON archive",
     "confidence": "MED"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=7IrPkH7kK2I",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
-  "watch_confidence": "MED"
+  "watch_url": "https://www.youtube.com/watch?v=7IrPkH7kK2I",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Outlook Unleashing RCE Chaos: CVE-2024-30103 & CVE-2024-38021",
@@ -1498,10 +1825,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Outlook%20Unleashing%20RCE%20Chaos%20-%20CVE%20-%202024%20-%2030103%20-%20Michael%20Gorelik%2C%20Arnold%20Osipov.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=EQh6apPSRP0",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20Outlook%20Unleashing%20RCE%20Chaos%20-%20CVE%20-%202024%20-%2030103%20-%20Michael%20Gorelik%2C%20Arnold%20Osipov.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=EQh6apPSRP0",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Sudos and Sudon'ts: Peering inside Sudo for Windows",
@@ -1638,10 +1970,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
     "source": "DEF CON archive",
     "confidence": "MED"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lF8NEsl3-kQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
-  "watch_confidence": "MED"
+  "watch_url": "https://www.youtube.com/watch?v=lF8NEsl3-kQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Kill Chain Reloaded: Abusing legacy paths for stealth persistence",
@@ -1853,10 +2190,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Platform%20-%20Michael%20%27bouncyhat%27%20Weber.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=_qS01oRTvAk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20ChromeAlone%20-%20Transforming%20a%20Browser%20into%20a%20C2%20Platform%20-%20Michael%20%27bouncyhat%27%20Weber.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=_qS01oRTvAk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Win-DoS Epidemic: A crash course in abusing RPC for Win-DoS & Win-DDoS",
@@ -2048,10 +2390,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation%20-%20Christopher%20Domas.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=B6dC_KVLn6Q",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghosts%20in%20the%20Machine%20Check%20-%20Conjuring%20Hardware%20Failures%20for%20Cross-ring%20Privilege%20Escalation%20-%20Christopher%20Domas.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=B6dC_KVLn6Q",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "7 Vulns in 7 Days: Breaking Bloatware Faster Than It's Built",
@@ -2068,10 +2415,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%207%20Vulns%20in%207%20Days%20-%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built%20-%20Leon%20%27leonjza%27%20Jacobs.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zSBf2CMKlBk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%207%20Vulns%20in%207%20Days%20-%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built%20-%20Leon%20%27leonjza%27%20Jacobs.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=zSBf2CMKlBk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Ghost Calls: Abusing Web Conferencing for Covert Command & Control",
@@ -2088,10 +2440,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghost%20Calls%20-%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control%20-%20Adam%20%27UNC1739%27%20Crosser.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=YVoF_mI8MIw",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Ghost%20Calls%20-%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control%20-%20Adam%20%27UNC1739%27%20Crosser.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=YVoF_mI8MIw",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Evading Modern Defenses When Phishing with Pixels",
@@ -2108,10 +2465,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=l89qpmb2CAQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=l89qpmb2CAQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Countering Forensics Software by Baiting Them",
@@ -2128,10 +2490,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/",
     "source": "DEF CON archive",
     "confidence": "MED"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=nUh9GVVhjD8",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20villages%20and%20creators/",
-  "watch_confidence": "MED"
+  "watch_url": "https://www.youtube.com/watch?v=nUh9GVVhjD8",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "10 Years of Windows Privilege Escalation with \"Potatoes\"",
@@ -2333,7 +2700,15 @@
   "url": "https://troopers.de/troopers25/talks/ma3bfe/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "credentials",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=Frzg4S7XE3c",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=Frzg4S7XE3c",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation",
@@ -2345,7 +2720,15 @@
   "url": "https://troopers.de/troopers25/talks/rwhyvb/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=LE03KbttoIY",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=LE03KbttoIY",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths",
@@ -2356,7 +2739,15 @@
   "category": "AD-attack",
   "source": "euro-asia-pwn2own",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=4lOTHRsmXbo",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=4lOTHRsmXbo",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Finding Entra ID Conditional Access Bypasses — the Structured Way",
@@ -2368,7 +2759,15 @@
   "url": "https://troopers.de/troopers25/talks/tfsfqs/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=yYQBeDFEkps",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=yYQBeDFEkps",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)",
@@ -2380,7 +2779,15 @@
   "url": "https://troopers.de/troopers25/talks/afv8bw/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=gDMqswqMH3g",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=gDMqswqMH3g",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Misconfiguration Manager: Still Overlooked, Still Overprivileged",
@@ -2392,7 +2799,15 @@
   "url": "https://troopers.de/troopers25/talks/3fsjh7/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=H9zujF9bTjc",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=H9zujF9bTjc",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "RBAC: The Shady Place Behind Basic Entra ID Security",
@@ -2404,7 +2819,15 @@
   "url": "https://troopers.de/troopers25/talks/dukg9p/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=6GTmsPgIy5c",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=6GTmsPgIy5c",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Restless Guest: A Novel Entra ID Vulnerability",
@@ -2428,7 +2851,15 @@
   "url": "https://troopers.de/troopers25/talks/tbuwdr/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=7bPzqEiO6Tk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=7bPzqEiO6Tk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "The Crypto Game of North Korea: Stealing Money with Chrome 0-Days",
@@ -2440,7 +2871,15 @@
   "url": "https://troopers.de/troopers25/talks/h9scgh/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "browser-sandbox",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=5ezmnd6Z96o",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=5ezmnd6Z96o",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs",
@@ -2464,7 +2903,15 @@
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "A New Root of Trust: Changing Computing with TEE",
@@ -2476,7 +2923,15 @@
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=pzWaXD5zklI",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=pzWaXD5zklI",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE",
@@ -2488,7 +2943,15 @@
   "url": "https://hardwear.io/usa-2024/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=kj9j2yurtYk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=kj9j2yurtYk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Windows 11 LPE — successful escalation to SYSTEM",
@@ -2512,7 +2975,15 @@
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "hyper-v",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=NDuWcGn5hTQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=NDuWcGn5hTQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Oracle VirtualBox guest-escape → SYSTEM on host Windows OS",
@@ -2524,7 +2995,15 @@
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "hyper-v",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=nqzp7JKcs50",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=nqzp7JKcs50",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)",
@@ -2643,7 +3122,15 @@
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=AD-iXWANggo",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=AD-iXWANggo",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Windows 11 LPE → SYSTEM (2 × UAF)",
@@ -2703,7 +3190,15 @@
   "url": "https://foxglovesecurity.com/2016/01/16/hot-potato/",
   "source": "foundational-pre-2024",
   "normalized_category": "ipc-rpc",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=Kan58VeYpb8",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=Kan58VeYpb8",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM",
@@ -2716,7 +3211,15 @@
   "code": "https://github.com/foxglovesec/RottenPotato",
   "source": "foundational-pre-2024",
   "normalized_category": "ipc-rpc",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=8Wjs__mWOKI",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=8Wjs__mWOKI",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Juicy Potato (abusing the golden privileges)",
@@ -2728,7 +3231,15 @@
   "url": "https://github.com/ohpe/juicy-potato",
   "source": "foundational-pre-2024",
   "normalized_category": "ipc-rpc",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=rji71rblYU0",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=rji71rblYU0",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "RoguePotato",
@@ -2788,7 +3299,15 @@
   "category": "ipc-rpc / post-exploit / ad-attack",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=LziYQlzOhck",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=LziYQlzOhck",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services",
@@ -2800,7 +3319,15 @@
   "url": "https://github.com/topotam/PetitPotam",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=ia2ConrqlCQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=ia2ConrqlCQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services",
@@ -2812,7 +3339,15 @@
   "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography",
@@ -2836,7 +3371,15 @@
   "url": "https://github.com/BloodHoundAD/BloodHound",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=Y8qu5NFKyrE",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=Y8qu5NFKyrE",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory",
@@ -2883,7 +3426,15 @@
   "url": "https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=HHJWfG9b0-E",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=HHJWfG9b0-E",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege",
@@ -2894,7 +3445,15 @@
   "category": "ad-attack / identity",
   "source": "foundational-pre-2024",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=JkIA7eWeVoY",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=JkIA7eWeVoY",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Empire: A PowerShell Post-Exploitation Framework",
@@ -2965,7 +3524,15 @@
   "url": "https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html",
   "source": "foundational-pre-2024",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=woLNJKdrkck",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=woLNJKdrkck",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Bochspwn: Identifying 0-days via system-wide memory access pattern analysis",
@@ -2976,7 +3543,15 @@
   "category": "fuzzing / kernel-exploit",
   "source": "foundational-pre-2024",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=ypV0kpi4cd8",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=ypV0kpi4cd8",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Windows Notification Facility: Useless or Useful? (blog series)",
@@ -3000,7 +3575,15 @@
   "url": "https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html",
   "source": "foundational-pre-2024",
   "normalized_category": "hyper-v",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=sLDCvF7LjnU",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=sLDCvF7LjnU",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Fileless UAC Bypass using eventvwr.exe and Registry Hijacking",
@@ -3159,7 +3742,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=qllMa2UUPvY",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=qllMa2UUPvY",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting",
@@ -3183,7 +3774,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=2eHsnZ4BeDI",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=2eHsnZ4BeDI",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Booting with Caution: Dissecting Secure Boot's Third-Party Attack Surface",
@@ -3231,7 +3830,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=PuNlLq59XZs",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=PuNlLq59XZs",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Enhanced Insecurity Mode: 23 RCEs in Edge's \"Safe\" WebAssembly Interpreter",
@@ -3267,7 +3874,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "fuzzing",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=tT5A1I_7FYM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=tT5A1I_7FYM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Peeling Back the Windows Registry Layers: A Bug Hunter's Expedition",
@@ -3279,7 +3894,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=aRWjZlSIuhA",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=aRWjZlSIuhA",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Hypervisor-enforced Paging Translation — The end of non data-driven Kernel Exploits?",
@@ -3303,7 +3926,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "hyper-v",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=hpmRQZ6T7YM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=hpmRQZ6T7YM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "WinpMem: Volatility's driver that lets malware volatilize",
@@ -3315,7 +3946,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "edr-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=hZjPvYSxDdM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=hZjPvYSxDdM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "The Finer Details of LSA Credential Recovery",
@@ -3327,7 +3966,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "credentials",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=G2CfMWXLU1U",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=G2CfMWXLU1U",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Reverse Engineering Patch Tuesday",
@@ -3339,7 +3986,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "fuzzing",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=9LJdIgof9jA",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=9LJdIgof9jA",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Reversing Warbird for no fun and no profit",

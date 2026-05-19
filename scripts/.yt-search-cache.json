@@ -1,0 +1,3621 @@
+{
+ "playlist:PLH15HpR5qRsUkDM0oIZInQ--Wv3K8I6af": [
+  [
+   "5gI5EJ2IyGs",
+   "Black Hat Stories | Yaara Shriki, Threat Researcher at Wiz"
+  ],
+  [
+   "HRCkDkPUp3M",
+   "Black Hat Stories | Patrick Ventuzelo, CEO and Founder of FuzzingLabs"
+  ],
+  [
+   "U6ZV6m4hOaQ",
+   "Black Hat Stories | David Oswald, Cyber Security Professor at Durham University"
+  ],
+  [
+   "rNtuyrXPIc0",
+   "Black Hat Stories | Or Yair, Security Research Team Lead at SafeBreach"
+  ]
+ ],
+ "playlist:PLH15HpR5qRsWoBx8EMeECDfVYWrsEdy7E": [
+  [
+   "U9vT3Fe8yxY",
+   "Black Hat Asia 2026 Speaker Orientation- Meeting Recording"
+  ],
+  [
+   "4c01ksgAffk",
+   "Black Hat Asia 2026 Welcome Video"
+  ],
+  [
+   "OPz7GJ5e6mw",
+   "Black Hat Asia 2026 Speaker Spotlight - Tal Be'ery"
+  ]
+ ],
+ "playlist:PL9fPq3eQfaaA8R-zsvFEDgvxJtP0WX1bC": [],
+ "playlist:PL9fPq3eQfaaBB9HANwjaTlICFuVhRxkdz2": [],
+ "channel:UCJ6q9Ie29ajGqKApbLqfBOg": [],
+ "channel:UC6Om9kAkl32dWlDSNlDS9Iw": [],
+ "channel:UCBaP6X3IzqgnmlAJ4sQ16TQ": [],
+ "channel:UC5JhqlA5MIZIcfywAY4_huQ": [],
+ "channel:UCmeBjjsjyfPjGc0rJfMcptg": [],
+ "search:\"Page-Oriented Programming: Subverting Control-Flow Integrity of Commodity Operating System Kernels with Non-Writable Code Pages\" USENIX Security 2024": [
+  [
+   "wSMByLg-ibs",
+   "USENIX Security '24 - Page-Oriented Programming: Subverting Control-Flow Integrity of Commodity.."
+  ]
+ ],
+ "oembed:wSMByLg-ibs": "USENIX Security '24 - Page-Oriented Programming: Subverting Control-Flow Integrity of Commodity..",
+ "search:\"Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos Implementation\" USENIX Security 2024": [
+  [
+   "7EKRHgwyXlQ",
+   "USENIX Security '24 - Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos..."
+  ]
+ ],
+ "oembed:7EKRHgwyXlQ": "USENIX Security '24 - Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos...",
+ "search:\"MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Windows Malware Detection Systems\" USENIX Security 2024": [
+  [
+   "-_9olqD4HEI",
+   "USENIX Security '23 - Adversarial Training for Raw-Binary Malware Classifiers"
+  ],
+  [
+   "fqi18mq8cFM",
+   "USENIX Security '14 - BareCloud: Bare-metal Analysis-based Evasive Malware Detection"
+  ],
+  [
+   "hmMD1cr3WBo",
+   "USENIX Security '24 - A Wolf in Sheep's Clothing: Practical Black-box Adversarial Attacks for..."
+  ],
+  [
+   "Bl-yiXOpBHE",
+   "USENIX Security '20 - On Training Robust PDF Malware Classifiers"
+  ],
+  [
+   "jRE11W_ZSGI",
+   "USENIX Security '23 - Black-box Adversarial Example Attack towards FCG Based Android Malware..."
+  ]
+ ],
+ "search:\"File Hijacking Vulnerability: The Elephant in the Room\" NDSS 2024": [
+  [
+   "lnv6pLrnwLs",
+   "NDSS 2024 - File Hijacking Vulnerability: The Elephant in the Room"
+  ]
+ ],
+ "oembed:lnv6pLrnwLs": "NDSS 2024 - File Hijacking Vulnerability: The Elephant in the Room",
+ "search:\"Be Careful of What You Embed: Demystifying OLE Vulnerabilities\" NDSS 2025": [
+  [
+   "tFBx79sHFEw",
+   "NDSS 2025 - Be Careful of What You Embed: Demystifying OLE Vulnerabilities"
+  ]
+ ],
+ "oembed:tFBx79sHFEw": "NDSS 2025 - Be Careful of What You Embed: Demystifying OLE Vulnerabilities",
+ "search:\"FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2\" NDSS 2025": [
+  [
+   "qhpCzHJVOAU",
+   "NDSS 2025 - FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2"
+  ],
+  [
+   "DcY919BkkBw",
+   "FUZZUER: Coverage-Guided Fuzzing for UEFI Interface Functions on EDK-2"
+  ]
+ ],
+ "oembed:qhpCzHJVOAU": "NDSS 2025 - FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
+ "search:\"Sheep's Clothing, Wolf's Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC\" NDSS 2025": [
+  [
+   "0-gHqAidfsA",
+   "NDSS 2025 - Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC"
+  ]
+ ],
+ "oembed:0-gHqAidfsA": "NDSS 2025 - Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC",
+ "search:\"Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples\" NDSS 2025": [
+  [
+   "32CnhtoSVKI",
+   "NDSS 2025 - Revisiting Concept Drift in Windows Malware Detection"
+  ]
+ ],
+ "oembed:32CnhtoSVKI": "NDSS 2025 - Revisiting Concept Drift in Windows Malware Detection",
+ "search:\"PowerPeeler: A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts\" ACM CCS 2024": [
+  [
+   "1-FyyhpW-t8",
+   "Fileless Malware Analysis \\u0026 PowerShell Deobfuscation"
+  ],
+  [
+   "FyTBsW6iTH0",
+   "Powershell Quickes #1 - How to use Get-Location?"
+  ],
+  [
+   "SOukucPTphc",
+   "PowerShell's Ten Essential Concepts for Brand New Users \ud83e\uddd1\u200d\ud83d\udcbb"
+  ],
+  [
+   "8CiNx4nNqQ0",
+   "How Hackers Can Hide PowerShell in Environment Variables"
+  ],
+  [
+   "q8pFNZIlI1I",
+   "PowerShell Scripting Full Course for Beginners (Part 1) - Learn PowerShell Scripting"
+  ]
+ ],
+ "search:\"On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)\" ACM CCS 2024": [
+  [
+   "YcWzuwbvdic",
+   "BLACKOUT presentation (ACM CCS 2025)"
+  ],
+  [
+   "XvEKgAe1b2c",
+   "CONFidence 2025: Ignat Korchagin - TPMs and the Linux Kernel"
+  ],
+  [
+   "rVm9K4zICX0",
+   "Why C++ Never Got Into The Linux Kernel"
+  ],
+  [
+   "zuBw1HFJMsM",
+   "Stanford Seminar - Exploiting modern microarchitectures: Meltdown, Spectre, \\u0026 other hardware attacks"
+  ],
+  [
+   "b7WrshY2CgQ",
+   "Another Spectre In The Shell"
+  ]
+ ],
+ "search:\"Principled Microarchitectural Isolation on Cloud CPUs\" ACM CCS 2024": [
+  [
+   "asMN6M36pVU",
+   "May 2026 CACM: Are We Actually There? Assessing RPKI Maturity"
+  ],
+  [
+   "t1VMKlntQxU",
+   "Hannover Messe 2026 - Rescale: Scaling Simulation \\u0026 HPC with Agentic Workflows on AWS"
+  ],
+  [
+   "D90CbElOQ5g",
+   "AWS re:Invent 2023 - Centralize hybrid \\u0026 multicloud management with AWS (COP324)"
+  ],
+  [
+   "PYcRaUBn5nI",
+   "July 2025 CACM: Sustainability and Computing"
+  ],
+  [
+   "p62DLuSCNOw",
+   "AWS Summit SF 2022 - The journey of silicon innovation at AWS (CMP304)"
+  ]
+ ],
+ "search:\"BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments\" IEEE S&P 2025": [
+  [
+   "9wtHHnN3msw",
+   "\ud83d\udc49 NIST IR 8286D Explained: BIA for Cyber Risk Prioritization (2025 Update)"
+  ],
+  [
+   "HtnlUosO3XA",
+   "Agentic Runtime Security Explained: Securing Non\u2011Human Identities"
+  ],
+  [
+   "8PZAtffAd3M",
+   "2025-12-03 CERIAS - Attacking and Defending Modern Software with LLMs"
+  ],
+  [
+   "YAPzrVPCK1M",
+   "LDR516: Strategic Vulnerability and Threat Management"
+  ],
+  [
+   "RYpmTldTkcw",
+   "Recent Progress in Adversarial Robustness of AI Models: Attacks, Defenses, and Certification"
+  ]
+ ],
+ "search:\"Breaking the Barrier: Post-Barrier Spectre Attacks\" IEEE S&P 2025": [
+  [
+   "jtRz8Y_4HcQ",
+   "2020 IEEE S\\u0026P Test of Time Award: Experimental Security Analysis of a Modern Automobile"
+  ],
+  [
+   "zOvBHxMjNls",
+   "Spectre Attacks Exploiting Speculative Execution"
+  ],
+  [
+   "A9AfOgB4F4w",
+   "4-minute presentation on \\"
+  ],
+  [
+   "6TQx8Ohu_I0",
+   "Spectector: Principled detection of speculative information flows"
+  ],
+  [
+   "w7EpMZXfCw0",
+   "2024-31-A Systematic Study of Physical Sensor Attack Hardness"
+  ]
+ ],
+ "search:\"EvilEDR: Repurposing EDR as an Offensive Tool\" USENIX Security 2025": [
+  [
+   "2qbZ33zSHz8",
+   "The Dark Side of EDR: Repurpose EDR as an Offensive Tool"
+  ],
+  [
+   "F1JYRchNmdo",
+   "SREcon26 Americas - How Security Incidents Are Different ... and How They're Exactly the Same"
+  ],
+  [
+   "yH7sbHnVtoA",
+   "Shmuel Cohen: The Dark Side of EDR: Repurpose EDR as an Offensive Tool | CONFidence"
+  ],
+  [
+   "Q4dyelT-prM",
+   "Windows EDR Evasion Tactics EXPOSED | FOXXCON June 2025 | Bharath Kumar"
+  ],
+  [
+   "3t2SIPNlaDQ",
+   "How Attackers Bypass EDR in 2025 (Real Techniques + How to Stop Them)"
+  ]
+ ],
+ "search:\"LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System\" NDSS 2026": [
+  [
+   "EnlVIDmN9Do",
+   "NDSS 2026 - LinkGuard"
+  ]
+ ],
+ "search:\"Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers\" NDSS 2026": [
+  [
+   "wj_gFhKIJ6w",
+   "NDSS 2026 - Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers"
+  ]
+ ],
+ "oembed:wj_gFhKIJ6w": "NDSS 2026 - Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers",
+ "search:\"Understanding the Status and Strategies of the Code Signing Abuse Ecosystem\" NDSS 2026": [
+  [
+   "ih0XF-kXAN0",
+   "NDSS 2026 - Understanding the Status and Strategies of the Code Signing Abuse Ecosystem"
+  ]
+ ],
+ "oembed:ih0XF-kXAN0": "NDSS 2026 - Understanding the Status and Strategies of the Code Signing Abuse Ecosystem",
+ "search:\"Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments\" NDSS 2026": [
+  [
+   "rFnhiYS5GbE",
+   "NDSS 2026 - Vault Raider:Stealthy UI-based Attacks Against Password Managers in Desktop Environments"
+  ]
+ ],
+ "oembed:rFnhiYS5GbE": "NDSS 2026 - Vault Raider:Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+ "search:\"Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks\" IEEE S&P 2025": [
+  [
+   "gneKwuKf84Y",
+   "Spectre \\u0026 Meltdown: When Hardware Optimization Becomes a Security Risk"
+  ],
+  [
+   "089ljUJ1zu4",
+   "NIST 800-160 Vol. 2 Explained | Cyber Resilient Architecture Blueprint"
+  ],
+  [
+   "GtnG-C0jkas",
+   "If I Were an L1 SOC Analyst in 2026, This Is Exactly What I\u2019d Learn .."
+  ],
+  [
+   "eEgjRQxVjAY",
+   "High Risk Isolation for On-premises SWG"
+  ],
+  [
+   "dWIhM145nHA",
+   "Vulnerability Management is Broken \u2014 Here's How AI Can Fix It"
+  ]
+ ],
+ "search:\"MaLDAPtive: Diving Deep into LDAP\" Will Bohannon (affiliation unverified \u2014 likely IBM/Security team)": [
+  [
+   "3HrGoSPT8cU",
+   "MaLDAPtive: Diving Deep Into LDAP Obfuscation, Deobfuscation \\u0026 Detection"
+  ],
+  [
+   "GZ7Vbvf2Dso",
+   "Automagic LDAP obfuscation using Invoke-Maldaptive and LDAPx"
+  ],
+  [
+   "mKRS5Iyy7Qo",
+   "DEF CON 32 - MaLDAPtive: Obfuscation and De-Obfuscation - Daniel Bohannon, Sabajete Elezaj"
+  ],
+  [
+   "8JmyJ6Q4iD0",
+   "Why Most VMware Engineers FAIL in Storage Interviews | Episode No.3 | APD vs PDL Explained | GoVMlab"
+  ],
+  [
+   "qSyv7OsmDlc",
+   "Microsoft Entra ID Labs: Conditional Access + MFA Implementation - Hands-On Lab Guide (2026)"
+  ]
+ ],
+ "oembed:3HrGoSPT8cU": "MaLDAPtive: Diving Deep Into LDAP Obfuscation, Deobfuscation & Detection",
+ "search:\"Living Off Microsoft Copilot\" Michael Bargury (Zenity)": [
+  [
+   "SDpPPJ00CV8",
+   "1 Living off Microsoft Copilot Michael Bargury, Co founder \\u0026 CTO, Zenity"
+  ],
+  [
+   "pZY-Xkyd1_I",
+   "Living off Microsoft Copilot at BHUSA24: Spear phishing with Copilot"
+  ],
+  [
+   "Z9jvzFxhayA",
+   "Living off Microsoft Copilot at BHUSA24: Financial transaction hijacking with Copilot as an insider"
+  ],
+  [
+   "9FLD2BwFwog",
+   "Living off Microsoft Copilot at BHUSA24: Abusing Copilot to bypass DLP"
+  ],
+  [
+   "FH6P288i2PE",
+   "Living off Microsoft Copilot"
+  ]
+ ],
+ "oembed:FH6P288i2PE": "Living off Microsoft Copilot",
+ "search:\"15 Ways to Break Your Copilot\" Michael Bargury (Zenity)": [
+  [
+   "KTyyeXWJFmk",
+   "15 Ways to Break Your Copilot"
+  ]
+ ],
+ "oembed:KTyyeXWJFmk": "15 Ways to Break Your Copilot",
+ "search:\"UnOAuthorized: A Technique to Privilege Escalation to Global Administrator\" Brian Woodruff (affiliation unverified)": [],
+ "search:\"ACE Up the Sleeve\" [Last name: Roth] (full name and affiliation unverified)": [
+  [
+   "Q82iDCI_lZg",
+   "The 8 Reasons Why You Should Consider Roth Conversions (Or Not)"
+  ],
+  [
+   "8MnPaxt_w8E",
+   "Bariatric Surgery: Sleeve Gastrectomy, Gastric Bypass \\u0026 Weight Loss Options | Dr. Danny Shouhed"
+  ]
+ ],
+ "search:\"Break the Wall from Bottom: Automated [Kernel Security Bypass]\" [Last name: Wang] (full name and affiliation unverified)": [
+  [
+   "4dFdyg2G3Yk",
+   "My Wife Left | Warframe"
+  ],
+  [
+   "f_g2lb_jTeQ",
+   "Fast Orokin Vaults Guide + Corrupted Mods Easy Plat Farm | Warframe 2025 (Dragon Keys)"
+  ],
+  [
+   "H0sPUBGn2bc",
+   "How to NEVER DIE In WARFRAME!"
+  ],
+  [
+   "pD7nIUM7mns",
+   "How to NEVER DIE in Warframe AGAIN!"
+  ],
+  [
+   "RgBf7P2BkJM",
+   "Break the Wall from Bottom: Automated Discovery of Protocol-Level Evasion Vulnerabilities"
+  ]
+ ],
+ "search:\"You've Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM?\" [Last name: Matsuo] (full name and affiliation unverified)": [
+  [
+   "_S6EymfaBqQ",
+   "You've Already Been Hacked: What if There Is a Backdoor in Your UEFI OROM?"
+  ],
+  [
+   "dGBM-BWd2UQ",
+   "How to detect if your PC has been hacked"
+  ],
+  [
+   "LCjEDjvniJU",
+   "Boot into UEFI BIOS: Easy Steps from Windows!"
+  ],
+  [
+   "JmgjNeRxi8U",
+   "How to check if your PC is using UEFI or Legacy Bios"
+  ],
+  [
+   "xC6oFi2dqhE",
+   "How to Know if your PC is Hacked in 1 min"
+  ]
+ ],
+ "oembed:_S6EymfaBqQ": "You've Already Been Hacked: What if There Is a Backdoor in Your UEFI OROM?",
+ "search:\"All Your Secrets Belong to Us: Leveraging [Windows Credential Infrastructure?]\" [Last name: Dohrmann] (full name and affiliation unverified)": [
+  [
+   "T7oe2M-IYWA",
+   "Unlock Administrator Privileges on Windows Instantly! #windows #tech #computer #microsoft"
+  ],
+  [
+   "KVsZfybOgBk",
+   "How to check windows credentials in windows 10"
+  ],
+  [
+   "idCFQZbB9oQ",
+   "How to Find PC/Laptop Windows Password From CMD#macnitesh#2023shorts#password"
+  ],
+  [
+   "_dR6ePS9Ic4",
+   "How to Use Windows Credential Manager (updated)"
+  ],
+  [
+   "v35tyTgz84s",
+   "Windows asking for Network Credentials - SOLVED - Actually Solved"
+  ]
+ ],
+ "search:\"Windows Hello, No! for Business\" [Last name: David] (first name and affiliation unverified)": [
+  [
+   "A8faHO-bn-0",
+   "Unlocking Your Device: The Power of Windows Hello for Business"
+  ],
+  [
+   "XDPGMwVLDm0",
+   "How to setup Windows Hello for Business with Cloud Trust"
+  ],
+  [
+   "0nYW8ADmcBs",
+   "M365 Passwordless MFA at Windows Login with Windows Hello for Business #whfb #cybersecurity"
+  ],
+  [
+   "_sNjQ9Z2Xws",
+   "Phishing Windows Hello for Business PoC"
+  ],
+  [
+   "Cqn3INyjg5s",
+   "Windows Hello for Business and Cloud Kerberos Trust Provisioning"
+  ]
+ ],
+ "oembed:_sNjQ9Z2Xws": "Phishing Windows Hello for Business PoC",
+ "search:\"BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets\" DEF CON 33": [
+  [
+   "Cc6vrQSVMII",
+   "DEF CON 33 -BitUnlocker: Leverage Windows Recovery to Extract BitLocker Secrets - Leviev, Ben Simon"
+  ],
+  [
+   "5PYY_zTg_I8",
+   "Unlock, Turn off BitLocker ENCRYPTED Drive WITHOUT a RECOVERY KEY in 1 Minute"
+  ],
+  [
+   "tzB6PdMl7Lw",
+   "Phantom Code Evading Windows 11 25H2 Through Posix Based Self Deletion And Stealth Injection"
+  ],
+  [
+   "wTl4vEednkQ",
+   "Breaking Bitlocker - Bypassing the Windows Disk Encryption"
+  ],
+  [
+   "4dOp-QA4VK4",
+   "A Hacker Found The BitLocker Backdoor"
+  ]
+ ],
+ "oembed:Cc6vrQSVMII": "DEF CON 33 -BitUnlocker: Leverage Windows Recovery to Extract BitLocker Secrets - Leviev, Ben Simon",
+ "search:\"Advanced AD to Entra ID Lateral Movement Techniques\" Dirk-jan Mollema (inferred from filename \"Mollema\" \u2014 known AD/Entra researcher at Semaphore/dirkjanm.io)": [],
+ "search:\"ShadeBIOS: Unleashing the Full Stealth of UEFI Malware\" [Last name: Matsuo] (likely same or related to BH-US-24 UEFI OROM presenter)": [
+  [
+   "t17YEHymwE4",
+   "Black Hat USA 2025 | Shade BIOS: Unleashing the Full Stealth of UEFI Malware"
+  ],
+  [
+   "gO44cB1pqWI",
+   "This UEFI Malware Kills Computers When You Reboot"
+  ],
+  [
+   "KdKa15FVNcc",
+   "BLACKLOTUS UEFI MALWARE | Forensics Guide"
+  ],
+  [
+   "tzB6PdMl7Lw",
+   "Phantom Code Evading Windows 11 25H2 Through Posix Based Self Deletion And Stealth Injection"
+  ],
+  [
+   "-V7nXxiqLFg",
+   "Researchers attack AMD's Infinity Fabric to bypass hardware security protections with 'Fabricked' \u2014"
+  ]
+ ],
+ "oembed:t17YEHymwE4": "Black Hat USA 2025 | Shade BIOS: Unleashing the Full Stealth of UEFI Malware",
+ "search:\"Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services\" [Last name: Shi] (affiliation unverified": [
+  [
+   "CD-1s2uBqmQ",
+   "Black Hat USA 2025 | Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services"
+  ],
+  [
+   "SOz5mzRnA_s",
+   "How Hackers Find Hidden Website Vulnerabilities Using HTTP Responses"
+  ],
+  [
+   "GjPWCEEna3Q",
+   "Diving into Windows Remote Access Service for Pre-Auth Bugs"
+  ],
+  [
+   "kh3LGy0EaK4",
+   "SOC1 EP26 \\"
+  ],
+  [
+   "JyqKkhWs2kc",
+   "7.2.9 Scan for Windows vulnerabilities"
+  ]
+ ],
+ "oembed:CD-1s2uBqmQ": "Black Hat USA 2025 | Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Services",
+ "search:\"Out of Control: KCFG and KCET\" McGarr (first name and affiliation unverified)": [
+  [
+   "LflYlvJ4vSU",
+   "Black Hat USA 2025 | How KCFG and KCET Redefine Control Flow Integrity in the Windows Kernel"
+  ],
+  [
+   "wh7NGiRnhLE",
+   "Keeping the Promise of Pre-K: Using Technology to Ensure Quality"
+  ],
+  [
+   "xdizlpIdrYw",
+   "5 Key Steps to Securing a Default Kubernetes Cluster"
+  ],
+  [
+   "r2gqG0Vd3ac",
+   "CMMC Scoping Part 7 - Understanding Out of Scope Items and Boundaries"
+  ],
+  [
+   "KU7UjHCs5g8",
+   "What No One Tells You About Open Source | Kat Cosgrove, Kubernetes"
+  ]
+ ],
+ "search:\"Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications\" Vaisha Bernard (Eye Research / Eye Security)": [],
+ "search:\"Training Specialist Models: Automating Malware Development\" Kyle Avery (Outflank)": [
+  [
+   "WKmEzRJZ6H4",
+   "Black Hat USA 2025 | Training Specialist Models: Automating Malware Development"
+  ]
+ ],
+ "oembed:WKmEzRJZ6H4": "Black Hat USA 2025 | Training Specialist Models: Automating Malware Development",
+ "search:\"World of Scams\" Amit Tambe": [
+  [
+   "sGQ7cQChdMQ",
+   "BlueHat 2024: LT01: World of Scams Presented by Amit Tambe (F-Secure)"
+  ]
+ ],
+ "oembed:sGQ7cQChdMQ": "BlueHat 2024: LT01: World of Scams Presented by Amit Tambe (F-Secure)",
+ "search:\"Creating a Developer-Friendly Security Tool\" Susan Krkasharian": [
+  [
+   "qLrbP1po6gs",
+   "BlueHat 2024: LT02: Creating a Developer-Friendly Security Tool by Susan Krkasharian (Microsoft)"
+  ]
+ ],
+ "oembed:qLrbP1po6gs": "BlueHat 2024: LT02: Creating a Developer-Friendly Security Tool by Susan Krkasharian (Microsoft)",
+ "search:\"My Best Frenemy\" Svetlana Gaivoronski + David B. Cross": [
+  [
+   "o-W8YcUmLqM",
+   "BlueHat 2024: LT03: My Best Frenemy Presented by Svetlana Gaivoronski and David B. Cross (Oracle)"
+  ]
+ ],
+ "oembed:o-W8YcUmLqM": "BlueHat 2024: LT03: My Best Frenemy Presented by Svetlana Gaivoronski and David B. Cross (Oracle)",
+ "search:\"Scaling Out: Securing Open Source\" Zachary Steindler": [
+  [
+   "5gt18zjFWBM",
+   "BlueHat 2024: LT04: Scaling Out Securing Open Source Presented by Zachary Steindler from Microsoft"
+  ]
+ ],
+ "oembed:5gt18zjFWBM": "BlueHat 2024: LT04: Scaling Out Securing Open Source Presented by Zachary Steindler from Microsoft",
+ "search:\"Entitlements on macOS and why they matter\" Yves Younan": [
+  [
+   "Kl7Dop1IGko",
+   "BlueHat 2024: LT05: Entitlements on macOS and why they matter by Yves Younan (Cisco Talos)"
+  ]
+ ],
+ "oembed:Kl7Dop1IGko": "BlueHat 2024: LT05: Entitlements on macOS and why they matter by Yves Younan (Cisco Talos)",
+ "search:\"Getting In Tune with an Enterprise\" Brett Hawkins": [
+  [
+   "JKgMJMHO34Q",
+   "BlueHat 2024: LT06: Getting \\"
+  ]
+ ],
+ "search:\"AI's got Muffins: the RAG-a-muffins!!!\" Vivek Vinod Sharma": [
+  [
+   "UWPlw7VvSA4",
+   "BlueHat 2024: LT07: AI's got Muffins- the RAG-a-muffins!!! by Vivek Vinod Sharma (Microsoft)"
+  ],
+  [
+   "F3nnLePt5yk",
+   "How a Middle Class Boy Built Perplexity AI From Nothing"
+  ],
+  [
+   "iZgdGg8-T0M",
+   "IBM CEO Arvind Krishna says there is no AI bubble after all | Decoder"
+  ],
+  [
+   "oa5hJ4bTCoc",
+   "AI, jai, and the Future of Programming  | Valentin Ignatev"
+  ],
+  [
+   "C6MJsr3ngV0",
+   "AI Chatbot Made $16k in 30 Days - Abdullah Yahya, CEO AdeptiveAI"
+  ]
+ ],
+ "oembed:UWPlw7VvSA4": "BlueHat 2024: LT07: AI's got Muffins- the RAG-a-muffins!!! by Vivek Vinod Sharma (Microsoft)",
+ "search:\"Ransomware Resilience: Turning the Tide Against Cyber Extortion\" Dr. Tom Williams (independent security practitioner": [
+  [
+   "tKgYjA86ah4",
+   "BlueHat 2024: LT08: Ransomware Resilience: Turning the Tide Against Cyber Extortion by Tom Williams"
+  ],
+  [
+   "7YWUma05F_s",
+   "Cyber Extortion \\u0026 Ransomware Resilience: Real Strategies That Work | Orange Cyberdefense + Halcyon"
+  ],
+  [
+   "N0pZncPmUOc",
+   "LIVE: Brad Garlinghouse on the CLARITY Act \u2014 What It Means for XRP, Ripple \\u0026 Crypto Regulation"
+  ],
+  [
+   "ZD3LkbnLOVs",
+   "Turn Cybersecurity Headlines into Action w/ Wade Wells"
+  ],
+  [
+   "BGMG7AIKNRg",
+   "Information Security Awareness Employee Training: Protect Your Company's Data and Reputation"
+  ]
+ ],
+ "oembed:tKgYjA86ah4": "BlueHat 2024: LT08: Ransomware Resilience: Turning the Tide Against Cyber Extortion by Tom Williams",
+ "search:\"SafeChatAI\" Ayobami Olatunji": [
+  [
+   "tt2RNENASZo",
+   "BlueHat 2024: LT09: SafeChatAI Presented by Ayobami Olatunji (Microsoft)"
+  ]
+ ],
+ "oembed:tt2RNENASZo": "BlueHat 2024: LT09: SafeChatAI Presented by Ayobami Olatunji (Microsoft)",
+ "search:\"Firmware Security: Middle Child of Security\" Nithin Sade": [
+  [
+   "1R4X3ST_aZg",
+   "BlueHat 2024: LT10: Firmware Security: Middle Child of Security Presented by Nithin Sade (Google)"
+  ]
+ ],
+ "oembed:1R4X3ST_aZg": "BlueHat 2024: LT10: Firmware Security: Middle Child of Security Presented by Nithin Sade (Google)",
+ "search:\"Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD\" Avihai Ben Yossef": [
+  [
+   "4Yrslt6wXN4",
+   "BlueHat 2024: S03: Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD"
+  ]
+ ],
+ "oembed:4Yrslt6wXN4": "BlueHat 2024: S03: Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD",
+ "search:\"Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves\" Nestori Syynimaa": [
+  [
+   "wgXichA5ukY",
+   "BlueHat 2024: S06: Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves"
+  ]
+ ],
+ "oembed:wgXichA5ukY": "BlueHat 2024: S06: Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves",
+ "search:\"How Microsoft is Scaling DAST\" Jason Geffner": [
+  [
+   "kfuOzDwv874",
+   "BlueHat 2024: S10: How Microsoft is Scaling DAST"
+  ]
+ ],
+ "oembed:kfuOzDwv874": "BlueHat 2024: S10: How Microsoft is Scaling DAST",
+ "search:\"When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems\" Mark Mager (Sr. Manager": [
+  [
+   "FRW7g_SHC8Q",
+   "BlueHat 2024: S11: When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems"
+  ],
+  [
+   "nbGS0aiNWIQ",
+   "Sony A7RVI : Real World\u00a0Test\u00a0- 67MP is INSANE! (Behind The Scenes)"
+  ],
+  [
+   "gfx_2X3h3hk",
+   "Tech expert warns of device that disables Wi-Fi cameras"
+  ],
+  [
+   "ELgCdU91Z6w",
+   "My Existential Camera Crisis"
+  ],
+  [
+   "AveQxKA2Vo8",
+   "Photographer Reacts To Politicians' Camera Choices"
+  ]
+ ],
+ "oembed:FRW7g_SHC8Q": "BlueHat 2024: S11: When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems",
+ "search:\"Three Decades of Network Security Evolution\" Vern Paxson": [
+  [
+   "YFThifuJbMM",
+   "BlueHat 2024: S16: Three Decades of Network Security Evolution"
+  ]
+ ],
+ "oembed:YFThifuJbMM": "BlueHat 2024: S16: Three Decades of Network Security Evolution",
+ "search:\"MSTIC: A Threat Intelligence Year in Review\" Rachel Giacobozzi": [
+  [
+   "U7p0J8aMZhM",
+   "BlueHat 2024: S17: MSTIC - A Threat Intelligence Year in Review"
+  ]
+ ],
+ "oembed:U7p0J8aMZhM": "BlueHat 2024: S17: MSTIC - A Threat Intelligence Year in Review",
+ "search:\"Minting Silver Bullets is Challenging\" Josh Brown-White": [
+  [
+   "J1QMbdgnY8M",
+   "BlueHat 2024: S18: Minting Silver Bullets is Challenging"
+  ]
+ ],
+ "oembed:J1QMbdgnY8M": "BlueHat 2024: S18: Minting Silver Bullets is Challenging",
+ "search:\"PyRIT: From LLM Security Research to Practical Attacks\" Richard Lundeen": [
+  [
+   "RFnOIYMOEeE",
+   "BlueHat 2024: S22: PyRIT: From LLM Security Research to Practical Attacks"
+  ]
+ ],
+ "oembed:RFnOIYMOEeE": "BlueHat 2024: S22: PyRIT: From LLM Security Research to Practical Attacks",
+ "search:\"SLIP: Securing LLMs IP Using Weights Decomposition\" Adam Hakim": [
+  [
+   "CEZYfTanQFk",
+   "BlueHat 2024: S23: SLIP: Securing LLMs IP Using Weights Decomposition"
+  ]
+ ],
+ "oembed:CEZYfTanQFk": "BlueHat 2024: S23: SLIP: Securing LLMs IP Using Weights Decomposition",
+ "search:\"Automate AI Red Teaming in your existing tool chain with PyRIT\" Joris de Gruyter + Shiven Chawla": [
+  [
+   "wna5aIVfucI",
+   "BlueHat 2024: S24: Automate AI Red Teaming in your existing tool chain with PyRIT"
+  ]
+ ],
+ "oembed:wna5aIVfucI": "BlueHat 2024: S24: Automate AI Red Teaming in your existing tool chain with PyRIT",
+ "search:\"ADCS Attack Paths in BloodHound \u2014 Part 1 (ESC1)\" SpecterOps BloodHound Enterprise Team (Jonas B. Knudsen": [
+  [
+   "o4SSFv5Gfzs",
+   "AD CS Attack Paths in BloodHound"
+  ],
+  [
+   "vc3J0wGl7g0",
+   "12. Jonas B\u00fclow Knudsen and Andy Robbins: Analyzing and Executing ADCS Attack Paths with BloodHound"
+  ],
+  [
+   "Wk5o7D_EK6c",
+   "Arcane Rush I Faction Guide I Hurt Undead"
+  ],
+  [
+   "mm5LU3cX6IU",
+   "The BloodHound Enterprise State of Attack Path Management - Justin Kohler [SO-CON 2024]"
+  ],
+  [
+   "dhuPEDHlngY",
+   "BloodHound Enterprise | Attack Path Management for All"
+  ]
+ ],
+ "oembed:o4SSFv5Gfzs": "AD CS Attack Paths in BloodHound",
+ "search:\"ADCS Attack Paths in BloodHound \u2014 Part 2 (ESC3 + Golden Certificate)\" SpecterOps BloodHound Enterprise Team": [
+  [
+   "o4SSFv5Gfzs",
+   "AD CS Attack Paths in BloodHound"
+  ],
+  [
+   "VPhXe9VuuAg",
+   "BloodHound Enterprise - A Quick Tour"
+  ],
+  [
+   "qNfaQc5K8oY",
+   "BloodHound Enterprise Spring Preview"
+  ],
+  [
+   "u35nj0K9IjU",
+   "Analyzing and Executing ADCS Attack Paths with BloodHound- Andy Robbins \\u0026 Jonas Knudsen[SO-CON 2024]"
+  ],
+  [
+   "dhuPEDHlngY",
+   "BloodHound Enterprise | Attack Path Management for All"
+  ]
+ ],
+ "search:\"ADCS ESC13 Abuse Technique\" Stephen Hinck": [
+  [
+   "idwAYkIkJAM",
+   "Certified Impersonation \u2013 ADCS ESC2 Abuse | Free Live Webinar | CyberWarFare Labs"
+  ],
+  [
+   "jdxCddRW06Y",
+   "Abusing Active Directory Certificate Services (ADCS) using LOLBAS"
+  ],
+  [
+   "VXxH4n684HE",
+   "Hacking Active Directory for Beginners (over 5 hours of content!)"
+  ],
+  [
+   "Q5D2Yjc-RVc",
+   "OSCP Practice Lab: Active Directory Attack Path #3 (Advanced/Client-Side Exploits)"
+  ],
+  [
+   "3IgPr5c8WTE",
+   "My Active Directory Methodology for the OSCP Exam (How I Hack Things)"
+  ]
+ ],
+ "search:\"ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities)\" Jonas B. Knudsen": [
+  [
+   "en4EcbrAZYw",
+   "Weak Implicit Certificate Mapping Abuse"
+  ],
+  [
+   "idwAYkIkJAM",
+   "Certified Impersonation \u2013 ADCS ESC2 Abuse | Free Live Webinar | CyberWarFare Labs"
+  ],
+  [
+   "AuRVLQsM1w8",
+   "ADCS ESC15 Vulnerability \\u0026 Certificate Mapping"
+  ],
+  [
+   "YLlfMtOkwA0",
+   "Attacking ADCS Full Course"
+  ],
+  [
+   "HH-DWMccTm0",
+   "Checking for ADCS Vulnerabilities with Certipy!"
+  ]
+ ],
+ "search:\"Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release)\" Elad Shamir": [
+  [
+   "IK7qPMqSKMY",
+   "Attack and Detection of Shadow Credentials"
+  ],
+  [
+   "ML6K7j19KTg",
+   "Shadow Credentials Attack Explained | Full Walkthrough with GenericWrite Over Admin"
+  ],
+  [
+   "BfkCUxEBJ6Y",
+   "ED87 - Shadow Credentials - Whisker"
+  ],
+  [
+   "6IyG_DA_0Vg",
+   "Shadow Credentials"
+  ],
+  [
+   "fbSVgC8nGz4",
+   "Authentication fundamentals: The basics | Microsoft Entra ID"
+  ]
+ ],
+ "oembed:6IyG_DA_0Vg": "Shadow Credentials",
+ "search:\"Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1\u2013ESC8 foundational whitepaper)\" Will Schroeder (harmj0y)": [
+  [
+   "ejmAIgxFRgM",
+   "Certified Pre-Owned: Abusing Active Directory Certificate Services"
+  ],
+  [
+   "8L4Z9o5dtwc",
+   "ESC1 Certificate Services misconfiguration with privilege escalation"
+  ],
+  [
+   "pVezmVSCJGk",
+   "Abusing Active Directory Certificate Services (ADCS) | ESC8 Attack Explained"
+  ],
+  [
+   "QUTXge-9lRo",
+   "ADCS ESC8 Tutorial | Attack Active Directory Certificate Services"
+  ],
+  [
+   "wozcGjAsfZ0",
+   "ADCS ESC1 Privilege Escalation Tutorial | Attack Active Directory Certificate Services"
+  ]
+ ],
+ "oembed:ejmAIgxFRgM": "Certified Pre-Owned: Abusing Active Directory Certificate Services",
+ "search:\"One Token to rule them all \u2014 Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)\" Dirk-jan Mollema (dirkjanm)": [
+  [
+   "uREGCioKGyA",
+   "Die krasseste Microsoft 365 Sicherheitsl\u00fccke aller Zeiten (CVE-2025-55241)"
+  ],
+  [
+   "ZiqFYyBjUYY",
+   "The most CRITICAL CLOUD VULNERABILITY of 2025? (CVE-2025-55241)"
+  ],
+  [
+   "tNh_sYkmurI",
+   "Phishing The  Resistant: Phishing For Primary Refresh Tokens In Microsoft Entra - Dirk-Jan Mollema"
+  ],
+  [
+   "eB5VHK3JXN0",
+   "I Hijacked a Global Admin: Entra ID \\"
+  ],
+  [
+   "KMSzcu3RMCU",
+   "Microsoft MVP Reveals Hidden Conditional Access Bypasses (Entra ID)"
+  ]
+ ],
+ "search:\"Extending AD CS Attack Surface to the Cloud with Intune Certificates\" Dirk-jan Mollema": [
+  [
+   "stgOFGpQS5E",
+   "Exciting Update New Certificates (#ADCS) and March Release #MSIntune #shorts"
+  ],
+  [
+   "R4mrcju5wec",
+   "Active Directory Certificate Services Install \\u0026 Config in just 20mins"
+  ],
+  [
+   "EerhJQPqvmY",
+   "Deploy Attack Surface Reduction Rules from Microsoft Intune"
+  ],
+  [
+   "ZF-aK4CXPu0",
+   "Entra Connect Sync - How Microsoft reduced the attack surface area"
+  ],
+  [
+   "4EZRszjsZJs",
+   "S03E14 - Configuring NDES for SCEP Certificate Deployment (I.T)"
+  ]
+ ],
+ "search:\"Persisting on Entra ID Applications and User Managed Identities with Federated Credentials\" Dirk-jan Mollema": [
+  [
+   "CjarTgjKcX8",
+   "Authentication fundamentals: Federation | Microsoft Entra ID"
+  ],
+  [
+   "eKFgOtNpxwU",
+   "6. Dirk-jan Mollema: Bringing Your Own Identity Provider to Entra for Persistence and MFA Bypasses"
+  ],
+  [
+   "fbSVgC8nGz4",
+   "Authentication fundamentals: The basics | Microsoft Entra ID"
+  ],
+  [
+   "2OrNykYLmOc",
+   "Entra cross-tenant secret-free trust using Managed Identity as Federated Identity Credential"
+  ],
+  [
+   "OGMDnuDrAcQ",
+   "Authentication fundamentals: Native client applications- Part 1 | Microsoft Entra ID"
+  ]
+ ],
+ "search:\"Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Access Passes\" Dirk-jan Mollema": [
+  [
+   "tNh_sYkmurI",
+   "Phishing The  Resistant: Phishing For Primary Refresh Tokens In Microsoft Entra - Dirk-Jan Mollema"
+  ],
+  [
+   "eKFgOtNpxwU",
+   "6. Dirk-jan Mollema: Bringing Your Own Identity Provider to Entra for Persistence and MFA Bypasses"
+  ],
+  [
+   "UrMnt6nDmaA",
+   "Microsoft Entra ID vs Active Directory (2026) - Which One Is BETTER?"
+  ],
+  [
+   "KMSzcu3RMCU",
+   "Microsoft MVP Reveals Hidden Conditional Access Bypasses (Entra ID)"
+  ],
+  [
+   "LYo7UUNGxZs",
+   "How to Setup Temporary Access Passes? [Passwordless Authentication Fixed]"
+  ]
+ ],
+ "search:\"Introducing Early Cascade Injection: From Windows Process Creation to Stealthy Injection\" Guido Miggelenbrink": [],
+ "search:\"Will the real #GrimResource please stand up? \u2014 Abusing the MSC File Format\" Outflank team": [
+  [
+   "2hSjnOeOvu8",
+   "Trump Walks into LEGAL NIGHTMARE with SLUSH FUND?!?!"
+  ],
+  [
+   "8PiXMKdbrYI",
+   "Reveal Secret Messages With FIRE (Day #201 Office Hours)"
+  ],
+  [
+   "TeGN1h-vSpA",
+   "\ud83d\udea8 Canvas breached: 275M students exposed, ransom paid \ud83d\udea8"
+  ],
+  [
+   "NcVYNW3Jx0Q",
+   "Top Dem SLAMS Trump PLOT to PAYOFF MAGA Allies"
+  ],
+  [
+   "WWyk9LVPPi0",
+   "Critical Role's Alex Ward Joins DUNGEON MASTERS!"
+  ]
+ ],
+ "search:\"Unmanaged .NET Patching\" Outflank team": [
+  [
+   "OJa0WsB_FJk",
+   "Whiteboard Wednesday: What is Patching?"
+  ],
+  [
+   "v5E2BHpLe50",
+   "Your toxic job doesn't have to drain you #unmanaged #workplacestrategy"
+  ],
+  [
+   "eWLbalFolOc",
+   "Part 19 Why HttpPatch in Web/REST API  7.0 || Asp.Net Core Web API Tutorials C#"
+  ],
+  [
+   "2bD9t7_dz9I",
+   "How to Perform Offline Updates in Tenable OT Security"
+  ],
+  [
+   "YwGkB5qjyRw",
+   "Managed \\u0026 Unmanaged Code in C#"
+  ]
+ ],
+ "search:\"Secure Enclaves for Offensive Operations \u2014 Part I\" Matteo Malvica (OffSec) & Cedric Van Bockhaven": [
+  [
+   "yiK72kT_52I",
+   "Summit Panel: Access, Actions and Influence: Cyber Operations in the Age of Asymmetry"
+  ],
+  [
+   "3Q4TViSoaCQ",
+   "MCSC 2024: Seventh Panel: Connecting Dots in Cyber Defense"
+  ],
+  [
+   "qPus0aeMWHo",
+   "Alex Matrosov \\u0026 Fabio Pagani | Broken Trust: Firmware Bypass Chains, BMC Persistence \\u0026 EDR Evasion"
+  ],
+  [
+   "1kEsVT0aqpU",
+   "Lecture 1: Anatomy of a National Security Lawsuit"
+  ],
+  [
+   "Ft02Fn1859g",
+   "Joseph Devereaux - Virtualization Security 101"
+  ]
+ ],
+ "search:\"Secure Enclaves for Offensive Operations \u2014 Part II: VTL1 Code Execution\" Cedric Van Bockhaven & Matteo Malvica": [
+  [
+   "MXbWsxdVg-o",
+   "USENIX Security '20 - CopyCat: Controlled Instruction-Level Attacks on Enclaves"
+  ],
+  [
+   "zoAITq7jUM8",
+   "OffensiveCon25 - Daniel Klischies and David Hirsch"
+  ],
+  [
+   "DqC4LZTTCa0",
+   "DEF CON 33 - Virtualization Based Insecurity: Weaponizing VBS Enclaves - Ori David"
+  ],
+  [
+   "8WiSmhxJ2OM",
+   "Improving Interoperability in Coordinated Vulnerability Disclosure with Vultron"
+  ],
+  [
+   "fMxSRFYXMV0",
+   "DEF CON 31 - The Art of Compromising C2 Servers  A Web App Vulns Perspective - Vangelis Stykas"
+  ]
+ ],
+ "search:\"Async BOFs \u2014 \"Wake Me Up, Before You Go Go\"\" Cornelis de Plaa (@Cneelis) et al.": [],
+ "search:\"Training Specialist Models: Automating Malware Development (Black Hat USA 2025)\" Outflank team": [
+  [
+   "WKmEzRJZ6H4",
+   "Black Hat USA 2025 | Training Specialist Models: Automating Malware Development"
+  ],
+  [
+   "8voNmYCUXSk",
+   "Black Hat USA 2025 | AI Agents for Offsec with Zero False Positives"
+  ],
+  [
+   "terPgwzk3dc",
+   "Black Hat USA 2025 | New Red Team's Networking Techniques for Initial Access and Evasion"
+  ],
+  [
+   "UGB5W-yJCrQ",
+   "Black Hat USA 2025 | Unmasking Supply Chain Attacks via Application Behaviour"
+  ],
+  [
+   "4C1UL5sO_ME",
+   "Black Hat USA 2025 Keynote | Nicole Perlroth | The New Frontline: Cyber on the Precipice"
+  ]
+ ],
+ "search:\"EDR Internals for macOS and Linux\" Outflank team": [
+  [
+   "Ml5jkW7d-UM",
+   "EDR Internals for macOS and Linux | Kyle Avery"
+  ],
+  [
+   "LWHl51lzUwg",
+   "EDR Internals for macOS and Linux - Kyle Avery"
+  ],
+  [
+   "6SSVOfcoVUA",
+   "EDR Internals From a Defenders Perspective"
+  ],
+  [
+   "nIgAtkYdW78",
+   "Exploring the dark arts on macOS | Red Canary"
+  ],
+  [
+   "z983AM8etCA",
+   "EDR, MDR \\u0026 XDR Explained"
+  ]
+ ],
+ "oembed:Ml5jkW7d-UM": "EDR Internals for macOS and Linux | Kyle Avery",
+ "search:\"Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "IsWQfO8xaOE",
+   "[BYOPL:L2d] How to enforce operator associativity in a BNF grammar"
+  ],
+  [
+   "5Sd5bvvZeb0",
+   "Callback groups executor - Ralph Lange"
+  ],
+  [
+   "ZIy6n0SXmqs",
+   "W2D2:  Databases \\u0026 PSQL"
+  ],
+  [
+   "FvNRlE4E9QQ",
+   "\\"
+  ],
+  [
+   "DAjqyCfqTF8",
+   "Find Me If You Can! How to Locate a DLL\u2019s Unexported Functions by Oryan De Paz"
+  ]
+ ],
+ "search:\"Ghost in the PPL Part 3: LSASS Memory Dump\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "CTJ2yTwnDeA",
+   "How to Grab Credentials from an LSASS Memory Dump  #cybersecurity #ethicalhacking"
+  ],
+  [
+   "TOjwXUt_we4",
+   "Detecting Malicious MinIO Updates and PPLBlade LSASS Dumping | Threat SnapShot"
+  ],
+  [
+   "XWNH_qTt9Hw",
+   "Singularity\u2122 Identity vs. LSASS Credential Dumping attacks | Alert Only Demo"
+  ],
+  [
+   "547u95MLq_s",
+   "Testout  Network +  9.5.3 Lab Respond to Social Engineering Exploits"
+  ],
+  [
+   "FuYZ-r3Nsas",
+   "Hunting for Credential Dumping via LSASS Shtinkering | Threat SnapShot"
+  ]
+ ],
+ "search:\"The PrintNightmare is Not Over Yet \u2014 Point and Print Bypass via DNS Spoofing\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "MSZlBmShHPE",
+   "What is Print Nightmare?"
+  ],
+  [
+   "ziTcNgdgMcs",
+   "How to fix Print Nightmare?"
+  ],
+  [
+   "ZVyka0eAM1U",
+   "CVE-2021-1675 PrintNightmare - Windows Print Spooler Exploit Demonstration"
+  ],
+  [
+   "kuLfMeqHAPI",
+   "PrintNightmare Half-Truths, Miscommunications, and Clarifications. A Dive Into the Vulnerability Fix"
+  ],
+  [
+   "fnbMV0Wfq7Q",
+   "17. DNS Spoofing \ud83c\udfaf | Redirecting Traffic with Man-in-the-Middle Attacks (Ethical Hacking Lab)"
+  ]
+ ],
+ "search:\"Reinventing PowerShell in C/C++\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "LO0JeIoEutA",
+   "Why Installing Apps Is So Different on macOS, Windows, and Linux"
+  ],
+  [
+   "FyTBsW6iTH0",
+   "Powershell Quickes #1 - How to use Get-Location?"
+  ],
+  [
+   "aTqb6xBjppI",
+   "Day-21: Deploy a Website LIVE for FREE with Vercel (Step-by-Step) | SVNIT\u00d7Pantech"
+  ],
+  [
+   "ZOoCaWyifmI",
+   "Learn PowerShell in Less Than 2 Hours"
+  ],
+  [
+   "dkWDO4xcKN8",
+   "People THINK C++ is hard; It isn't"
+  ]
+ ],
+ "search:\"Hijacking the Windows \"MareBackup\" Scheduled Task for Privilege Escalation\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "ZIIfVmJiDWo",
+   "Windows Privilege Escalation via Scheduled Tasks | From User to SYSTEM"
+  ],
+  [
+   "OKJJjprxC4E",
+   "Scheduled Task Privilege Escalation"
+  ],
+  [
+   "l0evgRphRIA",
+   "Windows Privilege Escalation - Exploiting Scheduled Tasks"
+  ],
+  [
+   "JaoRLfRe3KM",
+   "SeBackup \\u0026 SeRestore Privilege Abuse | Windows Privilege Escalation (FULL DEMO)"
+  ],
+  [
+   "pWkWIa2dfHY",
+   "Windows Privilege Escalation - SeBackupPrivilege"
+  ]
+ ],
+ "oembed:OKJJjprxC4E": "Scheduled Task Privilege Escalation",
+ "search:\"Checking for Symantec Account Connectivity Credentials (ACCs) with PrivescCheck / Offline Extraction\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "ia9-s2DmXFg",
+   "Continuous Access Evaluation with Symantec DLP and IAM"
+  ],
+  [
+   "Xcz8XAUL9So",
+   "Symantec PAM - Privileged Credential Vault"
+  ],
+  [
+   "L4ItRS_-F3U",
+   "How to add and validate domains in SCM"
+  ],
+  [
+   "1BHoQSw2Eqo",
+   "SiteMinder as OAuth Provider - OAuth Client Credentials Grant Flow"
+  ],
+  [
+   "N9jlp5rqL-I",
+   "Securing VMware Cloud Foundation Credentials with Symantec PAM"
+  ]
+ ],
+ "search:\"CVE-2026-20817 \u2014 Windows Error Reporting Service EoP (Patch Analysis)\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "5YzTgyPQd4M",
+   "CVE-2026-20817: Windows Error Reporting Service Elevation of Privilege Vulnerability"
+  ],
+  [
+   "upvRoAxLnsE",
+   "CVE-2026-20833 - What is Kerberos and how to face RC4 deprecation - Theorical lesson"
+  ],
+  [
+   "6e8p5aF3do8",
+   "CVE-2026-42898: RCE in Microsoft Dynamics 365 (on-premises)"
+  ],
+  [
+   "6vgpwr37nR0",
+   "Unauthenticated Access to Cisco SD-WAN (CVE-2026-20127)"
+  ],
+  [
+   "kfS7jC8gFy4",
+   "April 2025 Patch Tuesday \u2013 CVE-2025-21204 Fix Adds inetpub Folder to All Windows Systems"
+  ]
+ ],
+ "oembed:5YzTgyPQd4M": "CVE-2026-20817: Windows Error Reporting Service Elevation of Privilege Vulnerability",
+ "search:\"BitLocker's Little Secrets: The Undocumented FVE API\" Cl\u00e9ment Labro (itm4n)": [
+  [
+   "4dOp-QA4VK4",
+   "A Hacker Found The BitLocker Backdoor"
+  ],
+  [
+   "x4S7u-zycs0",
+   "Microsoft SECRETLY Gave FBI Backdoor Access to YOUR Encrypted Files \u2014 BitLocker Exposed!"
+  ],
+  [
+   "EIABOxWDxdg",
+   "Windows Zero-Days: BitLocker 'YellowKey' Bypass; 'MiniPlasma' SYSTEM Exploit PoC | May 18, 2026"
+  ],
+  [
+   "fK9XIkshKzc",
+   "Does Bitlocker Have A Backdoor? Microsoft Helps FBI Access Encrypted Windows Computer"
+  ],
+  [
+   "iX3a-goiE2c",
+   "Windows 11 Bitlocker isnt there to Protect YOU"
+  ]
+ ],
+ "search:\"Administrator Protection (Windows 11 25H2) \u2014 Overview, Research, and 9 UAC-Replacement Bypasses\" James Forshaw": [
+  [
+   "IqRuZd5anbo",
+   "Windows 11 25H2 Will get Administrator Protection to improve security"
+  ],
+  [
+   "6UmHrQ0SqzI",
+   "Windows 11 25H2 Might have Administrator protection added to increase security"
+  ],
+  [
+   "vbWsfM_Bghk",
+   "Admin Protection in Windows 11: What It Is and How to Use It?"
+  ],
+  [
+   "gIKB0dKUsX0",
+   "STOP Everything! Microsoft is FORCING Windows 11 25H2 on Your PC (No Way To Stop It)"
+  ],
+  [
+   "1wgZ7TPOjVA",
+   "Windows 11 25H2 Administrator protection will surely annoy users"
+  ]
+ ],
+ "search:\"GetProcessHandleFromHwnd \u2014 UI Access, Shatter Attacks, and How Windows is Fixing Them\" James Forshaw": [
+  [
+   "dfMuzAZRGm4",
+   "James Forshaw - COM in Sixty Seconds! (well minutes more likely) @ Infiltrate 2017.mp4"
+  ],
+  [
+   "2g7vp1gKdJM",
+   "Exploiting Windows Vista Resource Virtualization - Presented by James Forshaw"
+  ],
+  [
+   "LO0JeIoEutA",
+   "Why Windows Needs Installers and macOS Doesn\u2019t"
+  ],
+  [
+   "UTvOfmtNVKI",
+   "James Forshaw  - Abusing Access Tokens for UAC Bypasses"
+  ],
+  [
+   "w0zcoIJjqCk",
+   "Windows Startup Error Fix Hacx #shorts #windows"
+  ]
+ ],
+ "search:\"Windows Exploitation Techniques: Race Conditions with Path Lookups (originally 2016, republished 2025-12)\" James Forshaw": [
+  [
+   "MqnpIwN7dz0",
+   "Race Conditions and How to Prevent Them - A Look at Dekker's Algorithm"
+  ],
+  [
+   "bhpzTWtee2A",
+   "The Weirdest Bug in Programming - Race Conditions"
+  ],
+  [
+   "dfMuzAZRGm4",
+   "James Forshaw - COM in Sixty Seconds! (well minutes more likely) @ Infiltrate 2017.mp4"
+  ],
+  [
+   "uf-bwTThx54",
+   "Race Conditions | TryHackMe | Web Application Pentesting"
+  ],
+  [
+   "LO0JeIoEutA",
+   "Why Windows Needs Installers and macOS Doesn\u2019t"
+  ]
+ ],
+ "search:\"Shellcode: Windows on ARM64 / AArch64\" modexp": [
+  [
+   "Rb9HNdkyFTU",
+   "The Problem with Windows on ARM #microsoft #windows #tech"
+  ],
+  [
+   "tROTPFuYhM4",
+   "The glaring issue with Windows on ARM"
+  ],
+  [
+   "3-JngtxQnVU",
+   "How to Write Shellcode in 3 Minutes!"
+  ],
+  [
+   "vhyettT7sdA",
+   "you can learn assembly FAST with this technique (arm64 breakdown)"
+  ],
+  [
+   "TkurPPEYOaU",
+   "Windows Classic Shellcode Execution"
+  ]
+ ],
+ "search:\"Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives)\" Antonio Cobo / Tarlogic team": [
+  [
+   "56BjmyOTN5o",
+   "Kerberos Deep Dive Part 3 - AS-REP Roasting"
+  ],
+  [
+   "x1Q2YNL1fYc",
+   "Kerberoasting Deep Dive Part 1"
+  ],
+  [
+   "pzrtfRpPVM4",
+   "Kerberos Deep Dive Part 1 - Introduction"
+  ],
+  [
+   "Jaa2LmZaNeU",
+   "SIEGECAST: Kerberoasting \\u0026 Attacks 101"
+  ],
+  [
+   "U1nMgb8AEB4",
+   "Kerberos Attacks Explained: User Enumeration, Kerberosting and AS-REP Roasting"
+  ]
+ ],
+ "search:\"Azure AD / Entra ID Kerberos Integration Attack Paths\" Eloy P\u00e9rez / Tarlogic team": [
+  [
+   "fevwz8O954A",
+   "NEW Native Azure AD KERBEROS!!!"
+  ],
+  [
+   "fbSVgC8nGz4",
+   "Authentication fundamentals: The basics | Microsoft Entra ID"
+  ],
+  [
+   "NsYRqHHb4rQ",
+   "Deploying Entra ID and Azure Attack Paths with\u00a0BadZure"
+  ],
+  [
+   "0qZzcK1mHwA",
+   "Microsoft Entra ID Beginner's Tutorial (Azure Active Directory)"
+  ],
+  [
+   "6yg0EE77QjM",
+   "Accelerate Tier 0 Attack Path Analysis in Active Directory and Entra ID"
+  ]
+ ],
+ "oembed:NsYRqHHb4rQ": "Deploying Entra ID and Azure Attack Paths with\u00a0BadZure",
+ "search:\"CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)\" Yarden Shafir & Alex Ionescu": [],
+ "search:\"Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) \u2014 Trail of Bits blog\" Yarden Shafir (Trail of Bits)": [
+  [
+   "iaeWVzEBaUY",
+   "ETW - Your Cybersecurity Detective - SOC for beginners"
+  ],
+  [
+   "usW9F_bUpvQ",
+   "Creative Windows Evasion and Forensics with Yarden Shafir"
+  ],
+  [
+   "TUR-L9AtzQE",
+   "Windows Forensics: Event Trace Logs - SANS DFIR Summit 2018"
+  ],
+  [
+   "G8XjSO_eshc",
+   "Quick Forensics of Windows Event Logs (DeepBlueCLI)"
+  ],
+  [
+   "wZG0h1q7fMg",
+   "Veni, No Vidi, No Vici: Attacks on ETW Blind EDR Sensors"
+  ]
+ ],
+ "search:\"Windows Internals: Dissecting Secure Image Objects \u2014 Part 1\" Connor McGarr": [
+  [
+   "T7qxs-9OTjY",
+   "A Practical Look at Windows Kernel Mode Shadow Stacks and the Secure Kernel! ...with Connor McGarr!"
+  ],
+  [
+   "7pQpc1g7foc",
+   "Windows Internals - Pavel Yosifovich"
+  ],
+  [
+   "nauAlHXrkIk",
+   "A Look at Modern Windows Kernel Exploitation/Hacking"
+  ],
+  [
+   "I_nJltUokE0",
+   "Windows Internals Crash Course"
+  ],
+  [
+   "CBHYp3o6uNA",
+   "Advanced Windows Security Course: Windows Internals: Memory Management | Sami Laiho"
+  ]
+ ],
+ "search:\"Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows\" Connor McGarr": [
+  [
+   "T7qxs-9OTjY",
+   "A Practical Look at Windows Kernel Mode Shadow Stacks and the Secure Kernel! ...with Connor McGarr!"
+  ],
+  [
+   "FfU_b-zLjyc",
+   "BSidesDayton 2020 - Connor McGarr - From JMP ESP to CET: The Current State of Exploit Development"
+  ],
+  [
+   "nauAlHXrkIk",
+   "A Look at Modern Windows Kernel Exploitation/Hacking"
+  ],
+  [
+   "jWIkhg0Ufr4",
+   "A Look at Modern Windows Kernel Exploitation"
+  ],
+  [
+   "Gu_5kkErQ6Y",
+   "DEF CON 25 - Morten Schenk - Taking Windows 10 Kernel Exploitation to the next level"
+  ]
+ ],
+ "search:\"Windows Internals: Secure Calls \u2014 The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)\" Connor McGarr": [
+  [
+   "zvmkTzYQqVA",
+   "Windows Secure Calls in Practice: VSM, VTLs, and SkBridge with Connor McGarrr!"
+  ],
+  [
+   "T7qxs-9OTjY",
+   "A Practical Look at Windows Kernel Mode Shadow Stacks and the Secure Kernel! ...with Connor McGarr!"
+  ],
+  [
+   "zvZT4g041KY",
+   "Windows Architecture Explained: NT Kernel Design \\u0026 Services (Beginner's Guide)"
+  ],
+  [
+   "_jli20YgfWc",
+   "Critical Windows Hyper-V NT Kernel Vulnerability Allows SYSTEM Privilege Escalation \u2013 PoC Released"
+  ],
+  [
+   "CBHYp3o6uNA",
+   "Advanced Windows Security Course: Windows Internals: Memory Management | Sami Laiho"
+  ]
+ ],
+ "search:\"Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC)\" Connor McGarr": [
+  [
+   "FfU_b-zLjyc",
+   "BSidesDayton 2020 - Connor McGarr - From JMP ESP to CET: The Current State of Exploit Development"
+  ],
+  [
+   "pSCALRKqRxY",
+   "Pointer Authentication on ARM64 #linux #software #cybersecurity #operatingsystem #programming"
+  ],
+  [
+   "x4QITiQINhg",
+   "A Sneak Peek at GitHub's New AI Coding App"
+  ],
+  [
+   "nauAlHXrkIk",
+   "A Look at Modern Windows Kernel Exploitation/Hacking"
+  ],
+  [
+   "UD1KKHyPnZ4",
+   "USENIX Security '19 - PAC it up: Towards Pointer Integrity using ARM Pointer Authentication"
+  ]
+ ],
+ "search:\"Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windows under VHE\" Connor McGarr": [
+  [
+   "CdQ2EYKfB8g",
+   "\ud83d\udee0\ufe0f Windows Virtual Memory Explained \ud83d\udcda Windows Internals \ud83d\udcbb"
+  ],
+  [
+   "B6tJxvYBNrU",
+   "Page Tables and MMU: How Virtual Memory Actually Works Behind the Scenes (Animation)"
+  ],
+  [
+   "hyIEUCIVhQQ",
+   "How Microcontroller Memory Works | Embedded System Project Series #16"
+  ],
+  [
+   "CBHYp3o6uNA",
+   "Advanced Windows Security Course: Windows Internals: Memory Management | Sami Laiho"
+  ],
+  [
+   "iCROPmQt2fs",
+   "Introducing Agent 365: Architecture \\u0026 Setup"
+  ]
+ ],
+ "search:\"Windows ARM64 Internals: Pardon The Interruption! Interrupts on Windows for ARM\" Connor McGarr": [
+  [
+   "Rb9HNdkyFTU",
+   "The Problem with Windows on ARM #microsoft #windows #tech"
+  ],
+  [
+   "tROTPFuYhM4",
+   "The glaring issue with Windows on ARM"
+  ],
+  [
+   "1VC59N661Po",
+   "Pardon the Interruption | Knicks in 6! - Wilbon predicts for East Finals: Cavaliers vs Knicks?"
+  ],
+  [
+   "6KOoTMW9rtU",
+   "Pardon the Interruption | Wemby will send SGA to HELL! - Michael Wilbon on Spurs vs Thunder in Gm 1"
+  ],
+  [
+   "HZ0GgiN3Now",
+   "Michael Wilbon storms off the set of PTI"
+  ]
+ ],
+ "search:\"Windows Internals: Check Your Privilege \u2014 The Curious Case of ETW's SecurityTrace Flag\" Connor McGarr (Origin/Prelude Security)": [
+  [
+   "I_nJltUokE0",
+   "Windows Internals Crash Course"
+  ],
+  [
+   "U5dhuyPm6n8",
+   "Windows Internals for Red Teams"
+  ],
+  [
+   "4lVPPW_Qu58",
+   "Microsoft's Hidden Backdoor Nobody Was Supposed to Find"
+  ],
+  [
+   "glQN8hWkiV4",
+   "Understainding Windows OS Processes and Internals | TryHackMe Internals"
+  ],
+  [
+   "7pQpc1g7foc",
+   "Windows Internals - Pavel Yosifovich"
+  ]
+ ],
+ "search:\"CVE-2024-21423 \u2014 Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)\" Alex Gough (quidity)": [
+  [
+   "XFjEoPPumKs",
+   "How to Fix Critical System Error in Microsoft Edge | Easy Fix 2026"
+  ],
+  [
+   "ecnZmcFLtu0",
+   "Fix Microsoft Edge Status Access Violation Error | Step-by-Step Guide"
+  ],
+  [
+   "aTqb6xBjppI",
+   "Day-21: Deploy a Website LIVE for FREE with Vercel (Step-by-Step) | SVNIT\u00d7Pantech"
+  ],
+  [
+   "GrNSaT5LfiY",
+   "The Two-Front Cyber War: Deconstructing the Q2 2025 CVE Report for Windows 11 and Edge"
+  ],
+  [
+   "pScq8rUwrjY",
+   "How To Stop Microsoft Edge Browser Installing 4GB Local AI Model"
+  ]
+ ],
+ "search:\"Abusing VBS Enclaves to Create Evasive Malware\" Ori David": [
+  [
+   "h9JQ0kc732I",
+   "BlueHat IL 2025 - Ori David - Now You See Me, Now You Don\u2019t - Abusing VBS Enclaves to Create..."
+  ]
+ ],
+ "search:\"Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse\" Carl S\u00f6rqvist": [
+  [
+   "BNLdRJt_1Us",
+   "6.566 Spring 2026 Lecture 11: Supply chain security (Russ Cox)"
+  ],
+  [
+   "CRAJ1vVdcAg",
+   "How Attackers Abuse Trusted Code Signing Systems"
+  ],
+  [
+   "M3t_vyb731s",
+   "TrustedSec Livestream - Turning Scenarios into Readiness: AMA Building Realistic Tabletop Exercises"
+  ],
+  [
+   "kvskt76pZTE",
+   "The World\u2019 First AI Agent Security Standard |\u00a0Emil Lassen\u00a0| Cybersecurity Mondays Season 1 EP 5"
+  ],
+  [
+   "b_hzr-8Rd_c",
+   "Autonomous Security Management in Networked Systems through Learning-based Control"
+  ]
+ ],
+ "search:\"Techniques for Creating Process Injection Attacks with Advanced Return-Oriented Programming\" DEF CON 32": [
+  [
+   "1Hx-PzyGtX0",
+   "DEF CON 32 - Process Injection Attacks w ROP - Bramwell Brizendine, Shiva Shashank Kusuma"
+  ],
+  [
+   "8zRoMAkGYQE",
+   "Exploiting Return Oriented Programming (ROP) tutorial - Binary Exploitation PWN101"
+  ],
+  [
+   "x_iUABsCH1w",
+   "DEF CON 31 - Advanced ROP Framework  Pushing ROP to Its Limits - Brizendine, Kusuma"
+  ],
+  [
+   "yS9pGmY_xuo",
+   "Introduction to return oriented programming (ROP)"
+  ],
+  [
+   "-Z34ya4rb8A",
+   "DEF CON 32 - Manipulating Shim and Office for Code Injection - Ron Ben-Yizhak, David Shandalov"
+  ]
+ ],
+ "search:\"MaLDAPtive: LDAP Obfuscation, Deobfuscation, and Detection\" DEF CON 32": [
+  [
+   "mKRS5Iyy7Qo",
+   "DEF CON 32 - MaLDAPtive: Obfuscation and De-Obfuscation - Daniel Bohannon, Sabajete Elezaj"
+  ],
+  [
+   "3HrGoSPT8cU",
+   "MaLDAPtive: Diving Deep Into LDAP Obfuscation, Deobfuscation \\u0026 Detection"
+  ],
+  [
+   "GZ7Vbvf2Dso",
+   "Automagic LDAP obfuscation using Invoke-Maldaptive and LDAPx"
+  ],
+  [
+   "zH6qbJuqhOM",
+   "DEF CON 32 - Mutual authentication is optional - Xavier Zhang"
+  ],
+  [
+   "yif0EhykeMk",
+   "DEF CON 8 - Xs - LDAP"
+  ]
+ ],
+ "search:\"NTLM: The Last Ride\" DEF CON 32": [
+  [
+   "7IrPkH7kK2I",
+   "DEF CON 32 - NTLM The Last Ride - Jim Rush, Tomais Williamson"
+  ]
+ ],
+ "oembed:7IrPkH7kK2I": "DEF CON 32 - NTLM The Last Ride - Jim Rush, Tomais Williamson",
+ "search:\"Outlook Unleashing RCE Chaos: CVE-2024-30103 & CVE-2024-38021\" DEF CON 32": [
+  [
+   "GwwxeY11xMI",
+   "DEF CON 32 - Outlook Unleashing RCE Chaos  CVE 2024 30103 - Michael Gorelik, Arnold Osipov"
+  ],
+  [
+   "EQh6apPSRP0",
+   "BlueHat 2024: S08: Outlook Unleashing RCE Chaos CVE-2024-30103 \\u0026 CVE-2024-38021 \\u0026 CVE-2024-38173"
+  ],
+  [
+   "mn5QNXze4J8",
+   "CVE-2024-21413 Outlook RCE POC explained"
+  ],
+  [
+   "8qMotNy6Cgw",
+   "Cracking CVE 2024 30103 Protect Your Outlook!"
+  ],
+  [
+   "DQIYhnaha4A",
+   "Critical Outlook Security Flaw: Exploring CVE-2024-21413 | Cyber Adam"
+  ]
+ ],
+ "oembed:EQh6apPSRP0": "BlueHat 2024: S08: Outlook Unleashing RCE Chaos CVE-2024-30103 & CVE-2024-38021 & CVE-2024-38173",
+ "search:\"SHIM me what you got: Manipulating Shim and Office for Code Injection\" DEF CON 32": [],
+ "search:\"Where's the Money: Defeating ATM Disk Encryption\" DEF CON 32": [
+  [
+   "lF8NEsl3-kQ",
+   "DEF CON 32 - Where\u2019s the Money-Defeating ATM Disk Encryption - Matt Burch"
+  ]
+ ],
+ "oembed:lF8NEsl3-kQ": "DEF CON 32 - Where\u2019s the Money-Defeating ATM Disk Encryption - Matt Burch",
+ "search:\"Advanced Active Directory to Entra ID lateral movement techniques\" DEF CON 33": [],
+ "search:\"ChromeAlone: Transforming a Browser into a C2 Platform\" DEF CON 33": [
+  [
+   "_qS01oRTvAk",
+   "ChromeAlone:  Transforming a Browser into a C2 Platform"
+  ],
+  [
+   "fMxSRFYXMV0",
+   "DEF CON 31 - The Art of Compromising C2 Servers  A Web App Vulns Perspective - Vangelis Stykas"
+  ],
+  [
+   "YVoF_mI8MIw",
+   "DEF CON 33 - Ghost Calls - Abusing Web Conferencing for Covert Command \\u0026 Control - Adam Crosser"
+  ],
+  [
+   "kVcOA5txllM",
+   "CloakBrowser made Claude agents undetectable (15k stars on GitHub)"
+  ],
+  [
+   "LVftLboXfJ4",
+   "i went to the largest hacker convention in the world | DEFCON"
+  ]
+ ],
+ "oembed:_qS01oRTvAk": "ChromeAlone:  Transforming a Browser into a C2 Platform",
+ "search:\"Ghosts in the Machine Check: Conjuring Hardware Failures for Cross-ring Privilege Escalation\" DEF CON 33": [
+  [
+   "B6dC_KVLn6Q",
+   "DEF CON 33 - Conjuring Hardware Failures for Cross-ring Privilege Escalation - Christopher Domas"
+  ],
+  [
+   "YVoF_mI8MIw",
+   "DEF CON 33 - Ghost Calls - Abusing Web Conferencing for Covert Command \\u0026 Control - Adam Crosser"
+  ],
+  [
+   "eKKgaGbcq4o",
+   "DEF CON 29 - Laura Abbott, Rick Altherr -Breaking TrustZone M: Privilege Escalation on LPC55S69"
+  ],
+  [
+   "lR0nh-TdpVg",
+   "The Memory Sinkhole - Unleashing An X86 Design Flaw Allowing Universal Privilege Escalation"
+  ],
+  [
+   "9-a4OhOChss",
+   "DEF CON 33 - OSINT Enabled Ghost Mode: Counter Surveillance for Everyday People - Desiree Wilson"
+  ]
+ ],
+ "oembed:B6dC_KVLn6Q": "DEF CON 33 - Conjuring Hardware Failures for Cross-ring Privilege Escalation - Christopher Domas",
+ "search:\"7 Vulns in 7 Days: Breaking Bloatware Faster Than It's Built\" DEF CON 33": [
+  [
+   "zSBf2CMKlBk",
+   "DEF CON 33 - 7 Vulns in 7 Days - Breaking Bloatware Faster Than It\u2019s Built - Leon 'leonjza' Jacobs"
+  ],
+  [
+   "5VlhsT5Kbsk",
+   "DEF CON 33 - 'We are currently clean on OPSEC' - The Signalgate Saga - Micah 'micahflee' Lee"
+  ],
+  [
+   "R1Xp9Qq2lkw",
+   "I crashed the #1 Hacker Convention in the World! DEFCON 33!!"
+  ],
+  [
+   "xEdZwLRJttQ",
+   "Social Engineer: YOU are Easier to Hack than your Computer"
+  ],
+  [
+   "cA-ZQJ8EZSs",
+   "DEF CON 33 - Journey to the center of PSTN - I became a phone company. You should too - Enzo Damato"
+  ]
+ ],
+ "oembed:zSBf2CMKlBk": "DEF CON 33 - 7 Vulns in 7 Days - Breaking Bloatware Faster Than It\u2019s Built - Leon 'leonjza' Jacobs",
+ "search:\"Ghost Calls: Abusing Web Conferencing for Covert Command & Control\" DEF CON 33": [
+  [
+   "YVoF_mI8MIw",
+   "DEF CON 33 - Ghost Calls - Abusing Web Conferencing for Covert Command \\u0026 Control - Adam Crosser"
+  ],
+  [
+   "1uNneo9L_jU",
+   "DEF CON 33 - Where\u2019s My Crypto, Dude? The Ultimate Guide to Crypto Money Laundering - Thomas Roccia"
+  ],
+  [
+   "rz0SNEFZ8h0",
+   "DEF CON 22 - Shahar Tal - I Hunt TR-069 Admins: Pwning ISPs Like a Boss"
+  ],
+  [
+   "MsRo12h0mrg",
+   "DEF CON 33 - China's 5+ year campaign to penetrate perimeter network defenses - Andrew  Brandt"
+  ],
+  [
+   "NURO3NgtXUQ",
+   "DEF CON 33 - From Pwn to Plan: Turning Physical Exploits Into Upgrades - Shawn"
+  ]
+ ],
+ "oembed:YVoF_mI8MIw": "DEF CON 33 - Ghost Calls - Abusing Web Conferencing for Covert Command & Control - Adam Crosser",
+ "search:\"Evading Modern Defenses When Phishing with Pixels\" DEF CON 32": [
+  [
+   "l89qpmb2CAQ",
+   "DEF CON 32 - Evading Modern Defenses When Phishing with Pixels - Melvin Langvik"
+  ]
+ ],
+ "oembed:l89qpmb2CAQ": "DEF CON 32 - Evading Modern Defenses When Phishing with Pixels - Melvin Langvik",
+ "search:\"Countering Forensics Software by Baiting Them\" DEF CON 33": [
+  [
+   "nUh9GVVhjD8",
+   "DEF CON 33 - Countering Forensics Software by Baiting Them  -  Weihan Goh, Joseph Lim \\u0026 Isaac Soon"
+  ]
+ ],
+ "oembed:nUh9GVVhjD8": "DEF CON 33 - Countering Forensics Software by Baiting Them  -  Weihan Goh, Joseph Lim & Isaac Soon",
+ "search:\"Resurrecting Stuxnet in 2024: Leveraging Emulated Read-Only Filesystems and NTFS Glitches for Infection and Persistence\" 2024": [
+  [
+   "EOPLN-MVKY4",
+   "The Incredible Stuxnet Cyberweapon Explained by a Retired Windows Engineer"
+  ],
+  [
+   "38mpJy_TdYQ",
+   "Detecting NTFS Timestomping"
+  ],
+  [
+   "nm_dKqTIwj8",
+   "NTFSplus: Linux\u2019s BIG NTFS Overhaul"
+  ],
+  [
+   "5vRkdBD3Cg8",
+   "How to Secure Your NAS\u2014Protecting Your Data from Cyber Threats #nas #recoverit #dataprotection"
+  ],
+  [
+   "Ns5wQURTgOA",
+   "Linus Torvalds Hates AI Security Slop"
+  ]
+ ],
+ "search:\"Authenticating through Windows Hello for Business \u2014 a Reverse Engineering Story\" 2025": [
+  [
+   "Frzg4S7XE3c",
+   "TROOPERS25: Authenticating through Windows Hello for Business, a reverse engineering story"
+  ]
+ ],
+ "oembed:Frzg4S7XE3c": "TROOPERS25: Authenticating through Windows Hello for Business, a reverse engineering story",
+ "search:\"Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation\" 2025": [
+  [
+   "LE03KbttoIY",
+   "TROOPERS25: Beyond LSASS - Cutting Edge Techniques for Undetectable Threat Emulation"
+  ],
+  [
+   "YX1dIrZPk_4",
+   "Beyond LSASS: Cutting-Edge Techniques For Undetectable Threat Emulation - Priyank Nigam"
+  ]
+ ],
+ "oembed:LE03KbttoIY": "TROOPERS25: Beyond LSASS - Cutting Edge Techniques for Undetectable Threat Emulation",
+ "search:\"Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths\" 2025": [
+  [
+   "4lOTHRsmXbo",
+   "TROOPERS25: Breaking Boundaries - Unraveling AD Cross Forest Attack Paths"
+  ]
+ ],
+ "oembed:4lOTHRsmXbo": "TROOPERS25: Breaking Boundaries - Unraveling AD Cross Forest Attack Paths",
+ "search:\"Finding Entra ID Conditional Access Bypasses \u2014 the Structured Way\" 2025": [
+  [
+   "yYQBeDFEkps",
+   "TROOPERS25: Finding Entra ID CA Bypasses - The Structured Way"
+  ],
+  [
+   "w8nZ0TafX-A",
+   "Microsoft Entra ID Conditional Access   Updates \\u0026 Best Practices 2025"
+  ],
+  [
+   "KMSzcu3RMCU",
+   "Microsoft MVP Reveals Hidden Conditional Access Bypasses (Entra ID)"
+  ],
+  [
+   "zvK96tWqX8w",
+   "How Conditional Access Is Bypassed in Microsoft Entra ID (And Why It Matters)"
+  ],
+  [
+   "aW-jALb3q6c",
+   "Learn Conditional Access in just 25 Mins"
+  ]
+ ],
+ "oembed:yYQBeDFEkps": "TROOPERS25: Finding Entra ID CA Bypasses - The Structured Way",
+ "search:\"Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)\" 2025": [
+  [
+   "gDMqswqMH3g",
+   "TROOPERS25: Hopping Accross Devices - Expanding Lateral Movement through Pass the Certificate Attack"
+  ],
+  [
+   "GClAjw4jxkE",
+   "SOC Incident Walkthrough: Lateral Movement \\u0026 VPN Compromise"
+  ],
+  [
+   "rzfAutv6sB8",
+   "Black Hat USA 2025 | Advanced Active Directory to Entra ID Lateral Movement Techniques"
+  ],
+  [
+   "Yhn9QCd-8PU",
+   "THM Lateral Movement and Pivoting"
+  ],
+  [
+   "QN1rMtwwak8",
+   "Azure Cloud Lateral Movement: What Security Teams Miss ? Quick POC"
+  ]
+ ],
+ "oembed:gDMqswqMH3g": "TROOPERS25: Hopping Accross Devices - Expanding Lateral Movement through Pass the Certificate Attack",
+ "search:\"Misconfiguration Manager: Still Overlooked, Still Overprivileged\" 2025": [
+  [
+   "H9zujF9bTjc",
+   "TROOPERS25: Misconfiguration Manager - Still Overlooked, Still Overprivileged"
+  ]
+ ],
+ "oembed:H9zujF9bTjc": "TROOPERS25: Misconfiguration Manager - Still Overlooked, Still Overprivileged",
+ "search:\"RBAC: The Shady Place Behind Basic Entra ID Security\" 2025": [
+  [
+   "6GTmsPgIy5c",
+   "TROOPERS25: RBAC - The Shady Place Behind Basic Entra ID Security"
+  ]
+ ],
+ "oembed:6GTmsPgIy5c": "TROOPERS25: RBAC - The Shady Place Behind Basic Entra ID Security",
+ "search:\"Restless Guest: A Novel Entra ID Vulnerability\" 2025": [
+  [
+   "eB5VHK3JXN0",
+   "I Hijacked a Global Admin: Entra ID \\"
+  ],
+  [
+   "bBw0rbcOCBk",
+   "What's New in Entra ID - (December 2025)"
+  ],
+  [
+   "aTqb6xBjppI",
+   "Day-21: Deploy a Website LIVE for FREE with Vercel (Step-by-Step) | SVNIT\u00d7Pantech"
+  ],
+  [
+   "KMSzcu3RMCU",
+   "Microsoft MVP Reveals Hidden Conditional Access Bypasses (Entra ID)"
+  ],
+  [
+   "LcqT6Y6Mzog",
+   "The dark art of OIDC abuse - A case study in Entra ID - Cody Burkard -  NDC Security 2026"
+  ]
+ ],
+ "search:\"Revisiting Cross-Session Activation Attacks\" 2025": [
+  [
+   "7bPzqEiO6Tk",
+   "TROOPERS25: Revisiting Cross Session Activation attacks"
+  ]
+ ],
+ "oembed:7bPzqEiO6Tk": "TROOPERS25: Revisiting Cross Session Activation attacks",
+ "search:\"The Crypto Game of North Korea: Stealing Money with Chrome 0-Days\" 2025": [
+  [
+   "5ezmnd6Z96o",
+   "TROOPERS25: The Crypto Game of North Korea Stealing Money with Chrome 0 days"
+  ]
+ ],
+ "oembed:5ezmnd6Z96o": "TROOPERS25: The Crypto Game of North Korea Stealing Money with Chrome 0 days",
+ "search:\"Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs\" 2025": [
+  [
+   "yhQo0NSlalA",
+   "Microsoft Active Directory Concept - Delegated Managed Service Accounts overview"
+  ],
+  [
+   "j26zUKjOm8g",
+   "Implementing Windows service account security best practices"
+  ],
+  [
+   "5WaH5pFbF5w",
+   "Group Managed Service Accounts in Server 2022"
+  ],
+  [
+   "lUogndHKWsQ",
+   "02 Windows Server 2025 \u2013 Editions \\u0026 Licensing Explained (Standard vs Datacenter vs Azure)"
+  ],
+  [
+   "XLfxIC3boD4",
+   "Bad Successor - Delegated Managed Service Accounts (DMSA) erkl\u00e4rt"
+  ]
+ ],
+ "search:\"TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws\" 2024": [
+  [
+   "bm6-8KiEJ38",
+   "Hardwear.io USA 2024: TPM 2.0 Attestable Firmware: Recovering Trust After Firmware Flaws"
+  ]
+ ],
+ "oembed:bm6-8KiEJ38": "Hardwear.io USA 2024: TPM 2.0 Attestable Firmware: Recovering Trust After Firmware Flaws",
+ "search:\"A New Root of Trust: Changing Computing with TEE\" 2024": [
+  [
+   "pzWaXD5zklI",
+   "Hardwear.io USA 2024:  Panel: A New Root Of Trust: Changing Computing With TEE"
+  ]
+ ],
+ "oembed:pzWaXD5zklI": "Hardwear.io USA 2024:  Panel: A New Root Of Trust: Changing Computing With TEE",
+ "search:\"Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE\" 2024": [
+  [
+   "kj9j2yurtYk",
+   "Hardwear.io USA 2024: SRAM Data Remanence In SoCs: Covert Storage And Exfiltration Risks In TEE"
+  ],
+  [
+   "XpiAezf3mPs",
+   "AWS re:Invent 2024 - Accelerate \\u0026 automate secure data transfers at scale with AWS DataSync (STG204)"
+  ],
+  [
+   "GB3W8X_xo4E",
+   "STS ACSD: 2023 Update on Procedure Data \\u0026 Research | Annals Animated (February 2024)"
+  ],
+  [
+   "7ateZXJehfM",
+   "Data Replication and Backups in AWS - SCS-C03"
+  ],
+  [
+   "zr_JvtHt2Q8",
+   "KDD 2026 - Dual Data-centric Separation with Circular Mixup for Noise-resistant Time Series Learning"
+  ]
+ ],
+ "oembed:kj9j2yurtYk": "Hardwear.io USA 2024: SRAM Data Remanence In SoCs: Covert Storage And Exfiltration Risks In TEE",
+ "search:\"Windows 11 LPE \u2014 successful escalation to SYSTEM\" 2024": [],
+ "search:\"VMware Workstation guest-escape \u2192 SYSTEM on host Windows OS\" 2024": [
+  [
+   "NDuWcGn5hTQ",
+   "Demonstrating a VMware Guest-to-Host Escape"
+  ],
+  [
+   "S4n0Bh8iI_8",
+   "How to share folder of Windows host to Ubuntu 22.04 LTS Guest OS on Vmware Workstation 16.2"
+  ],
+  [
+   "gzFUtG-n65A",
+   "Unveiling the Cracks in Virtualization, Mastering the Host System--VMware Workstation Escape"
+  ],
+  [
+   "Yj3evBocx64",
+   "VMware Workstation 17 Pro for FREE!"
+  ],
+  [
+   "4kkbxK37VIk",
+   "How to share folder of Windows host to RHEL 8 Guest OS on Vmware Workstation 16.2"
+  ]
+ ],
+ "oembed:NDuWcGn5hTQ": "Demonstrating a VMware Guest-to-Host Escape",
+ "search:\"Oracle VirtualBox guest-escape \u2192 SYSTEM on host Windows OS\" 2024": [
+  [
+   "QDAr_AElowA",
+   "VirtualBox Freezes Windows 10/11 ( 2026 ) | Oracle virtualbox freezes ubuntu ( 100% FIX )"
+  ],
+  [
+   "nqzp7JKcs50",
+   "VirtualBox Guest-to-Host Escape"
+  ],
+  [
+   "3HfJj5S_tbk",
+   "this virtual box escape exploit is absolutely nuts"
+  ],
+  [
+   "oIED0-2Tvw8",
+   "Oracle VM VirtualBox Fundamentals [Part 2] - Guest Additions ft. Windows XP \\u0026 10 Networking"
+  ],
+  [
+   "mjKxafMbpS0",
+   "VirtualBox VM Escape 0day: Most Difficult Way To Launch a Calculator"
+  ]
+ ],
+ "oembed:nqzp7JKcs50": "VirtualBox Guest-to-Host Escape",
+ "search:\"Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)\" 2024": [
+  [
+   "JuktNXuzyiQ",
+   "How To Fix Google Chrome Keeps Opening New Tabs"
+  ],
+  [
+   "PUv4cgMF6h4",
+   "Microsoft Just Made it HARDER to Use Chrome Extensions in Edge!"
+  ],
+  [
+   "1JLogp_B3ec",
+   "I Hope This New Feature in Microsoft Edge is a BUG!"
+  ]
+ ],
+ "search:\"Windows 11 LPE \u2014 three independent researchers succeeded on Day 2\" 2024": [
+  [
+   "W5XqKAC8lZo",
+   "Release notes: December 2024 - Windows 11, version 24H2"
+  ],
+  [
+   "e5NPudkvIhM",
+   "Windows 11 KB5089549 can be planted with deadly Registry hack to take over your system"
+  ],
+  [
+   "aTqb6xBjppI",
+   "Day-21: Deploy a Website LIVE for FREE with Vercel (Step-by-Step) | SVNIT\u00d7Pantech"
+  ],
+  [
+   "N0pZncPmUOc",
+   "LIVE: Brad Garlinghouse on the CLARITY Act \u2014 What It Means for XRP, Ripple \\u0026 Crypto Regulation"
+  ],
+  [
+   "fVH1IJcuIyI",
+   "Satya Nadella SHOCKED as Windows 11 Users REFUSE the Latest Update"
+  ]
+ ],
+ "search:\"Windows 11 LPE \u2192 SYSTEM\" 2025": [],
+ "search:\"Windows 11 LPE \u2192 SYSTEM (type confusion)\" 2025": [
+  [
+   "nYh1C4pUwDo",
+   "Microsoft's Urgent Security Fixes for Bing \\u0026 Power Pages! 2025 03 03"
+  ],
+  [
+   "UTi1HrZeW6Q",
+   "BeyondTrustWindows LPE - CVE-2025-0889"
+  ],
+  [
+   "y5urzgTQZN0",
+   "Microsoft Windows dxgkrnl Untrusted Pointer Dereference Local Privilege Escalation Vulnerability"
+  ],
+  [
+   "LeA8y2ArKBk",
+   "CISA KEV Alert: How CWE-59 Grants Instant NT AUTHORITY\\\\SYSTEM on Windows 24H2 #cybersecurity"
+  ],
+  [
+   "puQfBtZF3hY",
+   "Critical Windows Remote Desktop Flaw CVE-2025-60703: What You Need to Know Now"
+  ]
+ ],
+ "search:\"Microsoft SharePoint RCE (auth bypass + insecure deserialization chain)\" 2025": [
+  [
+   "WbUQwEIbNK8",
+   "SA - SOC342-320 - CVE-2025-53770 SharePoint ToolShell Auth Bypass and RCE"
+  ],
+  [
+   "7UWZ700Bzcs",
+   "Hackers Target Microsoft SharePoint | Critical Vulnerability Explained (CVE Breakdown)"
+  ],
+  [
+   "1QzfuWstO8Q",
+   "SharePoint servers: Deserialization of untrusted data leading to remote code e...(CVE-2025-53770)"
+  ],
+  [
+   "HL8YZwjZHFE",
+   "sharepoint hacking situation is completely insane"
+  ],
+  [
+   "ScaPcRoAEJ8",
+   "SharePoint: Microsoft SharePoint code injection and privilege escalation (CVE-2025-49704)"
+  ]
+ ],
+ "search:\"VMware Workstation guest-escape + Windows 11 LPE \u2192 SYSTEM\" 2025": [],
+ "search:\"Windows 11 LPE \u2192 SYSTEM (race condition)\" 2025": [],
+ "search:\"Microsoft Edge sandbox escape (4-bug logic chain, full $175K payout)\" 2026": [],
+ "search:\"Windows 11 LPE \u2192 SYSTEM (Improper Access Control)\" 2026": [],
+ "search:\"Windows 11 LPE \u2192 SYSTEM (heap-based buffer overflow)\" 2026": [
+  [
+   "eMCoAu-sros",
+   "How To Fix The System Detected An Overrun Of A Stack Based Buffer In This Application Windows 11"
+  ],
+  [
+   "_AwzaZmRNsI",
+   "Secure Boot Certificate Expiry (Windows \\u0026 Linux)"
+  ],
+  [
+   "AAGJJT1X0LM",
+   "NGINX: heap-based buffer overflow in ngx_http_rewrite_module (CVE-2026-42945)"
+  ],
+  [
+   "AD-iXWANggo",
+   "Buffer Overflow"
+  ],
+  [
+   "Mm4LdPPDY5k",
+   "Windows USB Print Driver LPE: Inside CVE-2026-32223"
+  ]
+ ],
+ "oembed:AD-iXWANggo": "Buffer Overflow",
+ "search:\"Windows 11 LPE \u2192 SYSTEM (2 \u00d7 UAF)\" 2026": [],
+ "search:\"Microsoft Exchange RCE as SYSTEM (3-bug chain)\" 2026": [
+  [
+   "NJmLgAjyxmE",
+   "Microsoft Patch Tuesday October 2022: Exchange ProxyNotShell RCE, Windows COM+ EoP, AD EoP"
+  ],
+  [
+   "xLPaiHb2fHQ",
+   "Microsoft Patch Tuesday February 2023: Win Graphics, Edge, Publisher, CLFS, Exchange, Word, HoloLens"
+  ],
+  [
+   "xQrwvrhBkL4",
+   "BREAKING NEW 0 DAY RCE VULNERABILITY ON MICROSOFT EXCHANGE SERVER [2022]"
+  ],
+  [
+   "-DsfbmGvUbI",
+   "Exchange Server: Cross-site scripting (XSS) in Microsoft Exchange Server (CVE-2026-42897)"
+  ],
+  [
+   "RlmdsncidAc",
+   "Microsoft Exchange 0-Day Vulnerability Updates | FortiGuardLIVE"
+  ]
+ ],
+ "search:\"Windows 11 LPE \u2192 SYSTEM (integer overflow)\" 2026": [],
+ "search:\"Microsoft SharePoint RCE (2-bug chain)\" 2026": [
+  [
+   "FVQfXbGHins",
+   "New Microsoft SharePoint Zero-Day Is Already Being Exploited | CVE-2026-32201 Explained"
+  ],
+  [
+   "z4DLAbZFTPQ",
+   "Critical Microsoft SharePoint flaw now exploited in attacks"
+  ],
+  [
+   "tn5WCsnD-DU",
+   "Patch NOW: Unauthenticated Remote Code Execution in Microsoft SharePoint #cybersecurity"
+  ],
+  [
+   "UxbqKccF_6c",
+   "Microsoft SharePoint Vulnerability: What You Need to Know"
+  ],
+  [
+   "7UWZ700Bzcs",
+   "Hackers Target Microsoft SharePoint | Critical Vulnerability Explained (CVE Breakdown)"
+  ]
+ ],
+ "search:\"Hot Potato \u2014 Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012\" January 2016 \u2014 Foxglove Security blog post; technique developed ~2015": [
+  [
+   "Kan58VeYpb8",
+   "Windows Server 2012 - Potato - Privilege Escalation"
+  ],
+  [
+   "z_IGPWgL5SY",
+   "Windows Server 2008 - Potato - Privilege Escalation"
+  ],
+  [
+   "Nd6f5P3LSNM",
+   "Windows 7 - Potato - Privilege Escalation"
+  ],
+  [
+   "EtxQGO58zp4",
+   "Windows Local Privilege Escalation - Hot Potato"
+  ],
+  [
+   "wK0r-TZR7w8",
+   "Rotten Potato - IIS Privilege Escalation"
+  ]
+ ],
+ "oembed:Kan58VeYpb8": "Windows Server 2012 - Potato - Privilege Escalation",
+ "search:\"Rotten Potato \u2014 Privilege Escalation from Service Accounts to SYSTEM\" September 2016 \u2014 DerbyCon VI; blog post 26 September 2016": [
+  [
+   "8Wjs__mWOKI",
+   "302 Rotten Potato Privilege Escalation from Service Accounts to SYSTEM Stephen Breen Chris Mallz"
+  ],
+  [
+   "wK0r-TZR7w8",
+   "Rotten Potato - IIS Privilege Escalation"
+  ],
+  [
+   "01ODXD-oqyc",
+   "SeImpersonatePrivilege Exploitation"
+  ],
+  [
+   "Kan58VeYpb8",
+   "Windows Server 2012 - Potato - Privilege Escalation"
+  ],
+  [
+   "3CPdKMeB0UY",
+   "Rotten Potato - MSSQL Privilege Escalation"
+  ]
+ ],
+ "oembed:8Wjs__mWOKI": "302 Rotten Potato Privilege Escalation from Service Accounts to SYSTEM Stephen Breen Chris Mallz",
+ "search:\"Juicy Potato (abusing the golden privileges)\" October 2018 \u2014 GitHub release": [
+  [
+   "rji71rblYU0",
+   "Cyberseclabs Potato Walkthrough || Abusing the golden privileges ||"
+  ],
+  [
+   "wK0r-TZR7w8",
+   "Rotten Potato - IIS Privilege Escalation"
+  ],
+  [
+   "1UNrlOPTCX0",
+   "\ud83d\udd25 Everyone is wrong about Umbrella HWID Tool. Here's #Shorts"
+  ],
+  [
+   "RCkwEcSHjQU",
+   "Rooting out Juicy, Sweet, Efs, and Rotten Potatos from your Windows Environment"
+  ],
+  [
+   "uFE6QvRjf-0",
+   "5 GitHub Repos Exploding This Week \u2014 Stealth Browsers, AI Memory, and More \uff082026/5/10-5/17\uff09"
+  ]
+ ],
+ "oembed:rji71rblYU0": "Cyberseclabs Potato Walkthrough || Abusing the golden privileges ||",
+ "search:\"RoguePotato\" April 2020 \u2014 GitHub release; preceded by blog post \"We thought they were potatoes but they were beans\" (December 2019)": [
+  [
+   "x5d77A-kEAQ",
+   "Crazy 3 Minute Potato HACK?!?!"
+  ],
+  [
+   "0DTH7ZVTolo",
+   "A Popular Potato"
+  ],
+  [
+   "hqUyD3wjjxs",
+   "Worst Doomsday Prepper Ever REFUSES to Eat Potatoes \ud83e\udd54\ud83e\udd26\u200d\u2642\ufe0f"
+  ],
+  [
+   "KWTIKtILK8A",
+   "Do It On a Potato - April Fools, Steam Skyrockets, \\u0026 Office Politics"
+  ],
+  [
+   "IwETEIzRPZE",
+   "POTATOES!"
+  ]
+ ],
+ "search:\"PrintSpoofer \u2014 Abusing Impersonate Privileges on Windows 10 and Server 2019\" May 2020 \u2014 itm4n.github.io blog post": [
+  [
+   "mTu1EHMh5wQ",
+   "Token Impersonation (PrintSpoofer) | Windows PrivEsc"
+  ],
+  [
+   "01ODXD-oqyc",
+   "SeImpersonatePrivilege Exploitation"
+  ],
+  [
+   "j0bh6aG1VC4",
+   "Windows Privilege Escalation - Token Impersonation With RoguePotato \\u0026 PrintSpoofer"
+  ],
+  [
+   "jkYsTljqJ9w",
+   "SpoolFool Windows Print Spooler Privilege Escalation (CVE-2022-22718)"
+  ],
+  [
+   "_4c0XqNfMTk",
+   "Token Impersonation | Print Spoofer | Windows PrivEsc"
+  ]
+ ],
+ "search:\"Sharing a Logon Session a Little Too Much\" April 2020 \u2014 tiraniddo.dev blog post": [
+  [
+   "LrPYMFiTvr0",
+   "\ud83d\udc51 The Queen of Contingency Planning"
+  ],
+  [
+   "alAvwRRq9Xo",
+   "Host Pathogen Interactions - FIRE Stream Info Session"
+  ],
+  [
+   "XC08cV3oY28",
+   "We haven't seen THIS DTE MOD in almost TWO YEARS! \ud83d\ude2e | Weekly Vendor Reset Picks (Week 5/17)"
+  ],
+  [
+   "WnCKlNE52tc",
+   "Protecting users on a thriving web (Chrome Dev Summit 2019)"
+  ],
+  [
+   "t9Z848_zl1M",
+   "Are We Ready For The Next Cyber Security Crisis Like Log4Shell?"
+  ]
+ ],
+ "search:\"Evil Printer: How to Hack Windows Machines with Printer Protocols\" August 2020 \u2014 Black Hat USA 2020 (virtual)": [
+  [
+   "cno2BE9YgRQ",
+   "How a 3D printer works, the basics for beginners"
+  ],
+  [
+   "0HEMuifXhpY",
+   "Create, Print, Impress: Bentsai Handheld Inkjet Printers for Custom Logos!"
+  ],
+  [
+   "OWbPLqZw66M",
+   "Creality CR-30: The INFINITE 3D printer!"
+  ],
+  [
+   "OazDI051yS0",
+   "Creality Ender 3 Pro 3D Printer"
+  ],
+  [
+   "npxHdO8qzH0",
+   "Does NORMAL GLUE STICK work on 3D PRINTERS?!"
+  ]
+ ],
+ "search:\"PrintNightmare (CVE-2021-1675 / CVE-2021-34527)\" June\u2013July 2021 \u2014 GitHub PoC release, then Microsoft emergency advisory": [
+  [
+   "LziYQlzOhck",
+   "Windows CVE-2021\u20131675 #PrintNightmare Explained"
+  ],
+  [
+   "8--D9Rd22M0",
+   "PrintNightmare POC Demonstration With Powershell. CVE-2021-34527"
+  ],
+  [
+   "ZVyka0eAM1U",
+   "CVE-2021-1675 PrintNightmare - Windows Print Spooler Exploit Demonstration"
+  ],
+  [
+   "_Ot12I6Opiw",
+   "CVE 2021 1675 PrintNightmare PoC Demonstration"
+  ],
+  [
+   "ISE_qCd5k0A",
+   "Windows - CVE-2021-1675 PrintNightmare Demo"
+  ]
+ ],
+ "oembed:LziYQlzOhck": "Windows CVE-2021\u20131675 #PrintNightmare Explained",
+ "search:\"PetitPotam \u2014 Unauthenticated NTLM Relay Against Active Directory Certificate Services\" July 2021 \u2014 GitHub PoC release": [
+  [
+   "ia2ConrqlCQ",
+   "Mastering Active Directory Certificate Services (ADCS): NTLM Relay \\u0026 Petitpotam Attacks Explained"
+  ],
+  [
+   "YEMjGp7kEbc",
+   "PetitPotam - NTLM Relay to AD CS"
+  ],
+  [
+   "65DocGrLpzc",
+   "ESC8 | Exposing the Dangers of the PetitPotam Attack"
+  ],
+  [
+   "wJXTg4mK_dI",
+   "Petitpotam Exploit POC"
+  ],
+  [
+   "Wh8KzePO86g",
+   "PetitPotam NTLM Relay Attack | Threat SnapShot"
+  ]
+ ],
+ "oembed:ia2ConrqlCQ": "Mastering Active Directory Certificate Services (ADCS): NTLM Relay & Petitpotam Attacks Explained",
+ "search:\"Certified Pre-Owned: Abusing Active Directory Certificate Services\" June 2021 \u2014 SpecterOps whitepaper; Black Hat USA 2021 talk": [
+  [
+   "ejmAIgxFRgM",
+   "Certified Pre-Owned: Abusing Active Directory Certificate Services"
+  ],
+  [
+   "Gg9rJm2GMBY",
+   "ReCertifying Active Directory Certificate Services"
+  ],
+  [
+   "rzfAutv6sB8",
+   "Black Hat USA 2025 | Advanced Active Directory to Entra ID Lateral Movement Techniques"
+  ],
+  [
+   "lhrwbVvYtF8",
+   "Black Hat USA 2000 - Defending Your Network with Active Directory Services"
+  ],
+  [
+   "R4mrcju5wec",
+   "Active Directory Certificate Services Install \\u0026 Config in just 20mins"
+  ]
+ ],
+ "search:\"Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography\" September 2020 \u2014 Secura whitepaper; CVE patched August 2020 Patch Tuesday": [
+  [
+   "dlSw_IL57J8",
+   "Microsoft CVE-2020-1472 - Netlogon Vulnerability - Zerologon"
+  ],
+  [
+   "aa6s6MM6-so",
+   "ZeroLogon CVE-2020-1472"
+  ],
+  [
+   "T0yh7cXQYKo",
+   "Zerologon | CVE-2020-1472 |"
+  ],
+  [
+   "0kMKUwtgFLw",
+   "Mitigating ZeroLogon (CVE-2020-1472) - More Than Just a Patch"
+  ],
+  [
+   "ZDC8SR4peMY",
+   "Microsoft May Patch Tuesday: wormable Windows Netlogon and DNS Client RCE bugs"
+  ]
+ ],
+ "search:\"Six Degrees of Domain Admin\" August 2016 \u2014 DEF CON 24; initial GitHub release August 2016": [
+  [
+   "Y8qu5NFKyrE",
+   "DEF CON 24 - Six Degrees of Domain Admin"
+  ],
+  [
+   "hRRo1Can60w",
+   "GitHub - SpecterOps/BloodHound: Six Degrees of Domain Admin"
+  ],
+  [
+   "lxd2rerVsLo",
+   "Six Degrees of Domain Admin... - Andy Robbins, Will Schroeder, Rohan Vazarkar"
+  ],
+  [
+   "nHU3ujyw_sQ",
+   "DEFCON 20: Owned in 60 Seconds: From Network Guest to Windows Domain Admin"
+  ],
+  [
+   "ftNaF20RWt4",
+   "DEF CON 33 - The UnRightful Heir   My dMSA Is Your New Domain Admin - Yuval Gordon"
+  ]
+ ],
+ "oembed:Y8qu5NFKyrE": "DEF CON 24 - Six Degrees of Domain Admin",
+ "search:\"Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory\" 2014\u20132015 \u2014 ADSecurity.org blog series; Black Hat USA 2015 talk \"Red vs Blue: Modern Active Directory Attacks, Detection and Protection\"": [
+  [
+   "OfXJlmuoc20",
+   "Active Directory Explained in 5 minutes"
+  ],
+  [
+   "tRCvagjqx3c",
+   "Learn Active Directory Kerberoasting"
+  ],
+  [
+   "u6GwzBps6Lo",
+   "Attack Tutorial: How the Kerberoasting Attack Works"
+  ],
+  [
+   "b6GUXerE9Ac",
+   "Red Vs. Blue: Modern Active Directory Attacks, Detection, And Protection"
+  ],
+  [
+   "pbneELowUSA",
+   "attacking Active Directory | GOLDEN TICKET"
+  ]
+ ],
+ "search:\"Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation\" 2011 (initial release); Microsoft BlueHat 2014 presentation; actively maintained through 2023": [
+  [
+   "uoUoPeafRGs",
+   "What Mimikatz Actually Does #cybersecurity #mimikatz #windowssecurity #credentialtheft #kerberos"
+  ],
+  [
+   "eX1Pn0ev_SI",
+   "Mimikatz Active Directory"
+  ],
+  [
+   "3TNARlMQ1FU",
+   "Mimikatz Explained: Windows Credential Harvesting Defense #shorts"
+  ],
+  [
+   "AZirvtZNIEw",
+   "Windows Post Exploitation - Dumping Hashes With Mimikatz"
+  ],
+  [
+   "JGwVwNZgJUc",
+   "Kerberos Simplified - CISSP Exam Prep"
+  ]
+ ],
+ "search:\"The original NTLM Pass-the-Hash attack; later operationalised in the \"Pass-The-Hash Toolkit\"\" 1997 \u2014 Samba mailing list; 2008 \u2014 Black Hat DC (Ochoa toolkit)": [
+  [
+   "7bxyWOQuj9c",
+   "Attack Tutorial: How a Pass the Hash Attack Works"
+  ],
+  [
+   "RpMryaVTCU0",
+   "Pass The Hash Explained"
+  ],
+  [
+   "QvMeLoyS944",
+   "Zero to Hero: Week 9 - NTLM Relay, Token Impersonation, Pass the Hash, PsExec, and more"
+  ],
+  [
+   "Bg3rWutoNTM",
+   "Defeating Pass-the-Hash: Separation Of Powers"
+  ],
+  [
+   "QuTskgswnOo",
+   "Can you decrypt a hashed password? #shorts #encryption #hashing #password"
+  ]
+ ],
+ "search:\"Attacking Kerberos: Kicking the Guard Dog of Hades\" August 2014 \u2014 DEF CON 22": [
+  [
+   "HHJWfG9b0-E",
+   "Tim Medin - Attacking Kerberos: Kicking the Guard Dog of Hades"
+  ],
+  [
+   "PUyhlN-E5MU",
+   "t120 Attacking Microsoft Kerberos Kicking the Guard Dog of Hades Tim Medin"
+  ],
+  [
+   "DMNSvHswljM",
+   "DEF CON 22 - Gene Bransfield - Weaponizing Your Pets: The War Kitteh and the Denial of Service Dog"
+  ],
+  [
+   "7HdcEQGQZDU",
+   "DEF CON 22 - Christopher Campbell - The Secret Life of Krbtgt"
+  ],
+  [
+   "B6dC_KVLn6Q",
+   "DEF CON 33 - Conjuring Hardware Failures for Cross-ring Privilege Escalation - Christopher Domas"
+  ]
+ ],
+ "oembed:HHJWfG9b0-E": "Tim Medin - Attacking Kerberos: Kicking the Guard Dog of Hades",
+ "search:\"MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege\" November 2014 \u2014 Microsoft Security Bulletin; public PoC within weeks": [
+  [
+   "JkIA7eWeVoY",
+   "MS14-068: Kerberos Elevation of Privilege Vulnerability"
+  ],
+  [
+   "LZ4tHRr52vs",
+   "How to remediate Microsoft Outlook Elevation of Privilege Vulnerability CVE-2023-23397 immediately !"
+  ],
+  [
+   "1yWW7VQUX0A",
+   "How Kerberos Works"
+  ],
+  [
+   "kp5d8Yv3-0c",
+   "MicroNugget: How Kerberos Works in Windows Active Directory | CBT Nuggets"
+  ],
+  [
+   "0elVZuNIMnc",
+   "0patching Windows Kerberos Elevation of Privilege (CVE-2022-33647, CVE-2022-33679)"
+  ]
+ ],
+ "oembed:JkIA7eWeVoY": "MS14-068: Kerberos Elevation of Privilege Vulnerability",
+ "search:\"Empire: A PowerShell Post-Exploitation Framework\" August 2015 \u2014 BSidesLV 2015 premiere": [],
+ "search:\"Rubeus\" 2018 \u2014 GitHub release (GhostPack project)": [],
+ "search:\"SharpDPAPI\" 2018 \u2014 GitHub release (GhostPack project)": [],
+ "search:\"noPAC \u2014 CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing)\" November 2021 \u2014 Patch Tuesday; public PoC December 2021": [
+  [
+   "p8_fKuAD6yo",
+   "From User to Domain Admin in (less than) 60 seconds  | CVE-2021-42278 and CVE-2021-42287"
+  ],
+  [
+   "nUYnuBx9gUc",
+   "NOPAC  CVE-2021-42287 - privilege escalation vulnerability"
+  ],
+  [
+   "EC8PFOYOUgU",
+   "CVE-2021-26708: Local Privilege Escalation Demo (SMAP and SMEP Bypass)"
+  ],
+  [
+   "0_9IxNNoXlQ",
+   "CVE-2021-47965: Unrestricted File Upload in WP Super Edit"
+  ],
+  [
+   "AmPiIR46qnk",
+   "September '22 Patch Tuesday: CVE-2022-34721 \\u0026 CVE-2022-34722"
+  ]
+ ],
+ "search:\"Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege\" 2015 \u2014 Project Zero bug tracker issue #325": [
+  [
+   "_b6ct-Tl2XU",
+   "Hacking Active Directory via NTLM Reflection ( CVE-2025-33073) #activedirectory #cybersecurity "
+  ],
+  [
+   "1MQqAWr-rzs",
+   "CQURE HACKS #65 NTLM reflection SMB flaw - CVE-2025-33073: From zero to Domain Admin"
+  ],
+  [
+   "7e6WM0Hu1Vo",
+   "0patching Windows \\"
+  ],
+  [
+   "DYwDF890O0I",
+   "NTLM Reflection - Abusing NTLM for Privilege Escalation (CVE-2025-33073)"
+  ],
+  [
+   "5YzTgyPQd4M",
+   "CVE-2026-20817: Windows Error Reporting Service Elevation of Privilege Vulnerability"
+  ]
+ ],
+ "search:\"Windows 10(HH) Symbolic Link Mitigations\" August 2015 \u2014 Project Zero blog": [
+  [
+   "woLNJKdrkck",
+   "Windows - Create Symbolic Link"
+  ],
+  [
+   "RDH5IuyPJtk",
+   "SymLinks: The Hidden \\"
+  ],
+  [
+   "OuL-7GPhhAQ",
+   "Windows Security Research: A Practical Guide for Beginners to find 0 days - HackTricks Track 2023"
+  ],
+  [
+   "pUPSxf8hc6k",
+   "Symbolic links, hard links, and junction points explained (Windows)"
+  ],
+  [
+   "VqetdC00u8M",
+   "Create and Delete a Junction Link [mklink] on Windows 10"
+  ]
+ ],
+ "oembed:woLNJKdrkck": "Windows - Create Symbolic Link",
+ "search:\"Bochspwn: Identifying 0-days via system-wide memory access pattern analysis\" August 2013 \u2014 Black Hat USA 2013 (original); August 2017 \u2014 Black Hat USA 2017 (Reloaded)": [
+  [
+   "ypV0kpi4cd8",
+   "Black Hat USA 2013 - Bochspwn: Identifying 0-days via System-wide Memory Access Pattern Analysis"
+  ],
+  [
+   "8tqo78E04cM",
+   "Bochspwn Reloaded: Detecting Kernel Memory Disclosure with x86 Emulation and Taint Tracking"
+  ],
+  [
+   "Of6DemoMLaA",
+   "Black Hat USA 2013 - Hacking like in the Movies: Visualizing Page Tables for Local Exploitation"
+  ],
+  [
+   "KrksBdWcZgQ",
+   "Breaking the x86 Instruction Set"
+  ],
+  [
+   "wYFADkO-ZsA",
+   "Black Hat USA 2013 - Shattering Illusions in Lock-Free Worlds: Compiler/Hardware Behaviors OSes/ VMs"
+  ]
+ ],
+ "oembed:ypV0kpi4cd8": "Black Hat USA 2013 - Bochspwn: Identifying 0-days via System-wide Memory Access Pattern Analysis",
+ "search:\"Windows Notification Facility: Useless or Useful? (blog series)\" September\u2013October 2019 \u2014 tiraniddo.dev four-part blog series": [
+  [
+   "rj2hY2Bsi30",
+   "Great Docs - Talk Python Live Stream"
+  ],
+  [
+   "H9WowV7oFyM",
+   "#BHUSA 2018: Windows Notification Facility Vulnerabilities | Webroot"
+  ],
+  [
+   "ybsGU1WZ98E",
+   "10 Amazing Websites You'll Wish You Knew Earlier! (2026 - Episode 7)"
+  ],
+  [
+   "GLVZQ7Tw8i8",
+   "What's new with Windows settings for developers?"
+  ],
+  [
+   "aH23djf3-BI",
+   "URGENT: Microsoft Just Set a New Deadline! May 20th is the Final Lockdown?"
+  ]
+ ],
+ "search:\"Reading Privileged Memory with a Side-Channel (Spectre/Meltdown)\" January 2018 \u2014 coordinated disclosure (Google Project Zero blog)": [
+  [
+   "sLDCvF7LjnU",
+   "Reading Privileged Memory with a Side-Channel"
+  ],
+  [
+   "6O8LTwVfTVs",
+   "Spectre and Meltdown: Data leaks during speculative execution | J. Horn (Google Project Zero)"
+  ],
+  [
+   "M4u7R7pho7Q",
+   "Explained: Meltdown and Spectre"
+  ],
+  [
+   "bs0xswK0eZk",
+   "Meltdown \\u0026 Spectre vulnerabilities - Simply Explained"
+  ],
+  [
+   "PUpUAUiZpuM",
+   "Meltdown \\u0026 Spectre Need To Know"
+  ]
+ ],
+ "oembed:sLDCvF7LjnU": "Reading Privileged Memory with a Side-Channel",
+ "search:\"Fileless UAC Bypass using eventvwr.exe and Registry Hijacking\" August 2016 \u2014 enigma0x3.net blog post": [
+  [
+   "0tD7wHvblmA",
+   "COM HIjack UAC bypass with eventvwr.exe"
+  ],
+  [
+   "UZdfh_5RtR0",
+   "UAC Bypass (APPINFO) with Windows Defender Bypass Working in 2026"
+  ],
+  [
+   "3H5WORk88vQ",
+   "Bypass UAC DLL Injection taskmgr.exe \\u0026 fileless eventvwr.exe (Privilege escalation)"
+  ],
+  [
+   "C9GfMfFjhYI",
+   "Promptless UAC Bypass \\u0026 Powershell Privilege Escalation techniques - Hak5 2510"
+  ],
+  [
+   "OaiA8diimhQ",
+   "UAC Bypass + Privilege Escalation with enigma_fileless_uac_bypass"
+  ]
+ ],
+ "search:\"UACME \u2014 Defeating Windows User Account Control\" 2014 \u2014 GitHub project (continuously updated through 2023)": [
+  [
+   "S_M27H45AW8",
+   "Atomic Spotlight: User Account Control Bypasses with UACME Project Executables"
+  ],
+  [
+   "T7oe2M-IYWA",
+   "Unlock Administrator Privileges on Windows Instantly! #windows #tech #computer #microsoft"
+  ],
+  [
+   "GAu0q6Ob6c4",
+   "Microsoft Replacing UAC"
+  ],
+  [
+   "o5QhSg5-FFY",
+   "Windows 11 UAC Bypass (2024)"
+  ],
+  [
+   "ZqYW2xGC72U",
+   "How To Get ADMIN On ANY PC\ud83e\udd2f#shorts #pcgaming #pc #windows11 #windows10 #technology #lifehacks #viral"
+  ]
+ ],
+ "search:\"Investigating COM Hijacking Techniques for Persistence and Privilege Escalation\" 2018\u20132022 \u2014 CERT": [
+  [
+   "svFundrBIiQ",
+   "COM Hijacking (Persistence)"
+  ],
+  [
+   "tqKfM_H6vWY",
+   "DLL Hijacking with Invoke PrintDemon"
+  ],
+  [
+   "JXcgirrNrdA",
+   "CVE-2026-34901 - iControlWP 5.5.3 Incorrect Privilege Assignment PoC | WP-Safety"
+  ],
+  [
+   "FX5A6qkcAlA",
+   "Session Hijacking with Stolen Cookies"
+  ],
+  [
+   "S-sraCHRrj0",
+   "Dirty Frag: Universal Linux Local Privilege Escalation Vulnerability Analysis"
+  ]
+ ],
+ "search:\"Mark-of-the-Web (MOTW) Bypass Research Series\" 2018\u20132022 \u2014 CERT": [],
+ "search:\"Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights\" 2018\u20132021 \u2014 Pwn2Own Vancouver": [
+  [
+   "35naZ_jVGFo",
+   "Pwn2Own Vancouver Day One - Bien Pham vs Oracle VirtualBox #shorts"
+  ],
+  [
+   "ITLnR0xU8fg",
+   "Highlights from Pwn2Own Vancouver  Day 1 - Synacktiv vs Tesla #shorts  #pwn2own"
+  ],
+  [
+   "NgqtYxVbsMQ",
+   "Highlights from Pwn2Own Vancouver  Day 1 - Team Theori vs VMware Workstation+LPE #shorts #pwn2own"
+  ],
+  [
+   "oS_qD9NE3cU",
+   "Pwn2Own Vancouver Day Three - Bien Pham vs Ubuntu #shorts"
+  ],
+  [
+   "6tBQetpWJb8",
+   "Pwn2Own Vancouver Day Two - Team Viettel vs Oracle VirtualBox #shorts"
+  ]
+ ],
+ "search:\"GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools\" PowerSploit 2012; PowerView 2014\u20132016; GhostPack rebrand 2018": [
+  [
+   "47ZOsgOiK3E",
+   "Hacker 0day shows how Pwnagotchi wi-fi hacking device works"
+  ],
+  [
+   "aeF6kywGLuA",
+   "A Day in the Life of Cyber Security | SOC Analyst | Penetration Tester | Cyber Security Training"
+  ],
+  [
+   "n3Ow_LKanMo",
+   "Active Directory Enumeration With PowerView"
+  ],
+  [
+   "I_rXtWgpR2w",
+   "Bug Bounty expectations vs Reality \ud83d\ude02\ud83d\udd25"
+  ],
+  [
+   "rjT3vmeRy58",
+   "Cybersecurity Roadmap 2023 ! #cybersecurity"
+  ]
+ ],
+ "search:\"SpoolSample \u2014 Forcing a Windows Host to Authenticate via MS-RPRN\" 2018 \u2014 GitHub release; presented in various SpecterOps talks": [
+  [
+   "DHyXauSS8Zo",
+   "How to authenticate with GitHub Apps for SaaS integrations - Detailed Guide"
+  ],
+  [
+   "OVizrLvi77U",
+   "Software security, trust, and public policy - GitHub Satellite 2019"
+  ],
+  [
+   "qvQK-9pf3go",
+   "Sentinel and VerifyFaces Webinar"
+  ],
+  [
+   "mQB7FKqMq0Y",
+   "Configure and use secret scanning in your GitHub repository | GH-500 | Episode 4"
+  ],
+  [
+   "AcEtIBNIDJs",
+   "SANS Stormcast Wednesday, April 22nd, 2026: WAV Malware; GitHub OAUTH Phishing; Perforce Settin\u2026"
+  ]
+ ],
+ "search:\"Kekeo: A Kerberos Toolkit with MS14-068 Exploitation\" 2014 \u2014 GitHub release; expanded 2015\u20132018": [
+  [
+   "t74ClffSUW0",
+   "The Untold Story of Log4j and Log4Shell | Christian Grobmeier | GitHub"
+  ],
+  [
+   "pzrtfRpPVM4",
+   "Kerberos Deep Dive Part 1 - Introduction"
+  ],
+  [
+   "tRCvagjqx3c",
+   "Learn Active Directory Kerberoasting"
+  ],
+  [
+   "cZqFaMlufDY",
+   "Google's Git Killer Is INSANELY Better (and it's open source)"
+  ],
+  [
+   "JGwVwNZgJUc",
+   "Kerberos Simplified - CISSP Exam Prep"
+  ]
+ ],
+ "search:\"Active Directory Security (ADSecurity.org) \u2014 Comprehensive Attack Reference Corpus\" 2014\u20132022 \u2014 adsecurity.org blog; talks at Black Hat USA 2014, 2015, DerbyCon, BSides": [
+  [
+   "rzfAutv6sB8",
+   "Black Hat USA 2025 | Advanced Active Directory to Entra ID Lateral Movement Techniques"
+  ],
+  [
+   "UykTFvKPXpU",
+   "Active Directory Security in the Cloud Age"
+  ],
+  [
+   "2w1cesS7pGY",
+   "Beyond the Mcse: Active Directory for the Security Professional"
+  ],
+  [
+   "b6GUXerE9Ac",
+   "Red Vs. Blue: Modern Active Directory Attacks, Detection, And Protection"
+  ],
+  [
+   "LNm58BTngfU",
+   "Is This My Domain Controller? A New Class of Active Directory Protocol Injection Attacks"
+  ]
+ ],
+ "search:\"Bypassing AMSI via .NET Reflection\" June 2016 \u2014 Twitter one-liner; blog documentation by various authors": [
+  [
+   "bwho7Js2JLo",
+   "AntiMalware Scan Interface (AMSI) - Bypass Example"
+  ],
+  [
+   "O1Dj0mvUq2g",
+   "AMSI Bypass on Windows (Step-by-Step) | Dragno FUD X"
+  ],
+  [
+   "hEqaRmEQ6ug",
+   "amsi bypass"
+  ],
+  [
+   "IC7z21PhjS4",
+   "AMSI Bypass - Zc00l \\u0026 RastaMouse techniques"
+  ],
+  [
+   "avjPW_ea6QQ",
+   ".NET AMSI Bypass Testing"
+  ]
+ ],
+ "search:\"DCSync: Replicating AD Credentials Over the Network\" August 2015 \u2014 Mimikatz update; documented by Sean Metcalf and widely disseminated": [
+  [
+   "koesYUlC7N0",
+   "Exploiting Active Directory with Mimikatz using DCSync"
+  ],
+  [
+   "5TDFaif2wOo",
+   "AD DCSync Attack | Active Directory Security | Active Directory PenTesting | Red Team Tactics"
+  ],
+  [
+   "eX1Pn0ev_SI",
+   "Mimikatz Active Directory"
+  ],
+  [
+   "bHN8rEH8fUo",
+   "Abusing Directory Replication Service - DCSYNC with Mimikatz"
+  ],
+  [
+   "0hAJZSLTLfM",
+   "Security Research Analyzing DCSync Attacks -  in a Lab Environment"
+  ]
+ ],
+ "search:\"Practical Exploitation of Registry Vulnerabilities in the Windows Kernel\" OffensiveCon 2024": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ]
+ ],
+ "oembed:qllMa2UUPvY": "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities",
+ "search:\"Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting\" OffensiveCon 2024": [
+  [
+   "AxNO2iA2fAg",
+   "OffensiveCon24 - Piotr Bazydlo - Half Measures and Full Compromise"
+  ]
+ ],
+ "search:\"Almost Escaping the Sandbox: Attacking Windows Device Drivers\" OffensiveCon 2024": [
+  [
+   "2eHsnZ4BeDI",
+   "OffensiveCon24 - Eric Egsgard - Almost Escaping the Sandbox: Attacking Windows Device Drivers"
+  ]
+ ],
+ "oembed:2eHsnZ4BeDI": "OffensiveCon24 - Eric Egsgard - Almost Escaping the Sandbox: Attacking Windows Device Drivers",
+ "search:\"Booting with Caution: Dissecting Secure Boot's Third-Party Attack Surface\" OffensiveCon 2024": [
+  [
+   "ngRN19A98jQ",
+   "OffensiveCon24 -Bill Demirkapi - Booting with Caution"
+  ]
+ ],
+ "search:\"UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development\" OffensiveCon 2024": [
+  [
+   "UPPdi3HHI5w",
+   "OffensiveCon24 - Nika Korchok Wakulich - UEFI and the Task of the Translator"
+  ],
+  [
+   "C-jaMoCwdJE",
+   "arm64 assembly UEFI Self-replicating app - demo video"
+  ],
+  [
+   "af8IanzkYyQ",
+   "UEFI Self-replicating app: C solution cross-compiled for arm64 - demo video"
+  ],
+  [
+   "MglEnqr-1yY",
+   "BGGP4 Winning Entry: Self-Replicating UEFI app, written in x64 assembly - Demo Video"
+  ]
+ ],
+ "search:\"Hunting for Overlooked Cookies in Windows 11 KTM and Baking Exploits for Them\" OffensiveCon 2025": [
+  [
+   "goEb7eKj660",
+   "OffensiveCon25 - Cedric Halbronn and Jael Koh"
+  ]
+ ],
+ "search:\"Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities\" OffensiveCon 2025": [
+  [
+   "rHyFnkrJ3Ws",
+   "OffensiveCon25 - Angelboy - Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities"
+  ],
+  [
+   "PuNlLq59XZs",
+   "Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities"
+  ]
+ ],
+ "oembed:PuNlLq59XZs": "Frame by Frame, Kernel Streaming Keeps Giving Vulnerabilities",
+ "search:\"Enhanced Insecurity Mode: 23 RCEs in Edge's \"Safe\" WebAssembly Interpreter\" OffensiveCon 2026": [
+  [
+   "44tssiB94Jk",
+   "How WebAssembly Unlocks Edge-Native AI Applications at Global Scale | Matt Butcher"
+  ],
+  [
+   "AgQ4cwL5eOM",
+   "Code with Claude 2026 | London"
+  ],
+  [
+   "O8uazkirvVo",
+   "WebAssembly might actually save web dev..."
+  ],
+  [
+   "dRdDhybw6NI",
+   "WebAssembly from the Ground Up with Patrick Dubroy and Mariano Guerra"
+  ],
+  [
+   "1mo25vdSmMY",
+   "Yoeri Otten: Let's ditch Javascript, and start using WebAssembly \u2013\u00a0Refill 2025"
+  ]
+ ],
+ "search:\"IRON GIANT: When The Vault Becomes The Victim\" OffensiveCon 2026": [
+  [
+   "fu0scA8kqHQ",
+   "Iron Giant Goes Ballistic - Full Scene"
+  ],
+  [
+   "Wnff_FRhMjY",
+   "Iron Giant Goes Full Rage Mode on Stripe in #MultiVersus"
+  ],
+  [
+   "Mf8Me3RzHhk",
+   "THE IRON GIANT Alternate Ending"
+  ],
+  [
+   "bwTtV-0fhqU",
+   "The Iron Giants DARK ORIGIN story\ud83d\udc80\ud83e\udd16"
+  ],
+  [
+   "jJdyvlSGMn0",
+   "Do you know in Iron Giant, He is a weapon #shorts #viral"
+  ]
+ ],
+ "search:\"Tales From The Crypt: Bug Hunting in the Windows CryptoAPI\" Recon 2024": [
+  [
+   "tT5A1I_7FYM",
+   "Recon 2024 - Erik Egsgard_ Tales From The Crypt Bug Hunting in the Windows CryptoAPI"
+  ]
+ ],
+ "oembed:tT5A1I_7FYM": "Recon 2024 - Erik Egsgard_ Tales From The Crypt Bug Hunting in the Windows CryptoAPI",
+ "search:\"Peeling Back the Windows Registry Layers: A Bug Hunter's Expedition\" Recon 2024": [
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "OcO_pErsLA4",
+   "Forerunner Patch Breakdown! New Modes \\u0026 Trials"
+  ],
+  [
+   "wXPW-LRCTxQ",
+   "Getting Started With The Windows Registry"
+  ],
+  [
+   "E6ROLfd8RFo",
+   "Windows Registry As Fast As Possible"
+  ],
+  [
+   "aZ9_Dk1lHvw",
+   "Editing the Registry in Windows // Windows Fundamentals // EP 15"
+  ]
+ ],
+ "oembed:aRWjZlSIuhA": "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition",
+ "search:\"Hypervisor-enforced Paging Translation \u2014 The end of non data-driven Kernel Exploits?\" Recon 2024": [
+  [
+   "_Idk_wqvu6w",
+   "Recon 2024-Andrea Allievi\\u0026Satoshi Tanda-HypervisorEnforced Paging Translation...."
+  ]
+ ],
+ "search:\"HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections\" Recon 2025": [
+  [
+   "hpmRQZ6T7YM",
+   "Recon 2025 - HyperVinject Making Virtual Machine Code Injections as Simple as Process Injections"
+  ]
+ ],
+ "oembed:hpmRQZ6T7YM": "Recon 2025 - HyperVinject Making Virtual Machine Code Injections as Simple as Process Injections",
+ "search:\"WinpMem: Volatility's driver that lets malware volatilize\" Recon 2025": [
+  [
+   "hZjPvYSxDdM",
+   "Recon 2025 - WinpMem: Volatility\u2019s driver that lets malware volatilize"
+  ]
+ ],
+ "oembed:hZjPvYSxDdM": "Recon 2025 - WinpMem: Volatility\u2019s driver that lets malware volatilize",
+ "search:\"The Finer Details of LSA Credential Recovery\" Recon 2025": [
+  [
+   "G2CfMWXLU1U",
+   "Recon 2025 - The Finer Details of LSA Credential Recovery"
+  ]
+ ],
+ "oembed:G2CfMWXLU1U": "Recon 2025 - The Finer Details of LSA Credential Recovery",
+ "search:\"Reverse Engineering Patch Tuesday\" Recon 2025": [
+  [
+   "9LJdIgof9jA",
+   "Recon 2025 - Reverse Engineering Patch Tuesday"
+  ]
+ ],
+ "oembed:9LJdIgof9jA": "Recon 2025 - Reverse Engineering Patch Tuesday",
+ "search:\"Reversing Warbird for no fun and no profit\" Recon 2025": [
+  [
+   "rXsd206i9EE",
+   "A flaming start to your week #aviation #warbird #aircraft #airshow #b25 #engine #fire #pilot #radial"
+  ],
+  [
+   "GwDpY6g5h-Y",
+   "#golfswing #fyp #waitforit #followthrough"
+  ],
+  [
+   "pZNscWMndLs",
+   "July 15, 2025"
+  ],
+  [
+   "wL_NxuEG0m4",
+   "They gave him a wooden driver and he still delivered \ud83d\ude33\ud83d\udc4f | #Shorts"
+  ],
+  [
+   "NJfpiDxPaSA",
+   "MSFS 2024 is still broken \ud83d\ude2d #aviation #airplane #avgeek #edit #capcut #gaming #trending #shorts"
+  ]
+ ],
+ "search:\"Back from the dead: Exhuming EBC\" Recon 2025": [
+  [
+   "RTG6V21rNaI",
+   "A Nun Who Remained in a Grave for Four Years #shorts"
+  ],
+  [
+   "t8kJCmx0-dg",
+   "LIVE: Todd Blanche testifies before Senate panel on DOJ\u2019s 2027 budget"
+  ],
+  [
+   "Obj0N_XHzRw",
+   "Paul Caneiro Sentencing Hearing"
+  ],
+  [
+   "qiRPn6KjLnA",
+   "Digging Up the Dead: Researchers exhume unidentified remains at the border"
+  ],
+  [
+   "ILio0SmKgvI",
+   "Opening Up A 52 Year Old Coffin #shorts"
+  ]
+ ],
+ "search:\"NET Exploitation Workshop\" Recon 2025": [
+  [
+   "i315dYuHme0",
+   "Girl cheats right in front of the camera"
+  ],
+  [
+   "hWUg0uNFF3E",
+   "Police Officers Always Hold Their Vests - Here\u2019s Why!"
+  ],
+  [
+   "jPDJ_Zo6jiY",
+   "Recon 2025 - Breaking Obfuscated .NET Malware with Profiler Based Dynamic Binary Instrumentation"
+  ],
+  [
+   "9tweKunHnLs",
+   "Man Pauses Date To Kill A Scammer #crime #truecrime #shorts"
+  ],
+  [
+   "8BWJ-g1UArU",
+   "Shia Labeouf on his Steroid use for his role in the movie Salvable 2025 #shortsfeed #shialabeouf"
+  ]
+ ],
+ "search:\"Chaining Microsoft binaries to get privileged primitives in Windows kernel\" Recon 2026": [
+  [
+   "VBXxH9VjYxQ",
+   "The April 2026 Windows Kernel Security Shift Explained"
+  ],
+  [
+   "FZLM1p0hd_U",
+   "CackalackyCon1 - Grant Harris \\u0026 Tyler Colgan - Windows Kernel Fuzzing for Mere Mortals"
+  ],
+  [
+   "yib8zAXvbQI",
+   "Windows Kernel Exploits Target SYSTEM Privileges \\u0026 OpenAI Brings ChatGPT to Landlines"
+  ],
+  [
+   "KqUlka3DFfg",
+   "Finding Windows Kernel Vulnerabilities Automatically"
+  ],
+  [
+   "-hSHq9x8AkQ",
+   "Crowdstrike Post-Incident: Microsoft Redesigns EDR Vendor Access to Windows Kernel"
+  ]
+ ],
+ "search:\"Click Once and Stay Forever: uncovering a new abuse of the ClickOnce technology\" Recon 2026": [
+  [
+   "QT7LTuGnn-A",
+   "ClickOnce Just Got Weaponized..."
+  ],
+  [
+   "PJHhoab8pB0",
+   "Clicks Communicator Review (2026) \u2013 Brilliant Idea\u2026 But There\u2019s a Catch!"
+  ],
+  [
+   "N0pZncPmUOc",
+   "LIVE: Brad Garlinghouse on the CLARITY Act \u2014 What It Means for XRP, Ripple \\u0026 Crypto Regulation"
+  ],
+  [
+   "clBcoo5OVSs",
+   "STOP Windows from Spying! Remove Recall \\u0026 Copilot FOREVER (2026) \ud83d\udee1\ufe0f"
+  ],
+  [
+   "y5o3ZFTZINY",
+   "Right Click Tools Release Show | January 2026"
+  ]
+ ],
+ "search:\"How real-world malware disables EDR systems\" Recon 2026": [
+  [
+   "rbn-qhlH2WI",
+   "EDR Explained + CrowdStrike Demo | Why Antivirus Fails in 2026"
+  ],
+  [
+   "mKuPCLOO3ls",
+   "Hacker Takes Down SentinelOne EDR in Just 50 Seconds"
+  ],
+  [
+   "ohkocS45T3E",
+   "How to HACK an EDR"
+  ],
+  [
+   "2qbZ33zSHz8",
+   "The Dark Side of EDR: Repurpose EDR as an Offensive Tool"
+  ],
+  [
+   "8Of_5rJwGr0",
+   "A Machine Wrote This Virus: 'Slopoly' Obliterates EDR"
+  ]
+ ],
+ "search:\"Prism Internals: Reversing Microsoft's x86-to-ARM64 Binary Translator\" Recon 2026": [
+  [
+   "tROTPFuYhM4",
+   "The glaring issue with Windows on ARM"
+  ],
+  [
+   "_zdolfkCyCU",
+   "How Fast is Microsoft\u2019s New PRISM x86-64 Emulator?"
+  ],
+  [
+   "Jk7Ul2hKqxs",
+   "x86 vs ARM Assembly: Key Differences Explained | Assembly Basics"
+  ],
+  [
+   "myja2v01YxY",
+   "Windows Zero-Day MiniPlasma, M365 MFA Bypass, \\u0026 Linux Root Exploit: Act Now"
+  ],
+  [
+   "9YvQMwQUxLI",
+   "The Immortal Shell - Why Microsoft is Giving the 40-Year-Old Command Prompt a 2026 Facelift."
+  ]
+ ],
+ "search:\"Paper Werewolf's Toolbox: Reversing XLL Delivery, EchoGather, and a WinRAR Exploit Chain Targeting Russia\" Recon 2026": [
+  [
+   "Cau5b9c6SQA",
+   "The WinRAR Exploit CVE-2025-8088"
+  ],
+  [
+   "a6lMTXX1pJ0",
+   "Exploiting the CVE-2024-30085 vulnerability using PreviousMode + _EPROCESS.Protection strip | ERS 09"
+  ],
+  [
+   "M5ghsrXiXkE",
+   "\\"
+  ],
+  [
+   "wwIhaJ9-19M",
+   "WinRAR Exploit Still Active, OpenSSL Critical RCE, SolarWinds Irony | Cybersecurity News"
+  ],
+  [
+   "m_0Axsh_oO4",
+   "WinRAR 7.x Vulnerability (CVE-2025-8088) Exploitation with Multiple Payload"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #1: Introduction and Research Results\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "wXPW-LRCTxQ",
+   "Getting Started With The Windows Registry"
+  ],
+  [
+   "E6ROLfd8RFo",
+   "Windows Registry As Fast As Possible"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #2: A Brief History of the Feature\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "dMABp9z3C_g",
+   "This AI slop registry song has no right being this good \ud83d\udc80"
+  ],
+  [
+   "6ky_6kUJebY",
+   "What Are Those Different HKEY Registry Things in Windows Anyway?"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #3: Learning Resources\" Mateusz Jurczyk": [
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "8mJLe8sZki8",
+   "BlueHat Oct 23. S10: Exploring the Windows Registry as a Powerful LPE Attack Surface"
+  ],
+  [
+   "AY8EnMi5ahc",
+   "Windows Registry Song (100% Banger)"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #4: Hives and the Registry Layout\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "LokqW4nqs9E",
+   "Parsing Multiple Registry Hives using VSCToolset and RegRipper"
+  ],
+  [
+   "bKnhnBOlkGM",
+   "Fixit Introduction to the Windows Registry Hives Keys Subkeys and values"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #5: The regf File Format\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "E6ROLfd8RFo",
+   "Windows Registry As Fast As Possible"
+  ],
+  [
+   "6ky_6kUJebY",
+   "What Are Those Different HKEY Registry Things in Windows Anyway?"
+  ]
+ ],
+ "search:\"Windows Tooling Updates: OleView.NET\" James Forshaw": [
+  [
+   "dfMuzAZRGm4",
+   "James Forshaw - COM in Sixty Seconds! (well minutes more likely) @ Infiltrate 2017.mp4"
+  ],
+  [
+   "38sUc3M5Yls",
+   "Reimage Windows in Under 2 minutes with FFU Builder 2604.1 - Quickstart Guide"
+  ],
+  [
+   "58KVV1uzkKE",
+   "How to install FFMPEG in Windows 1011"
+  ],
+  [
+   "VIKyDo-bVwc",
+   "BizTalk Service Bus Adapter Urgent Hotfix!"
+  ],
+  [
+   "2yRYLjvrvcY",
+   "Windows Image (WIM) Servicing Scripts v1.2 \u2014 Full Overview and Demo"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #6: Kernel-Mode Objects\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "8mJLe8sZki8",
+   "BlueHat Oct 23. S10: Exploring the Windows Registry as a Powerful LPE Attack Surface"
+  ],
+  [
+   "Gf-dwrwVcMs",
+   "Windows:  Under the Covers - From Hello World to Kernel Mode by a Windows Developer"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #7: Attack Surface Analysis\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "UhEvcTT2beE",
+   "Part 3-Five Windows Forensic Artifacts for Every Incident Response | Jake Williams"
+  ],
+  [
+   "8mJLe8sZki8",
+   "BlueHat Oct 23. S10: Exploring the Windows Registry as a Powerful LPE Attack Surface"
+  ]
+ ],
+ "search:\"The Windows Registry Adventure #8: Practical Exploitation of Hive Memory Corruption\" Mateusz Jurczyk": [
+  [
+   "qllMa2UUPvY",
+   "OffensiveCon24 - Mateusz Jurczyk - Practical Exploitation of Registry Vulnerabilities"
+  ],
+  [
+   "vnraNoqYEoY",
+   "Mateusz Jurczyk: Windows Registry Deja Vu: The Return of Confused Deputies | CONFidence"
+  ],
+  [
+   "aRWjZlSIuhA",
+   "Recon2024 - Mateusz Jurczyk - Peeling Back the Windows Registry Layers A Bug Hunters Expedition"
+  ],
+  [
+   "8mJLe8sZki8",
+   "BlueHat Oct 23. S10: Exploring the Windows Registry as a Powerful LPE Attack Surface"
+  ],
+  [
+   "jGLpJZX6Qlk",
+   "06 Windows as an Indelible Diary | Ep. 06.2025 | Digital Forensics"
+  ]
+ ],
+ "search:\"Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)\" James Forshaw": [
+  [
+   "2g7vp1gKdJM",
+   "Exploiting Windows Vista Resource Virtualization - Presented by James Forshaw"
+  ],
+  [
+   "zy2hPIVoSfg",
+   "Why You Forget When You Enter a Room \ud83e\udd14"
+  ],
+  [
+   "NUm5068G5eM",
+   "macOS Bug Lets Attackers Hijack Background Apps to Spy on Clipboard \u2014 Fixed in 26.4 (CVE-2026-28910)"
+  ],
+  [
+   "oOIpsCNnrhI",
+   "The day this son lost his vision."
+  ],
+  [
+   "rNSjpv2Etno",
+   "Worst Ways People Have Died"
+  ]
+ ],
+ "search:\"Windows Bug Class: Accessing Trapped COM Objects with IDispatch\" James Forshaw": [],
+ "search:\"Windows Exploitation Techniques: Winning Race Conditions with Path Lookups\" James Forshaw": [
+  [
+   "9_G0Jb920p4",
+   "What is a Race Condition?"
+  ],
+  [
+   "dfMuzAZRGm4",
+   "James Forshaw - COM in Sixty Seconds! (well minutes more likely) @ Infiltrate 2017.mp4"
+  ],
+  [
+   "2g7vp1gKdJM",
+   "Exploiting Windows Vista Resource Virtualization - Presented by James Forshaw"
+  ],
+  [
+   "MqnpIwN7dz0",
+   "Race Conditions and How to Prevent Them - A Look at Dekker's Algorithm"
+  ],
+  [
+   "uf-bwTThx54",
+   "Race Conditions | TryHackMe | Web Application Pentesting"
+  ]
+ ],
+ "search:\"Bypassing Windows Administrator Protection (Introduction)\" James Forshaw": [
+  [
+   "xQjEqXJOJO8",
+   "Did you know you can run apps as Administrator on Windows like this? #shorts #windows #windows11"
+  ],
+  [
+   "2g7vp1gKdJM",
+   "Exploiting Windows Vista Resource Virtualization - Presented by James Forshaw"
+  ],
+  [
+   "qreKLS022NI",
+   "How YOU Can Bypass ANY Windows Admin Lock In 2026"
+  ],
+  [
+   "vbWsfM_Bghk",
+   "Admin Protection in Windows 11: What It Is and How to Use It?"
+  ],
+  [
+   "uElWqzjC1eI",
+   "Stop Microsoft Forcing Online Accounts on Windows 11"
+  ]
+ ],
+ "search:\"Bypassing Administrator Protection by Abusing UI Access\" James Forshaw": [
+  [
+   "UTvOfmtNVKI",
+   "James Forshaw  - Abusing Access Tokens for UAC Bypasses"
+  ],
+  [
+   "qreKLS022NI",
+   "How YOU Can Bypass ANY Windows Admin Lock In 2026"
+  ],
+  [
+   "KMSzcu3RMCU",
+   "Microsoft MVP Reveals Hidden Conditional Access Bypasses (Entra ID)"
+  ],
+  [
+   "oX03sexduHk",
+   "Bypassing Access Control to Become Administrator"
+  ],
+  [
+   "3JbOiG8Ui6U",
+   "Get Administrator in 1 command AND Bypass windows defender. ( NOT OPSEC FRIENDLY )"
+  ]
+ ],
+ "search:\"A Deep Dive into the GetProcessHandleFromHwnd API\" James Forshaw": [
+  [
+   "7x3aBUCIPiM",
+   "James Forshaw - Tooling up for Kerberos"
+  ],
+  [
+   "dfMuzAZRGm4",
+   "James Forshaw - COM in Sixty Seconds! (well minutes more likely) @ Infiltrate 2017.mp4"
+  ],
+  [
+   "tGOGj1lsSwo",
+   "James Forshaw A Link to the Past  Abusing Symbolic Links on Windows"
+  ],
+  [
+   "1YGD94lSor8",
+   "The Windows Source Code Revealed: Task Manager (E01)"
+  ],
+  [
+   "zvWKqUiovAM",
+   "Top 7 Ways to 10x Your API Performance"
+  ]
+ ]
+}
