@@ -2110,5 +2110,1829 @@
   "status": 200,
   "note": "",
   "checked_at": 1779201992.2059977
+ },
+ "https://www.youtube.com/watch?v=UZPrE-sY4Ok": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.2332044
+ },
+ "https://www.youtube.com/watch?v=fbT_hnHIXNE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.2385707
+ },
+ "https://www.youtube.com/watch?v=ALcm6pmR8ck": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.2426062
+ },
+ "https://www.youtube.com/watch?v=CqVV6Iqwsn0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.267585
+ },
+ "https://www.youtube.com/watch?v=JG1umiZKYpQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.2751038
+ },
+ "https://www.youtube.com/watch?v=LNm58BTngfU": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.2833948
+ },
+ "https://www.youtube.com/watch?v=025r8_TrV8I": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.287898
+ },
+ "https://googleprojectzero.blogspot.com/2018/01/windows-exploitation-tricks-exploiting.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.3260336
+ },
+ "https://www.youtube.com/watch?v=RMVyYvt0bLY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.335108
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lost%20Control-Breaking%20Hardware-Assisted%20Kernel%20Control-Flow%20Integrity%20with%20Page-Oriented%20Programming.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.3920448
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-Defender-ASR-Bypass.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.3934212
+ },
+ "https://www.youtube.com/watch?v=MybmgE95weo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.3946416
+ },
+ "https://www.youtube.com/watch?v=AT2Y8APvQVw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.3980782
+ },
+ "https://www.youtube.com/watch?v=BfI__8ZF7Rg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4209876
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BHUSA2019-Wojtczuk-HyperVIDEEmulator-Slides.pdf": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.4209948
+ },
+ "https://www.youtube.com/watch?v=JViHET2NF6A": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4261556
+ },
+ "https://www.youtube.com/watch?v=hnq3_7r3xzI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4312537
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202017/Revoke-Obfuscation.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.4357536
+ },
+ "https://www.youtube.com/watch?v=OwCmuQHHOUA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4501662
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Philip%20Tsukerman%20-%20Bypass-ASR.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.4581964
+ },
+ "https://www.youtube.com/watch?v=VhbNYwLlu10": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4622211
+ },
+ "https://www.youtube.com/watch?v=qP5newEq5iI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4740384
+ },
+ "https://www.youtube.com/watch?v=vIISsfLh4iM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4790463
+ },
+ "https://www.youtube.com/watch?v=CHWSewPDfhs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4850924
+ },
+ "https://www.youtube.com/watch?v=KcSCtJvE4bk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.4860775
+ },
+ "https://www.youtube.com/watch?v=uKDS2t9_KsA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.517575
+ },
+ "https://www.youtube.com/watch?v=paL2OzYTzN8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.5353565
+ },
+ "https://www.youtube.com/watch?v=vdesswZYz-8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.5362387
+ },
+ "https://infocon.org/cons/Troopers/Troopers%2016/Troopers%2016%20-%20Will%20Schroeder%20-%20PowerView.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.555568
+ },
+ "https://www.youtube.com/watch?v=E_BNhuGmJwM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205372.5660005
+ },
+ "https://hshrzd.wordpress.com/2018/02/02/injecting-code-into-a-pe-image-using-ntfs-transactions/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.5757298
+ },
+ "https://hshrzd.wordpress.com/2018/06/25/how-to-turn-msrpc-into-a-backdoor/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205372.6470342
+ },
+ "https://www.youtube.com/watch?v=cCLL5JrDt-M": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.0265255
+ },
+ "https://www.youtube.com/watch?v=AvBO4f7blew": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.0355463
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202012/Easy-Local-Windows-Kernel-Exploitation.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.1141005
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202022/Living-Off-the-Walled-Garden.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.1411347
+ },
+ "https://www.youtube.com/watch?v=GjPWCEEna3Q": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.175333
+ },
+ "https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.211627
+ },
+ "https://msrc.microsoft.com/blog/2023/02/vmbus-channel-ring-buffer-heap-overflow/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.2253437
+ },
+ "https://www.youtube.com/watch?v=Gg9rJm2GMBY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.2560978
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202019/ShmooCon%202019%20--%20BECs%20and%20Beyond.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.259963
+ },
+ "https://www.youtube.com/watch?v=_8yBjg7bRLo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.2722058
+ },
+ "https://yarden-shafir.github.io/posts/admin-protection/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.274106
+ },
+ "https://www.youtube.com/watch?v=GM1PxZPiLMk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.2818556
+ },
+ "https://www.youtube.com/watch?v=QMzTcHbC3dQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.288386
+ },
+ "https://www.crowdstrike.com/blog/windows-syscall-hooking-nt-kernel-module/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.296102
+ },
+ "https://hshrzd.wordpress.com/2021/04/26/cve-2021-26411-analysis/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.3118353
+ },
+ "https://www.youtube.com/watch?v=SKlO6CCnRY0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.3345654
+ },
+ "https://infocon.org/cons/REcon/REcon%202023/REcon%202023%20-%20Gabor%20Szappanos%20-%20GRU-Toolkit.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.3650863
+ },
+ "https://dirkjanm.io/a-different-way-of-abusing-zerologon/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.3676639
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Windows%20Agentless%20C2%20%28Ab%29using%20the%20MDM%20Client%20Stack.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.3715842
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BHUSA2019-Bar-PoisonedRDP-Slides.pdf": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.375816
+ },
+ "https://googleprojectzero.blogspot.com/2021/01/windows-exploitation-tricks-trapping.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.3989854
+ },
+ "https://www.youtube.com/watch?v=uOemcVMhj88": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.408156
+ },
+ "https://googleprojectzero.blogspot.com/2014/09/exploiting-cve-2014-4113-ie-in-windows.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.4210203
+ },
+ "https://www.youtube.com/watch?v=LQ7ZQXs-uC0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.4270585
+ },
+ "https://www.youtube.com/watch?v=tuc8cwOAAcA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.4321244
+ },
+ "https://www.youtube.com/watch?v=2bK_rC81_Eo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205373.4421222
+ },
+ "https://modexp.wordpress.com/2018/08/23/process-injection-propagate/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.4641309
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202019/BHEurope2019-Fuzzing-RDP.pdf": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.4814243
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Social-Engineering-the-Windows-Kernel.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.5000806
+ },
+ "https://hshrzd.wordpress.com/2022/11/11/flare-on-9-write-up/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.5368464
+ },
+ "https://infocon.org/cons/REcon/REcon%202023/REcon%202023%20-%20Jimmy%20Bayne%20-%20Hello%201994.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.5970294
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202021/Undetectable-Windows-Rootkits.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.918959
+ },
+ "https://infocon.org/cons/BSidesDC/BSidesDC%202016/BSidesDC%202016%20-%20PowerShell%20Security.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205373.924037
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%206%202016/Is%20That%20a%20Penguin%20in%20My%20Windows%20Saar%20Amar.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.0033667
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2025/DEF%20CON%2025%20video%20and%20slides/DEF%20CON%2025%20-%20Adam%20Toscher%20-%20Abusing-Exported-Functions.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.0129483
+ },
+ "https://www.youtube.com/watch?v=c8LgqtATAnE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.0360765
+ },
+ "https://www.youtube.com/watch?v=yg8Tt0jvmmY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.053201
+ },
+ "https://www.youtube.com/watch?v=mKRS5Iyy7Qo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.0610638
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202010/Token%20Kidnappings%20Revenge.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.0751376
+ },
+ "https://www.youtube.com/watch?v=iJYVUYcmHnQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.0755439
+ },
+ "https://www.youtube.com/watch?v=EYtw-XPml0w": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.0892375
+ },
+ "https://www.crowdstrike.com/blog/uefi-security-weaknesses-on-windows/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.097934
+ },
+ "https://www.youtube.com/watch?v=q_Cwqm04UQ0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.1669888
+ },
+ "https://www.youtube.com/watch?v=_646Gmr_uo0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.1718209
+ },
+ "https://www.youtube.com/watch?v=RXYfjnXLGsc": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.2046456
+ },
+ "https://i.blackhat.com/USA-20/Thursday/us-20-Bienstock-Madeley-My-Cloud-Is-APTs-Cloud-Investigating-And-Defending-Office-365.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.24059
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Matrosov-Safeguarding-UEFI-Ecosystem.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.2590792
+ },
+ "https://www.youtube.com/watch?v=Z81s7UIiwmI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.2648404
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Wixey-eBPF-ELFs-JMPing-Through-The-Windows.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.2778761
+ },
+ "https://itm4n.github.io/privesccheck-new-release/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.288041
+ },
+ "https://modexp.wordpress.com/2020/01/28/net-shellcode-delegate/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.3252368
+ },
+ "https://www.secwest.net/cansecwest-2022/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.4382915
+ },
+ "https://posts.specterops.io/dcom-machine-wide-throttling-cd60a7186e59": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.441407
+ },
+ "https://www.secwest.net/cansecwest-2024/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.4680443
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Forshaw-Exploiting-Windows-COM-WinRT-Services.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.4702148
+ },
+ "https://www.alex-ionescu.com/2013/11/21/ci-dll-internals/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.58801
+ },
+ "https://www.youtube.com/watch?v=aa6s6MM6-so": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.6090567
+ },
+ "https://www.youtube.com/watch?v=v1XgDR94hvo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.6260362
+ },
+ "https://www.youtube.com/watch?v=wZG0h1q7fMg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.6569948
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Hong-Mobius-Band-Explore-Hyper-V-Attack-Interface.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.6672132
+ },
+ "https://www.youtube.com/watch?v=tMxCfxjtvnk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.683143
+ },
+ "https://msrc.microsoft.com/blog/2021/10/automating-the-search-for-hyper-v-vulnerabilities/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.6922426
+ },
+ "https://www.youtube.com/watch?v=voDpk7nQAyw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.699093
+ },
+ "https://www.youtube.com/watch?v=EKkp8chyMZQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.7111347
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.7420828
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lifting%20the%20Fog%20of%20War%20-%20Monitoring%2C%20Identifying%20and%20Mitigating%20MS-RPC%20Based%20Threats.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.7735603
+ },
+ "https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Demystifying%20COM.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.81804
+ },
+ "https://infocon.org/cons/REcon/REcon%202017/REcon%202017%20-%20James%20Forshaw%20-%20SMB%20Deep%20Dive.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205374.850573
+ },
+ "https://hshrzd.wordpress.com/2017/12/18/process-doppelganging-a-new-way-to-impersonate-a-process/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.8749588
+ },
+ "https://www.youtube.com/watch?v=7h38rI8KT30": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205374.889827
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Beery-Rubin-Elevating-Kerberos-To-The-Next-Level.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.91635
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Amar-Moshe-hAFL1-Our-Journey-of-Fuzzing-Hyper-V-and-Discovering-a-0-Day.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205374.93628
+ },
+ "https://dirkjanm.io/abusing-kerberos-resource-based-constrained-delegation/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.014563
+ },
+ "https://www.youtube.com/watch?v=fOUOFGdiNTA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.0145712
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Saydag-The-Journey-of-Hunting-In-the-Wild-Windows-LPE-0day.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.0210593
+ },
+ "https://infocon.org/cons/REcon/REcon%202018/REcon%202018%20-%20Andrea%20Allievi%20-%20Kernel%20APC.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.0599759
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/From%20Dead%20Data%20to%20Digestion%20Extracting%20Windows%20Fibers%20for%20Your%20Digital%20Forensics%20Diet.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.0896604
+ },
+ "https://blog.xpnsec.com/hevd-stack-buffer-overflow/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.1014235
+ },
+ "https://www.youtube.com/watch?v=ia0T8i7LAAI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.1598358
+ },
+ "https://www.youtube.com/watch?v=gkM_xbfvM7c": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.187335
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Shafir-Ionescu-Windows-Heap-Backed-Pool.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.197086
+ },
+ "https://www.youtube.com/watch?v=ZPI2OB0g028": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.199216
+ },
+ "https://www.youtube.com/watch?v=QI2xLPMAKNU": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.2195873
+ },
+ "https://blog.xpnsec.com/portbender/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.2260118
+ },
+ "https://blog.xpnsec.com/windows-logon-provider/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.2559707
+ },
+ "https://www.youtube.com/watch?v=PBDHhOtc0zM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.2595627
+ },
+ "https://www.youtube.com/watch?v=4ojT8uq5Eqo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.267365
+ },
+ "https://www.youtube.com/watch?v=dmbRpwP5L9s": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.2756345
+ },
+ "https://www.youtube.com/watch?v=O7y-b85HpSg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.2978737
+ },
+ "https://posts.specterops.io/resource-based-constrained-delegation-computer-object-take-over-and-nmaps-automating-the-job-2752fa2f25f5": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.332851
+ },
+ "https://www.youtube.com/watch?v=JuN4dqn7HEg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.4030364
+ },
+ "https://connormcgarr.github.io/dkoms/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.4420805
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Zinar-Simakov-I-Am-Whoever-I-Say-I-Am-Infiltrating-Identity-Providers.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.5198355
+ },
+ "https://www.youtube.com/watch?v=0ZRG48bN4Bo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.5325842
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Shloman-Malware-Classification-ML-Enhanced-Windows-Kernel-Emulation.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.5416114
+ },
+ "https://www.youtube.com/watch?v=okIH2uvZiOY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.5760672
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Paschen-Living-Off-The-Walled-Garden.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.6019592
+ },
+ "https://www.youtube.com/watch?v=lWrBv1Cig1M": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.649553
+ },
+ "https://blog.xpnsec.com/com-hijacking/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.6894882
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Jacob%20Baines%20-%20Bring%20Your%20Own%20Print%20Driver.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.7241018
+ },
+ "https://www.youtube.com/watch?v=EcLSz2x4Q4c": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.7459998
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Defeating%20Pass-the-Hash.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.852569
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Mollema-Backdooring-And-Hijacking-Azure-AD-Accounts-By-Abusing-External-Identities.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205375.8896527
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Asia/Black%20Hat%20Asia%202021/Rise-of-Potatoes.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.9287958
+ },
+ "https://i.blackhat.com/USA-20/Thursday/us-20-Burgess-Detecting-Access-Token-Manipulation.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.949069
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20Leron%20Gray%20-%20Malware%20Design.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205375.9540532
+ },
+ "https://www.youtube.com/watch?v=YMHsuu3qldE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.9566011
+ },
+ "https://www.youtube.com/watch?v=fysTpjwSCiI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205375.9871724
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Tracing%20Adversaries%20Detecting%20Attacks%20with%20ETW.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.0496693
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20James%20Forshaw%20-%20Adventures%20in%20MitM-land.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.060687
+ },
+ "https://www.youtube.com/watch?v=Upo5I_mK1V4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.0680146
+ },
+ "https://github.com/ionescu007/AMDSnoop/blob/main/AMDSnoop.md": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.127063
+ },
+ "https://itm4n.github.io/bypassing-lsa-protection-userland/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.1590166
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%208%202018/In-Memory-Persistence.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.1981533
+ },
+ "https://infocon.org/cons/REcon/REcon%202018%20Brussels/RECON-BRX-2018-Linux-Vulnerabilities_Windows-Exploits--Escalating-Privileges-with-WSL.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.214412
+ },
+ "https://www.youtube.com/watch?v=xT1Wo-z83do": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.243526
+ },
+ "https://www.youtube.com/watch?v=SmTW_cGbveM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.2483318
+ },
+ "https://i.blackhat.com/USA-20/Thursday/us-20-Hadar-A-Decade-After-Stuxnet-Printer-Vulnerability-Printing-Is-Still-The-Stairway-To-Heaven.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.293462
+ },
+ "https://www.youtube.com/watch?v=pm1ejZ3LkYU": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.2978308
+ },
+ "https://www.outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205376.3095787
+ },
+ "https://www.youtube.com/watch?v=TkpI4nrRLWo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.3251057
+ },
+ "https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205376.350101
+ },
+ "https://billdemirkapi.me/windows-kernel-callbacks/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.3693173
+ },
+ "https://googleprojectzero.blogspot.com/2019/09/windows-exploitation-tricks-spoofing.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.3742347
+ },
+ "https://www.alex-ionescu.com/2016/07/17/token-lowering/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.4161994
+ },
+ "https://www.youtube.com/watch?v=7VI-_r_jrfQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.4180477
+ },
+ "https://outflank.nl/blog/2019/07/30/old-school-evil-windows-process-injection-with-module-stomping/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205376.461975
+ },
+ "https://dirkjanm.io/mitm6-compromising-ipv4-networks-via-ipv6/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.4624026
+ },
+ "https://googleprojectzero.blogspot.com/2022/07/windows-exploitation-tricks-exploiting.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.4980633
+ },
+ "https://www.youtube.com/watch?v=UWOTrd_Ovos": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.5211418
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/One%20Drive%2C%20Double%20Agent%20Clouded%20OneDrive%20Turns%20Sides.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.7048795
+ },
+ "https://modexp.wordpress.com/2020/03/09/windows-defender-dll-hijacking/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.727026
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Diving%20into%20Windows%20Remote%20Access%20Service%20for%20Pre-Auth%20Bugs.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.772086
+ },
+ "https://www.youtube.com/watch?v=e6oegr3cl4U": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.796795
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Return%20From%20The%20Underworld%20The%20Future%20Of%20Red%20Team%20Kerberos%20Jim%20Shaver%20Mitchell%20Hennigan%20AF.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.8173447
+ },
+ "https://www.youtube.com/watch?v=tSKNC2xEd1Y": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.8222373
+ },
+ "https://www.youtube.com/watch?v=cD3FiTQ5Lhk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.8250325
+ },
+ "https://www.youtube.com/watch?v=dGLrK8tUAFs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.8401465
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Yair-Rope-Bypassing-Behavioral-Detection.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205376.9020889
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Second%20Breakfast%20Implicit%20and%20Mutation-Based%20Serialization%20Vulnerabilities%20in%20.NET.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.9140184
+ },
+ "https://googleprojectzero.blogspot.com/2019/04/fuzzing-windows-subsystems.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.920052
+ },
+ "https://www.youtube.com/watch?v=2CJl6mTtgws": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.935052
+ },
+ "https://www.youtube.com/watch?v=-S3jeIDenIo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205376.949967
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202023/ShmooCon%202023%20--%20Les%20Miserable%20Persistence.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205376.9869912
+ },
+ "https://posts.specterops.io/bypassing-application-whitelisting-using-installutil-exe-3bb0571d62f0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.0301998
+ },
+ "https://modexp.wordpress.com/2019/06/20/reflective-dll-injection/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.059019
+ },
+ "https://itm4n.github.io/usodllloader-part1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.0625725
+ },
+ "https://www.youtube.com/watch?v=CN7omR7SPTU": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.071927
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202016/Beyond-the-MCSE-Active-Directory.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.088655
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Rubin-Doron-AAD-Joined-Machines-The-New-Lateral-Movement.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205377.2531054
+ },
+ "https://www.youtube.com/watch?v=WMMdfnyiSd8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.2584593
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Tsai-Lets-Dance-in-the-Cache-Destabilizing-Hash-Table-on-Microsoft-IIS.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205377.2868357
+ },
+ "https://www.crowdstrike.com/blog/new-approach-to-kernel-exploitation/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.3284438
+ },
+ "https://googleprojectzero.blogspot.com/2022/04/windows-kernel-multiple-heap-based.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.3776374
+ },
+ "https://www.youtube.com/watch?v=A1f1q7WDbpw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.380423
+ },
+ "https://www.youtube.com/watch?v=Gyp3uLFYQ8I": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.385091
+ },
+ "https://www.youtube.com/watch?v=-HPhJw9K6_Y": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.388942
+ },
+ "https://www.youtube.com/watch?v=nBGs9_POJCQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.3893075
+ },
+ "https://blog.xpnsec.com/dcom-lateral-movement/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.4352903
+ },
+ "https://dirkjanm.io/impersonating-office-365-users-on-azure-ad-joined-machines/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.4950771
+ },
+ "https://hshrzd.wordpress.com/2017/01/23/hook_finder/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.4968274
+ },
+ "https://www.youtube.com/watch?v=crqufwG2LCk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.518975
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Tsai-ProxyLogon-Is-Just-The-Tip-Of-The-Iceberg.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205377.5412188
+ },
+ "https://hshrzd.wordpress.com/2016/09/28/peunpacker/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.6307526
+ },
+ "https://connormcgarr.github.io/object-callbacks/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.686131
+ },
+ "https://www.youtube.com/watch?v=9cpHlXEVQM4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.7096567
+ },
+ "https://msrc.microsoft.com/blog/2021/09/investigating-cve-2021-28476-a-hyper-v-rce-vulnerability/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.7465851
+ },
+ "https://www.youtube.com/watch?v=l4hA2eZuMF8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.749367
+ },
+ "https://www.youtube.com/watch?v=w2_KqnhgN94": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.754137
+ },
+ "https://i.blackhat.com/USA-20/Wednesday/us-20-Block-Palutke-Hiding-Process-Memory-Via-Anti-Forensic-Techniques.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205377.780313
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/EDR%20%3D%20Erase%20Data%20Remotely%2C%20By%20Cooking%20An%20Unforgettable%20%28Byte%29%20Signature%20Dish.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.7951288
+ },
+ "https://www.youtube.com/watch?v=cXWtu-qalSs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.812291
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202022/Journey-Hunting-Windows-LPE-0day.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.874193
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%208%202018/App-o-Lockalypse-Now.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.8974776
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Uncovering%20Azure%27s%20Silent%20Threats%20A%20Journey%20into%20Cloud%20Vulnerabilities.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.9107866
+ },
+ "https://www.youtube.com/watch?v=GwwxeY11xMI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205377.9122944
+ },
+ "https://www.alex-ionescu.com/2015/10/12/intel-x86-considered-harmful/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205377.9530463
+ },
+ "https://www.youtube.com/watch?v=2y3jgJSgnEo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.0019436
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Segal-The-COW-Container-On-Windows-Who-Escaped-The-Silo.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205378.0555892
+ },
+ "https://www.youtube.com/watch?v=0U-brOocVKE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.0925217
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/I%20Watched%20You%20Roll%20the%20Die%20Unparalleled%20RDP%20Monitoring%20Reveal%20Attackers%27%20Tradecraft.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.1404526
+ },
+ "https://www.youtube.com/watch?v=Fh5HJsjeEtA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.1570554
+ },
+ "https://www.youtube.com/watch?v=GVRIUsgrwSQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.1626952
+ },
+ "https://www.youtube.com/watch?v=xWlG6sUtqew": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.1765466
+ },
+ "https://www.youtube.com/watch?v=_3YJuk_MUpI": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.2099698
+ },
+ "https://www.crowdstrike.com/blog/cfg-internals-cfg-is-not-cfi/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.2710395
+ },
+ "https://www.youtube.com/watch?v=ccmpzOOXZ20": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.2895834
+ },
+ "https://www.youtube.com/watch?v=fo4I-EPNYE4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.3198726
+ },
+ "https://www.crowdstrike.com/blog/windows-kernel-exploitation-callbacks/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.333636
+ },
+ "https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205378.3690166
+ },
+ "https://billdemirkapi.me/windows-registry-persistence/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.385583
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Compass-Bypassing-Windows-Hello-For-Business-And-Pleasure.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205378.3894436
+ },
+ "https://www.youtube.com/watch?v=gMHTfP-xFig": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.4188466
+ },
+ "https://www.youtube.com/watch?v=F0YlIDAxPLs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.4359598
+ },
+ "https://www.youtube.com/watch?v=vtkd74tU5uo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.452086
+ },
+ "https://msrc.microsoft.com/blog/2020/07/exploiting-a-simple-win32k-bug/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.5225594
+ },
+ "https://blog.xpnsec.com/kerberos-attacks-part-1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.5449598
+ },
+ "https://www.youtube.com/watch?v=be2jOZM8Whs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.55386
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202023/ShmooCon%202023%20--%20Hide%20Your%20Valuables.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.5771232
+ },
+ "https://hshrzd.wordpress.com/pe-bear/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.5801468
+ },
+ "https://i.blackhat.com/USA-22/Thursday/us-22-Rabet-DirectX-The-New-Hyper-V-Attack-Surface.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205378.595268
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Teodorescu-Blasting-Event-Driven-Cornucopia-WMI-Based-User-Space-Attacks-Blind-SIEMs-And-EDRs.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205378.5986314
+ },
+ "https://www.youtube.com/watch?v=PC_iMqiuIRQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.640755
+ },
+ "https://www.crowdstrike.com/blog/hiding-event-log-tampering-with-windows-sacl/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.645099
+ },
+ "https://www.youtube.com/watch?v=z6GJqrkL0S0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.6454847
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/All%20You%20Need%20is%20Guest.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.7142215
+ },
+ "https://infocon.org/cons/REcon/REcon%202019/REcon%202019%20-%20WPP-TraceLogging.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.723261
+ },
+ "https://github.com/saaramar/DirtyVanity/blob/main/dirtyvanity_blog_post.md": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.7992384
+ },
+ "https://www.youtube.com/watch?v=HZdpWfNOJIk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.821861
+ },
+ "https://blog.xpnsec.com/ntlm-auth-protocol/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.8514724
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Vulnerability%20Exchange.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205378.9039335
+ },
+ "https://www.youtube.com/watch?v=3wncyS-QOBk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205378.9361339
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202023/ShmooCon%202023%20--%20The%20UEFI%20Threat.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.000081
+ },
+ "https://www.youtube.com/watch?v=x97ejtv56xw": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.056877
+ },
+ "https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.074035
+ },
+ "https://www.youtube.com/watch?v=KeQ0PHrHDVs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.1118672
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202017/ShmooCon%202017%20--%20Know%20Normal%20Find%20Evil%20Windows%2010%20Edition.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.132026
+ },
+ "https://www.youtube.com/watch?v=VvxNc8GTFfk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.1430252
+ },
+ "https://www.youtube.com/watch?v=rknpKIxT7NM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.1657388
+ },
+ "https://infocon.org/cons/Troopers/Troopers%2018/Troopers%2018%20-%20Fosaaen%20-%20All%20Your%20Cloud.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.1990554
+ },
+ "https://infocon.org/cons/REcon/REcon%202008/REcon%202008%20-%20Thomas%20Garnier%20-%20Windows%20Privilege%20Escalation%20through%20LPC-ALPC.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.243008
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BH-USA-2019-NTLM-Detection.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.256663
+ },
+ "https://www.youtube.com/watch?v=Fpb4eL3vMgk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.2645726
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202019/BHEurope2019-Windows-Hello-for-Business.pdf": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.3053184
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Forshaw-Crashing-Your-Way-To-Medium-IL.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205379.3264546
+ },
+ "https://www.youtube.com/watch?v=Zqw-T1YQKUQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.3566535
+ },
+ "https://www.youtube.com/watch?v=2L7JpcLZ05Q": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.421092
+ },
+ "https://www.youtube.com/watch?v=iAsavoHcm2I": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.4247868
+ },
+ "https://www.youtube.com/watch?v=xdEhXw6pIYo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.5145726
+ },
+ "https://www.alex-ionescu.com/2015/02/20/sheep-year-kernel-heap-fengshui-spraying-in-the-big-kids-pool/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.5271516
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202020/Escaping-Virtualized-Containers.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.5343325
+ },
+ "https://www.youtube.com/watch?v=4PKjOWnPb6Q": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.5560994
+ },
+ "https://www.youtube.com/watch?v=Apr23dzz7JA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.5716643
+ },
+ "https://dirkjanm.io/azure-ad-connect-for-red-teamers/": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.6030042
+ },
+ "https://www.youtube.com/watch?v=eF-nJnPycXs": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.6418476
+ },
+ "https://googleprojectzero.blogspot.com/2015/07/exploiting-windows-10-in-one-tweet.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.642752
+ },
+ "https://posts.specterops.io/certified-pre-owned-esc4-d95910965cd2": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.6482503
+ },
+ "https://www.youtube.com/watch?v=e-Q4pYf9-oE": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.6957638
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202018/Hardening%20Hyper-V.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.7014842
+ },
+ "https://googleprojectzero.blogspot.com/2020/04/windows-exploitation-tricks-spoofing.html": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.7497945
+ },
+ "https://infocon.org/cons/REcon/REcon%202016/REcon%202016%20videos/alex-ionescu-Abusing-the-NT-Kernel-Shim-Engine.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.7763796
+ },
+ "https://www.youtube.com/watch?v=u22XC01ewn0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205379.8127801
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202017/Bypassing-Windows-UAC.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.8460085
+ },
+ "https://infocon.org/cons/BSidesLV/BSidesLV%202019/presentations/BSidesLV2019-Meltdowns-Aftermath.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205379.9179168
+ },
+ "https://www.blackhat.com/us-23/briefings/schedule/#pool-party-you-will-never-forget-new-process-injection-techniques-using-windows-thread-pools-32547": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.0118937
+ },
+ "https://i.blackhat.com/USA-22/Wednesday/us-22-Matrosov-Breaking-Firmware-Trust-From-Pre-EFI.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.0120022
+ },
+ "https://posts.specterops.io/loading-unsigned-windows-drivers-without-enabling-test-signing-bb30dae8b3f3": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205380.013734
+ },
+ "https://msrc.microsoft.com/blog/2019/11/attacking-the-vm-worker-process/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205380.1009026
+ },
+ "https://outflank.nl/blog/2019/10/30/abusing-windows-com-dcom/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.168621
+ },
+ "https://i.blackhat.com/USA-20/Thursday/us-20-Elbaz-I-Calcd-Calc-Exploiting-Excel-Online.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.3045554
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ETW-Attacks.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205380.3991163
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202018/Cutting-Edge-Microsoft-Browser-Security.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205380.3992524
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20John%20Hammond%20-%20Ransomware.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205380.4001493
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Orange%20Tsai%20-%20ProxyLogon.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205380.4009392
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Hromcova-Cherepanov-Anatomy-Of-Native-IIS-Malware.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.4242284
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Carruthers-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.4886765
+ },
+ "https://i.blackhat.com/USA-21/Wednesday/us-21-Peng-Diving-Into-Spooler-Discovering-LPE-and-RCE.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205380.7057505
+ },
+ "https://i.blackhat.com/USA-21/Thursday/us-21-Ruaro-Pagani-Symbexcel-Symbolic-Execution-Against-Malicious-Excel-Macros.pdf": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779205381.0530097
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/DanderSpritz%20How%20the%20Equation%20Groups%202013%20Tools%20Pwn%20in%202017.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205381.185024
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202022/BHEurope2022-ADCS-Part2.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.0724146
+ },
+ "https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Nikhil%20Mittal%20-%20RACE.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.0983531
+ },
+ "https://infocon.org/cons/ShmooCon/ShmooCon%202023/ShmooCon%202023%20--%20Inglourious%20Drivers.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.1119874
+ },
+ "https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Ruler.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.1305904
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202020/Stepping-into-MUD.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.1602895
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202018/A%20Dive%20into%20Hyper-V%20Architecture%20and%20Vulnerabilities.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.1666048
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ReCertifying-ADCS.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.1729465
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202021/Mobius-Band.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.2098715
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Defender-Pretender%20When%20Windows%20Defender%20Updates%20Become%20a%20Security%20Risk.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205382.2531593
+ },
+ "https://infocon.org/cons/BSidesLV/BSidesLV%202015/presentations/WhyMI%20so%20Sexy.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.2771034
+ },
+ "https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Windows%20Access%20Tokens%20and%20Alternate%20Credentials%20Chris%20Campbell.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205382.2772238
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-AD-Protocol-Injection.mp4": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779205383.1450896
+ },
+ "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Close%20Encounters%20of%20the%20Advanced%20Persistent%20Kind%20Leveraging%20Rootkits%20for%20Post-Exploitation.mp4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779205383.3939605
  }
 }

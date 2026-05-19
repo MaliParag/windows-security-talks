@@ -1,6 +1,6 @@
 # vbs-bypass
 
-_13 talks_
+_19 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -17,3 +17,9 @@ _13 talks_
 | 2024 | Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |  |
 | 2024 | Break the Wall from Bottom: Automated [Kernel Security Bypass] | [Last name: Wang] (full name and affiliation unver |  |  |  |
 | 2024 | A New Root of Trust: Changing Computing with TEE | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |  |
+| 2023 | Lost Control: Breaking Hardware-Assisted Kernel Control-Flow Integrity with Page-Oriented  | Dougall Johnson | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lost%20Control-Breaking%20Hardware-Assisted%20Kernel%20Control-Flow%20Integrity%20with%20Page-Oriented%20Programming.mp4) |  |
+| 2021 | Undetectable Windows Rootkits Using Hardware Virtualization | Alex Ionescu, Yarden Shafir | Black Hat USA 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202021/Undetectable-Windows-Rootkits.mp4) |  |
+| 2020 | Breaking VSM by Attacking SecureKernel | Saar Amar, Daniel King | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf) |  |
+| 2019 | Meltdown's Aftermath: Leveraging KVA Shadow to Bypass Security Protections | Connor McGarr | BSidesLV 2019 | [link](https://infocon.org/cons/BSidesLV/BSidesLV%202019/presentations/BSidesLV2019-Meltdowns-Aftermath.mp4) |  |
+| 2016 | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | Black Hat USA 2016 | [link](https://www.youtube.com/watch?v=_646Gmr_uo0) |  |
+| 2015 | Defeating Pass-the-Hash: Separation of Powers | Seth Moore, Baris Saydag | Black Hat USA 2015 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Defeating%20Pass-the-Hash.mp4) |  |

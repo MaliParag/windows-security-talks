@@ -1,6 +1,6 @@
 # ad-attack
 
-_48 talks_
+_74 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -32,17 +32,43 @@ _48 talks_
 | 2024 | ADCS Attack Paths in BloodHound — Part 1 (ESC1) | SpecterOps BloodHound Enterprise Team (Jonas B. Kn |  | [link](https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf) |  |
 | 2024 | ACE Up the Sleeve | [Last name: Roth] (full name and affiliation unver |  |  |  |
 | 2024 | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/vxs8wy/) | [link](https://www.youtube.com/watch?v=iTS14FhRlVA) |
+| 2023 | BingBang: Hacking Bing.com (and Much More) with Azure Active Directory | Hillai Ben-Sasson | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4) |  |
+| 2023 | All You Need is Guest: Stealing Secrets with Just a Guest Account | Iain Smart, Viktor Gazdag | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/All%20You%20Need%20is%20Guest.mp4) |  |
+| 2022 | The Hacker Recipes: Object-Based Kerberos Delegation Attacks | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/) |  |
 | 2022 | Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release) | Elad Shamir, SpecterOps |  | [link](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) |  |
+| 2022 | Shadow Credentials: Abusing Key Trust Account Mapping for Persistence | Elad Shamir (CrowdStrike / SpecterOps) | posts.specterops.io | [link](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) |  |
+| 2022 | Elevating Kerberos to the Next Level | Tal Be'ery, Mor Rubin | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Beery-Rubin-Elevating-Kerberos-To-The-Next-Level.pdf) |  |
+| 2022 | Backdooring and Hijacking Azure AD Accounts by Abusing External Identities | Dirk-jan Mollema | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Mollema-Backdooring-And-Hijacking-Azure-AD-Accounts-By-Abusing-External-Identities.pdf) |  |
+| 2022 | Abusing Active Directory Certificate Services — Part II | Jonas Bülow Knudsen | Black Hat Europe 2022 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202022/BHEurope2022-ADCS-Part2.mp4) |  |
+| 2022 | AAD Joined Machines: The New Lateral Movement | Mor Rubin, Tom Doron | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Rubin-Doron-AAD-Joined-Machines-The-New-Lateral-Movement.pdf) |  |
 | 2021 | noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing) | Charlie Clark (@exploitph) — SpecterOps; detailed  | November 2021 — Patch Tuesday; |  |  |
+| 2021 | Windows Exploitation Tricks: Relaying DCOM Authentication | James Forshaw (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html) |  |
+| 2021 | ReCertifying Active Directory Certificate Services | Will Schroeder, Lee Christensen | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ReCertifying-ADCS.mp4) |  |
 | 2021 | PrintNightmare (CVE-2021-1675 / CVE-2021-34527) | Original CVE-2021-1675 PoC: Zhiniang Peng (@edward | June–July 2021 — GitHub PoC re |  |  |
 | 2021 | PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services | Lionel Gilles (@topotam77) — independent researche | July 2021 — GitHub PoC release | [link](https://github.com/topotam/PetitPotam) |  |
+| 2021 | Is This My Domain Controller? A New Class of Active Directory Protocol Injection Attacks | Yaron Zinar, Marina Simakov | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-AD-Protocol-Injection.mp4) |  |
+| 2021 | Certified Pre-Owned: ESC4 — Vulnerable Certificate Template Access Control | Will Schroeder & Lee Christensen (SpecterOps) | posts.specterops.io | [link](https://posts.specterops.io/certified-pre-owned-esc4-d95910965cd2) |  |
 | 2021 | Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational | Will Schroeder (harmj0y), Lee Christensen (tifkin_ |  | [link](https://posts.specterops.io/certified-pre-owned-d95910965cd2) |  |
 | 2021 | Certified Pre-Owned: Abusing Active Directory Certificate Services | Will Schroeder (@harmj0y) + Lee Christensen (@tifk | June 2021 — SpecterOps whitepa | [link](https://posts.specterops.io/certified-pre-owned-d95910965cd2) |  |
+| 2021 | Adventures in MitM-land: Attacking Active Directory Authentication Schemes | James Forshaw | DEF CON 29 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20James%20Forshaw%20-%20Adventures%20in%20MitM-land.mp4) |  |
 | 2020 | Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptograph | Tom Tervoort (Senior Security Specialist) — Secura | September 2020 — Secura whitep | [link](https://www.secura.com/blog/zero-logon) |  |
+| 2020 | Remote Code Execution via MS-NRPC Zerologon (CVE-2020-1472) — Root Cause Analysis | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/a-different-way-of-abusing-zerologon/) |  |
 | 2020 | Evil Printer: How to Hack Windows Machines with Printer Protocols | Zhipeng Huo (@R3dF09) + Yunhai Zhang (@cloudnine_s | August 2020 — Black Hat USA 20 | [link](https://i.blackhat.com/USA-20/Wednesday/us-20-Zhu-Evil-Printer-How-To-Hack-Windows-Machines-With-Printer-Protocols.pdf) | [link](https://www.youtube.com/watch?v=jlU7tIGFmf8) |
+| 2019 | Resource-Based Constrained Delegation: Computer Object Takeover | Elad Shamir (CrowdStrike / SpecterOps) | posts.specterops.io | [link](https://posts.specterops.io/resource-based-constrained-delegation-computer-object-take-over-and-nmaps-automating-the-job-2752fa2f25f5) |  |
+| 2019 | RACE — Minimal Rights and ACE for Active Directory Dominance | Nikhil Mittal | DEF CON 27 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Nikhil%20Mittal%20-%20RACE.mp4) |  |
+| 2019 | BloodHound From Red to Blue | Mathieu Saulnier | DerbyCon 9.0 Finish Line | [link](https://www.youtube.com/watch?v=-HPhJw9K6_Y) |  |
+| 2019 | Abusing Kerberos Resource-Based Constrained Delegation without Protocol Transition | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/abusing-kerberos-resource-based-constrained-delegation/) |  |
+| 2018 | mitm6: Compromising IPv4 Networks via IPv6 | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/mitm6-compromising-ipv4-networks-via-ipv6/) |  |
 | 2018 | SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN | Lee Christensen (@tifkin_) — SpecterOps | 2018 — GitHub release; present | [link](https://github.com/leechristensen/SpoolSample) |  |
+| 2018 | So I Became a Domain Controller (DCShadow) | Benjamin Delpy, Vincent Le Toux | Black Hat USA 2018 | [link](https://www.youtube.com/watch?v=EYtw-XPml0w) |  |
 | 2018 | Rubeus | Will Schroeder (@harmj0y) — SpecterOps; co-contrib | 2018 — GitHub release (GhostPa | [link](https://github.com/GhostPack/Rubeus) |  |
+| 2018 | Extending BloodHound: Discovering New Attack Paths | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/azure-ad-connect-for-red-teamers/) |  |
+| 2017 | Return From The Underworld: The Future of Red Team Kerberos | Jim Shaver, Mitchell Hennigan | DerbyCon 7.0 Legacy | [link](https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Return%20From%20The%20Underworld%20The%20Future%20Of%20Red%20Team%20Kerberos%20Jim%20Shaver%20Mitchell%20Hennigan%20AF.mp4) |  |
+| 2017 | Kerberos Delegation, SPNs and More | Adam Chester / xpnsec (SpecterOps) | blog.xpnsec.com | [link](https://blog.xpnsec.com/kerberos-attacks-part-1/) |  |
 | 2016 | Six Degrees of Domain Admin | Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesu | August 2016 — DEF CON 24; init | [link](https://github.com/BloodHoundAD/BloodHound) |  |
+| 2016 | I Have the Power(View): Offensive Active Directory with PowerShell | Will Schroeder | Troopers 2016 | [link](https://infocon.org/cons/Troopers/Troopers%2016/Troopers%2016%20-%20Will%20Schroeder%20-%20PowerView.mp4) |  |
+| 2016 | Beyond the MCSE: Active Directory for the Security Professional | Sean Metcalf | Black Hat USA 2016 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202016/Beyond-the-MCSE-Active-Directory.mp4) |  |
+| 2015 | Red vs. Blue: Modern Active Directory Attacks & Defense | Sean Metcalf | DEF CON 23 | [link](https://www.youtube.com/watch?v=rknpKIxT7NM) |  |
 | 2015 | DCSync: Replicating AD Credentials Over the Network | Benjamin Delpy (@gentilkiwi) + Vincent Le Toux — i | August 2015 — Mimikatz update; | [link](https://adsecurity.org/?p=1729) |  |
 | 2014 | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSec | 2014–2015 — ADSecurity.org blo |  | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
 | 2014 | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege | Originally discovered by researchers (credited to  | November 2014 — Microsoft Secu |  |  |

@@ -1,6 +1,6 @@
 # ipc-rpc
 
-_14 talks_
+_28 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -11,10 +11,24 @@ _14 talks_
 | 2024 | NTLM: The Last Ride | Jim Rush; Tomais Williamson | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Jim%20Rush%20Tomais%20Williamson%20-%20NTLM%20-%20The%20Last%20Ride.pdf) | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/) |
 | 2024 | Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting | Piotr Bazydło — Trend Micro Zero Day Initiative (Z | OffensiveCon 2024 | [link](https://www.offensivecon.org/speakers/2024/piotr-bazydlo.html) |  |
 | 2024 | Deep Dive into Windows Defender: Smart App Control and ETW | Tillmann Oßwald, Dr. Baptiste David | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/msxp97/) | [link](https://www.youtube.com/watch?v=EzKOWIeC-54) |
+| 2023 | Malware Design: Abusing Legacy Microsoft Transports and Session Architecture | Leron Gray | DEF CON 31 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20Leron%20Gray%20-%20Malware%20Design.mp4) |  |
+| 2023 | Lifting the Fog of War: Monitoring, Identifying and Mitigating MS-RPC Based Threats | Stiv Kupchik | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lifting%20the%20Fog%20of%20War%20-%20Monitoring%2C%20Identifying%20and%20Mitigating%20MS-RPC%20Based%20Threats.mp4) |  |
+| 2023 | Hello 1994: Abusing Windows Explorer via Component Object Model in 2023 | Jimmy Bayne | REcon 2023 | [link](https://infocon.org/cons/REcon/REcon%202023/REcon%202023%20-%20Jimmy%20Bayne%20-%20Hello%201994.mp4) |  |
 | 2020 | Sharing a Logon Session a Little Too Much | James Forshaw (@tiraniddo) — Google Project Zero | April 2020 — tiraniddo.dev blo | [link](https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html) |  |
 | 2020 | RoguePotato | Antonio Cocomazzi (@splinter_code) + Andrea Pierin | April 2020 — GitHub release; p | [link](https://github.com/antonioCoco/RoguePotato) |  |
 | 2020 | PrintSpoofer — Abusing Impersonate Privileges on Windows 10 and Server 2019 | Clément Labro (@itm4n) — independent researcher | May 2020 — itm4n.github.io blo | [link](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/) |  |
+| 2020 | A Decade After Stuxnet's Printer Vulnerability: Printing is Still the Stairway to Heaven ( | Peleg Hadar, Tomer Bar | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Hadar-A-Decade-After-Stuxnet-Printer-Vulnerability-Printing-Is-Still-The-Stairway-To-Heaven.pdf) |  |
+| 2019 | Windows Exploitation Tricks: Spoofing Named Pipe Client PID | James Forshaw (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2019/09/windows-exploitation-tricks-spoofing.html) |  |
+| 2019 | Relaying Credentials Has Never Been Easier: Bypassing the Latest NTLM Relay Mitigations | Marina Simakov, Yaron Zinar | DEF CON 27 | [link](https://www.youtube.com/watch?v=vIISsfLh4iM) |  |
 | 2019 | DCOM Research for Everyone! | James Forshaw, Google Project Zero |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |
+| 2019 | Abusing Windows COM / DCOM: Offensive Techniques and Tooling | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://outflank.nl/blog/2019/10/30/abusing-windows-com-dcom/) |  |
 | 2018 | Juicy Potato (abusing the golden privileges) | Andrea Pierini (@decoder_it) + Giuseppe Trotta (@G | October 2018 — GitHub release | [link](https://github.com/ohpe/juicy-potato) |  |
+| 2018 | How to Turn MSRPC into a Backdoor | hasherezade (Independent) | hshrzd.wordpress.com | [link](https://hshrzd.wordpress.com/2018/06/25/how-to-turn-msrpc-into-a-backdoor/) |  |
+| 2017 | Windows Operating System Archaeology | Matt Nelson, Casey Smith | Wild West Hackin' Fest 2017 | [link](https://www.youtube.com/watch?v=fo4I-EPNYE4) |  |
+| 2017 | Lateral Movement Using DCOM and a MSBuild Script | Dominic Chell (MDSec) | posts.specterops.io | [link](https://posts.specterops.io/dcom-machine-wide-throttling-cd60a7186e59) |  |
+| 2017 | Demystifying COM | Jonathan Levin | Troopers 2017 | [link](https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Demystifying%20COM.mp4) |  |
+| 2017 | Attacking Network Protocols: Windows SMB Deep Dive | James Forshaw | REcon 2017 | [link](https://infocon.org/cons/REcon/REcon%202017/REcon%202017%20-%20James%20Forshaw%20-%20SMB%20Deep%20Dive.mp4) |  |
+| 2017 | Abusing Exported Functions and Exposed DCOM Interfaces for Pass-Thru Windows Password Audi | Adam Toscher | DEF CON 25 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2025/DEF%20CON%2025%20video%20and%20slides/DEF%20CON%2025%20-%20Adam%20Toscher%20-%20Abusing-Exported-Functions.mp4) |  |
+| 2017 | Abusing DCOM with ACL Bypass for Lateral Movement | Adam Chester / xpnsec (SpecterOps) | blog.xpnsec.com | [link](https://blog.xpnsec.com/dcom-lateral-movement/) |  |
 | 2016 | Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM | Stephen Breen (@breenmachine) + Chris Mallz (@vval | September 2016 — DerbyCon VI;  | [link](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/) |  |
 | 2016 | Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012 | Stephen Breen (@breenmachine) — Foxglove Security | January 2016 — Foxglove Securi | [link](https://foxglovesecurity.com/2016/01/16/hot-potato/) |  |

@@ -1,6 +1,6 @@
 # edr-bypass
 
-_16 talks_
+_30 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@ _16 talks_
 | 2025 | Ghost Calls: Abusing Web Conferencing for Covert Command & Control | Adam Crosser | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Adam%20Crosser%20-%20Ghost%20Calls%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2024 | Unmanaged .NET Patching | Outflank team |  | [link](https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/) |  |
 | 2024 | Three Decades of Network Security Evolution | Vern Paxson, Corelight |  | [link](https://www.youtube.com/watch?v=YFThifuJbMM) |  |
+| 2024 | The Pool Party You Will Never Forget: New Process Injection Techniques Using Windows Threa | Alon Leviev | CanSecWest 2024 | [link](https://www.blackhat.com/us-23/briefings/schedule/#pool-party-you-will-never-forget-new-process-injection-techniques-using-windows-thread-pools-32547) |  |
 | 2024 | SLIP: Securing LLMs IP Using Weights Decomposition | Adam Hakim, Microsoft |  | [link](https://www.youtube.com/watch?v=CEZYfTanQFk) |  |
 | 2024 | QuickShell: Sharing is caring about an RCE attack chain on Quick Share | Or Yair (SafeBreach); Shmuel Cohen (SafeBreach) | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Or%20Yair%20Shmuel%20Cohen%20-%20QuickShell%20Sharing%20is%20caring%20about%20an%20RCE%20attack%20chain%20on%20Quick%20Share.pdf) | [link](https://www.youtube.com/watch?v=wT9gyOeN6zY) |
 | 2024 | MalGuise: A Practical Black-box Adversarial Attack Framework for Evading Learning-based Wi | Xiang Ling, Jingzheng Wu, Tianyue Luo, Yanjun Wu ( | USENIX Security 2024 |  |  |
@@ -19,4 +20,17 @@ _16 talks_
 | 2024 | HookChain: A new perspective for Bypassing EDR Solutions | Helvio Carvalho Junior | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Helvio%20Carvalho%20Junior%20-%20HookChain%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions.pdf) | [link](https://www.youtube.com/watch?v=0L6TlFYwy2U) |
 | 2024 | EDR Internals for macOS and Linux | Outflank team |  | [link](https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/) |  |
 | 2023 | Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) — Trail of | Yarden Shafir (Trail of Bits) |  | [link](https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/) |  |
+| 2023 | Defender-Pretender: When Windows Defender Updates Become a Security Risk | Tomer Bar, Omer Attias | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Defender-Pretender%20When%20Windows%20Defender%20Updates%20Become%20a%20Security%20Risk.mp4) |  |
+| 2023 | Close Encounters of the Advanced Persistent Kind: Leveraging Rootkits for Post-Exploitatio | Itamar Mizrahi, Arie Olshtein | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Close%20Encounters%20of%20the%20Advanced%20Persistent%20Kind%20Leveraging%20Rootkits%20for%20Post-Exploitation.mp4) |  |
+| 2022 | Windows Syscall Hooking with the Nt Kernel Module: A New Evasion Technique | Yarden Shafir (CrowdStrike) | CrowdStrike blog | [link](https://www.crowdstrike.com/blog/windows-syscall-hooking-nt-kernel-module/) |  |
+| 2022 | Dirty Vanity: A New Approach to Code Injection and EDR Bypass | Saar Amar (Microsoft MSRC) | MSRC Security Research / GitHu | [link](https://github.com/saaramar/DirtyVanity/blob/main/dirtyvanity_blog_post.md) |  |
+| 2022 | Blasting Event-Driven Cornucopia: WMI-Based User-Space Attacks Blind SIEMs and EDRs | Claudiu Teodorescu | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Teodorescu-Blasting-Event-Driven-Cornucopia-WMI-Based-User-Space-Attacks-Blind-SIEMs-And-EDRs.pdf) |  |
+| 2021 | Windows Defender — Demystifying and Bypassing ASR by Understanding the AV's Signatures | Gal Kristal | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-Defender-ASR-Bypass.mp4) |  |
+| 2021 | Veni, No Vidi, No Vici: Attacks on ETW Blind EDR Sensors | Claudiu Teodorescu, Igor Korkin, Andrey Golchikov | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ETW-Attacks.mp4) |  |
+| 2019 | Outflank: Unhooking the Hooks — Bypass EDR Userland Hooks | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://www.outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/) |  |
+| 2019 | Finding a Needle in an Encrypted Haystack: Leveraging Cryptography to Detect AD Attacks | Marina Simakov, Yaron Zinar | Black Hat USA 2019 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BH-USA-2019-NTLM-Detection.mp4) |  |
+| 2019 | Direct Syscalls in C — Avoiding Userland Hooks | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/) |  |
+| 2019 | Bypass Windows Exploit Guard ASR | Philip Tsukerman | DEF CON 27 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Philip%20Tsukerman%20-%20Bypass-ASR.mp4) |  |
+| 2018 | In-Memory Persistence: Terminate & Stay Resident Redux | Joe Desimone | DerbyCon 8.0 Evolution | [link](https://infocon.org/cons/DerbyCon/DerbyCon%208%202018/In-Memory-Persistence.mp4) |  |
+| 2017 | Tracing Adversaries: Detecting Attacks with ETW | Zac Brown, Microsoft Office 365 Security Team | DerbyCon 7.0 Legacy | [link](https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Tracing%20Adversaries%20Detecting%20Attacks%20with%20ETW.mp4) |  |
 | 2016 | Bypassing AMSI via .NET Reflection | Matt Graeber (@mattifestation) — SpecterOps | June 2016 — Twitter one-liner; |  |  |

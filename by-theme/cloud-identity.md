@@ -1,6 +1,6 @@
 # cloud-identity
 
-_17 talks_
+_24 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -21,3 +21,10 @@ _17 talks_
 | 2024 | Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD | Avihai Ben Yossef, Ilan Kalendarov, Elad Beber — C |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |
 | 2024 | Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves | Nestori Syynimaa, Microsoft (MYSTIC team) |  | [link](https://www.youtube.com/watch?v=wgXichA5ukY) |  |
 | 2024 | Attacking Primary Refresh Tokens using their macOS Implementation | Olaf Hartong, Dirk-jan Mollema | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/3vlccy/) | [link](https://www.youtube.com/watch?v=wFhe0-RRkFA) |
+| 2023 | Uncovering Azure's Silent Threats: A Journey into Cloud Vulnerabilities | Nitesh Surana | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Uncovering%20Azure%27s%20Silent%20Threats%20A%20Journey%20into%20Cloud%20Vulnerabilities.mp4) |  |
+| 2023 | One Drive, Double Agent: Clouded OneDrive Turns Sides | Shlomi Zarfati | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/One%20Drive%2C%20Double%20Agent%20Clouded%20OneDrive%20Turns%20Sides.mp4) |  |
+| 2022 | I Am Whoever I Say I Am: Infiltrating Identity Providers Using a 0-Click Exploit | Yaron Zinar, Marina Simakov | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Zinar-Simakov-I-Am-Whoever-I-Say-I-Am-Infiltrating-Identity-Providers.pdf) |  |
+| 2021 | Cloudy with a Chance of APT: Novel Microsoft 365 Attacks in the Wild | Steph Carruthers | Black Hat USA 2021 | [link](https://i.blackhat.com/USA-21/Thursday/us-21-Carruthers-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks.pdf) |  |
+| 2020 | My Cloud is APT's Cloud: Investigating and Defending Office 365 | Doug Bienstock, Josh Madeley | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Bienstock-Madeley-My-Cloud-Is-APTs-Cloud-Investigating-And-Defending-Office-365.pdf) |  |
+| 2019 | Impersonating Office 365 Users on Azure AD Joined Machines | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/impersonating-office-365-users-on-azure-ad-joined-machines/) |  |
+| 2018 | Attacking Azure AD Connect with Password Hash Sync | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/azure-ad-connect-for-red-teamers/) |  |

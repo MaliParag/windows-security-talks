@@ -1,4 +1,4 @@
-# defcon (38)
+# defcon (50)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -38,5 +38,17 @@
 | 2024 | kernel-exploit | Defeating magic by magic: Using ALPC security features to compromise RPC services | WangJunJie Zhang; YiSheng He | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20WangJunJie%20Zhang%20YiSheng%20He%20-%20Defeating%20magic%20by%20magic%20Using%20ALPC%20security%20features%20to%20compromise%20RPC%20services.pdf) | [link](https://www.youtube.com/watch?v=Eyl_0YxfnpQ) |
 | 2024 | malware | Defeating EDR-Evading Malware with Memory Forensics | Andrew Case; Austin Sellers; Golden Richard III; D | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Andrew%20Case%20Austin%20Sellers%20Golden%20Richard%20David%20McDonald%20Gustavo%20Moreira%20-%20Defeating%20EDR%20Evading%20Malware%20with%20Memory%20Forensics.pdf) | [link](https://www.youtube.com/watch?v=PmqvBe1LSZc) |
 | 2024 | credentials | Abusing Windows Hello Without a Severed Hand | Ceri Coburn; Dirk-jan Mollema (dirkjanm) | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ceri%20Coburn%20Dirk-jan%20Mollema%20-%20Abusing%20Windows%20Hello%20Without%20a%20Severed%20Hand.pdf) | [link](https://www.youtube.com/watch?v=mFJ-NUnFBac) |
+| 2023 | ipc-rpc | Malware Design: Abusing Legacy Microsoft Transports and Session Architecture | Leron Gray | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20Leron%20Gray%20-%20Malware%20Design.mp4) |  |
+| 2023 | forensics | ActiveMQ, Log4Shell, and the Cyber-Crime Ecosystem Targeting Windows | John Hammond | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20John%20Hammond%20-%20Ransomware.mp4) |  |
+| 2021 | exchange | Vulnerability Exchange: One Domain Account for More Than Exchange Server RCE | Tsai Chang Huang, Zhaoye Chen | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Vulnerability%20Exchange.mp4) |  |
+| 2021 | exchange | ProxyLogon is Just the Tip of the Iceberg: New Attack Surface on Microsoft Exchange | Orange Tsai (Cheng-Da Tsai) | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Orange%20Tsai%20-%20ProxyLogon.mp4) |  |
+| 2021 | kernel-exploit | Bring Your Own Print Driver Vulnerability | Jacob Baines | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20Jacob%20Baines%20-%20Bring%20Your%20Own%20Print%20Driver.mp4) |  |
+| 2021 | ad-attack | Adventures in MitM-land: Attacking Active Directory Authentication Schemes | James Forshaw | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2029/DEF%20CON%2029%20video%20and%20slides/DEF%20CON%2029%20-%20James%20Forshaw%20-%20Adventures%20in%20MitM-land.mp4) |  |
+| 2020 | kernel-exploit | Evil Printer: How to Hack Windows Machines with Printing Protocol | Chuanda Ding, Zhipeng Huo | [link](https://www.youtube.com/watch?v=be2jOZM8Whs) |  |
+| 2019 | ipc-rpc | Relaying Credentials Has Never Been Easier: Bypassing the Latest NTLM Relay Mitigations | Marina Simakov, Yaron Zinar | [link](https://www.youtube.com/watch?v=vIISsfLh4iM) |  |
+| 2019 | ad-attack | RACE — Minimal Rights and ACE for Active Directory Dominance | Nikhil Mittal | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Nikhil%20Mittal%20-%20RACE.mp4) |  |
+| 2019 | edr-bypass | Bypass Windows Exploit Guard ASR | Philip Tsukerman | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Philip%20Tsukerman%20-%20Bypass-ASR.mp4) |  |
+| 2017 | ipc-rpc | Abusing Exported Functions and Exposed DCOM Interfaces for Pass-Thru Windows Password Audi | Adam Toscher | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2025/DEF%20CON%2025%20video%20and%20slides/DEF%20CON%2025%20-%20Adam%20Toscher%20-%20Abusing-Exported-Functions.mp4) |  |
 | 2016 | ad-attack | Six Degrees of Domain Admin | Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesu | [link](https://github.com/BloodHoundAD/BloodHound) |  |
+| 2015 | ad-attack | Red vs. Blue: Modern Active Directory Attacks & Defense | Sean Metcalf | [link](https://www.youtube.com/watch?v=rknpKIxT7NM) |  |
 | 2014 | ad-attack | Attacking Kerberos: Kicking the Guard Dog of Hades | Tim Medin (@timmedin) — Red Siege Information Secu | [link](https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf) |  |

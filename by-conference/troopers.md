@@ -1,4 +1,4 @@
-# troopers (21)
+# troopers (25)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -23,3 +23,7 @@
 | 2024 | ad-attack | ADillesHeel: Making the Impossible Possible in AD Attack Path Analysis | Shang-De Jiang, Che Yu Lin, Cheng-Lin Yang | [link](https://troopers.de/troopers24/talks/uepkle/) | [link](https://www.youtube.com/watch?v=bQcTgVo3fYA) |
 | 2024 | ad-attack | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | [link](https://troopers.de/troopers24/talks/vxs8wy/) | [link](https://www.youtube.com/watch?v=iTS14FhRlVA) |
 | 2024 | kernel-exploit | 10 Years of Windows Privilege Escalation with "Potatoes" | Andrea Pierini | [link](https://troopers.de/troopers24/talks/cyzbj3/) | [link](https://www.youtube.com/watch?v=rPZx1zbKJnI) |
+| 2018 | uncategorized | All Your Cloud Are Belong to Us: Hunting Compromise in Azure | Karl Fosaaen, Spencer Dunford | [link](https://infocon.org/cons/Troopers/Troopers%2018/Troopers%2018%20-%20Fosaaen%20-%20All%20Your%20Cloud.mp4) |  |
+| 2017 | post-exploit | Ruler — Pivoting Through Exchange | Etienne Stalmans, Saif El-Sherei | [link](https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Ruler.mp4) |  |
+| 2017 | ipc-rpc | Demystifying COM | Jonathan Levin | [link](https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Demystifying%20COM.mp4) |  |
+| 2016 | ad-attack | I Have the Power(View): Offensive Active Directory with PowerShell | Will Schroeder | [link](https://infocon.org/cons/Troopers/Troopers%2016/Troopers%2016%20-%20Will%20Schroeder%20-%20PowerView.mp4) |  |
