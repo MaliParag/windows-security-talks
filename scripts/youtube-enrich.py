@@ -111,15 +111,42 @@ def jaccard(a, b):
     return len(sa & sb) / len(sa | sb)
 
 
-def title_match(talk_title, video_title, min_jaccard=0.5):
-    """Return (match: bool, score: float). Generous on overlap, strict on length."""
+def first_n_content_words(text, n=3):
+    return [w for w in words(text) if w not in NOISE_TOKENS and len(w) >= 3][:n]
+
+
+def title_match(talk_title, video_title, min_jaccard=0.5, speakers=None):
+    """Return (match: bool, score: float).
+
+    Match strategies (any of these wins):
+      1. Direct substring of the first 30 normalized chars in either direction.
+      2. The first 2-3 content words of the talk title all appear in the
+         video title (truncation-tolerant — covers "Conference - Speaker -
+         Truncated Title" YouTube titles).
+      3. Jaccard >= min_jaccard.
+      4. Speaker name appears AND Jaccard >= 0.3.
+    """
     j = jaccard(talk_title, video_title)
     ka = re.sub(r"[^a-z0-9]", "", (talk_title or "").lower())
     kb = re.sub(r"[^a-z0-9]", "", (video_title or "").lower())
-    # Direct substring containment is a strong signal too.
-    if ka and kb and (ka[:40] in kb or kb[:40] in ka):
+    # 1. Substring containment of head.
+    if ka and kb and (ka[:30] in kb or kb[:30] in ka):
         return (True, max(0.85, j))
-    return (j >= min_jaccard, j)
+    # 2. First few content words all present in video title.
+    head = first_n_content_words(talk_title, 3)
+    vt_lower = (video_title or "").lower()
+    if len(head) >= 2 and all(w in vt_lower for w in head):
+        return (True, max(0.7, j))
+    # 3. Jaccard threshold.
+    if j >= min_jaccard:
+        return (True, j)
+    # 4. Speaker present + lower Jaccard.
+    if speakers and j >= 0.3:
+        for sp in (speakers if isinstance(speakers, list) else [speakers]):
+            for word in re.findall(r"\w+", (sp or "").lower()):
+                if len(word) > 4 and word in vt_lower:
+                    return (True, max(0.6, j))
+    return (False, j)
 
 
 # ─────────── Playlist scrape ───────────
@@ -320,54 +347,103 @@ def main():
 
     # ─── Phase 2: Per-talk search for the remainder ───
     if not args.no_search:
-        print("\n=== Phase 2: per-talk YouTube search ===")
-        candidates = [t for t in talks if not already_has_youtube(t) and t.get("title")]
+        print("\n=== Phase 2: per-talk YouTube search (multi-query) ===")
+        # Skip records that don't have actual talks (Pwn2Own competition results,
+        # blog-only foundational items where the "talk" is just a blog post).
+        SKIP_VENUES = ("pwn2own",)
+        candidates = []
+        for t in talks:
+            if already_has_youtube(t):
+                continue
+            if not t.get("title"):
+                continue
+            venue = (t.get("venue") or "").lower()
+            if any(s in venue for s in SKIP_VENUES):
+                continue
+            candidates.append(t)
         if args.limit:
             candidates = candidates[: args.limit]
         print(f"  Candidates needing search: {len(candidates)}")
 
+        def build_queries(t):
+            """Try several query shapes — short/long, with/without speaker, etc."""
+            title = t.get("title", "")
+            venue = (t.get("venue") or "").split("/")[0].strip()
+            speakers = re.split(r"[,;]", t.get("speaker") or "")
+            first_speaker = re.sub(r"\([^)]*\)", "", speakers[0]).strip() if speakers else ""
+            # Title segments (often only the part before the colon survives on YouTube)
+            short_title = re.split(r"[:\u2014\u2013\-]", title)[0].strip()
+            queries = []
+            if title:
+                queries.append(f'"{title}"' + (f" {venue}" if venue else ""))
+            if short_title and short_title != title:
+                queries.append(f'"{short_title}" {first_speaker}'.strip())
+            if first_speaker and venue:
+                queries.append(f'{first_speaker} {venue} {short_title or title}'.strip())
+            if venue:
+                queries.append(f'{venue} {short_title or title}'.strip())
+            # Dedupe preserving order, drop empties
+            seen = set()
+            out = []
+            for q in queries:
+                q = q.strip()
+                if q and q not in seen:
+                    seen.add(q)
+                    out.append(q)
+            return out
+
         search_matched = 0
         for i, t in enumerate(candidates, 1):
             title = t.get("title", "")
-            # Build a strong search query: title + venue/speaker context.
-            extra = (t.get("venue") or "").split("/")[0].strip()
-            if not extra:
-                extra = (t.get("speaker") or "").split(";")[0].split(",")[0].strip()
-            query = f'"{title}" {extra}'.strip()
+            speakers = re.split(r"[,;]", t.get("speaker") or "")
+            # Try each query shape; first acceptable match wins.
+            best_overall = None
+            for query in build_queries(t):
+                cache_key = f"search:{query}"
+                if cache_key in cache:
+                    results = cache[cache_key]
+                else:
+                    results = youtube_search(query, max_results=5)
+                    cache[cache_key] = results
+                    save_cache(cache)
+                    time.sleep(0.3)
+                for vid, vtitle in results:
+                    ok, score = title_match(title, vtitle, speakers=speakers)
+                    if ok and (best_overall is None or score > best_overall[0]):
+                        best_overall = (score, vid, vtitle)
+                if best_overall and best_overall[0] >= 0.7:
+                    break  # confident enough — stop searching
 
-            cache_key = f"search:{query}"
-            if cache_key in cache:
-                results = cache[cache_key]
-            else:
-                results = youtube_search(query, max_results=5)
-                cache[cache_key] = results
-                save_cache(cache)
-                time.sleep(0.3)  # polite
+            if not best_overall:
+                continue
+            score, vid, vtitle = best_overall
 
-            if not results:
-                continue
-            # Score each result and pick the best.
-            best = None
-            for vid, vtitle in results:
-                ok, score = title_match(title, vtitle, min_jaccard=0.5)
-                if ok and (best is None or score > best[0]):
-                    best = (score, vid, vtitle)
-            if not best:
-                continue
-            # oEmbed-verify.
-            ekey = f"oembed:{best[1]}"
+            ekey = f"oembed:{vid}"
             if ekey not in cache:
-                cache[ekey] = oembed_verify(best[1])
+                cache[ekey] = oembed_verify(vid)
                 save_cache(cache)
             oembed_title = cache[ekey]
             if oembed_title is None:
                 continue
-            ok2, _ = title_match(title, oembed_title, min_jaccard=0.5)
+            ok2, _ = title_match(title, oembed_title, speakers=speakers)
             if not ok2:
                 continue
-            if maybe_add_youtube(t, best[1], best[0], add_watch_url):
+
+            # Higher-confidence gate: when score is in the 0.6-0.8 range, also
+            # require at least one speaker word to appear in the video title.
+            # This kills generic "Windows X Y Z" / explainer false-positives.
+            if score < 0.8 and speakers:
+                speaker_words = [w.lower() for sp in speakers
+                                 for w in re.findall(r"\w+", sp or "")
+                                 if len(w) > 4]
+                vt_lower = (oembed_title or "").lower()
+                if speaker_words and not any(w in vt_lower for w in speaker_words):
+                    print(f"  -reject   [{score:.2f}] {title[:55]} -> {vid}  ({oembed_title[:45]}) [no speaker match]")
+                    continue
+
+            if maybe_add_youtube(t, vid, score, add_watch_url):
                 search_matched += 1
-                print(f"  +search   [{best[0]:.2f}] {title[:55]} -> {best[1]}  ({oembed_title[:50]})")
+                print(f"  +search   [{score:.2f}] {title[:55]} -> {vid}  ({oembed_title[:55]})")
 
             if i % 25 == 0:
                 print(f"  ... {i}/{len(candidates)}, matched {search_matched} so far")

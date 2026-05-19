@@ -4,7 +4,7 @@
 
 A curated index of conference talks, blog posts, and research about Microsoft Windows security — covering the foundational pre-2024 canon plus the 2024–2026 research wave.
 
-**265 talks** across **27 themes**, with watch links on 50 entries where YouTube/media.defcon.org recordings could be verified.
+**265 talks** across **27 themes**. **215 have verified slides/paper links** and **147 have verified recordings** (183 total recording links — many talks have multiple mirrors so a single dead host doesn't kill access).
 
 The static site at the URL above supports free-text search, filters (category / year / venue / has-video), sortable columns, and embedded YouTube playback when the talk has a confirmed video.
 

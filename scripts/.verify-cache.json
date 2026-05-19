@@ -1990,5 +1990,125 @@
   "status": 200,
   "note": "",
   "checked_at": 1779200836.3809571
+ },
+ "https://www.youtube.com/watch?v=s4pqtl1kVMo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.0075712
+ },
+ "https://www.youtube.com/watch?v=3H5WORk88vQ": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.0205584
+ },
+ "https://www.youtube.com/watch?v=lwUbvUnWfpY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.043562
+ },
+ "https://www.youtube.com/watch?v=UPPdi3HHI5w": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.0544155
+ },
+ "https://www.youtube.com/watch?v=khjkik8iWfo": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.0817554
+ },
+ "https://www.youtube.com/watch?v=T7qxs-9OTjY": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.0979836
+ },
+ "https://www.youtube.com/watch?v=-Z34ya4rb8A": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.103737
+ },
+ "https://www.youtube.com/watch?v=-xFaJUZRkQM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1058133
+ },
+ "https://www.youtube.com/watch?v=LflYlvJ4vSU": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1144173
+ },
+ "https://www.youtube.com/watch?v=LHPXBSoeue4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.115512
+ },
+ "https://www.youtube.com/watch?v=3S7oBmSUxX0": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1236987
+ },
+ "https://www.youtube.com/watch?v=RgBf7P2BkJM": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1390023
+ },
+ "https://www.youtube.com/watch?v=sWV_3k-_S7Y": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.141374
+ },
+ "https://www.youtube.com/watch?v=AxNO2iA2fAg": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1420436
+ },
+ "https://www.youtube.com/watch?v=_Idk_wqvu6w": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1425238
+ },
+ "https://www.youtube.com/watch?v=_33HTQoFpjk": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1427855
+ },
+ "https://www.youtube.com/watch?v=rzfAutv6sB8": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1457708
+ },
+ "https://www.youtube.com/watch?v=GV1gyWTo7t4": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201991.1466198
+ },
+ "https://media.ccc.de/v/39c3-bitunlocker-leveraging-windows-recovery-to-extract-bitlocker-secrets": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201992.036838
+ },
+ "https://media.ccc.de/v/38c3-ace-up-the-sleeve-hacking-into-apple-s-new-usb-c-controller": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779201992.2059977
  }
 }

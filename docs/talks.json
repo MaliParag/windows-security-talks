@@ -196,7 +196,15 @@
   "year": "2025",
   "source": "academic-windows",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=-xFaJUZRkQM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=-xFaJUZRkQM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "EvilEDR: Repurposing EDR as an Offensive Tool",
@@ -375,7 +383,15 @@
   "category": "Entra ID, Azure AD, OAuth, privilege escalation, cloud identity",
   "source": "blackhat-usa",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=GV1gyWTo7t4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=GV1gyWTo7t4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "ACE Up the Sleeve",
@@ -385,7 +401,20 @@
   "category": "Active Directory, ACL/ACE abuse, Windows identity",
   "source": "blackhat-usa",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://media.ccc.de/v/38c3-ace-up-the-sleeve-hacking-into-apple-s-new-usb-c-controller",
+    "source": "media.ccc.de",
+    "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lwUbvUnWfpY",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=lwUbvUnWfpY",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Break the Wall from Bottom: Automated [Kernel Security Bypass]",
@@ -395,7 +424,15 @@
   "category": "Windows kernel, VBS/HVCI bypass, UEFI/firmware, automated exploitation",
   "source": "blackhat-usa",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=RgBf7P2BkJM",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=RgBf7P2BkJM",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "You've Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM?",
@@ -463,6 +500,11 @@
     "url": "https://www.youtube.com/watch?v=Cc6vrQSVMII",
     "source": "YouTube",
     "confidence": "VERIFIED"
+   },
+   {
+    "url": "https://media.ccc.de/v/39c3-bitunlocker-leveraging-windows-recovery-to-extract-bitlocker-secrets",
+    "source": "media.ccc.de",
+    "confidence": "HIGH"
    }
   ],
   "watch_url": "https://www.youtube.com/watch?v=Cc6vrQSVMII",
@@ -522,7 +564,15 @@
   "category": "Windows kernel exploit mitigations, CFG/CET bypass, kernel exploit development",
   "source": "blackhat-usa",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=LflYlvJ4vSU",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=LflYlvJ4vSU",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications",
@@ -532,7 +582,15 @@
   "category": "Entra ID, OAuth, Azure AD, multi-tenant applications, identity abuse",
   "source": "blackhat-usa",
   "normalized_category": "cloud-identity",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=sWV_3k-_S7Y",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=sWV_3k-_S7Y",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Training Specialist Models: Automating Malware Development",
@@ -1321,7 +1379,15 @@
   "url": "https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/",
   "source": "community",
   "normalized_category": "post-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=LHPXBSoeue4",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=LHPXBSoeue4",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Training Specialist Models: Automating Malware Development (Black Hat USA 2025)",
@@ -1580,7 +1646,15 @@
   "url": "https://connormcgarr.github.io/km-shadow-stacks/",
   "source": "community",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Windows Internals: Secure Calls — The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)",
@@ -1657,7 +1731,15 @@
   "url": "https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware",
   "source": "community",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=3S7oBmSUxX0",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=3S7oBmSUxX0",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse",
@@ -1875,10 +1957,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection%20-%20Ron%20Ben%20-%20Yizhak%2C%20David%20Shandalov.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=-Z34ya4rb8A",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/DEF%20CON%2032%20-%20SHIM%20me%20what%20you%20got%20-%20Manipulating%20Shim%20and%20Office%20for%20Code%20Injection%20-%20Ron%20Ben%20-%20Yizhak%2C%20David%20Shandalov.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=-Z34ya4rb8A",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Defeating magic by magic: Using ALPC security features to compromise RPC services",
@@ -2070,10 +2157,15 @@
     "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4",
     "source": "DEF CON MP4",
     "confidence": "HIGH"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=rzfAutv6sB8",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
    }
   ],
-  "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4",
-  "watch_confidence": "HIGH"
+  "watch_url": "https://www.youtube.com/watch?v=rzfAutv6sB8",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Can't Stop the ROP: Automating Universal ASLR Bypasses for Windows",
@@ -2669,7 +2761,15 @@
   "url": "https://troopers.de/troopers24/talks/uvefjb/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "vbs-bypass",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=s4pqtl1kVMo",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=s4pqtl1kVMo",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover",
@@ -2891,7 +2991,15 @@
   "url": "https://troopers.de/troopers25/talks/e8vz8y/",
   "source": "euro-asia-pwn2own",
   "normalized_category": "ad-attack",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=khjkik8iWfo",
+    "source": "YouTube",
+    "confidence": "HIGH"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=khjkik8iWfo",
+  "watch_confidence": "HIGH"
  },
  {
   "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
@@ -2975,15 +3083,7 @@
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "hyper-v",
-  "watch_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=NDuWcGn5hTQ",
-    "source": "YouTube",
-    "confidence": "VERIFIED"
-   }
-  ],
-  "watch_url": "https://www.youtube.com/watch?v=NDuWcGn5hTQ",
-  "watch_confidence": "VERIFIED"
+  "watch_urls": []
  },
  {
   "title": "Oracle VirtualBox guest-escape → SYSTEM on host Windows OS",
@@ -2995,15 +3095,7 @@
   "url": "https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "hyper-v",
-  "watch_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=nqzp7JKcs50",
-    "source": "YouTube",
-    "confidence": "VERIFIED"
-   }
-  ],
-  "watch_url": "https://www.youtube.com/watch?v=nqzp7JKcs50",
-  "watch_confidence": "VERIFIED"
+  "watch_urls": []
  },
  {
   "title": "Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs)",
@@ -3122,15 +3214,7 @@
   "url": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results",
   "source": "euro-asia-pwn2own",
   "normalized_category": "kernel-exploit",
-  "watch_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=AD-iXWANggo",
-    "source": "YouTube",
-    "confidence": "VERIFIED"
-   }
-  ],
-  "watch_url": "https://www.youtube.com/watch?v=AD-iXWANggo",
-  "watch_confidence": "VERIFIED"
+  "watch_urls": []
  },
  {
   "title": "Windows 11 LPE → SYSTEM (2 × UAF)",
@@ -3595,7 +3679,15 @@
   "url": "https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/",
   "source": "foundational-pre-2024",
   "normalized_category": "kernel-exploit",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=3H5WORk88vQ",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=3H5WORk88vQ",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "UACME — Defeating Windows User Account Control",
@@ -3762,7 +3854,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "ipc-rpc",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=AxNO2iA2fAg",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=AxNO2iA2fAg",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Almost Escaping the Sandbox: Attacking Windows Device Drivers",
@@ -3806,7 +3906,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=UPPdi3HHI5w",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=UPPdi3HHI5w",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "Hunting for Overlooked Cookies in Windows 11 KTM and Baking Exploits for Them",
@@ -3914,7 +4022,15 @@
   "year": "2024",
   "source": "offcon-recon",
   "normalized_category": "hyper-v",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=_Idk_wqvu6w",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=_Idk_wqvu6w",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections",
@@ -4018,7 +4134,15 @@
   "year": "2025",
   "source": "offcon-recon",
   "normalized_category": "boot-firmware",
-  "watch_urls": []
+  "watch_urls": [
+   {
+    "url": "https://www.youtube.com/watch?v=_33HTQoFpjk",
+    "source": "YouTube",
+    "confidence": "VERIFIED"
+   }
+  ],
+  "watch_url": "https://www.youtube.com/watch?v=_33HTQoFpjk",
+  "watch_confidence": "VERIFIED"
  },
  {
   "title": "NET Exploitation Workshop",
