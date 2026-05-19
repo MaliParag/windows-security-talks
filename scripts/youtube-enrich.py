@@ -119,33 +119,50 @@ def title_match(talk_title, video_title, min_jaccard=0.5, speakers=None):
     """Return (match: bool, score: float).
 
     Match strategies (any of these wins):
-      1. Direct substring of the first 30 normalized chars in either direction.
-      2. The first 2-3 content words of the talk title all appear in the
-         video title (truncation-tolerant — covers "Conference - Speaker -
-         Truncated Title" YouTube titles).
+      1. Direct substring of the first 30+ normalized chars in either
+         direction — BUT only when the shorter side is at least 25 chars
+         (otherwise a generic short video title trivially matches as a
+         prefix of any longer talk title).
+      2. The first 3 content words of the talk title all appear in the
+         video title (truncation-tolerant — covers "Conference - Speaker
+         - Truncated Title" YouTube titles). Requires speaker presence
+         to avoid matching unrelated videos that happen to share the same
+         leading words.
       3. Jaccard >= min_jaccard.
       4. Speaker name appears AND Jaccard >= 0.3.
     """
     j = jaccard(talk_title, video_title)
     ka = re.sub(r"[^a-z0-9]", "", (talk_title or "").lower())
     kb = re.sub(r"[^a-z0-9]", "", (video_title or "").lower())
-    # 1. Substring containment of head.
-    if ka and kb and (ka[:30] in kb or kb[:30] in ka):
-        return (True, max(0.85, j))
-    # 2. First few content words all present in video title.
-    head = first_n_content_words(talk_title, 3)
-    vt_lower = (video_title or "").lower()
-    if len(head) >= 2 and all(w in vt_lower for w in head):
-        return (True, max(0.7, j))
-    # 3. Jaccard threshold.
-    if j >= min_jaccard:
-        return (True, j)
-    # 4. Speaker present + lower Jaccard.
-    if speakers and j >= 0.3:
+    speaker_words = []
+    if speakers:
         for sp in (speakers if isinstance(speakers, list) else [speakers]):
             for word in re.findall(r"\w+", (sp or "").lower()):
-                if len(word) > 4 and word in vt_lower:
-                    return (True, max(0.6, j))
+                if len(word) > 4:
+                    speaker_words.append(word)
+    vt_lower = (video_title or "").lower()
+    has_speaker = any(w in vt_lower for w in speaker_words) if speaker_words else False
+
+    # 1. Substring containment — both sides must be long enough that the
+    #    overlap is meaningful (>=25 normalized chars on each side).
+    if ka and kb and min(len(ka), len(kb)) >= 25 and (ka[:30] in kb or kb[:30] in ka):
+        return (True, max(0.85, j))
+
+    # 2. First few content words all present — but require speaker word
+    #    presence to avoid generic-title false positives.
+    head = first_n_content_words(talk_title, 3)
+    if len(head) >= 2 and all(w in vt_lower for w in head):
+        if has_speaker or j >= 0.5:
+            return (True, max(0.75, j))
+
+    # 3. Plain Jaccard threshold.
+    if j >= min_jaccard:
+        return (True, j)
+
+    # 4. Speaker present + lower Jaccard.
+    if has_speaker and j >= 0.3:
+        return (True, max(0.6, j))
+
     return (False, j)
 
 

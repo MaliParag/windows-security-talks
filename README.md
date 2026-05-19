@@ -4,7 +4,9 @@
 
 A curated index of conference talks, blog posts, and research about Microsoft Windows security — covering the foundational pre-2024 canon plus the 2024–2026 research wave.
 
-**466 talks** spanning 1997-2026. **310 have verified slides/paper links** and **239 have verified recordings** (275 total recording links — many talks have multiple mirrors so a single dead host does not kill access).
+**457 talks** spanning 1997-2026. **301 have verified slides/paper links** and **215 have verified recordings** (249 total recording links — many talks have multiple mirrors so a single dead host does not kill access).
+
+Every YouTube URL is strict-audited against its talk's title + speaker via the YouTube oEmbed API; only matches where the talk title is a substring of the video title, OR the speaker name + ≥3 content words from the talk title appear in the video title, are kept. Out-of-scope records (macOS, iOS, IoT cameras, scam research that appeared at Windows-security venues) are dropped from the corpus.
 
 The static site at the URL above supports free-text search, filters (category / year / venue / has-video), sortable columns, and embedded YouTube playback when the talk has a confirmed video.
 

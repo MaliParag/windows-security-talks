@@ -154,12 +154,7 @@
   year: '2025'
   source: academic-windows
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=-xFaJUZRkQM
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=-xFaJUZRkQM
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'EvilEDR: Repurposing EDR as an Offensive Tool'
   speaker: Kotaiba Alachkar, Eduardo Barbaro, Michel van Eeten, Yury Zhauniarovich (Delft University of Technology); Dirk
     Gaastra (Independent Researcher)
@@ -305,12 +300,12 @@
   source: blackhat-usa
   normalized_category: ad-attack
   watch_urls:
-  - url: https://www.youtube.com/watch?v=lwUbvUnWfpY
-    source: YouTube
-    confidence: VERIFIED
   - url: https://media.ccc.de/v/38c3-ace-up-the-sleeve-hacking-into-apple-s-new-usb-c-controller
     source: media.ccc.de
     confidence: HIGH
+  - url: https://www.youtube.com/watch?v=lwUbvUnWfpY
+    source: YouTube
+    confidence: VERIFIED
   watch_url: https://www.youtube.com/watch?v=lwUbvUnWfpY
   watch_confidence: VERIFIED
 - title: 'Break the Wall from Bottom: Automated [Kernel Security Bypass]'
@@ -368,12 +363,12 @@
   - url: https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4
     source: DEF CON MP4
     confidence: HIGH
-  - url: https://www.youtube.com/watch?v=2CJl6mTtgws
-    source: YouTube
-    confidence: VERIFIED
   - url: https://media.ccc.de/v/39c3-bitunlocker-leveraging-windows-recovery-to-extract-bitlocker-secrets
     source: media.ccc.de
     confidence: HIGH
+  - url: https://www.youtube.com/watch?v=2CJl6mTtgws
+    source: YouTube
+    confidence: VERIFIED
   watch_url: https://www.youtube.com/watch?v=2CJl6mTtgws
   watch_confidence: VERIFIED
 - title: Advanced AD to Entra ID Lateral Movement Techniques
@@ -449,50 +444,6 @@
     confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=w6SAqT4ZQik
   watch_confidence: HIGH
-- title: BlueHat 2024 Day 2 Keynote
-  speaker: Amanda Silver, CVP Microsoft Developer Division
-  theme: Microsoft's CVP outlines how the Secure Future Initiative is reshaping developer tools and security-first engineering
-    culture
-  category: Developer Security / Keynote
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=KOUaJIX9JEY
-    source: YouTube
-    confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=KOUaJIX9JEY
-  watch_confidence: HIGH
-- title: World of Scams
-  speaker: Amit Tambe, F-Secure
-  theme: Introduces a MITRE ATT&CK-inspired "Scam Tactics & Techniques Framework" covering 8 tactics and 31 techniques across
-    the full scam kill chain
-  category: Consumer Security / Fraud
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=_3YJuk_MUpI
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=_3YJuk_MUpI
-  watch_confidence: VERIFIED
-- title: Creating a Developer-Friendly Security Tool
-  speaker: Susan Krkasharian, Microsoft
-  theme: Demonstrates a security tool designed to reduce friction for developers embedding security checks into their workflows
-  category: Developer Security / Tooling
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=qLrbP1po6gs
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=qLrbP1po6gs
-  watch_confidence: VERIFIED
 - title: My Best Frenemy
   speaker: Svetlana Gaivoronski + David B. Cross, Oracle
   theme: Explores the dual role of cloud identity and trust mechanisms as both enabling technology and primary attack surface
@@ -522,30 +473,6 @@
     confidence: VERIFIED
   watch_url: https://www.youtube.com/watch?v=5gt18zjFWBM
   watch_confidence: VERIFIED
-- title: Entitlements on macOS and why they matter
-  speaker: Yves Younan, Cisco Talos
-  theme: Explains how macOS entitlements control sandboxed application privileges and how misconfigurations create exploitable
-    attack paths
-  category: macOS Security / Platform Hardening
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=Kl7Dop1IGko
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=Kl7Dop1IGko
-  watch_confidence: VERIFIED
-- title: Getting In Tune with an Enterprise
-  speaker: Brett Hawkins, IBM
-  theme: Examines how attackers can exploit or researchers can audit Microsoft Intune MDM deployments to gain enterprise access
-  category: Enterprise Security / MDM
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls: []
 - title: 'AI''s got Muffins: the RAG-a-muffins!!!'
   speaker: Vivek Vinod Sharma, Microsoft
   theme: Explores security considerations for Retrieval-Augmented Generation (RAG) architectures in enterprise AI deployments
@@ -583,12 +510,7 @@
   source: bluehat
   year: '2020'
   normalized_category: ai-security
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=Fh5HJsjeEtA
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=Fh5HJsjeEtA
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Firmware Security: Middle Child of Security'
   speaker: Nithin Sade, Google
   theme: Argues that firmware occupies a critical but neglected layer between hardware and software and outlines why it needs
@@ -722,41 +644,6 @@
     confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=-3jxVIFGuQw
   watch_confidence: HIGH
-- title: How Microsoft is Scaling DAST
-  speaker: Jason Geffner, Microsoft
-  theme: Presents Microsoft's innovative agents-based approach to auto-discovering API endpoints and transparently bypassing
-    auth for DAST scanning at enterprise scale inside Azure
-  category: AppSec / DAST
-  url: https://www.youtube.com/watch?v=kfuOzDwv874
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls: []
-- title: 'When the Levee Breaks: Exposing Critical Flaws in Wi-Fi Camera Ecosystems'
-  speaker: Mark Mager (Sr. Manager, Security Research) + Eric Forte, Elastic
-  theme: Reveals critical hardware and software vulnerabilities in millions of Wi-Fi cameras using the insecure PPPP P2P protocol,
-    enabling unauthenticated arbitrary access to devices from two vendors
-  category: IoT Security / Vulnerability Research
-  url: https://www.youtube.com/watch?v=FRW7g_SHC8Q
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls: []
-- title: Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day
-  speaker: Christine Fossaceca, Microsoft + Bill Marczak, Citizen Lab
-  theme: Microsoft and Citizen Lab jointly reconstruct the QuaDream/KingsPawn spyware's iOS zero-click exploit (ENDOFDAYS),
-    demonstrating how backdated iCalendar invites exploited XML parsing to deliver a no-interaction implant
-  category: Mobile Security / Spyware / 0-day
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=Uij5AGtIKCI
-    source: YouTube
-    confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=Uij5AGtIKCI
-  watch_confidence: HIGH
 - title: 'Patterns in the Shadows: Scaling Threat Hunting & Intel for Modern Adversaries'
   speaker: Mark Parsons + Colin Cowie, Sophos
   theme: Presents a methodology and tooling for scaling threat hunting operations against sophisticated modern adversaries
@@ -771,21 +658,6 @@
     source: YouTube
     confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=n7GVxDxwOUc
-  watch_confidence: HIGH
-- title: Scaling AppSec with an SDL for Citizen Development
-  speaker: Michael Bargury, Zenity/OWASP + Don Willits, Microsoft
-  theme: Describes how Microsoft built and deployed an SDL for low-code/no-code citizen developers in Power Platform, remediating
-    50,000 vulnerabilities in the first 3 months of 2024
-  category: AppSec / Low-Code Security
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
-  source: bluehat
-  year: '2024'
-  normalized_category: out-of-scope
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=0jGUiaWAU04
-    source: YouTube
-    confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=0jGUiaWAU04
   watch_confidence: HIGH
 - title: 'Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG'
   speaker: Jose Rodriguez, George Mason University
@@ -1065,12 +937,7 @@
   url: https://outflank.nl/blog/2025/07/16/async-bofs-wake-me-up-before-you-go-go/
   source: community
   normalized_category: post-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=LHPXBSoeue4
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=LHPXBSoeue4
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Training Specialist Models: Automating Malware Development (Black Hat USA 2025)'
   speaker: Outflank team
   year: '2025'
@@ -1448,11 +1315,8 @@
   - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
     source: DEF CON archive
     confidence: MED
-  - url: https://www.youtube.com/watch?v=mKRS5Iyy7Qo
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=mKRS5Iyy7Qo
-  watch_confidence: VERIFIED
+  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+  watch_confidence: MED
 - title: 'HookChain: A new perspective for Bypassing EDR Solutions'
   speaker: Helvio Carvalho Junior
   venue: DEF CON 32
@@ -2171,10 +2035,10 @@
   source: euro-asia-pwn2own
   normalized_category: vbs-bypass
   watch_urls:
-  - url: https://www.youtube.com/watch?v=s4pqtl1kVMo
+  - url: https://www.youtube.com/watch?v=1Sg_bbfp2o4
     source: YouTube
     confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=s4pqtl1kVMo
+  watch_url: https://www.youtube.com/watch?v=1Sg_bbfp2o4
   watch_confidence: VERIFIED
 - title: 'Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover'
   speaker: Nick Powers
@@ -2365,14 +2229,11 @@
   source: euro-asia-pwn2own
   normalized_category: ad-attack
   watch_urls:
-  - url: https://www.youtube.com/watch?v=UZPrE-sY4Ok
-    source: YouTube
-    confidence: VERIFIED
   - url: https://www.youtube.com/watch?v=khjkik8iWfo
     source: YouTube
     confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=UZPrE-sY4Ok
-  watch_confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=khjkik8iWfo
+  watch_confidence: HIGH
 - title: 'TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws'
   speaker: Not listed on archive page
   year: '2024'
@@ -2979,13 +2840,13 @@
     ALPC, COM, named pipes — and how this trust can be abused to redirect privileged operations through user-controlled objects
   category: kernel-exploit / ipc-rpc
   url: https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw
-  watch_url: https://www.youtube.com/watch?v=eF-nJnPycXs
   source: foundational-pre-2024
   normalized_category: kernel-exploit
   watch_urls:
   - url: https://www.youtube.com/watch?v=eF-nJnPycXs
     source: YouTube
     confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=eF-nJnPycXs
   watch_confidence: VERIFIED
 - title: Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights
   speaker: 'Multiple: Team Fluoroacetate (Amat Cama / Richard Zhu, Hyper-V guest→host 2019); Bruno Keith + Niklas Baumstark
@@ -3040,7 +2901,12 @@
   url: https://adsecurity.org
   source: foundational-pre-2024
   normalized_category: ad-attack
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=-5jWcZ2UNMk
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=-5jWcZ2UNMk
+  watch_confidence: VERIFIED
 - title: Bypassing AMSI via .NET Reflection
   speaker: Matt Graeber (@mattifestation) — SpecterOps
   year: '2016'
@@ -3569,12 +3435,7 @@
   url: https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/EDR%20%3D%20Erase%20Data%20Remotely%2C%20By%20Cooking%20An%20Unforgettable%20%28Byte%29%20Signature%20Dish.mp4
   source: historical-defcon-blackhat
   normalized_category: byovd
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=tSKNC2xEd1Y
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=tSKNC2xEd1Y
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'From Dead Data to Digestion: Extracting Windows Fibers for Digital Forensics'
   speaker: Andreas Marth
   year: '2023'
@@ -3695,12 +3556,7 @@
   url: https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/All%20You%20Need%20is%20Guest.mp4
   source: historical-defcon-blackhat
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=dmbRpwP5L9s
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=dmbRpwP5L9s
-  watch_confidence: VERIFIED
+  watch_urls: []
 - venue: Status
   title: GAPS, UNCERTAINTIES, AND NOTES
   source: historical-defcon-blackhat
@@ -3874,12 +3730,7 @@
   year: '2024'
   source: offcon-recon
   normalized_category: hyper-v
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=_Idk_wqvu6w
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=_Idk_wqvu6w
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections'
   speaker: Andrei Lutas — Bitdefender
   venue: Recon 2025
@@ -3966,12 +3817,7 @@
   year: '2025'
   source: offcon-recon
   normalized_category: boot-firmware
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=_33HTQoFpjk
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=_33HTQoFpjk
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: NET Exploitation Workshop
   speaker: Sina Kheirkhah — Independent (Pwn2Own "Master of Pwn" 2025)
   venue: Recon 2025
@@ -4399,12 +4245,7 @@
   url: https://www.youtube.com/watch?v=be2jOZM8Whs
   source: regional-vendor-conferences
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=v1XgDR94hvo
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=v1XgDR94hvo
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Adventures in MitM-land: Attacking Active Directory Authentication Schemes'
   speaker: James Forshaw
   year: '2021'
@@ -4459,12 +4300,7 @@
   url: https://www.youtube.com/watch?v=EYtw-XPml0w
   source: regional-vendor-conferences
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=EcLSz2x4Q4c
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=EcLSz2x4Q4c
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: Hardening Hyper-V through Offensive Security Research
   speaker: Jordan Rabet
   year: '2018'
@@ -4599,12 +4435,7 @@
   url: null
   source: regional-vendor-conferences
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=4PKjOWnPb6Q
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=4PKjOWnPb6Q
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Cutting Edge: Microsoft Browser Security — From People Who Owned It'
   speaker: Ivan Fratric
   year: '2018'
@@ -4795,12 +4626,7 @@
   url: null
   source: regional-vendor-conferences
   normalized_category: ipc-rpc
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=UWOTrd_Ovos
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=UWOTrd_Ovos
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'All Your Cloud Are Belong to Us: Hunting Compromise in Azure'
   speaker: Karl Fosaaen, Spencer Dunford
   year: '2018'
@@ -5022,12 +4848,7 @@
   url: null
   source: regional-vendor-conferences
   normalized_category: ipc-rpc
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=fysTpjwSCiI
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=fysTpjwSCiI
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: Bypass Windows Exploit Guard ASR
   speaker: Philip Tsukerman
   year: '2019'
@@ -5077,12 +4898,7 @@
   url: null
   source: regional-vendor-conferences
   normalized_category: credentials
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=uOemcVMhj88
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=uOemcVMhj88
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: Abusing Active Directory Certificate Services — Part II
   speaker: Jonas Bülow Knudsen
   year: '2022'
@@ -5293,12 +5109,7 @@
   url: null
   source: researcher-blog-deepdives
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=AD-iXWANggo
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=AD-iXWANggo
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: Exploiting CVE-2015-2387 - OpenType Font Driver Use-After-Free
   speaker: Mateusz Jurczyk (Google Project Zero)
   year: '2015'
@@ -5552,12 +5363,7 @@
   url: https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab
   source: researcher-blog-deepdives
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=6IyG_DA_0Vg
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=6IyG_DA_0Vg
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Resource-Based Constrained Delegation: Computer Object Takeover'
   speaker: Elad Shamir (CrowdStrike / SpecterOps)
   year: '2019'
@@ -5695,12 +5501,7 @@
   url: null
   source: researcher-blog-deepdives
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=gMHTfP-xFig
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=gMHTfP-xFig
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Certified Pre-Owned: ESC4 — Vulnerable Certificate Template Access Control'
   speaker: Will Schroeder & Lee Christensen (SpecterOps)
   year: '2021'
@@ -5720,12 +5521,7 @@
   url: https://itm4n.github.io/bypassing-lsa-protection-userland/
   source: researcher-blog-deepdives
   normalized_category: kernel-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=w2_KqnhgN94
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=w2_KqnhgN94
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: 'Windows AppLocker Bypass: Exploiting InstallUtil'
   speaker: Casey Smith / Subvert.es (referenced across SpecterOps / Outflank)
   year: '2016'
@@ -5956,12 +5752,7 @@
   url: https://dirkjanm.io/a-different-way-of-abusing-zerologon/
   source: researcher-blog-deepdives
   normalized_category: ad-attack
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=aa6s6MM6-so
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=aa6s6MM6-so
-  watch_confidence: VERIFIED
+  watch_urls: []
 - title: Playing with Windows Service Permissions for Persistence
   speaker: itm4n / Clément Labro (Independent)
   year: '2019'
@@ -5982,12 +5773,7 @@
   url: null
   source: researcher-blog-deepdives
   normalized_category: post-exploit
-  watch_urls:
-  - url: https://www.youtube.com/watch?v=PC_iMqiuIRQ
-    source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=PC_iMqiuIRQ
-  watch_confidence: VERIFIED
+  watch_urls: []
 - category: Count
   title: Topic Category Distribution
   source: researcher-blog-deepdives
