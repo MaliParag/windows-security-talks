@@ -1,4 +1,4 @@
-# All Talks (513 total)
+# All Talks (512 total)
 
 _50 with watch links · 30 theme buckets_
 
@@ -36,7 +36,6 @@ _50 with watch links · 30 theme buckets_
 | 2025 | vbs-bypass | Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windo | Connor McGarr |  | [link](https://connormcgarr.github.io/arm64-windows-internals-basics/) |  |
 | 2025 | vbs-bypass | Abusing VBS Enclaves to Create Evasive Malware | Ori David, Akamai |  | [link](https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware) |  |
 | 2025 | vbs-bypass | Virtualization Based (In)Security | Ori David (Akamai) | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
-| 2025 | uncategorized | A. URL fixes for existing orphans |  | orphan-finder agent find-blog- |  |  |
 | 2025 | supply-chain | 7 Vulns in 7 Days: Breaking Bloatware Faster Than It's Built | Leon "leonjza" Jacobs | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Leon%20Jacobs%20-%207%20Vulns%20in%207%20Days%20Breaking%20Bloatware%20Faster%20Than%20It%E2%80%99s%20Built.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | post-exploit | Sheep's Clothing, Wolf's Data: Detecting Server-Induced Client Vulnerabilities in Windows  | Fangming Gu, Qingli Guo, Qinghe Xie, Beibei Zhao,  | NDSS 2025 | [link](https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/) |  |
 | 2025 | post-exploit | EvilEDR: Repurposing EDR as an Offensive Tool | Kotaiba Alachkar, Eduardo Barbaro, Michel van Eete | USENIX Security 2025 | [link](https://www.usenix.org/system/files/usenixsecurity25-alachkar.pdf) |  |

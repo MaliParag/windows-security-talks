@@ -1,10 +1,9 @@
 # uncategorized
 
-_25 talks_
+_24 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
-| 2025 | A. URL fixes for existing orphans |  | orphan-finder agent find-blog- |  |  |
 | 2024 | The End of PPLdump | itm4n (Clément Labro) | itm4n.github.io | [link](https://itm4n.github.io/the-end-of-ppldump/) |  |
 | 2024 | Ghost in the PPL Part 3 | itm4n (Clément Labro) | itm4n.github.io | [link](https://itm4n.github.io/ghost-in-the-ppl-part-3/) |  |
 | 2024 | Ghost in the PPL Part 2 | itm4n (Clément Labro) | itm4n.github.io | [link](https://itm4n.github.io/ghost-in-the-ppl-part-2/) |  |
