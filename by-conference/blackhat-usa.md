@@ -1,16 +1,17 @@
-# blackhat-usa (98)
+# blackhat-usa (100)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
-| 2025 | credentials | Windows Hello, No! for Business | [Last name: David] (first name and affiliation unv |  |  |
+| 2025 | credentials | Windows Hello, No! for Business | [Last name: David] (first name and affiliation unv | [link](https://i.blackhat.com/BH-USA-25/Presentations/US-25-David-Windows-Hello-No-for-Business-Wendsday.pdf) |  |
 | 2025 | edr-bypass | Training Specialist Models: Automating Malware Development | Kyle Avery (Outflank) |  |  |
 | 2025 | boot-firmware | ShadeBIOS: Unleashing the Full Stealth of UEFI Malware | [Last name: Matsuo] (likely same or related to BH- |  |  |
-| 2025 | kernel-exploit | Out of Control: KCFG and KCET | McGarr (first name and affiliation unverified) |  |  |
-| 2025 | kernel-exploit | Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Service | [Last name: Shi] (affiliation unverified; Chinese- |  |  |
-| 2025 | cloud-identity | Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applica | Vaisha Bernard (Eye Research / Eye Security) |  |  |
-| 2025 | ad-attack | Advanced AD to Entra ID Lateral Movement Techniques | Dirk-jan Mollema (inferred from filename "Mollema" |  |  |
+| 2025 | kernel-exploit | Out of Control: KCFG and KCET | McGarr (first name and affiliation unverified) | [link](https://i.blackhat.com/BH-USA-25/Presentations/USA-25-McGarr-Out-Of-Control-KCFG-And-KCET.pdf) |  |
+| 2025 | kernel-exploit | Diving into Windows HTTP: Unveiling Hidden Preauth Vulnerabilities in Windows HTTP Service | [Last name: Shi] (affiliation unverified; Chinese- | [link](https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Shi-Diving-into-Windows-HTTP-Unveiling-Hidden-Preauth-Vulnerabilities-in-Windows-HTTP-Services.pdf) |  |
+| 2025 | cloud-identity | Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applica | Vaisha Bernard (Eye Research / Eye Security) | [link](https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Bernard-Consent-and-Compromise-Abusing-Entra.pdf) |  |
+| 2025 | ad-attack | Advanced AD to Entra ID Lateral Movement Techniques | Dirk-jan Mollema (inferred from filename "Mollema" | [link](https://i.blackhat.com/BH-USA-25/Presentations/US-25-Mollema-Advanced-AD-to-Entra-ID-lateral-movement-techniques-Wednesday.pdf) |  |
 | 2024 | boot-firmware | You've Already Been Hacked: What If There Is a Backdoor in Your UEFI OROM? | [Last name: Matsuo] (full name and affiliation unv |  |  |
 | 2024 | cloud-identity | UnOAuthorized: A Technique to Privilege Escalation to Global Administrator | Brian Woodruff (affiliation unverified) |  |  |
+| 2024 | ad-attack | MaLDAPtive: Diving Deep into LDAP Obfuscation, Deobfuscation & Detection | Will Bohannon, Daniel Bohannon | [link](https://github.com/MaLDAPtive/Invoke-Maldaptive) |  |
 | 2024 | ad-attack | MaLDAPtive: Diving Deep into LDAP | Will Bohannon (affiliation unverified — likely IBM |  |  |
 | 2024 | ai-security | Living Off Microsoft Copilot | Michael Bargury (Zenity) |  |  |
 | 2024 | vbs-bypass | Break the Wall from Bottom: Automated [Kernel Security Bypass] | [Last name: Wang] (full name and affiliation unver |  |  |
@@ -93,8 +94,9 @@
 | 2016 | vbs-bypass | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | [link](https://www.youtube.com/watch?v=_646Gmr_uo0) |  |
 | 2015 | kernel-exploit | Social Engineering the Windows Kernel: Finding and Exploiting Token Handling Vulnerabiliti | James Forshaw | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Social-Engineering-the-Windows-Kernel.mp4) |  |
 | 2015 | kernel-exploit | Social Engineering the Windows Kernel | James Forshaw (@tiraniddo) — Google Project Zero | [link](https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw) | [link](https://www.youtube.com/watch?v=QRpfvmMbDMg) |
+| 2015 | ad-attack | Red vs. Blue: Modern Active Directory Attacks, Detection, and Protection | Sean Metcalf | [link](https://www.blackhat.com/docs/us-15/materials/us-15-Metcalf-Red-Vs-Blue-Modern-Active-Directory-Attacks-Detection-And-Protection.pdf) |  |
 | 2015 | vbs-bypass | Defeating Pass-the-Hash: Separation of Powers | Seth Moore, Baris Saydag | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Defeating%20Pass-the-Hash.mp4) |  |
-| 2014 | ad-attack | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSec |  | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
+| 2014 | ad-attack | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf, Benjamin Delpy | [link](https://adsecurity.org/?p=1640) | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
 | 2014 | ad-attack | Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus | Sean Metcalf (@PyroTek3) — TrimarcSecurity | [link](https://adsecurity.org) |  |
 | 2013 | kernel-exploit | Bochspwn: Identifying 0-days via system-wide memory access pattern analysis | Mateusz 'j00ru' Jurczyk + Gynvael Coldwind — Googl |  |  |
 | 2012 | kernel-exploit | Easy Local Windows Kernel Exploitation | Cesar Cerrudo | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202012/Easy-Local-Windows-Kernel-Exploitation.mp4) |  |

@@ -1,6 +1,6 @@
 # vbs-bypass
 
-_19 talks_
+_23 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -9,15 +9,19 @@ _19 talks_
 | 2025 | Secure Enclaves for Offensive Operations — Part I | Matteo Malvica (OffSec) & Cedric Van Bockhaven, Ou |  | [link](https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/) |  |
 | 2025 | Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC) | Connor McGarr |  | [link](https://connormcgarr.github.io/windows-pac-arm64/) |  |
 | 2025 | Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows | Connor McGarr |  | [link](https://connormcgarr.github.io/km-shadow-stacks/) |  |
-| 2025 | BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments | Jonas De Meulemeester, Thomas Orsi, Arthur Beckers | IEEE S&P 2025 |  |  |
+| 2025 | BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments | Jonas De Meulemeester, Thomas Orsi, Arthur Beckers | IEEE S&P 2025 | [link](https://badram.eu/badram.pdf) |  |
 | 2025 | Abusing VBS Enclaves to Create Evasive Malware | Ori David, Akamai |  | [link](https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware) |  |
 | 2024 | Windows Internals: Dissecting Secure Image Objects — Part 1 | Connor McGarr |  | [link](https://connormcgarr.github.io/secure-images/) |  |
 | 2024 | Windows Downdate: Downgrade Attacks Using Windows Updates | Alon Leviev (SafeBreach) | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Alon%20Leviev%20-%20Windows%20Downdate%20Downgrade%20Attacks%20Using%20Windows%20Updates.pdf) | [link](https://www.youtube.com/watch?v=HHmxuxQ7bE8) |
+| 2024 | Secure Image Objects — VBS Internals | Connor McGarr (CrowdStrike) | connormcgarr.github.io | [link](https://connormcgarr.github.io/secure-images/) |  |
 | 2024 | Resurrecting Stuxnet in 2024: Leveraging Emulated Read-Only Filesystems and NTFS Glitches  | Alessandro Magnosi | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/uvefjb/) |  |
 | 2024 | Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |  |
 | 2024 | Break the Wall from Bottom: Automated [Kernel Security Bypass] | [Last name: Wang] (full name and affiliation unver |  |  |  |
 | 2024 | A New Root of Trust: Changing Computing with TEE | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |  |
 | 2023 | Lost Control: Breaking Hardware-Assisted Kernel Control-Flow Integrity with Page-Oriented  | Dougall Johnson | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lost%20Control-Breaking%20Hardware-Assisted%20Kernel%20Control-Flow%20Integrity%20with%20Page-Oriented%20Programming.mp4) |  |
+| 2022 | g_CiOptions in a Virtualized World — Bypassing VBS/HVCI | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/) |  |
+| 2022 | HVCI/VBS — Welcome to the Shellcodeless Kernel Exploitation Era | Connor McGarr (CrowdStrike) | connormcgarr.github.io | [link](https://connormcgarr.github.io/hvci/) |  |
+| 2022 | Credential Guard Bypass via WDigest g_IsCredGuardEnabled Patch | itm4n (Clément Labro) | itm4n.github.io | [link](https://itm4n.github.io/credential-guard-bypass/) |  |
 | 2021 | Undetectable Windows Rootkits Using Hardware Virtualization | Alex Ionescu, Yarden Shafir | Black Hat USA 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202021/Undetectable-Windows-Rootkits.mp4) |  |
 | 2020 | Breaking VSM by Attacking SecureKernel | Saar Amar, Daniel King | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf) |  |
 | 2019 | Meltdown's Aftermath: Leveraging KVA Shadow to Bypass Security Protections | Connor McGarr | BSidesLV 2019 | [link](https://infocon.org/cons/BSidesLV/BSidesLV%202019/presentations/BSidesLV2019-Meltdowns-Aftermath.mp4) |  |

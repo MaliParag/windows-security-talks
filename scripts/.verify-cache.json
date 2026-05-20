@@ -3946,5 +3946,377 @@
   "status": 200,
   "note": "",
   "checked_at": 1779232070.1040235
+ },
+ "https://www.crowdstrike.com/en-us/blog/state-of-exploit-development-part-1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320676.9415922
+ },
+ "https://www.zerodayinitiative.com/blog/2021/4/2/pwn2own-2021-schedule-and-live-results": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320676.9655871
+ },
+ "https://connormcgarr.github.io/x64-Kernel-Shellcode-Revisited-and-SMEP-Bypass/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320676.9656
+ },
+ "https://itm4n.github.io/the-end-of-ppldump/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320676.973301
+ },
+ "https://www.youtube.com/watch?v=zvmkTzYQqVA": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320676.9851868
+ },
+ "https://itm4n.github.io/localservice-privileges/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.021342
+ },
+ "https://itm4n.github.io/debugging-protected-processes/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0249627
+ },
+ "https://connormcgarr.github.io/thread-hijacking/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0422018
+ },
+ "https://blog.xpnsec.com/constrained-language-mode-bypass/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.057873
+ },
+ "https://itm4n.github.io/fuzzing-windows-rpc-rpcview/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0683424
+ },
+ "https://itm4n.github.io/from-rpcview-to-petitpotam/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.07105
+ },
+ "https://connormcgarr.github.io/pte-overwrites/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0779026
+ },
+ "https://itm4n.github.io/ghost-in-the-ppl-part-1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0851467
+ },
+ "https://www.ndss-symposium.org/ndss-paper/linkguard-a-lightweight-state-aware-runtime-guard-against-link-following-attacks-in-windows-file-system/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.085585
+ },
+ "https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-2/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.0898778
+ },
+ "https://blog.xpnsec.com/unobfuscating-network-access-accounts/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.1070428
+ },
+ "https://itm4n.github.io/lsass-runasppl/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.1120484
+ },
+ "https://blog.xpnsec.com/total-meltdown-cve-2018-1038/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.130789
+ },
+ "https://itm4n.github.io/credential-guard-bypass/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.145052
+ },
+ "https://arxiv.org/pdf/2406.04027": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.1468587
+ },
+ "https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Bernard-Consent-and-Compromise-Abusing-Entra.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.1495728
+ },
+ "https://connormcgarr.github.io/examining-xfg/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.1541224
+ },
+ "https://github.com/odzhan/injection/tree/master/propagate": {
+  "ok": false,
+  "status": 404,
+  "note": "status 404",
+  "checked_at": 1779320677.1823146
+ },
+ "https://comsec.ethz.ch/wp-content/files/ibpb_sp25.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.186976
+ },
+ "https://blog.xpnsec.com/object-overloading/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2341685
+ },
+ "https://badram.eu/badram.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2347329
+ },
+ "https://download.vusec.net/papers/trainingsolo_sp25.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2377567
+ },
+ "https://www.crowdstrike.com/en-us/blog/state-of-exploit-development-part-2/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2428842
+ },
+ "https://blog.xpnsec.com/hiding-your-dotnet-etw/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2438753
+ },
+ "https://blog.xpnsec.com/becoming-system/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.245355
+ },
+ "https://blog.xpnsec.com/hevd-null-pointer/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2536092
+ },
+ "https://i.blackhat.com/BH-USA-25/Presentations/USA-25-McGarr-Out-Of-Control-KCFG-And-KCET.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2755654
+ },
+ "https://blog.xpnsec.com/exploring-powershell-amsi-and-logging-evasion/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2787929
+ },
+ "https://blog.xpnsec.com/exploring-mimikatz-part-2/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.280822
+ },
+ "https://i.blackhat.com/BH-USA-25/Presentations/US-25-David-Windows-Hello-No-for-Business-Wendsday.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.2865288
+ },
+ "https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.3427665
+ },
+ "https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.4121282
+ },
+ "https://www.youtube.com/watch?v=FfU_b-zLjyc": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.434887
+ },
+ "https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.457589
+ },
+ "https://www.youtube.com/watch?v=b6GUXerE9Ac": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.4618242
+ },
+ "https://github.com/MaLDAPtive/Invoke-Maldaptive": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.5208216
+ },
+ "https://github.com/GhostPack": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.522581
+ },
+ "https://connormcgarr.github.io/kuser-shared-data-changes-win-11/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.581199
+ },
+ "https://arxiv.org/pdf/2406.07278": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6167705
+ },
+ "https://i.blackhat.com/BH-USA-25/Presentations/US-25-Mollema-Advanced-AD-to-Entra-ID-lateral-movement-techniques-Wednesday.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.617655
+ },
+ "https://itm4n.github.io/cve-2020-0668-windows-service-tracing-eop/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6189396
+ },
+ "https://blog.xpnsec.com/exploring-mimikatz-part-1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6192274
+ },
+ "https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-1/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6204357
+ },
+ "https://blog.xpnsec.com/weird-ways-to-execute-dotnet/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.669953
+ },
+ "https://connormcgarr.github.io/hvci/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6840062
+ },
+ "https://itm4n.github.io/printnightmare-exploitation/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.6862803
+ },
+ "https://blog.xpnsec.com/azuread-connect-for-redteam/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.7330153
+ },
+ "https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Shi-Diving-into-Windows-HTTP-Unveiling-Hidden-Preauth-Vulnerabilities-in-Windows-HTTP-Services.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.7369528
+ },
+ "https://www.usenix.org/system/files/usenixsecurity24-ling.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.7420003
+ },
+ "https://www.usenix.org/system/files/usenixsecurity25-alachkar.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.7504714
+ },
+ "https://doi.org/10.1145/3658644.3690183": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779320677.8082983
+ },
+ "https://blog.xpnsec.com/hiding-your-dotnet-complus-etwenabled/": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.8299732
+ },
+ "https://www.blackhat.com/docs/us-15/materials/us-15-Metcalf-Red-Vs-Blue-Modern-Active-Directory-Attacks-Detection-And-Protection.pdf": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320677.8860593
+ },
+ "https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-068/pykek": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320678.0058568
+ },
+ "https://github.com/cube0x0/CVE-2021-1675": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320678.0352688
+ },
+ "https://adsecurity.org/?p=1640": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "checked_at": 1779320678.213853
+ },
+ "https://outflank.nl/blog/2023/04/25/so-you-think-you-can-block-macros/": {
+  "ok": false,
+  "status": 403,
+  "note": "HEAD=403 GET=403",
+  "checked_at": 1779320678.2454011
  }
 }

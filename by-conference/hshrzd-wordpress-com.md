@@ -8,6 +8,6 @@
 | 2018 | ipc-rpc | How to Turn MSRPC into a Backdoor | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2018/06/25/how-to-turn-msrpc-into-a-backdoor/) |  |
 | 2018 | defense-evasion | Abusing Windows NTFS Transactions for Evasion | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2018/02/02/injecting-code-into-a-pe-image-using-ntfs-transactions/) |  |
 | 2017 | defense-evasion | Process Hollowing Explained | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2017/12/18/process-doppelganging-a-new-way-to-impersonate-a-process/) |  |
-| 2017 | defense-evasion | Process Doppelgänging — a New Way to Impersonate a Process | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2017/12/18/process-doppelganging-a-new-way-to-impersonate-a-process/) |  |
+| 2017 | uncategorized | Process Doppelgänging: A New Way to Impersonate a Process | hasherezade (hshrzd) | [link](https://hshrzd.wordpress.com/2017/12/18/process-doppelganging-a-new-way-to-impersonate-a-process/) |  |
 | 2017 | malware | Hunting Down the Process Injection Techniques Used by Malware | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2017/01/23/hook_finder/) |  |
 | 2016 | malware | Unpacking Malware: Manual Techniques for Windows PE Unpackers | hasherezade (Independent) | [link](https://hshrzd.wordpress.com/2016/09/28/peunpacker/) |  |

@@ -19,4 +19,4 @@
 | 2024 | hyper-v | VMware Workstation guest-escape → SYSTEM on host Windows OS | Gwangun Jung (@pr0ln) & Junoh Lee (@bbbig12), Theo | [link](https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results) |  |
 | 2024 | hyper-v | Oracle VirtualBox guest-escape → SYSTEM on host Windows OS | Bruno PUJOS & Corentin BAYET, REverse Tactics | [link](https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results) |  |
 | 2024 | kernel-exploit | Microsoft Edge + Google Chrome renderer RCE (double-tap, same bugs) | Manfred Paul (@_manfp) | [link](https://www.thezdi.com/blog/2024/3/20/pwn2own-vancouver-2024-day-one-results) |  |
-| 2018 | hyper-v | Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights | Multiple: Team Fluoroacetate (Amat Cama / Richard  |  |  |
+| 2021 | hyper-v | Pwn2Own 2018/2019/2021 Hyper-V and Browser Escape Highlights | Amat Cama, Richard Zhu, Bruno Keith, Niklas Baumst | [link](https://www.zerodayinitiative.com/blog/2021/4/2/pwn2own-2021-schedule-and-live-results) |  |

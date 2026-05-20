@@ -1,6 +1,6 @@
 # ad-attack
 
-_74 talks_
+_75 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -15,10 +15,11 @@ _74 talks_
 | 2025 | Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Serv | Jorge de Almeida Pinto | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/e8vz8y/) |  |
 | 2025 | Breaking Boundaries: Unraveling AD Cross-Forest Attack Paths | Jonas Bülow Knudsen | 2025 / TROOPERS 25, Heidelberg |  |  |
 | 2025 | Advanced Active Directory to Entra ID lateral movement techniques | Dirk-jan Mollema (dirkjanm / Outsider Security) | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
-| 2025 | Advanced AD to Entra ID Lateral Movement Techniques | Dirk-jan Mollema (inferred from filename "Mollema" |  |  |  |
+| 2025 | Advanced AD to Entra ID Lateral Movement Techniques | Dirk-jan Mollema (inferred from filename "Mollema" | Black Hat USA 2025 | [link](https://i.blackhat.com/BH-USA-25/Presentations/US-25-Mollema-Advanced-AD-to-Entra-ID-lateral-movement-techniques-Wednesday.pdf) |  |
 | 2024 | Windows into the Past: Exploiting Legacy Crypto in Modern OS's Kerberos Implementation | Michal Shagam, Eyal Ronen (Tel Aviv University / W | USENIX Security 2024 |  |  |
 | 2024 | Misconfiguration Manager: Overlooked and Overprivileged | Duane Michael, Chris Thompson | 2024 / TROOPERS 24, Heidelberg |  | [link](https://www.youtube.com/watch?v=GhT6nPes1h0) |
 | 2024 | MaLDAPtive: LDAP Obfuscation, Deobfuscation, and Detection | Daniel Bohannon; Sabajete Elezaj | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Daniel%20Bohannon%20Sabajete%20Elezaj%20-%20MaLDAPtive%20LDAP%20Obfuscation%20Deobfuscation%20and%20Detection.pdf) | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/) |
+| 2024 | MaLDAPtive: Diving Deep into LDAP Obfuscation, Deobfuscation & Detection | Will Bohannon, Daniel Bohannon | Black Hat USA 2024 | [link](https://github.com/MaLDAPtive/Invoke-Maldaptive) |  |
 | 2024 | MaLDAPtive: Diving Deep into LDAP | Will Bohannon (affiliation unverified — likely IBM |  |  |  |
 | 2024 | Kerberos Attacks with Impacket (and related Kerberoasting/AS-REP roasting deep dives) | Antonio Cobo / Tarlogic team |  | [link](https://www.tarlogic.com/blog/) |  |
 | 2024 | Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse | Carl Sörqvist |  | [link](https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/) |  |
@@ -34,6 +35,7 @@ _74 talks_
 | 2024 | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/vxs8wy/) | [link](https://www.youtube.com/watch?v=iTS14FhRlVA) |
 | 2023 | BingBang: Hacking Bing.com (and Much More) with Azure Active Directory | Hillai Ben-Sasson | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4) |  |
 | 2023 | All You Need is Guest: Stealing Secrets with Just a Guest Account | Iain Smart, Viktor Gazdag | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/All%20You%20Need%20is%20Guest.mp4) |  |
+| 2022 | Unobfuscating SCCM Network Access Account Passwords | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/unobfuscating-network-access-accounts/) |  |
 | 2022 | The Hacker Recipes: Object-Based Kerberos Delegation Attacks | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/) |  |
 | 2022 | Shadow Credentials: Abusing Key Trust Account Mapping for Takeover (Whisker tool release) | Elad Shamir, SpecterOps |  | [link](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) |  |
 | 2022 | Shadow Credentials: Abusing Key Trust Account Mapping for Persistence | Elad Shamir (CrowdStrike / SpecterOps) | posts.specterops.io | [link](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab) |  |
@@ -44,7 +46,6 @@ _74 talks_
 | 2021 | noPAC — CVE-2021-42287 / CVE-2021-42278 (Sam-Account-Name Spoofing) | Charlie Clark (@exploitph) — SpecterOps; detailed  | November 2021 — Patch Tuesday; |  |  |
 | 2021 | Windows Exploitation Tricks: Relaying DCOM Authentication | James Forshaw (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html) |  |
 | 2021 | ReCertifying Active Directory Certificate Services | Will Schroeder, Lee Christensen | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ReCertifying-ADCS.mp4) |  |
-| 2021 | PrintNightmare (CVE-2021-1675 / CVE-2021-34527) | Original CVE-2021-1675 PoC: Zhiniang Peng (@edward | June–July 2021 — GitHub PoC re |  |  |
 | 2021 | PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services | Lionel Gilles (@topotam77) — independent researche | July 2021 — GitHub PoC release | [link](https://github.com/topotam/PetitPotam) |  |
 | 2021 | Is This My Domain Controller? A New Class of Active Directory Protocol Injection Attacks | Yaron Zinar, Marina Simakov | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-AD-Protocol-Injection.mp4) |  |
 | 2021 | Certified Pre-Owned: ESC4 — Vulnerable Certificate Template Access Control | Will Schroeder & Lee Christensen (SpecterOps) | posts.specterops.io | [link](https://posts.specterops.io/certified-pre-owned-esc4-d95910965cd2) |  |
@@ -68,13 +69,13 @@ _74 talks_
 | 2016 | Six Degrees of Domain Admin | Andrew Robbins (@_wald0), Rohan Vazarkar (@CptJesu | August 2016 — DEF CON 24; init | [link](https://github.com/BloodHoundAD/BloodHound) |  |
 | 2016 | I Have the Power(View): Offensive Active Directory with PowerShell | Will Schroeder | Troopers 2016 | [link](https://infocon.org/cons/Troopers/Troopers%2016/Troopers%2016%20-%20Will%20Schroeder%20-%20PowerView.mp4) |  |
 | 2016 | Beyond the MCSE: Active Directory for the Security Professional | Sean Metcalf | Black Hat USA 2016 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202016/Beyond-the-MCSE-Active-Directory.mp4) |  |
+| 2015 | Red vs. Blue: Modern Active Directory Attacks, Detection, and Protection | Sean Metcalf | Black Hat USA 2015 | [link](https://www.blackhat.com/docs/us-15/materials/us-15-Metcalf-Red-Vs-Blue-Modern-Active-Directory-Attacks-Detection-And-Protection.pdf) |  |
 | 2015 | Red vs. Blue: Modern Active Directory Attacks & Defense | Sean Metcalf | DEF CON 23 | [link](https://www.youtube.com/watch?v=rknpKIxT7NM) |  |
 | 2015 | DCSync: Replicating AD Credentials Over the Network | Benjamin Delpy (@gentilkiwi) + Vincent Le Toux — i | August 2015 — Mimikatz update; | [link](https://adsecurity.org/?p=1729) |  |
-| 2014 | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf (@PyroTek3) — TrimarcSecurity / ADSec | 2014–2015 — ADSecurity.org blo |  | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
-| 2014 | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege | Originally discovered by researchers (credited to  | November 2014 — Microsoft Secu |  |  |
+| 2014 | Mimikatz Golden Ticket & the Evolution of Kerberos Attacks in Active Directory | Sean Metcalf, Benjamin Delpy | ADSecurity.org / Black Hat USA | [link](https://adsecurity.org/?p=1640) | [link](https://www.youtube.com/watch?v=qlfdkf-9e0I) |
+| 2014 | MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege | Sylvain Monné, Nikhil Mittal | Microsoft Security Bulletin /  | [link](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-068/pykek) |  |
 | 2014 | Kekeo: A Kerberos Toolkit with MS14-068 Exploitation | Benjamin Delpy (@gentilkiwi) — independent researc | 2014 — GitHub release; expande | [link](https://github.com/gentilkiwi/kekeo) |  |
 | 2014 | Attacking Kerberos: Kicking the Guard Dog of Hades | Tim Medin (@timmedin) — Red Siege Information Secu | August 2014 — DEF CON 22 | [link](https://www.redsiege.com/wp-content/uploads/2020/04/20140901-kerberoasting.pdf) |  |
 | 2014 | Active Directory Security (ADSecurity.org) — Comprehensive Attack Reference Corpus | Sean Metcalf (@PyroTek3) — TrimarcSecurity | 2014–2022 — adsecurity.org blo | [link](https://adsecurity.org) |  |
-| 2012 | GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools | Will Schroeder (@harmj0y) + Matt Graeber (@mattife | PowerSploit 2012; PowerView 20 |  |  |
 | 2011 | Mimikatz: Post-Exploitation Credential Extraction and Kerberos Manipulation | Benjamin Delpy (@gentilkiwi) — independent researc | 2011 (initial release); Micros | [link](https://github.com/gentilkiwi/mimikatz) |  |
 | 1997 | The original NTLM Pass-the-Hash attack; later operationalised in the "Pass-The-Hash Toolki | Original technique: Paul Ashton (Samba project), p | 1997 — Samba mailing list; 200 | [link](https://resources.oreilly.com/examples/9780596510978/) |  |

@@ -1,6 +1,6 @@
 # cloud-identity
 
-_24 talks_
+_25 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -11,7 +11,7 @@ _24 talks_
 | 2025 | Mind the Data Voids: Hijacking Copilot Trust to Deliver C2 Instructions with Microsoft Aut | Tobias Diehl | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Tobias%20Diehl%20-%20Mind%20the%20Data%20Voids%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20Microsoft%20Authority.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U) | Yuya Chudo | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/afv8bw/) |  |
 | 2025 | Finding Entra ID Conditional Access Bypasses — the Structured Way | Dirk-jan Mollema, Fabian Bader | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/tfsfqs/) |  |
-| 2025 | Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applica | Vaisha Bernard (Eye Research / Eye Security) |  |  |  |
+| 2025 | Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applica | Vaisha Bernard (Eye Research / Eye Security) | Black Hat USA 2025 | [link](https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Bernard-Consent-and-Compromise-Abusing-Entra.pdf) |  |
 | 2025 | Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation | Priyank Nigam | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/rwhyvb/) |  |
 | 2024 | UnOAuthorized: A Technique to Privilege Escalation to Global Administrator | Brian Woodruff (affiliation unverified) |  |  |  |
 | 2024 | TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws | Not listed on archive page | 2024 / Hardwear.io USA, Santa  | [link](https://hardwear.io/usa-2024/) |  |
@@ -27,4 +27,5 @@ _24 talks_
 | 2021 | Cloudy with a Chance of APT: Novel Microsoft 365 Attacks in the Wild | Steph Carruthers | Black Hat USA 2021 | [link](https://i.blackhat.com/USA-21/Thursday/us-21-Carruthers-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks.pdf) |  |
 | 2020 | My Cloud is APT's Cloud: Investigating and Defending Office 365 | Doug Bienstock, Josh Madeley | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Bienstock-Madeley-My-Cloud-Is-APTs-Cloud-Investigating-And-Defending-Office-365.pdf) |  |
 | 2019 | Impersonating Office 365 Users on Azure AD Joined Machines | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/impersonating-office-365-users-on-azure-ad-joined-machines/) |  |
+| 2019 | Azure AD Connect for Red Teamers | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/azuread-connect-for-redteam/) |  |
 | 2018 | Attacking Azure AD Connect with Password Hash Sync | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | [link](https://dirkjanm.io/azure-ad-connect-for-red-teamers/) |  |
