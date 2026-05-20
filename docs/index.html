@@ -397,6 +397,30 @@
     display: flex; flex-wrap: wrap; gap: 14px;
   }
   .modal .modal-meta span strong { color: var(--text-soft); font-weight: 500; }
+  .modal .modal-topics {
+    margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border);
+  }
+  .modal .modal-topics-label {
+    font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); margin-bottom: 8px; font-weight: 500;
+  }
+  .modal .modal-topics-chips {
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .modal .topic-chip {
+    display: inline-flex; align-items: center;
+    padding: 4px 10px; border-radius: 999px;
+    background: rgba(88, 166, 255, 0.08);
+    color: var(--accent);
+    border: 1px solid rgba(88, 166, 255, 0.25);
+    font-size: 11.5px; font-weight: 500;
+    text-decoration: none; transition: all 0.15s ease;
+  }
+  .modal .topic-chip:hover {
+    background: rgba(88, 166, 255, 0.18);
+    border-color: rgba(88, 166, 255, 0.5);
+    transform: translateY(-1px);
+  }
   .modal-close {
     position: absolute; top: 8px; right: 8px; z-index: 10;
     width: 32px; height: 32px; border-radius: 50%;
@@ -465,6 +489,10 @@
         <option value="0">Slides only</option>
       </select>
     </div>
+    <div class="ctrl">
+      <label for="topic">Windows-Security Topic</label>
+      <select id="topic"><option value="">All topics</option></select>
+    </div>
   </div>
 
   <div class="meta-bar">
@@ -502,6 +530,7 @@ let TALKS = [];
 let FILTERED = [];
 let MODAL_OPEN = null;
 let VIEW = "grid";
+let TOPIC_INFO = {}; // slug -> {name, category, post_url}
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, attrs, ...children) => {
@@ -629,11 +658,13 @@ function applyFilters() {
   const year = $("year").value;
   const venue = $("venue").value;
   const hasWatch = $("has-watch").value;
+  const topic = $("topic").value;
 
   FILTERED = TALKS.filter(r => {
     if (cat && r.normalized_category !== cat) return false;
     if (year && (r.year || "") !== year) return false;
     if (venue && (r._venue_key || "") !== venue) return false;
+    if (topic && !(r.topics || []).includes(topic)) return false;
     const hasAnyWatch = !!(r.watch_urls && r.watch_urls.length);
     const hasYT = !!bestEmbedYT(r);
     if (hasWatch === "1" && !hasAnyWatch) return false;
@@ -663,6 +694,7 @@ function applyFilters() {
   if (year) params.set("year", year);
   if (venue) params.set("venue", venue);
   if (hasWatch) params.set("watch", hasWatch);
+  if (topic) params.set("topic", topic);
   const hash = params.toString();
   history.replaceState(null, "", hash ? "#" + hash : location.pathname);
 }
@@ -809,6 +841,27 @@ function openModal(r) {
   if (r.category && r.category !== r.normalized_category)
     meta.push(el("span", null, el("strong", null, "Raw category: "), r.category));
 
+  // Topic chips link to the MaliParag/WindowsSecurity reference site.
+  let topicsBlock = null;
+  const recTopics = (r.topics || []).filter(s => TOPIC_INFO[s]);
+  if (recTopics.length) {
+    const chips = recTopics.map(slug => {
+      const info = TOPIC_INFO[slug];
+      return el("a", {
+        class: "topic-chip",
+        href: info.post_url,
+        target: "_blank",
+        rel: "noopener",
+        title: `Read about ${info.name} on MaliParag/WindowsSecurity`,
+        onclick: (e) => e.stopPropagation(),
+      }, info.name);
+    });
+    topicsBlock = el("div", { class: "modal-topics" },
+      el("div", { class: "modal-topics-label" }, "Windows-Security topics"),
+      el("div", { class: "modal-topics-chips" }, ...chips),
+    );
+  }
+
   const modal = el("div", { class: "modal", style: { "--cat-color": color }, onclick: (e) => e.stopPropagation() },
     el("button", { class: "modal-close", "aria-label": "Close", onclick: closeModal },
       el("span", { class: "icn", html: ICONS.close })),
@@ -820,6 +873,7 @@ function openModal(r) {
       el("div", { class: "modal-venue" }, [r.venue, r.year].filter(Boolean).join(" · ")),
       r.theme ? el("div", { class: "modal-theme" }, r.theme) : null,
       actions.length ? el("div", { class: "modal-actions" }, ...actions) : null,
+      topicsBlock,
       meta.length ? el("div", { class: "modal-meta" }, ...meta.flatMap((m, i) => i ? [el("span", null, "·"), m] : [m])) : null,
     )
   );
@@ -914,14 +968,21 @@ function populateFilter(id, values) {
 function readHash() {
   if (!location.hash) return;
   const params = new URLSearchParams(location.hash.slice(1));
-  for (const [k, id] of [["q", "q"], ["cat", "cat"], ["year", "year"], ["venue", "venue"], ["watch", "has-watch"]]) {
+  for (const [k, id] of [["q", "q"], ["cat", "cat"], ["year", "year"], ["venue", "venue"], ["watch", "has-watch"], ["topic", "topic"]]) {
     if (params.has(k)) $(id).value = params.get(k);
   }
 }
 
 async function load() {
-  const r = await fetch("talks.json");
-  TALKS = await r.json();
+  const [tr, mr] = await Promise.all([
+    fetch("talks.json"),
+    fetch("topic-map.json").catch(() => null),
+  ]);
+  TALKS = await tr.json();
+  if (mr && mr.ok) {
+    const map = await mr.json();
+    TOPIC_INFO = map.topics || {};
+  }
 
   const cats = new Set(), years = new Set(), venues = new Set();
   TALKS.forEach((t, i) => {
@@ -951,14 +1012,40 @@ async function load() {
     `<span><strong>${recCount}</strong> with recordings</span>` +
     `<span title="Plays inline in the modal"><strong>${ytCount + embedMP4Count}</strong> embeddable</span>` +
     (multiCount ? `<span title="Talks with multiple recording sources"><strong>${multiCount}</strong> with mirrors</span>` : "") +
-    `<span><strong>${cats.size}</strong> themes</span>`;
+    `<span><strong>${cats.size}</strong> themes</span>` +
+    (Object.keys(TOPIC_INFO).length ? `<span title="Mapped to MaliParag/WindowsSecurity topic taxonomy"><strong>${Object.keys(TOPIC_INFO).length}</strong> WS topics</span>` : "");
 
   populateFilter("cat", Array.from(cats));
   populateFilter("year", Array.from(years).sort((a, b) => b.localeCompare(a)));
   populateFilter("venue", Array.from(venues));
 
+  // Topic dropdown grouped by category: "Identity: Credential Guard (9)"
+  const topicSel = $("topic");
+  const byCat = {};
+  for (const [slug, info] of Object.entries(TOPIC_INFO)) {
+    (byCat[info.category] ||= []).push([slug, info]);
+  }
+  const catLabels = {
+    identity: "Identity",
+    cloud_services: "Cloud Services",
+    application: "Application",
+    operating_system: "Operating System",
+    hardware: "Hardware",
+    security_foundation: "Security Foundation",
+  };
+  for (const catKey of ["identity", "cloud_services", "application", "operating_system", "hardware", "security_foundation"]) {
+    if (!byCat[catKey]) continue;
+    const group = el("optgroup", { label: catLabels[catKey] || catKey });
+    byCat[catKey].sort((a, b) => (b[1].talks?.length || 0) - (a[1].talks?.length || 0));
+    for (const [slug, info] of byCat[catKey]) {
+      const count = info.talks?.length || 0;
+      group.appendChild(el("option", { value: slug }, `${info.name} (${count})`));
+    }
+    topicSel.appendChild(group);
+  }
+
   // Wire filters.
-  for (const id of ["q", "cat", "year", "venue", "has-watch"]) {
+  for (const id of ["q", "cat", "year", "venue", "has-watch", "topic"]) {
     const e = $(id);
     e.addEventListener(id === "q" ? "input" : "change", applyFilters);
   }
@@ -974,7 +1061,7 @@ async function load() {
   $("clear-link").addEventListener("click", (e) => {
     e.preventDefault();
     $("q").value = ""; $("cat").value = ""; $("year").value = "";
-    $("venue").value = ""; $("has-watch").value = "";
+    $("venue").value = ""; $("has-watch").value = ""; $("topic").value = "";
     applyFilters();
   });
 

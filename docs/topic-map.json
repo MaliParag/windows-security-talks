@@ -1,0 +1,1550 @@
+{
+  "windows_security_base": "https://maliparag.github.io/WindowsSecurity",
+  "post_template": "https://maliparag.github.io/WindowsSecurity/post_template.html?post={slug}",
+  "topics": {
+    "applocker": {
+      "name": "AppLocker",
+      "category": "application",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=applocker",
+      "talks": [
+        {
+          "title": "Windows AppLocker Bypass: Exploiting InstallUtil",
+          "year": "2016",
+          "venue": "posts.specterops.io",
+          "speaker": "Casey Smith / Subvert.es (referenced across SpecterOps / Outflank)",
+          "url": "https://posts.specterops.io/bypassing-application-whitelisting-using-installutil-exe-3bb0571d62f0",
+          "watch_url": "",
+          "theme": "defense-evasion"
+        }
+      ]
+    },
+    "azure_ad_join": {
+      "name": "Azure AD Join / Entra Join",
+      "category": "identity",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=azure_ad_join",
+      "talks": [
+        {
+          "title": "AAD Joined Machines: The New Lateral Movement",
+          "year": "2022",
+          "venue": "Black Hat USA 2022",
+          "speaker": "Mor Rubin, Tom Doron",
+          "url": "https://i.blackhat.com/USA-22/Wednesday/us-22-Rubin-Doron-AAD-Joined-Machines-The-New-Lateral-Movement.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=ZPI2OB0g028",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Impersonating Office 365 Users on Azure AD Joined Machines",
+          "year": "2019",
+          "venue": "dirkjanm.io",
+          "speaker": "Dirk-jan Mollema (dirkjanm.io)",
+          "url": null,
+          "watch_url": "",
+          "theme": "cloud-identity"
+        }
+      ]
+    },
+    "bitlocker": {
+      "name": "BitLocker",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=bitlocker",
+      "talks": [
+        {
+          "title": "BitLocker's Little Secrets: The Undocumented FVE API",
+          "year": "2026",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/bitlocker-little-secrets-the-undocumented-fve-api/",
+          "watch_url": "",
+          "theme": "boot-firmware"
+        },
+        {
+          "title": "BitUnlocker: Leveraging Windows Recovery To Extract BitLocker Secrets",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Alon Leviev (SafeBreach); PDF metadata shows \"Author: Alex DeDonker\" (likely Microsoft co-researcher)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alon%20Leviev%20Netanel%20Ben%20Simon%20-%20BitUnlocker%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20BitUnlocker%20-%20Leveraging%20Windows%20Recovery%20to%20Extract%20BitLocker%20Secrets%20-%20Alon%20Leviev%2C%20Netanel%20Ben%20Simon.mp4",
+          "theme": "boot-firmware"
+        },
+        {
+          "title": "Where's the Money: Defeating ATM Disk Encryption",
+          "year": "2024",
+          "venue": "DEF CON 32",
+          "speaker": "Matt Burch (Optiv)",
+          "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Matt%20Burch%20-%20Where%E2%80%99s%20the%20Money%20-%20Defeating%20ATM%20Disk%20Encryption.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
+          "theme": "boot-firmware"
+        },
+        {
+          "title": "Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "certificates": {
+      "name": "Certificates",
+      "category": "security_foundation",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=certificates",
+      "talks": [
+        {
+          "title": "Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Yuya Chudo",
+          "url": "https://troopers.de/troopers25/talks/afv8bw/",
+          "watch_url": "https://www.youtube.com/watch?v=gDMqswqMH3g",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Extending AD CS Attack Surface to the Cloud with Intune Certificates",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Dirk-jan Mollema",
+          "url": "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Forest Compromise Through AMA (Authentication Mechanism Assurance) Abuse",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Carl Sörqvist",
+          "url": "https://blog.qdsecurity.se/2024/04/07/forest-compromise-through-ama-abuse/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Analyzing and Executing ADCS Attack Paths with BloodHound",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Andy Robbins, Jonas Bülow Knudsen",
+          "url": "https://troopers.de/troopers24/talks/kzymd8/",
+          "watch_url": "https://www.youtube.com/watch?v=2s6l0IkK52E",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "ADCS ESC14 Abuse Technique (Explicit Certificate Mapping / altSecurityIdentities)",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Jonas B. Knudsen, SpecterOps",
+          "url": "https://posts.specterops.io/adcs-esc14-abuse-technique-333a004dc2b9",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "ADCS ESC13 Abuse Technique",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Stephen Hinck, SpecterOps (credit to Adam Burford for discovery)",
+          "url": "https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "ADCS Attack Paths in BloodHound — Part 2 (ESC3 + Golden Certificate)",
+          "year": "2024",
+          "venue": "",
+          "speaker": "SpecterOps BloodHound Enterprise Team",
+          "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-2-ac7f925d1547",
+          "watch_url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "ADCS Attack Paths in BloodHound — Part 1 (ESC1)",
+          "year": "2024",
+          "venue": "",
+          "speaker": "SpecterOps BloodHound Enterprise Team (Jonas B. Knudsen, et al.)",
+          "url": "https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf",
+          "watch_url": "https://www.youtube.com/watch?v=o4SSFv5Gfzs",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Abusing Active Directory Certificate Services — Part II",
+          "year": "2022",
+          "venue": "Black Hat Europe 2022",
+          "speaker": "Jonas Bülow Knudsen",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "ReCertifying Active Directory Certificate Services",
+          "year": "2021",
+          "venue": "Black Hat Europe 2021",
+          "speaker": "Will Schroeder, Lee Christensen",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=Gg9rJm2GMBY",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "PetitPotam — Unauthenticated NTLM Relay Against Active Directory Certificate Services",
+          "year": "2021",
+          "venue": "July 2021 — GitHub PoC release",
+          "speaker": "Lionel Gilles (@topotam77) — independent researcher",
+          "url": "https://github.com/topotam/PetitPotam",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Certified Pre-Owned: ESC4 — Vulnerable Certificate Template Access Control",
+          "year": "2021",
+          "venue": "posts.specterops.io",
+          "speaker": "Will Schroeder & Lee Christensen (SpecterOps)",
+          "url": "https://posts.specterops.io/certified-pre-owned-esc4-d95910965cd2",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services (ESC1–ESC8 foundational whitepaper)",
+          "year": "2021",
+          "venue": "",
+          "speaker": "Will Schroeder (harmj0y), Lee Christensen (tifkin_), SpecterOps",
+          "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
+          "watch_url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Certified Pre-Owned: Abusing Active Directory Certificate Services",
+          "year": "2021",
+          "venue": "June 2021 — SpecterOps whitepaper; Black Hat USA 2021 talk",
+          "speaker": "Will Schroeder (@harmj0y) + Lee Christensen (@tifkin_) — SpecterOps",
+          "url": "https://posts.specterops.io/certified-pre-owned-d95910965cd2",
+          "watch_url": "https://www.youtube.com/watch?v=ejmAIgxFRgM",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "SharpDPAPI",
+          "year": "2018",
+          "venue": "2018 — GitHub release (GhostPack project)",
+          "speaker": "Will Schroeder (@harmj0y) — SpecterOps (port of Benjamin Delpy's Mimikatz DPAPI logic)",
+          "url": "https://github.com/GhostPack/SharpDPAPI",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
+          "title": "GhostPack (formerly PowerSploit/PowerView): Offensive .NET Security Tools",
+          "year": "2018",
+          "venue": "SpecterOps / GitHub",
+          "speaker": "Will Schroeder, Matt Graeber",
+          "url": "https://github.com/GhostPack",
+          "watch_url": "",
+          "theme": "uncategorized"
+        },
+        {
+          "title": "Kekeo: A Kerberos Toolkit with MS14-068 Exploitation",
+          "year": "2014",
+          "venue": "2014 — GitHub release; expanded 2015–2018",
+          "speaker": "Benjamin Delpy (@gentilkiwi) — independent researcher",
+          "url": "https://github.com/gentilkiwi/kekeo",
+          "watch_url": "",
+          "theme": "ad-attack"
+        }
+      ]
+    },
+    "code_signing_and_integrity": {
+      "name": "Code Signing & Integrity",
+      "category": "application",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=code_signing_and_integrity",
+      "talks": [
+        {
+          "title": "Understanding the Status and Strategies of the Code Signing Abuse Ecosystem",
+          "year": "2026",
+          "venue": "NDSS 2026",
+          "speaker": "Hanqing Zhao, Yiming Zhang, Baojun Liu, Haixin Duan, Zi-Quan You (Tsinghua University); Lingyun Ying, Shuhao Zhang (QI-ANXIN Technology Research Institute); Mingming Zhang (Zhongguancun Laboratory)",
+          "url": "",
+          "watch_url": "https://www.youtube.com/watch?v=ih0XF-kXAN0",
+          "theme": "code-integrity"
+        },
+        {
+          "title": "Deep Dive into Windows Defender: Smart App Control and ETW",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Tillmann Oßwald, Dr. Baptiste David",
+          "url": "https://troopers.de/troopers24/talks/msxp97/",
+          "watch_url": "https://www.youtube.com/watch?v=EzKOWIeC-54",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Bypassing Driver Signature Enforcement: CI.DLL Internals",
+          "year": "2013",
+          "venue": "Alex Ionescu blog",
+          "speaker": "Alex Ionescu (Winsider Seminars)",
+          "url": null,
+          "watch_url": "",
+          "theme": "boot-firmware"
+        }
+      ]
+    },
+    "credential_guard": {
+      "name": "Credential Guard",
+      "category": "identity",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=credential_guard",
+      "talks": [
+        {
+          "title": "Virtualization Based (In)Security",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Ori David (Akamai)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Ghost in the PPL Part 3: LSASS Memory Dump",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-3/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-2/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "A New Root of Trust: Changing Computing with TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=pzWaXD5zklI",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Credential Guard Bypass via WDigest g_IsCredGuardEnabled Patch",
+          "year": "2022",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/credential-guard-bypass/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "LSASS RunAsPPL — Introduction to LSA Protection",
+          "year": "2021",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/lsass-runasppl/",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
+          "title": "Bypassing LSA Protection (RunAsPPL) with Kernel Exploit",
+          "year": "2021",
+          "venue": "itm4n.github.io",
+          "speaker": "Clément Labro / itm4n (Independent)",
+          "url": "https://itm4n.github.io/bypassing-lsa-protection-userland/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Exploring Mimikatz Part 1 — WDigest",
+          "year": "2019",
+          "venue": "blog.xpnsec.com",
+          "speaker": "Adam Chester (xpnsec)",
+          "url": "https://blog.xpnsec.com/exploring-mimikatz-part-1/",
+          "watch_url": "",
+          "theme": "credentials"
+        }
+      ]
+    },
+    "cryptography": {
+      "name": "Cryptography",
+      "category": "security_foundation",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=cryptography",
+      "talks": [
+        {
+          "title": "Tales From The Crypt: Bug Hunting in the Windows CryptoAPI",
+          "year": "2024",
+          "venue": "Recon 2024",
+          "speaker": "Erik Egsgard — Field Effect",
+          "url": "https://recon.cx/2024/sessions.html",
+          "watch_url": "https://www.youtube.com/watch?v=tT5A1I_7FYM",
+          "theme": "fuzzing"
+        },
+        {
+          "title": "Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography",
+          "year": "2020",
+          "venue": "September 2020 — Secura whitepaper; CVE patched August 2020 Patch Tuesday",
+          "speaker": "Tom Tervoort (Senior Security Specialist) — Secura (Bureau Veritas Cybersecurity)",
+          "url": "https://www.secura.com/blog/zero-logon",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Finding a Needle in an Encrypted Haystack: Leveraging Cryptography to Detect AD Attacks",
+          "year": "2019",
+          "venue": "Black Hat USA 2019",
+          "speaker": "Marina Simakov, Yaron Zinar",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=2L7JpcLZ05Q",
+          "theme": "edr-bypass"
+        }
+      ]
+    },
+    "device_health_attestation": {
+      "name": "Device Health Attestation",
+      "category": "hardware",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=device_health_attestation",
+      "talks": [
+        {
+          "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+          "theme": "cloud-identity"
+        }
+      ]
+    },
+    "domain_name_system_dns_security": {
+      "name": "DNS Security",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=domain_name_system_dns_security",
+      "talks": [
+        {
+          "title": "The PrintNightmare is Not Over Yet — Point and Print Bypass via DNS Spoofing",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/printnightmare-not-over/",
+          "watch_url": "",
+          "theme": "post-exploit"
+        }
+      ]
+    },
+    "exploit_protection": {
+      "name": "Exploit Protection",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=exploit_protection",
+      "talks": [
+        {
+          "title": "Out of Control: KCFG and KCET",
+          "year": "2025",
+          "venue": "Black Hat USA 2025",
+          "speaker": "McGarr (first name and affiliation unverified)",
+          "url": "https://i.blackhat.com/BH-USA-25/Presentations/USA-25-McGarr-Out-Of-Control-KCFG-And-KCET.pdf",
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/km-shadow-stacks/",
+          "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Techniques for Creating Process Injection Attacks with Advanced Return-Oriented Programming",
+          "year": "2024",
+          "venue": "DEF CON 32",
+          "speaker": "Bramwell Brizendine; Shiva Shashank Kusuma",
+          "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Bramwell%20Brizendine%20Shiva%20Shashank%20Kusuma%20-%20Techniques%20for%20Creating%20Process%20Injection%20Attacks%20with%20Advanced%20Return-Oriented%20Programming.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Dirty Vanity: A New Approach to Code Injection and EDR Bypass",
+          "year": "2022",
+          "venue": "MSRC Security Research / GitHub (GitHub blog equivalent)",
+          "speaker": "Saar Amar (Microsoft MSRC)",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=Fpb4eL3vMgk",
+          "theme": "edr-bypass"
+        },
+        {
+          "title": "CFG Is Not CFI: A Look at Control Flow Guard Internals",
+          "year": "2021",
+          "venue": "windows-internals.com / CrowdStrike blog",
+          "speaker": "Yarden Shafir (CrowdStrike)",
+          "url": null,
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Examining XFG (Extended Flow Guard)",
+          "year": "2020",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/examining-xfg/",
+          "watch_url": "",
+          "theme": "uncategorized"
+        }
+      ]
+    },
+    "hardware_enforced_stack_protection": {
+      "name": "Hardware-Enforced Stack Protection",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=hardware_enforced_stack_protection",
+      "talks": [
+        {
+          "title": "Kernel Mode Shadow Stacks",
+          "year": "2025",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/km-shadow-stacks/",
+          "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/km-shadow-stacks/",
+          "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)",
+          "year": "2020",
+          "venue": "",
+          "speaker": "Yarden Shafir & Alex Ionescu",
+          "url": "https://windows-internals.com/cet-on-windows/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        }
+      ]
+    },
+    "hypervisor_protected_code_integrity_hvci": {
+      "name": "HVCI",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=hypervisor_protected_code_integrity_hvci",
+      "talks": [
+        {
+          "title": "Virtualization Based (In)Security",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Ori David (Akamai)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Exploit Development: Unveiling Windows ARM64 Pointer Authentication (PAC)",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/windows-pac-arm64/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/km-shadow-stacks/",
+          "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Windows Internals: Dissecting Secure Image Objects — Part 1",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/secure-images/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Resurrecting Stuxnet in 2024: Leveraging Emulated Read-Only Filesystems and NTFS Glitches for Infection and Persistence",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Alessandro Magnosi",
+          "url": "https://troopers.de/troopers24/talks/uvefjb/",
+          "watch_url": "https://www.youtube.com/watch?v=1Sg_bbfp2o4",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "g_CiOptions in a Virtualized World — Bypassing VBS/HVCI",
+          "year": "2022",
+          "venue": "blog.xpnsec.com",
+          "speaker": "Adam Chester (xpnsec)",
+          "url": "https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "HVCI/VBS — Welcome to the Shellcodeless Kernel Exploitation Era",
+          "year": "2022",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/hvci/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "microsoft_account": {
+      "name": "Microsoft Account (MSA)",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_account",
+      "talks": [
+        {
+          "title": "Demystifying Managed Service Accounts: Best Practices, Security Measures, and Windows Server 2025 dMSAs",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Jorge de Almeida Pinto",
+          "url": "https://troopers.de/troopers25/talks/e8vz8y/",
+          "watch_url": "https://www.youtube.com/watch?v=UZPrE-sY4Ok",
+          "theme": "ad-attack"
+        }
+      ]
+    },
+    "microsoft_defender_antivirus": {
+      "name": "Defender Antivirus",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_defender_antivirus",
+      "talks": [
+        {
+          "title": "Evading Modern Defenses When Phishing with Pixels",
+          "year": "2024",
+          "venue": "DEF CON 32",
+          "speaker": "Melvin Langvik",
+          "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Vilage%20-%20Melvin%20Langvik%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Adversary%20Village%20-%20Evading%20Modern%20Defenses%20When%20Phishing%20with%20Pixels%20-%20Melvin%20Langvik.mp4",
+          "theme": "defense-evasion"
+        },
+        {
+          "title": "Deep Dive into Windows Defender: Smart App Control and ETW",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Tillmann Oßwald, Dr. Baptiste David",
+          "url": "https://troopers.de/troopers24/talks/msxp97/",
+          "watch_url": "https://www.youtube.com/watch?v=EzKOWIeC-54",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Defender-Pretender: When Windows Defender Updates Become a Security Risk",
+          "year": "2023",
+          "venue": "Black Hat USA 2023",
+          "speaker": "Tomer Bar, Omer Attias",
+          "url": "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Defender-Pretender%20When%20Windows%20Defender%20Updates%20Become%20a%20Security%20Risk.mp4",
+          "watch_url": "https://www.youtube.com/watch?v=LQ7ZQXs-uC0",
+          "theme": "edr-bypass"
+        },
+        {
+          "title": "Windows Defender — Demystifying and Bypassing ASR by Understanding the AV's Signatures",
+          "year": "2021",
+          "venue": "Black Hat Europe 2021",
+          "speaker": "Gal Kristal",
+          "url": null,
+          "watch_url": "",
+          "theme": "edr-bypass"
+        },
+        {
+          "title": "How to use Windows Defender to Execute Code (Wscript)",
+          "year": "2020",
+          "venue": "modexp.wordpress.com",
+          "speaker": "odzhan / Modexp (Independent)",
+          "url": null,
+          "watch_url": "",
+          "theme": "defense-evasion"
+        },
+        {
+          "title": "Bypass Windows Exploit Guard ASR",
+          "year": "2019",
+          "venue": "DEF CON 27",
+          "speaker": "Philip Tsukerman",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=YMHsuu3qldE",
+          "theme": "edr-bypass"
+        }
+      ]
+    },
+    "microsoft_defender_for_endpoint": {
+      "name": "Defender for Endpoint",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_defender_for_endpoint",
+      "talks": [
+        {
+          "title": "Training Specialist Models: Automating Malware Development (Black Hat USA 2025)",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Outflank team",
+          "url": "https://outflank.nl/blog/2025/08/07/training-specialist-models/",
+          "watch_url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
+          "theme": "defense-evasion"
+        }
+      ]
+    },
+    "microsoft_entra_id": {
+      "name": "Microsoft Entra ID (Azure AD)",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_entra_id",
+      "talks": [
+        {
+          "title": "Restless Guest: A Novel Entra ID Vulnerability",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Simon Maxwell-Stewart",
+          "url": "https://troopers.de/troopers25/talks/yh3x7e/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "RBAC: The Shady Place Behind Basic Entra ID Security",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Martin Haller",
+          "url": "https://troopers.de/troopers25/talks/dukg9p/",
+          "watch_url": "https://www.youtube.com/watch?v=6GTmsPgIy5c",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Shang-De Jiang (\"Kazma\"); Dong-Yi Ye; Tung-Lin Lee (\"Echo\")",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241)",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Dirk-jan Mollema (dirkjanm)",
+          "url": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Finding Entra ID Conditional Access Bypasses — the Structured Way",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Dirk-jan Mollema, Fabian Bader",
+          "url": "https://troopers.de/troopers25/talks/tfsfqs/",
+          "watch_url": "https://www.youtube.com/watch?v=yYQBeDFEkps",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications",
+          "year": "2025",
+          "venue": "Black Hat USA 2025",
+          "speaker": "Vaisha Bernard (Eye Research / Eye Security)",
+          "url": "https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Bernard-Consent-and-Compromise-Abusing-Entra.pdf",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Priyank Nigam",
+          "url": "https://troopers.de/troopers25/talks/rwhyvb/",
+          "watch_url": "https://www.youtube.com/watch?v=LE03KbttoIY",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Advanced Active Directory to Entra ID lateral movement techniques",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Dirk-jan Mollema (dirkjanm / Outsider Security)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Advanced AD to Entra ID Lateral Movement Techniques",
+          "year": "2025",
+          "venue": "Black Hat USA 2025",
+          "speaker": "Dirk-jan Mollema (inferred from filename \"Mollema\" — known AD/Entra researcher at Semaphore/dirkjanm.io)",
+          "url": "https://i.blackhat.com/BH-USA-25/Presentations/US-25-Mollema-Advanced-AD-to-Entra-ID-lateral-movement-techniques-Wednesday.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=rzfAutv6sB8",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "UnOAuthorized: A Technique to Privilege Escalation to Global Administrator",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Brian Woodruff (affiliation unverified)",
+          "url": "",
+          "watch_url": "https://www.youtube.com/watch?v=GV1gyWTo7t4",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Persisting on Entra ID Applications and User Managed Identities with Federated Credentials",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Dirk-jan Mollema",
+          "url": "https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Exploiting Token-Based Authentication: Attacking and Defending Identities in the 2020s",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Dr Nestori Syynimaa",
+          "url": "https://troopers.de/troopers24/talks/z3dexp/",
+          "watch_url": "https://www.youtube.com/watch?v=-uHNcz3CF8s",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Double Agent: Exploiting Pass-through Authentication Credential Validation in AAD",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Avihai Ben Yossef, Ilan Kalendarov, Elad Beber — Cymulate",
+          "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
+          "watch_url": "https://www.youtube.com/watch?v=4Yrslt6wXN4",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Nestori Syynimaa, Microsoft (MYSTIC team)",
+          "url": "https://www.youtube.com/watch?v=wgXichA5ukY",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Azure AD / Entra ID Kerberos Integration Attack Paths",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Eloy Pérez / Tarlogic team",
+          "url": "https://www.tarlogic.com/blog/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Attacking Primary Refresh Tokens using their macOS Implementation",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Olaf Hartong, Dirk-jan Mollema",
+          "url": "https://troopers.de/troopers24/talks/3vlccy/",
+          "watch_url": "https://www.youtube.com/watch?v=wFhe0-RRkFA",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "A Decade of Active Directory Attacks: What We've Learned & What's Next",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Sean Metcalf",
+          "url": "https://troopers.de/troopers24/talks/vxs8wy/",
+          "watch_url": "https://www.youtube.com/watch?v=iTS14FhRlVA",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "BingBang: Hacking Bing.com (and Much More) with Azure Active Directory",
+          "year": "2023",
+          "venue": "Black Hat USA 2023",
+          "speaker": "Hillai Ben-Sasson",
+          "url": "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4",
+          "watch_url": "https://www.youtube.com/watch?v=l4hA2eZuMF8",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Backdooring and Hijacking Azure AD Accounts by Abusing External Identities",
+          "year": "2022",
+          "venue": "Black Hat USA 2022",
+          "speaker": "Dirk-jan Mollema",
+          "url": "https://i.blackhat.com/USA-22/Wednesday/us-22-Mollema-Backdooring-And-Hijacking-Azure-AD-Accounts-By-Abusing-External-Identities.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=uKDS2t9_KsA",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "AAD Joined Machines: The New Lateral Movement",
+          "year": "2022",
+          "venue": "Black Hat USA 2022",
+          "speaker": "Mor Rubin, Tom Doron",
+          "url": "https://i.blackhat.com/USA-22/Wednesday/us-22-Rubin-Doron-AAD-Joined-Machines-The-New-Lateral-Movement.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=ZPI2OB0g028",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Impersonating Office 365 Users on Azure AD Joined Machines",
+          "year": "2019",
+          "venue": "dirkjanm.io",
+          "speaker": "Dirk-jan Mollema (dirkjanm.io)",
+          "url": null,
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Azure AD Connect for Red Teamers",
+          "year": "2019",
+          "venue": "blog.xpnsec.com",
+          "speaker": "Adam Chester (xpnsec)",
+          "url": "https://blog.xpnsec.com/azuread-connect-for-redteam/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Extending BloodHound: Discovering New Attack Paths",
+          "year": "2018",
+          "venue": "dirkjanm.io",
+          "speaker": "Dirk-jan Mollema (dirkjanm.io)",
+          "url": null,
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Attacking Azure AD Connect with Password Hash Sync",
+          "year": "2018",
+          "venue": "dirkjanm.io",
+          "speaker": "Dirk-jan Mollema (dirkjanm.io)",
+          "url": null,
+          "watch_url": "",
+          "theme": "cloud-identity"
+        }
+      ]
+    },
+    "microsoft_intune": {
+      "name": "Microsoft Intune",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_intune",
+      "talks": [
+        {
+          "title": "RBAC: The Shady Place Behind Basic Entra ID Security",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Martin Haller",
+          "url": "https://troopers.de/troopers25/talks/dukg9p/",
+          "watch_url": "https://www.youtube.com/watch?v=6GTmsPgIy5c",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Extending AD CS Attack Surface to the Cloud with Intune Certificates",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Dirk-jan Mollema",
+          "url": "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        }
+      ]
+    },
+    "microsoft_secure_process_protections": {
+      "name": "Protected Process / PPL",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_secure_process_protections",
+      "talks": [
+        {
+          "title": "Windows Internals: Check Your Privilege — The Curious Case of ETW's SecurityTrace Flag",
+          "year": "2026",
+          "venue": "",
+          "speaker": "Connor McGarr (Origin/Prelude Security)",
+          "url": "https://connormcgarr.github.io/securitytrace-etw-ppl/",
+          "watch_url": "",
+          "theme": "edr-bypass"
+        },
+        {
+          "title": "Ghost in the PPL Part 3: LSASS Memory Dump",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-3/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Ghost in the PPL Part 3",
+          "year": "2024",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-3/",
+          "watch_url": "",
+          "theme": "uncategorized"
+        },
+        {
+          "title": "Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Clément Labro (itm4n)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-2/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Ghost in the PPL Part 2",
+          "year": "2024",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-2/",
+          "watch_url": "",
+          "theme": "uncategorized"
+        },
+        {
+          "title": "Ghost in the PPL Part 1 — BYOVDLL for PPL Bypass",
+          "year": "2024",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/ghost-in-the-ppl-part-1/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Debugging Protected Processes (PP/PPL)",
+          "year": "2023",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/debugging-protected-processes/",
+          "watch_url": "",
+          "theme": "uncategorized"
+        },
+        {
+          "title": "LSASS RunAsPPL — Introduction to LSA Protection",
+          "year": "2021",
+          "venue": "itm4n.github.io",
+          "speaker": "itm4n (Clément Labro)",
+          "url": "https://itm4n.github.io/lsass-runasppl/",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
+          "title": "Bypassing LSA Protection (RunAsPPL) with Kernel Exploit",
+          "year": "2021",
+          "venue": "itm4n.github.io",
+          "speaker": "Clément Labro / itm4n (Independent)",
+          "url": "https://itm4n.github.io/bypassing-lsa-protection-userland/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        }
+      ]
+    },
+    "microsoft_vulnerable_driver_block": {
+      "name": "Vulnerable Driver Blocklist",
+      "category": "application",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_vulnerable_driver_block",
+      "talks": [
+        {
+          "title": "Unveiling BYOVD Threats: Malware's Use and Abuse of Kernel Drivers",
+          "year": "2026",
+          "venue": "NDSS 2026",
+          "speaker": "Andrea Monzani, Antonio Parata, Andrea Lanzi (University of Milan); Andrea Oliveri, Simone Aonzo, Davide Balzarotti (EURECOM)",
+          "url": "",
+          "watch_url": "https://www.youtube.com/watch?v=wj_gFhKIJ6w",
+          "theme": "byovd"
+        }
+      ]
+    },
+    "secure_boot": {
+      "name": "Secure Boot",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=secure_boot",
+      "talks": [
+        {
+          "title": "Infecting the Boot to Own the Kernel: Bootkits and Rootkits Development",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Alejandro Vazquez Vazquez; Maria San Jose",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Vazquez%20Vazquez%20Maria%20San%20Jose%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20Bootkits%20and%20Rootkits%20Development%20Presentation.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development",
+          "year": "2024",
+          "venue": "OffensiveCon 2024",
+          "speaker": "Nika Korchok Wakulich (aka ic3qu33n) — Leviathan Security Group",
+          "url": "https://www.offensivecon.org/speakers/2024/nika-korchok-wakulich.html",
+          "watch_url": "https://www.youtube.com/watch?v=UPPdi3HHI5w",
+          "theme": "boot-firmware"
+        },
+        {
+          "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Booting with Caution: Dissecting Secure Boot's Third-Party Attack Surface",
+          "year": "2024",
+          "venue": "OffensiveCon 2024",
+          "speaker": "Bill Demirkapi — Independent (formerly Microsoft; Windows internals specialist)",
+          "url": "https://www.offensivecon.org/speakers/2024/bill-demirkapi.html",
+          "watch_url": "",
+          "theme": "boot-firmware"
+        },
+        {
+          "title": "The Dark Side of Microsoft's UEFI Secure Boot",
+          "year": "2019",
+          "venue": "CrowdStrike blog",
+          "speaker": "Alex Ionescu (Winsider Seminars / CrowdStrike)",
+          "url": null,
+          "watch_url": "",
+          "theme": "boot-firmware"
+        }
+      ]
+    },
+    "server_message_block_smb_for_remote_connections": {
+      "name": "SMB",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=server_message_block_smb_for_remote_connections",
+      "talks": [
+        {
+          "title": "Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)",
+          "year": "2025",
+          "venue": "",
+          "speaker": "James Forshaw",
+          "url": "https://projectzero.google/2025/01/windows-exploitation-tricks-trapping.html",
+          "watch_url": "",
+          "theme": "filesystem"
+        },
+        {
+          "title": "Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Yuya Chudo",
+          "url": "https://troopers.de/troopers25/talks/afv8bw/",
+          "watch_url": "https://www.youtube.com/watch?v=gDMqswqMH3g",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Nick Powers",
+          "url": "",
+          "watch_url": "https://www.youtube.com/watch?v=e84BtnLSKPQ",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Fuzzing SMB",
+          "year": "2024",
+          "venue": "CanSecWest 2024",
+          "speaker": "Ron Dilley",
+          "url": null,
+          "watch_url": "",
+          "theme": "fuzzing"
+        },
+        {
+          "title": "PrintNightmare (CVE-2021-1675 / CVE-2021-34527)",
+          "year": "2021",
+          "venue": "GitHub PoC release, Microsoft emergency advisory",
+          "speaker": "Zhiniang Peng, Xuefeng Li, Benjamin Delpy",
+          "url": "https://github.com/cube0x0/CVE-2021-1675",
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Sharing a Logon Session a Little Too Much",
+          "year": "2020",
+          "venue": "April 2020 — tiraniddo.dev blog post",
+          "speaker": "James Forshaw (@tiraniddo) — Google Project Zero",
+          "url": "https://www.tiraniddo.dev/2020/04/sharing-logon-session-little-too-much.html",
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Lateral Movement with PortBender: Redirecting SMB Connections Through SOCKS",
+          "year": "2020",
+          "venue": "blog.xpnsec.com",
+          "speaker": "Adam Chester / xpnsec (SpecterOps)",
+          "url": null,
+          "watch_url": "",
+          "theme": "post-exploit"
+        },
+        {
+          "title": "Attacking Network Protocols: Windows SMB Deep Dive",
+          "year": "2017",
+          "venue": "REcon 2017",
+          "speaker": "James Forshaw",
+          "url": null,
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012",
+          "year": "2016",
+          "venue": "January 2016 — Foxglove Security blog post; technique developed ~2015",
+          "speaker": "Stephen Breen (@breenmachine) — Foxglove Security",
+          "url": "https://foxglovesecurity.com/2016/01/16/hot-potato/",
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        }
+      ]
+    },
+    "smart_app_control": {
+      "name": "Smart App Control",
+      "category": "application",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=smart_app_control",
+      "talks": [
+        {
+          "title": "Deep Dive into Windows Defender: Smart App Control and ETW",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Tillmann Oßwald, Dr. Baptiste David",
+          "url": "https://troopers.de/troopers24/talks/msxp97/",
+          "watch_url": "https://www.youtube.com/watch?v=EzKOWIeC-54",
+          "theme": "ipc-rpc"
+        }
+      ]
+    },
+    "token_protection": {
+      "name": "Token Protection",
+      "category": "identity",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=token_protection",
+      "talks": [
+        {
+          "title": "Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Shang-De Jiang (\"Kazma\"); Dong-Yi Ye; Tung-Lin Lee (\"Echo\")",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Advanced Active Directory to Entra ID lateral movement techniques",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Dirk-jan Mollema (dirkjanm / Outsider Security)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Dirk-jan%20Mollema%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Advanced%20Active%20Directory%20to%20Entra%20ID%20lateral%20movement%20techniques%20-%20Dirk-jan%20Mollema.mp4",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Attacking Primary Refresh Tokens using their macOS Implementation",
+          "year": "2024",
+          "venue": "2024 / TROOPERS 24, Heidelberg",
+          "speaker": "Olaf Hartong, Dirk-jan Mollema",
+          "url": "https://troopers.de/troopers24/talks/3vlccy/",
+          "watch_url": "https://www.youtube.com/watch?v=wFhe0-RRkFA",
+          "theme": "cloud-identity"
+        }
+      ]
+    },
+    "transport_layer_security_tls": {
+      "name": "TLS",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=transport_layer_security_tls",
+      "talks": [
+        {
+          "title": "State of Decay: SChannel Session Token Deserialization Vulnerability",
+          "year": "2022",
+          "venue": "Project Zero blog",
+          "speaker": "James Forshaw (Google Project Zero)",
+          "url": "https://googleprojectzero.blogspot.com/2022/07/windows-exploitation-tricks-exploiting.html",
+          "watch_url": "",
+          "theme": "rce"
+        }
+      ]
+    },
+    "trusted_platform_module_tpm_2_0": {
+      "name": "TPM 2.0",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=trusted_platform_module_tpm_2_0",
+      "talks": [
+        {
+          "title": "Authenticating through Windows Hello for Business — a Reverse Engineering Story",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Dr. Baptiste David, Tillmann Oßwald",
+          "url": "https://troopers.de/troopers25/talks/ma3bfe/",
+          "watch_url": "https://www.youtube.com/watch?v=Frzg4S7XE3c",
+          "theme": "credentials"
+        },
+        {
+          "title": "TPM 2.0 Attestable Firmware: Recovering Trust after Firmware Flaws",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=bm6-8KiEJ38",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "A New Root of Trust: Changing Computing with TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=pzWaXD5zklI",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "virtualization_based_security_vbs": {
+      "name": "Virtualization-Based Security (VBS)",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=virtualization_based_security_vbs",
+      "talks": [
+        {
+          "title": "Windows Internals: Secure Calls — The Bridge Between the NT Kernel and Secure Kernel (SkBridge tool release)",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/secure-calls-and-skbridge/",
+          "watch_url": "",
+          "theme": "hyper-v"
+        },
+        {
+          "title": "Windows ARM64 Internals: Exception & Privilege Model, Virtual Memory Management, and Windows under VHE",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/arm64-windows-internals-basics/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Virtualization Based (In)Security",
+          "year": "2025",
+          "venue": "DEF CON 33",
+          "speaker": "Ori David (Akamai)",
+          "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Ori%20David%20-%20Virtualization%20Based%20%28In%29Security.pdf",
+          "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Virtualization-Based%20%28In%29security%20-%20Weaponizing%20VBS%20Enclaves%20-%20Ori%20David.mp4",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Secure Enclaves for Offensive Operations — Part II: VTL1 Code Execution",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Cedric Van Bockhaven & Matteo Malvica, Outflank",
+          "url": "https://outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/",
+          "watch_url": "",
+          "theme": "hyper-v"
+        },
+        {
+          "title": "Secure Enclaves for Offensive Operations — Part I",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Matteo Malvica (OffSec) & Cedric Van Bockhaven, Outflank",
+          "url": "https://outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Secure Calls and SkBridge — NT Kernel to Secure Kernel",
+          "year": "2025",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/secure-calls-and-skbridge/",
+          "watch_url": "https://www.youtube.com/watch?v=zvmkTzYQqVA",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Exploit Development: Investigating Kernel Mode Shadow Stacks (KCET) on Windows",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/km-shadow-stacks/",
+          "watch_url": "https://www.youtube.com/watch?v=T7qxs-9OTjY",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Abusing VBS Enclaves to Create Evasive Malware",
+          "year": "2025",
+          "venue": "",
+          "speaker": "Ori David, Akamai",
+          "url": "https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware",
+          "watch_url": "https://www.youtube.com/watch?v=3S7oBmSUxX0",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Secure Image Objects — VBS Internals",
+          "year": "2024",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/secure-images/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "CVE-2024-21423 — Microsoft Edge Prefs Enclave TOCTOU (Information Disclosure + VTL1 Write Primitive)",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Alex Gough (quidity), Google Project Zero",
+          "url": "https://github.com/google/security-research/security/advisories/GHSA-2phx-8mf9-fq24",
+          "watch_url": "",
+          "theme": "hyper-v"
+        },
+        {
+          "title": "A New Root of Trust: Changing Computing with TEE",
+          "year": "2024",
+          "venue": "2024 / Hardwear.io USA, Santa Clara",
+          "speaker": "Not listed on archive page",
+          "url": "https://hardwear.io/usa-2024/",
+          "watch_url": "https://www.youtube.com/watch?v=pzWaXD5zklI",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "g_CiOptions in a Virtualized World — Bypassing VBS/HVCI",
+          "year": "2022",
+          "venue": "blog.xpnsec.com",
+          "speaker": "Adam Chester (xpnsec)",
+          "url": "https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "HVCI/VBS — Welcome to the Shellcodeless Kernel Exploitation Era",
+          "year": "2022",
+          "venue": "connormcgarr.github.io",
+          "speaker": "Connor McGarr (CrowdStrike)",
+          "url": "https://connormcgarr.github.io/hvci/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Breaking VSM by Attacking SecureKernel",
+          "year": "2020",
+          "venue": "Black Hat USA 2020",
+          "speaker": "Saar Amar, Daniel King",
+          "url": "https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=pm1ejZ3LkYU",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Analysis of the Attack Surface of Windows 10 Virtualization-Based Security",
+          "year": "2016",
+          "venue": "Black Hat USA 2016",
+          "speaker": "Rafal Wojtczuk",
+          "url": "https://www.youtube.com/watch?v=_646Gmr_uo0",
+          "watch_url": "https://www.youtube.com/watch?v=yg8Tt0jvmmY",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "windows_hello": {
+      "name": "Windows Hello",
+      "category": "identity",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_hello",
+      "talks": [
+        {
+          "title": "Windows Hello, No! for Business",
+          "year": "2025",
+          "venue": "Black Hat USA 2025",
+          "speaker": "[Last name: David] (first name and affiliation unverified)",
+          "url": "https://i.blackhat.com/BH-USA-25/Presentations/US-25-David-Windows-Hello-No-for-Business-Wendsday.pdf",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
+          "title": "Authenticating through Windows Hello for Business — a Reverse Engineering Story",
+          "year": "2025",
+          "venue": "2025 / TROOPERS 25, Heidelberg",
+          "speaker": "Dr. Baptiste David, Tillmann Oßwald",
+          "url": "https://troopers.de/troopers25/talks/ma3bfe/",
+          "watch_url": "https://www.youtube.com/watch?v=Frzg4S7XE3c",
+          "theme": "credentials"
+        },
+        {
+          "title": "Lateral Movement and On-Prem NT Hash Dumping with Microsoft Entra Temporary Access Passes",
+          "year": "2024",
+          "venue": "",
+          "speaker": "Dirk-jan Mollema",
+          "url": "https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Abusing Windows Hello Without a Severed Hand",
+          "year": "2024",
+          "venue": "DEF CON 32",
+          "speaker": "Ceri Coburn; Dirk-jan Mollema (dirkjanm)",
+          "url": "https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Ceri%20Coburn%20Dirk-jan%20Mollema%20-%20Abusing%20Windows%20Hello%20Without%20a%20Severed%20Hand.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=mFJ-NUnFBac",
+          "theme": "credentials"
+        },
+        {
+          "title": "Bypassing Windows Hello for Business and Pleasure",
+          "year": "2021",
+          "venue": "Black Hat USA 2021",
+          "speaker": "Compass Security",
+          "url": "https://i.blackhat.com/USA-21/Wednesday/us-21-Compass-Bypassing-Windows-Hello-For-Business-And-Pleasure.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=A1f1q7WDbpw",
+          "theme": "credentials"
+        },
+        {
+          "title": "Exploiting Windows Hello for Business",
+          "year": "2019",
+          "venue": "Black Hat Europe 2019",
+          "speaker": "Tal Be'ery",
+          "url": null,
+          "watch_url": "https://www.youtube.com/watch?v=u22XC01ewn0",
+          "theme": "credentials"
+        }
+      ]
+    },
+    "windows_sandbox": {
+      "name": "Windows Sandbox",
+      "category": "application",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_sandbox",
+      "talks": [
+        {
+          "title": "Windows Sandbox Escape - The Windows Notification Facility",
+          "year": "2022",
+          "venue": "Project Zero blog",
+          "speaker": "James Forshaw (Google Project Zero)",
+          "url": "https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html",
+          "watch_url": "",
+          "theme": "browser-sandbox"
+        }
+      ]
+    },
+    "windows_subsystem_for_linux_wsl": {
+      "name": "WSL",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_subsystem_for_linux_wsl",
+      "talks": [
+        {
+          "title": "Linux Vulnerabilities, Windows Exploits: Escalating Privileges with WSL",
+          "year": "2018",
+          "venue": "REcon Brussels 2018",
+          "speaker": "Saar Amar",
+          "url": "https://infocon.org/cons/REcon/REcon%202018%20Brussels/RECON-BRX-2018-Linux-Vulnerabilities_Windows-Exploits--Escalating-Privileges-with-WSL.pdf",
+          "watch_url": "https://www.youtube.com/watch?v=RXYfjnXLGsc",
+          "theme": "kernel-exploit"
+        },
+        {
+          "title": "Is That a Penguin in My Windows? WSL Security and Attack Surface",
+          "year": "2016",
+          "venue": "DerbyCon 6.0 Recharge",
+          "speaker": "Saar Amar",
+          "url": null,
+          "watch_url": "",
+          "theme": "kernel-exploit"
+        }
+      ]
+    }
+  }
+}
