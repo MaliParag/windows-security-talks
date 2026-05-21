@@ -22,4 +22,4 @@
 | 2022 | g_CiOptions in a Virtualized World — Bypassing VBS/HVCI | Adam Chester (xpnsec) | blog.xpnsec.com | [slides](https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/) |
 | 2022 | HVCI/VBS — Welcome to the Shellcodeless Kernel Exploitation Era | Connor McGarr (CrowdStrike) | connormcgarr.github.io | [slides](https://connormcgarr.github.io/hvci/) |
 | 2020 | Breaking VSM by Attacking SecureKernel | Saar Amar, Daniel King | Black Hat USA 2020 | [slides](https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf) · [watch](https://www.youtube.com/watch?v=pm1ejZ3LkYU) |
-| 2016 | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | Black Hat USA 2016 | [slides](https://www.youtube.com/watch?v=_646Gmr_uo0) · [watch](https://www.youtube.com/watch?v=yg8Tt0jvmmY) |
+| 2016 | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | Black Hat USA 2016 | [slides](https://www.youtube.com/watch?v=_646Gmr_uo0) · [watch](https://www.youtube.com/watch?v=_646Gmr_uo0) |

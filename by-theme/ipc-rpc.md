@@ -23,13 +23,13 @@ _34 talks_
 | 2020 | PrintSpoofer — Abusing Impersonate Privileges on Windows 10 and Server 2019 | Clément Labro (@itm4n) — independent researcher | May 2020 — itm4n.github.io blo | [link](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/) |  |
 | 2020 | A Decade After Stuxnet's Printer Vulnerability: Printing is Still the Stairway to Heaven ( | Peleg Hadar, Tomer Bar | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Hadar-A-Decade-After-Stuxnet-Printer-Vulnerability-Printing-Is-Still-The-Stairway-To-Heaven.pdf) |  |
 | 2019 | Windows Exploitation Tricks: Spoofing Named Pipe Client PID | James Forshaw (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2019/09/windows-exploitation-tricks-spoofing.html) |  |
-| 2019 | Relaying Credentials Has Never Been Easier: Bypassing the Latest NTLM Relay Mitigations | Marina Simakov, Yaron Zinar | DEF CON 27 | [link](https://www.youtube.com/watch?v=vIISsfLh4iM) |  |
-| 2019 | DCOM Research for Everyone! | James Forshaw, Google Project Zero |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |
+| 2019 | Relaying Credentials Has Never Been Easier: Bypassing the Latest NTLM Relay Mitigations | Marina Simakov, Yaron Zinar | DEF CON 27 | [link](https://www.youtube.com/watch?v=vIISsfLh4iM) | [link](https://www.youtube.com/watch?v=vIISsfLh4iM) |
+| 2019 | DCOM Research for Everyone! | James Forshaw, Google Project Zero |  | [link](https://www.youtube.com/watch?v=DzIkehasir4) | [link](https://www.youtube.com/watch?v=DzIkehasir4) |
 | 2019 | Analysing Windows RPC with Ghidra and Neo4j | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/) |  |
 | 2019 | Abusing Windows COM / DCOM: Offensive Techniques and Tooling | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://outflank.nl/blog/2019/10/30/abusing-windows-com-dcom/) |  |
 | 2018 | Juicy Potato (abusing the golden privileges) | Andrea Pierini (@decoder_it) + Giuseppe Trotta (@G | October 2018 — GitHub release | [link](https://github.com/ohpe/juicy-potato) |  |
 | 2018 | How to Turn MSRPC into a Backdoor | hasherezade (Independent) | hshrzd.wordpress.com | [link](https://hshrzd.wordpress.com/2018/06/25/how-to-turn-msrpc-into-a-backdoor/) |  |
-| 2017 | Windows Operating System Archaeology | Matt Nelson, Casey Smith | Wild West Hackin' Fest 2017 | [link](https://www.youtube.com/watch?v=fo4I-EPNYE4) |  |
+| 2017 | Windows Operating System Archaeology | Matt Nelson, Casey Smith | Wild West Hackin' Fest 2017 | [link](https://www.youtube.com/watch?v=fo4I-EPNYE4) | [link](https://www.youtube.com/watch?v=fo4I-EPNYE4) |
 | 2017 | Lateral Movement Using DCOM and a MSBuild Script | Dominic Chell (MDSec) | posts.specterops.io | [link](https://posts.specterops.io/dcom-machine-wide-throttling-cd60a7186e59) |  |
 | 2017 | Demystifying COM | Jonathan Levin | Troopers 2017 | [link](https://infocon.org/cons/Troopers/Troopers%2017/Troopers%2017%20-%20Demystifying%20COM.mp4) |  |
 | 2017 | Becoming SYSTEM: Named Pipe Impersonation Alternatives to getsystem | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/becoming-system/) |  |

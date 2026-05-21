@@ -61,7 +61,7 @@ def speaker_words(speakers):
 
 
 def fetch_oembed(video_id):
-    """Return oEmbed title (or None if video unavailable)."""
+    """Return (title, author_name) (or None if video unavailable)."""
     url = (f"https://www.youtube.com/oembed?url="
            f"https://www.youtube.com/watch?v={video_id}&format=json")
     try:
@@ -76,16 +76,42 @@ def fetch_oembed(video_id):
         body, code = parts[0], parts[1].strip()
         if code != "200":
             return ("__UNAVAILABLE__", code)
-        return json.loads(body).get("title")
+        data = json.loads(body)
+        return (data.get("title"), data.get("author_name") or "")
     except Exception:
         return None
 
 
-def strict_match(talk_title, talk_speakers, video_title):
+# YouTube channels we trust as security-research uploads. Used to relax the
+# short-title substring rule (because an exact short-title match from
+# "MercyBerryTV" is suspect, but an exact short-title match from
+# "BlueHat" is the real talk).
+TRUSTED_CHANNELS_RE = re.compile(
+    r"(bluehat|defcon|black\s*hat|usenix|media\.ccc|reconmtl|recon\s*conference|"
+    r"offensivecon|troopers|virusbulletin|noc?con|hardwearr?\.io|insomnihack|"
+    r"shmoocon|microsoft\s*security|msrc|microsoft\s*research|"
+    r"ndss\s*symposium|ieee\s*s.?p|ieee\s*security|"
+    r"ekoparty|cansecwest|brucon|nullcon|powerof.?community|hexacon|"
+    r"x33fcon|romhack|leethackers|wahckon|disobey|"
+    r"area41|hack\.lu|paranoia\b|antisyphon|"
+    r"hardwear\.io|toorcon|hushcon|wild\s*west\s*hackin)",
+    re.IGNORECASE,
+)
+
+
+def is_trusted_channel(author_name: str) -> bool:
+    return bool(author_name and TRUSTED_CHANNELS_RE.search(author_name))
+
+
+def strict_match(talk_title, talk_speakers, video_title, video_author=""):
     """Strict match: returns (match, reason).
 
     Requirements (any one):
-      A. Full normalized talk title (>=12 chars) is a substring of video title.
+      A. Full normalized talk title (>=25 chars) is a substring of video title.
+         For shorter titles (>=12 chars) we additionally require a speaker-word
+         match in the video title — generic short titles like "My Best Frenemy"
+         or "Breaking the Barrier" otherwise yield false positives against
+         unrelated YouTube uploads with similar names.
       B. Speaker word present in video title AND >=3 distinctive talk-title
          content words appear in video title.
       C. Talk title's content-word set is a subset of (or near-subset of)
@@ -96,23 +122,37 @@ def strict_match(talk_title, talk_speakers, video_title):
         return (False, "empty")
     tt_n = re.sub(r"[^a-z0-9]", "", talk_title.lower())
     vt_n = re.sub(r"[^a-z0-9]", "", video_title.lower())
-    # A. Direct substring (both sides >=12 chars to avoid generic matches)
-    if len(tt_n) >= 12 and tt_n in vt_n:
-        return (True, "A: full title substring")
+    sp_words = speaker_words(talk_speakers)
+    vt_lower = video_title.lower()
+    has_speaker = any(w in vt_lower for w in sp_words)
+    trusted = is_trusted_channel(video_author)
+    # A. Direct substring — long titles are distinctive on their own; short
+    #    titles need speaker confirmation OR an upload from a trusted
+    #    security-conference channel.
+    if tt_n and tt_n in vt_n:
+        if len(tt_n) >= 25:
+            return (True, "A: full title substring (long)")
+        if len(tt_n) >= 12 and (has_speaker or trusted):
+            return (True, "A: full title substring + speaker/trusted-channel")
+        if trusted and has_speaker:
+            return (True, "A: short title substring + trusted-channel + speaker")
     # B. Speaker presence + distinctive words
     talk_cws = set(content_words(talk_title))
-    video_cws_lower = video_title.lower()
-    sp_words = speaker_words(talk_speakers)
-    has_speaker = any(w in video_cws_lower for w in sp_words)
     matching_cws = talk_cws & set(content_words(video_title))
     if has_speaker and len(matching_cws) >= 3:
         return (True, f"B: speaker + {len(matching_cws)} content words")
+    # B'. Trusted channel + speaker presence is itself a strong signal
+    #     (covers BlueHat short titles like "SafeChatAI" where there's only
+    #     one content word but uploader is MSRC and author name appears).
+    if trusted and has_speaker and len(matching_cws) >= 1:
+        return (True, f"B': trusted-channel + speaker + {len(matching_cws)} word")
     # C. Strong content-word overlap (>=4)
     if len(matching_cws) >= 4:
         return (True, f"C: {len(matching_cws)} content words overlap")
     return (False,
             f"FAIL: speaker_in_video={has_speaker}, "
-            f"content_overlap={len(matching_cws)}, talk_cws={len(talk_cws)}")
+            f"content_overlap={len(matching_cws)}, talk_cws={len(talk_cws)}, "
+            f"tt_n_len={len(tt_n)}")
 
 
 def main():
@@ -161,13 +201,18 @@ def main():
                 # Couldn't reach oEmbed — keep, will be re-tried later
                 good.append(w)
                 continue
-            ok, reason = strict_match(title, speakers, oe)
+            # oEmbed result is now (title, author_name) tuple.
+            if isinstance(oe, tuple) and len(oe) == 2 and oe[0] != "__UNAVAILABLE__":
+                video_title, video_author = oe[0], oe[1]
+            else:
+                video_title, video_author = oe, ""
+            ok, reason = strict_match(title, speakers, video_title, video_author)
             if ok:
                 good.append(w)
                 by_reason.setdefault(reason.split(":")[0], 0)
                 by_reason[reason.split(":")[0]] += 1
             else:
-                dropped.append((title[:60], w["url"], oe[:60], reason))
+                dropped.append((title[:60], w["url"], video_title[:60], reason))
         t["watch_urls"] = good
         if good:
             import importlib.util

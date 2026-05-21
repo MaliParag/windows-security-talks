@@ -22101,5 +22101,121 @@
    "ABcteTJ7GZo",
    "Day 3 Part 1: Exploits 2: Exploits in the Windows Environment"
   ]
+ ],
+ "search:\"DCOM Research for Everyone!\"": [
+  [
+   "DzIkehasir4",
+   "BlueHat 2024: S07: DCOM Research for Everyone!"
+  ]
+ ],
+ "oembed:DzIkehasir4": "BlueHat 2024: S07: DCOM Research for Everyone!",
+ "search:\"BlueHat 2024 Day 1 Keynote\"": [
+  [
+   "w6SAqT4ZQik",
+   "BlueHat 2024: Day 1 Keynote: Chris Wysopal (AKA Weld Pond), VeraCode / L0pht"
+  ]
+ ],
+ "oembed:w6SAqT4ZQik": "BlueHat 2024: Day 1 Keynote: Chris Wysopal (AKA Weld Pond), VeraCode / L0pht",
+ "search:\"BlueHat 2024 Day 2 Keynote\"": [
+  [
+   "KOUaJIX9JEY",
+   "BlueHat 2024: Day 2 Keynote: Amanda Silver, CVP, Microsoft Developer Division"
+  ]
+ ],
+ "oembed:KOUaJIX9JEY": "BlueHat 2024: Day 2 Keynote: Amanda Silver, CVP, Microsoft Developer Division",
+ "search:\"The two sides of UnOAuthorized\"": [],
+ "search:\"Tokens & Takeovers: Cloud-Powered Supply Chain Attacks\"": [
+  [
+   "diJl15Uwv8I",
+   "BlueHat 2024: S02: Tokens \\u0026 Takeovers: Cloud-Powered Supply Chain Attacks"
+  ],
+  [
+   "AsCBwl0CaRY",
+   "Tokens \\u0026 Takeovers: Cloud-Powered Supply Chain Attacks"
+  ]
+ ],
+ "oembed:AsCBwl0CaRY": "Tokens & Takeovers: Cloud-Powered Supply Chain Attacks",
+ "search:\"Echoes of Intrusion: Demystifying MS Graph API Attacks\"": [
+  [
+   "OyTQB9oXe3s",
+   "BlueHat 2024: S05: Echoes of Intrusion: Demystifying MS Graph API Attacks"
+  ]
+ ],
+ "oembed:OyTQB9oXe3s": "BlueHat 2024: S05: Echoes of Intrusion: Demystifying MS Graph API Attacks",
+ "search:\"Outlook Unleashing RCE Chaos: CVE-2024-30103, CVE-2024-38021 & CVE-2024-38173\"": [],
+ "search:\"Outlook Unleashing RCE Chaos\" Michael Gorelik": [
+  [
+   "GwwxeY11xMI",
+   "DEF CON 32 - Outlook Unleashing RCE Chaos  CVE 2024 30103 - Michael Gorelik, Arnold Osipov"
+  ],
+  [
+   "EQh6apPSRP0",
+   "BlueHat 2024: S08: Outlook Unleashing RCE Chaos CVE-2024-30103 \\u0026 CVE-2024-38021 \\u0026 CVE-2024-38173"
+  ]
+ ],
+ "search:\"Pointer Problems \u2013 Why We're Refactoring the Windows Kernel\"": [
+  [
+   "-3jxVIFGuQw",
+   "BlueHat 2024: S09: Pointer Problems \u2013 Why We\u2019re Refactoring the Windows Kernel"
+  ]
+ ],
+ "oembed:-3jxVIFGuQw": "BlueHat 2024: S09: Pointer Problems \u2013 Why We\u2019re Refactoring the Windows Kernel",
+ "search:\"Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day\"": [
+  [
+   "Iyz5sS67_Vg",
+   "OBTS v7: Sweet QuaDreams or Nightmare before Christmas? Dissecting an iOS 0-Day. Marczak \\u0026 Fossaceca"
+  ],
+  [
+   "7g3ti5AWEY0",
+   "Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-Day"
+  ],
+  [
+   "Uij5AGtIKCI",
+   "BlueHat 2024: S12: Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-day"
+  ]
+ ],
+ "oembed:7g3ti5AWEY0": "Sweet QuaDreams or Nightmare Before Christmas? Dissecting an iOS 0-Day",
+ "search:\"Patterns in the Shadows: Scaling Threat Hunting & Intel for Modern Adversaries\"": [
+  [
+   "n7GVxDxwOUc",
+   "BlueHat 2024: S13: Patterns in the Shadows: Scaling Threat Hunting \\u0026 Intel for Modern Adversaries"
+  ]
+ ],
+ "oembed:n7GVxDxwOUc": "BlueHat 2024: S13: Patterns in the Shadows: Scaling Threat Hunting & Intel for Modern Adversaries",
+ "search:\"Scaling AppSec with an SDL for Citizen Development\"": [
+  [
+   "0jGUiaWAU04",
+   "BlueHat 2024: S14: Scaling AppSec with an SDL for Citizen Development"
+  ]
+ ],
+ "oembed:0jGUiaWAU04": "BlueHat 2024: S14: Scaling AppSec with an SDL for Citizen Development",
+ "search:\"Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG\"": [
+  [
+   "fFcyn6E98H8",
+   "BlueHat 2024: S15: Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG"
+  ]
+ ],
+ "oembed:fFcyn6E98H8": "BlueHat 2024: S15: Embedding Sysmon Logs for Enhanced Threat Detection: A Practical Approach to RAG",
+ "search:\"Lessons Learned from Red Teaming 100 Generative AI Applications\"": [
+  [
+   "2sgoRK-uxlo",
+   "Lessons From Red Teaming 100 Generative AI Products | CSA AI Summit Q1 2025"
+  ],
+  [
+   "DwFVhFdD2fs",
+   "AI Red Teaming 101 \u2013 Full Course (Episodes 1-10)"
+  ],
+  [
+   "PjQDxwtWyGo",
+   "12 - BruCON 0x10 - A Year in Review: Lessons Learnt from Red Teaming Gen AI - Peter Bryan"
+  ],
+  [
+   "2WvxYDpXw5s",
+   "Red Teaming AI: What You Need To Know"
+  ],
+  [
+   "agsm94AAYx0",
+   "AI-Powered Red Teaming with Microsoft"
+  ]
  ]
 }

@@ -25,5 +25,5 @@ _23 talks_
 | 2021 | Undetectable Windows Rootkits Using Hardware Virtualization | Alex Ionescu, Yarden Shafir | Black Hat USA 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202021/Undetectable-Windows-Rootkits.mp4) |  |
 | 2020 | Breaking VSM by Attacking SecureKernel | Saar Amar, Daniel King | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf) |  |
 | 2019 | Meltdown's Aftermath: Leveraging KVA Shadow to Bypass Security Protections | Connor McGarr | BSidesLV 2019 | [link](https://infocon.org/cons/BSidesLV/BSidesLV%202019/presentations/BSidesLV2019-Meltdowns-Aftermath.mp4) |  |
-| 2016 | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | Black Hat USA 2016 | [link](https://www.youtube.com/watch?v=_646Gmr_uo0) |  |
+| 2016 | Analysis of the Attack Surface of Windows 10 Virtualization-Based Security | Rafal Wojtczuk | Black Hat USA 2016 | [link](https://www.youtube.com/watch?v=_646Gmr_uo0) | [link](https://www.youtube.com/watch?v=_646Gmr_uo0) |
 | 2015 | Defeating Pass-the-Hash: Separation of Powers | Seth Moore, Baris Saydag | Black Hat USA 2015 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202015/Defeating%20Pass-the-Hash.mp4) |  |

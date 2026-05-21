@@ -16,7 +16,7 @@ _16 talks_
 | 2023 | The UEFI Threat — Or How I Can "Permanently" Brick Your Computer | Gavin Millard | ShmooCon 2023 | [link](https://infocon.org/cons/ShmooCon/ShmooCon%202023/ShmooCon%202023%20--%20The%20UEFI%20Threat.mp4) |  |
 | 2022 | Breaking Firmware Trust From Pre-EFI: Exploiting Early Boot Phases | Alex Matrosov | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Matrosov-Breaking-Firmware-Trust-From-Pre-EFI.pdf) |  |
 | 2021 | Safeguarding UEFI Ecosystem: Firmware Supply Chain is Hard(coded) | Alex Matrosov | Black Hat USA 2021 | [link](https://i.blackhat.com/USA-21/Wednesday/us-21-Matrosov-Safeguarding-UEFI-Ecosystem.pdf) |  |
-| 2020 | Firmware Security: Middle Child of Security | Nithin Sade, Google |  | [link](https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ) |  |
+| 2020 | Firmware Security: Middle Child of Security | Nithin Sade, Google |  | [link](https://www.youtube.com/watch?v=1R4X3ST_aZg) | [link](https://www.youtube.com/watch?v=1R4X3ST_aZg) |
 | 2019 | The Dark Side of Microsoft's UEFI Secure Boot | Alex Ionescu (Winsider Seminars / CrowdStrike) | CrowdStrike blog | [link](https://www.crowdstrike.com/blog/uefi-security-weaknesses-on-windows/) |  |
 | 2015 | Intel x86 Considered Harmful | Alex Ionescu (Winsider Seminars) | Winsider Seminars / Personal b | [link](https://www.alex-ionescu.com/2015/10/12/intel-x86-considered-harmful/) |  |
 | 2013 | Bypassing Driver Signature Enforcement: CI.DLL Internals | Alex Ionescu (Winsider Seminars) | Alex Ionescu blog | [link](https://www.alex-ionescu.com/2013/11/21/ci-dll-internals/) |  |

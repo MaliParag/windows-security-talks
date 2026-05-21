@@ -331,14 +331,11 @@
   source: blackhat-usa
   normalized_category: ad-attack
   watch_urls:
-  - url: https://www.youtube.com/watch?v=lwUbvUnWfpY
-    source: YouTube
-    confidence: VERIFIED
   - url: https://media.ccc.de/v/38c3-ace-up-the-sleeve-hacking-into-apple-s-new-usb-c-controller
     source: media.ccc.de
     confidence: HIGH
-  watch_url: https://www.youtube.com/watch?v=lwUbvUnWfpY
-  watch_confidence: VERIFIED
+  watch_url: https://media.ccc.de/v/38c3-ace-up-the-sleeve-hacking-into-apple-s-new-usb-c-controller
+  watch_confidence: HIGH
 - title: 'Break the Wall from Bottom: Automated [Kernel Security Bypass]'
   speaker: '[Last name: Wang] (full name and affiliation unverified)'
   year: '2024'
@@ -499,7 +496,7 @@
   theme: A founding hacker-turned-industry-leader reflects on 25+ years of security
     research and how the community shaped today's threat landscape
   category: Security History / Keynote
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=w6SAqT4ZQik
   source: bluehat
   year: '2024'
   normalized_category: keynote
@@ -514,93 +511,98 @@
   theme: Explores the dual role of cloud identity and trust mechanisms as both enabling
     technology and primary attack surface
   category: Cloud Identity
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=o-W8YcUmLqM
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
   watch_urls:
-  - url: https://www.youtube.com/watch?v=HZdpWfNOJIk
+  - url: https://www.youtube.com/watch?v=o-W8YcUmLqM
     source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=HZdpWfNOJIk
-  watch_confidence: VERIFIED
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=o-W8YcUmLqM
+  watch_confidence: HIGH
 - title: 'Scaling Out: Securing Open Source'
   speaker: Zachary Steindler, Microsoft
   theme: Presents the OpenSSF Securing Software Repositories Working Group's roadmap
     for deploying Trusted Publishing and build provenance across package ecosystems
   category: Open Source Security / Supply Chain
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=5gt18zjFWBM
   source: bluehat
   year: '2024'
   normalized_category: hardware-attack
   watch_urls:
   - url: https://www.youtube.com/watch?v=5gt18zjFWBM
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=5gt18zjFWBM
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: 'AI''s got Muffins: the RAG-a-muffins!!!'
   speaker: Vivek Vinod Sharma, Microsoft
   theme: Explores security considerations for Retrieval-Augmented Generation (RAG)
     architectures in enterprise AI deployments
   category: AI/ML Security
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=UWPlw7VvSA4
   source: bluehat
   year: '2024'
   normalized_category: ai-security
   watch_urls:
   - url: https://www.youtube.com/watch?v=UWPlw7VvSA4
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=UWPlw7VvSA4
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: 'Ransomware Resilience: Turning the Tide Against Cyber Extortion'
   speaker: Dr. Tom Williams (independent security practitioner, ~18 yrs experience)
   theme: Uses SEC EDGAR data from 2,928 publicly traded companies across 146 industries
     to quantify ransomware risk trends 2020–2022 and proposes zero-trust/micro-segmentation
     resilience strategies
   category: Ransomware / Cyber Resilience
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=tKgYjA86ah4
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
   watch_urls:
   - url: https://www.youtube.com/watch?v=tKgYjA86ah4
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=tKgYjA86ah4
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: SafeChatAI
   speaker: Ayobami Olatunji, Microsoft
   theme: Presents SafeChatAI, a Microsoft system for content safety and guardrailing
     in AI chat deployments
   category: AI/ML Safety
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=tt2RNENASZo
   source: bluehat
   year: '2020'
   normalized_category: ai-security
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=tt2RNENASZo
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=tt2RNENASZo
+  watch_confidence: HIGH
 - title: 'Firmware Security: Middle Child of Security'
   speaker: Nithin Sade, Google
   theme: Argues that firmware occupies a critical but neglected layer between hardware
     and software and outlines why it needs dedicated security investment
   category: Firmware Security
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=1R4X3ST_aZg
   source: bluehat
   year: '2020'
   normalized_category: boot-firmware
   watch_urls:
   - url: https://www.youtube.com/watch?v=1R4X3ST_aZg
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=1R4X3ST_aZg
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: The two sides of UnOAuthorized
   speaker: Eric Woodruff, Semperis + Cameron Vincent, Microsoft
   theme: Demonstrates how adversaries abuse OAuth authorization flows to achieve persistent,
     covert access to M365 environments, and how defenders can detect it
   category: Identity Security / OAuth
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=hBGkmpBD20o
   source: bluehat
   year: '2024'
   normalized_category: identity
@@ -615,7 +617,7 @@
   theme: Shows how identity tokens leaked from CI/CD pipelines (GitHub Actions, Azure
     DevOps) can be chained to execute cloud-powered software supply chain attacks
   category: Cloud Security / Supply Chain
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=diJl15Uwv8I
   source: bluehat
   year: '2024'
   normalized_category: identity
@@ -632,16 +634,16 @@
     (PTA) agent can be weaponized to harvest credentials for any tenant user without
     triggering alerts
   category: Identity Security / Azure AD
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=4Yrslt6wXN4
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
   watch_urls:
   - url: https://www.youtube.com/watch?v=4Yrslt6wXN4
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=4Yrslt6wXN4
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
   topics:
   - microsoft_entra_id
 - title: 'Echoes of Intrusion: Demystifying MS Graph API Attacks'
@@ -649,7 +651,7 @@
   theme: Maps attacker techniques that abuse Microsoft Graph API for persistence,
     lateral movement, and data exfiltration in compromised M365 tenants
   category: Identity Security / Graph API
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=OyTQB9oXe3s
   source: bluehat
   year: '2024'
   normalized_category: post-exploit
@@ -669,7 +671,12 @@
   source: bluehat
   year: '2024'
   normalized_category: cloud-identity
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=wgXichA5ukY
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=wgXichA5ukY
+  watch_confidence: HIGH
   topics:
   - microsoft_entra_id
 - title: DCOM Research for Everyone!
@@ -678,7 +685,7 @@
     Model) attack surface, including tools and techniques for independent security
     research
   category: Windows Platform Security
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=DzIkehasir4
   source: bluehat
   year: '2019'
   normalized_category: ipc-rpc
@@ -693,17 +700,17 @@
   theme: Discloses the technical root causes of three critical zero-click RCE vulnerabilities
     in Microsoft Outlook that could be exploited without user interaction
   category: Vulnerability Research / RCE
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=EQh6apPSRP0
   source: bluehat
   year: '2024'
   normalized_category: office-attack
   watch_urls:
-  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
-    source: DEF CON archive
-    confidence: MED
   - url: https://www.youtube.com/watch?v=EQh6apPSRP0
     source: YouTube
     confidence: HIGH
+  - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
+    source: DEF CON archive
+    confidence: MED
   watch_url: https://www.youtube.com/watch?v=EQh6apPSRP0
   watch_confidence: HIGH
 - title: Pointer Problems – Why We're Refactoring the Windows Kernel
@@ -712,7 +719,7 @@
     kernel components in Rust to eliminate pointer-related memory safety vulnerabilities
     at scale
   category: Windows Kernel / Memory Safety
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=-3jxVIFGuQw
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
@@ -728,7 +735,7 @@
     against sophisticated modern adversaries using behavioral pattern correlation
     across large telemetry datasets
   category: Threat Hunting / Threat Intelligence
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=n7GVxDxwOUc
   source: bluehat
   year: '2024'
   normalized_category: threat-intel
@@ -744,7 +751,7 @@
   theme: Demonstrates how LLM-based Retrieval-Augmented Generation applied to structured
     Sysmon event logs can improve APT detection via semantic similarity search
   category: AI/ML Security / Threat Detection
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=fFcyn6E98H8
   source: bluehat
   year: '2024'
   normalized_category: ai-security
@@ -764,7 +771,12 @@
   source: bluehat
   year: '2024'
   normalized_category: edr-bypass
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=YFThifuJbMM
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=YFThifuJbMM
+  watch_confidence: HIGH
 - title: 'MSTIC: A Threat Intelligence Year in Review'
   speaker: Rachel Giacobozzi, Microsoft Threat Intelligence
   theme: Surveys the 2024 threat landscape through MSTIC's lens, covering ransomware
@@ -775,30 +787,35 @@
   source: bluehat
   year: '2024'
   normalized_category: malware
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=U7p0J8aMZhM
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=U7p0J8aMZhM
+  watch_confidence: HIGH
 - title: Minting Silver Bullets is Challenging
   speaker: Josh Brown-White, Microsoft
   theme: Argues that the quest for universal security solutions is fundamentally flawed
     given enterprise complexity, and proposes a principles-based framework for accepting
     residual risk
   category: Security Strategy / Risk Management
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=J1QMbdgnY8M
   source: bluehat
   year: '2024'
   normalized_category: kernel-exploit
   watch_urls:
   - url: https://www.youtube.com/watch?v=J1QMbdgnY8M
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=J1QMbdgnY8M
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: Lessons Learned from Red Teaming 100 Generative AI Applications
   speaker: Blake Bullwinkel, Microsoft AI Red Team
   theme: Shares systematic lessons from red-teaming over 100 GenAI products, cataloguing
     failure modes across prompt injection, data exfiltration, content harms, and agentic
     misuse
   category: AI/ML Security / Red Teaming
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=qi2DneFkRf4
   source: bluehat
   year: '2024'
   normalized_category: ai-security
@@ -818,7 +835,12 @@
   source: bluehat
   year: '2024'
   normalized_category: ai-security
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=RFnOIYMOEeE
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=RFnOIYMOEeE
+  watch_confidence: HIGH
 - title: 'SLIP: Securing LLMs IP Using Weights Decomposition'
   speaker: Adam Hakim, Microsoft
   theme: Introduces SLIP, a provably secure hybrid inference protocol that partitions
@@ -829,23 +851,28 @@
   source: bluehat
   year: '2024'
   normalized_category: edr-bypass
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=CEZYfTanQFk
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=CEZYfTanQFk
+  watch_confidence: HIGH
 - title: Automate AI Red Teaming in your existing tool chain with PyRIT
   speaker: Joris de Gruyter + Shiven Chawla, Microsoft
   theme: Demonstrates PirateShip (a RESTful Docker layer over PyRIT) that integrates
     AI red-teaming into existing security pipelines including Burp Suite, reducing
     manual effort for automated harmful-content testing
   category: AI/ML Security / Red Teaming Tooling
-  url: https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ
+  url: https://www.youtube.com/watch?v=wna5aIVfucI
   source: bluehat
   year: '2024'
   normalized_category: ai-security
   watch_urls:
   - url: https://www.youtube.com/watch?v=wna5aIVfucI
     source: YouTube
-    confidence: VERIFIED
+    confidence: HIGH
   watch_url: https://www.youtube.com/watch?v=wna5aIVfucI
-  watch_confidence: VERIFIED
+  watch_confidence: HIGH
 - title: ADCS Attack Paths in BloodHound — Part 1 (ESC1)
   speaker: SpecterOps BloodHound Enterprise Team (Jonas B. Knudsen, et al.)
   year: '2024'
@@ -1533,8 +1560,11 @@
   - url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
     source: DEF CON archive
     confidence: MED
-  watch_url: https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20video%20and%20slides/
-  watch_confidence: MED
+  - url: https://www.youtube.com/watch?v=mKRS5Iyy7Qo
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=mKRS5Iyy7Qo
+  watch_confidence: VERIFIED
 - title: 'HookChain: A new perspective for Bypassing EDR Solutions'
   speaker: Helvio Carvalho Junior
   venue: DEF CON 32
@@ -4705,7 +4735,12 @@
   year: '2024'
   source: offcon-recon
   normalized_category: hyper-v
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=_Idk_wqvu6w
+    source: YouTube
+    confidence: VERIFIED
+  watch_url: https://www.youtube.com/watch?v=_Idk_wqvu6w
+  watch_confidence: VERIFIED
 - title: 'HyperVinject: Making Virtual Machine Code Injections as Simple as Process
     Injections'
   speaker: Andrei Lutas — Bitdefender
@@ -5029,7 +5064,12 @@
   url: https://www.youtube.com/watch?v=GVRIUsgrwSQ
   source: regional-vendor-conferences
   normalized_category: forensics
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=GVRIUsgrwSQ
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=GVRIUsgrwSQ
+  watch_confidence: HIGH
 - title: BloodHound From Red to Blue
   speaker: Mathieu Saulnier
   year: '2019'
@@ -5038,7 +5078,12 @@
   url: https://www.youtube.com/watch?v=-HPhJw9K6_Y
   source: regional-vendor-conferences
   normalized_category: ad-attack
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=-HPhJw9K6_Y
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=-HPhJw9K6_Y
+  watch_confidence: HIGH
 - title: 'Know Normal, Find Evil: Windows 10 Edition'
   speaker: Mari DeGrazia
   year: '2017'
@@ -5208,7 +5253,12 @@
   url: https://www.youtube.com/watch?v=fo4I-EPNYE4
   source: regional-vendor-conferences
   normalized_category: ipc-rpc
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=fo4I-EPNYE4
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=fo4I-EPNYE4
+  watch_confidence: HIGH
 - title: 'Red vs. Blue: Modern Active Directory Attacks & Defense'
   speaker: Sean Metcalf
   year: '2015'
@@ -5217,7 +5267,12 @@
   url: https://www.youtube.com/watch?v=rknpKIxT7NM
   source: regional-vendor-conferences
   normalized_category: ad-attack
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=rknpKIxT7NM
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=rknpKIxT7NM
+  watch_confidence: HIGH
 - title: 'Relaying Credentials Has Never Been Easier: Bypassing the Latest NTLM Relay
     Mitigations'
   speaker: Marina Simakov, Yaron Zinar
@@ -5227,7 +5282,12 @@
   url: https://www.youtube.com/watch?v=vIISsfLh4iM
   source: regional-vendor-conferences
   normalized_category: ipc-rpc
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=vIISsfLh4iM
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=vIISsfLh4iM
+  watch_confidence: HIGH
 - title: RACE — Minimal Rights and ACE for Active Directory Dominance
   speaker: Nikhil Mittal
   year: '2019'
@@ -5250,7 +5310,12 @@
   url: https://www.youtube.com/watch?v=be2jOZM8Whs
   source: regional-vendor-conferences
   normalized_category: kernel-exploit
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=be2jOZM8Whs
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=be2jOZM8Whs
+  watch_confidence: HIGH
 - title: 'Adventures in MitM-land: Attacking Active Directory Authentication Schemes'
   speaker: James Forshaw
   year: '2021'
@@ -5298,7 +5363,12 @@
   url: https://www.youtube.com/watch?v=MybmgE95weo
   source: regional-vendor-conferences
   normalized_category: kernel-exploit
-  watch_urls: []
+  watch_urls:
+  - url: https://www.youtube.com/watch?v=MybmgE95weo
+    source: YouTube
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=MybmgE95weo
+  watch_confidence: HIGH
 - title: So I Became a Domain Controller (DCShadow)
   speaker: Benjamin Delpy, Vincent Le Toux
   year: '2018'
@@ -5401,11 +5471,11 @@
   source: regional-vendor-conferences
   normalized_category: vbs-bypass
   watch_urls:
-  - url: https://www.youtube.com/watch?v=yg8Tt0jvmmY
+  - url: https://www.youtube.com/watch?v=_646Gmr_uo0
     source: YouTube
-    confidence: VERIFIED
-  watch_url: https://www.youtube.com/watch?v=yg8Tt0jvmmY
-  watch_confidence: VERIFIED
+    confidence: HIGH
+  watch_url: https://www.youtube.com/watch?v=_646Gmr_uo0
+  watch_confidence: HIGH
   topics:
   - virtualization_based_security_vbs
 - title: 'Defeating Pass-the-Hash: Separation of Powers'

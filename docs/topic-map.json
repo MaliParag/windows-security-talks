@@ -819,7 +819,7 @@
           "year": "2024",
           "venue": "",
           "speaker": "Avihai Ben Yossef, Ilan Kalendarov, Elad Beber — Cymulate",
-          "url": "https://www.youtube.com/channel/UCKmzq2lAhDxLy36KtvVWpaQ",
+          "url": "https://www.youtube.com/watch?v=4Yrslt6wXN4",
           "watch_url": "https://www.youtube.com/watch?v=4Yrslt6wXN4",
           "theme": "cloud-identity"
         },
@@ -829,7 +829,7 @@
           "venue": "",
           "speaker": "Nestori Syynimaa, Microsoft (MYSTIC team)",
           "url": "https://www.youtube.com/watch?v=wgXichA5ukY",
-          "watch_url": "",
+          "watch_url": "https://www.youtube.com/watch?v=wgXichA5ukY",
           "theme": "cloud-identity"
         },
         {
@@ -1439,7 +1439,7 @@
           "venue": "Black Hat USA 2016",
           "speaker": "Rafal Wojtczuk",
           "url": "https://www.youtube.com/watch?v=_646Gmr_uo0",
-          "watch_url": "https://www.youtube.com/watch?v=yg8Tt0jvmmY",
+          "watch_url": "https://www.youtube.com/watch?v=_646Gmr_uo0",
           "theme": "vbs-bypass"
         }
       ]

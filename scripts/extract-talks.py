@@ -736,6 +736,24 @@ def main():
     all_records = dedupe(all_records)
     print(f"After dedupe: {len(all_records)}")
 
+    # Promote YouTube source URLs to watch_urls (a YouTube URL is both the
+    # source page AND watchable; the UI's play button reads watch_urls).
+    yt_promoted = 0
+    for r in all_records:
+        u = r.get("url") or ""
+        if "youtube.com/watch" in u or "youtu.be/" in u:
+            r.setdefault("watch_urls", [])
+            if not any(w.get("url") == u for w in r["watch_urls"]):
+                r["watch_urls"].append({
+                    "url": u,
+                    "source": source_for_url(u),
+                    "confidence": "HIGH",
+                })
+                r["watch_url"] = u
+                r["watch_confidence"] = "HIGH"
+                yt_promoted += 1
+    print(f"YouTube source URLs promoted to watch_urls: {yt_promoted}")
+
     watch_rows = parse_watch_table(SRC / "watch-link-enrichment.md")
     print(f"\nWatch-link table rows: {len(watch_rows)}")
     matched = merge_watch_urls(all_records, watch_rows)
