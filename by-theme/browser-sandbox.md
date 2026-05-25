@@ -1,6 +1,6 @@
 # browser-sandbox
 
-_10 talks_
+_13 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
@@ -9,7 +9,10 @@ _10 talks_
 | 2026 | Enhanced Insecurity Mode: 23 RCEs in Edge's "Safe" WebAssembly Interpreter | Nan Wang (sakura) & Ziling Chen (R1nd0) — Zellic | OffensiveCon 2026 | [link](https://www.offensivecon.org/speakers/2026/nan-wang-and-ziling-chen.html) |  |
 | 2025 | Windows Bug Class: Accessing Trapped COM Objects with IDispatch | James Forshaw |  | [link](https://projectzero.google/2025/01/windows-bug-class-accessing-trapped-com.html) |  |
 | 2025 | The Crypto Game of North Korea: Stealing Money with Chrome 0-Days | Boris Larin (Kaspersky GReAT) | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/h9scgh/) |  |
+| 2025 | Fooling the Sandbox: A Chrome-atic Escape | STAR Labs SG | STAR Labs SG blog | [link](https://starlabs.sg/blog/2025/07-fooling-the-sandbox-a-chrome-atic-escape/) |  |
+| 2024 | SoK: On the Effectiveness of Control-Flow Integrity in Practice | Becker; Hollick; Classen | WOOT 2024 | [link](https://www.usenix.org/conference/woot24) |  |
 | 2022 | Windows Sandbox Escape - The Windows Notification Facility | James Forshaw (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html) |  |
+| 2022 | Exploit Development: Browser Exploitation on Windows — CVE-2019-0567 Type Confusion (Part  | Connor McGarr | connormcgarr.github.io blog | [link](https://connormcgarr.github.io/type-confusion-part-1/) |  |
 | 2021 | CVE-2021-26411 — Internet Explorer Memory Corruption Exploit Analysis | hasherezade (Independent) | hshrzd.wordpress.com | [link](https://hshrzd.wordpress.com/2021/04/26/cve-2021-26411-analysis/) |  |
 | 2019 | He Said, She Said — Poisoned RDP Offense and Defense | Tomer Bar, Eviatar Gerzi | Black Hat USA 2019 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BHUSA2019-Bar-PoisonedRDP-Slides.pdf) |  |
 | 2019 | Gaining Code Execution in Chrome Renderer and Escaping with win32k | Mateusz Jurczyk (Google Project Zero) | Project Zero blog | [link](https://googleprojectzero.blogspot.com/2019/04/fuzzing-windows-subsystems.html) |  |

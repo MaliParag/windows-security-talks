@@ -1,4 +1,4 @@
-# recon (23)
+# recon (22)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -10,13 +10,12 @@
 | 2025 | edr-bypass | WinpMem: Volatility's driver that lets malware volatilize | Dr. Baptiste David — ERNW | [link](https://recon.cx/2025/sessions.html) |  |
 | 2025 | credentials | The Finer Details of LSA Credential Recovery | Evan McBroom — SpecterOps | [link](https://recon.cx/2025/sessions.html) |  |
 | 2025 | code-integrity | Reversing Warbird for no fun and no profit | Philippe Laulheret — Cisco Talos | [link](https://recon.cx/2025/sessions.html) |  |
-| 2025 | fuzzing | Reverse Engineering Patch Tuesday | John McIntosh — Clearseclabs | [link](https://recon.cx/2025/sessions.html) |  |
-| 2025 | kernel-exploit | NET Exploitation Workshop | Sina Kheirkhah — Independent (Pwn2Own "Master of P | [link](https://recon.cx/2025/sessions.html) |  |
 | 2025 | hyper-v | HyperVinject: Making Virtual Machine Code Injections as Simple as Process Injections | Andrei Lutas — Bitdefender | [link](https://recon.cx/2025/sessions.html) |  |
 | 2025 | boot-firmware | Back from the dead: Exhuming EBC | Nika Korchok Wakulich (aka ic3qu33n) — Independent | [link](https://recon.cx/2025/sessions.html) |  |
 | 2024 | fuzzing | Tales From The Crypt: Bug Hunting in the Windows CryptoAPI | Erik Egsgard — Field Effect | [link](https://recon.cx/2024/sessions.html) |  |
 | 2024 | kernel-exploit | Peeling Back the Windows Registry Layers: A Bug Hunter's Expedition | Mateusz Jurczyk — Google Project Zero | [link](https://recon.cx/2024/sessions.html) |  |
 | 2024 | hyper-v | Hypervisor-enforced Paging Translation — The end of non data-driven Kernel Exploits? | Andrea Allievi (Microsoft) & Satoshi Tanda (Sony I | [link](https://recon.cx/2024/sessions.html) |  |
+| 2023 | uncategorized | ghidriff – Ghidra Binary Diffing Engine | John McIntosh (@clearbluejar) | [link](https://44con.com/44con-2023-schedule/) |  |
 | 2023 | ipc-rpc | Hello 1994: Abusing Windows Explorer via Component Object Model in 2023 | Jimmy Bayne | [link](https://infocon.org/cons/REcon/REcon%202023/REcon%202023%20-%20Jimmy%20Bayne%20-%20Hello%201994.mp4) |  |
 | 2023 | forensics | GRU's Toolkit: A Deep Dive into the Disruptive Arsenal | Gabor Szappanos, Paul Rascagneres | [link](https://infocon.org/cons/REcon/REcon%202023/REcon%202023%20-%20Gabor%20Szappanos%20-%20GRU-Toolkit.mp4) |  |
 | 2019 | forensics | Using WPP and TraceLogging Tracing to Facilitate Dynamic and Static Windows RE | Yarden Shafir, Alex Ionescu | [link](https://infocon.org/cons/REcon/REcon%202019/REcon%202019%20-%20WPP-TraceLogging.mp4) |  |

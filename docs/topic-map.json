@@ -8,6 +8,15 @@
       "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=applocker",
       "talks": [
         {
+          "title": "The Internals of AppLocker — Part 1 (four-part series)",
+          "year": "2019",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2019/11/the-internals-of-applocker-part-1.html",
+          "watch_url": "",
+          "theme": "rce"
+        },
+        {
           "title": "Windows AppLocker Bypass: Exploiting InstallUtil",
           "year": "2016",
           "venue": "posts.specterops.io",
@@ -83,6 +92,24 @@
           "url": "https://hardwear.io/usa-2024/",
           "watch_url": "",
           "theme": "vbs-bypass"
+        },
+        {
+          "title": "Profiling DEV-0270 / Storm-0270 (Phosphorus/Mint Sandstorm) ransomware operations",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence Center (MSTIC)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
+          "title": "Evolving trends in Iranian threat actor activity: MSTIC presentation at CyberWarCon 2021",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence Center (MSTIC)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/11/16/evolving-trends-in-iranian-threat-actor-activity-mstic-presentation-at-cyberwarcon-2021/",
+          "watch_url": "",
+          "theme": "boot-firmware"
         }
       ]
     },
@@ -106,6 +133,24 @@
           "venue": "",
           "speaker": "Dirk-jan Mollema",
           "url": "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Relaying Kerberos over SMB Using KrbRelayX",
+          "year": "2024",
+          "venue": "Synacktiv blog",
+          "speaker": "Synacktiv",
+          "url": "https://www.synacktiv.com/en/publications/relaying-kerberos-over-smb-using-krbrelayx.html",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
+          "title": "Hello: I'm Your ADCS Server and I Want to Authenticate Against You",
+          "year": "2024",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2024/02/26/hello-im-your-adcs-server-and-i-want-to-authenticate-against-you/",
           "watch_url": "",
           "theme": "ad-attack"
         },
@@ -164,6 +209,15 @@
           "theme": "ad-attack"
         },
         {
+          "title": "From NTAuthCertificates to \"Silver\" Certificate",
+          "year": "2023",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2023/09/05/from-ntauthcertificates-to-silver-certificate/",
+          "watch_url": "",
+          "theme": "ad-attack"
+        },
+        {
           "title": "Abusing Active Directory Certificate Services — Part II",
           "year": "2022",
           "venue": "Black Hat Europe 2022",
@@ -218,6 +272,15 @@
           "theme": "ad-attack"
         },
         {
+          "title": "The Broken Shield: Measuring Revocation Effectiveness in the Windows Code-Signing PKI",
+          "year": "2018",
+          "venue": "USENIX Security 2018",
+          "speaker": "Doowon Kim; Bum Jun Kwon; Kristián Kozák; Christopher Gates; Tudor Dumitraș",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/kim",
+          "watch_url": "https://www.youtube.com/watch?v=Wx4QAbqxBIs",
+          "theme": "code-integrity"
+        },
+        {
           "title": "SharpDPAPI",
           "year": "2018",
           "venue": "2018 — GitHub release (GhostPack project)",
@@ -268,6 +331,42 @@
           "url": "https://troopers.de/troopers24/talks/msxp97/",
           "watch_url": "https://www.youtube.com/watch?v=EzKOWIeC-54",
           "theme": "ipc-rpc"
+        },
+        {
+          "title": "Improve kernel security with the new Microsoft Vulnerable and Malicious Driver Reporting Center",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Windows Security Team / Microsoft Defender Research",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/12/08/improve-kernel-security-with-the-new-microsoft-vulnerable-and-malicious-driver-reporting-center/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Windows Code Injection: Bypassing CIG with the Help of Kernel Transactions",
+          "year": "2019",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2019/08/windows-code-injection-bypassing-cig.html",
+          "watch_url": "",
+          "theme": "code-integrity"
+        },
+        {
+          "title": "The Internals of AppLocker — Part 1 (four-part series)",
+          "year": "2019",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2019/11/the-internals-of-applocker-part-1.html",
+          "watch_url": "",
+          "theme": "rce"
+        },
+        {
+          "title": "Device Guard on Windows 10 S — Abusing InstallUtil (Part 1 of series)",
+          "year": "2017",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2017/08/dg-on-windows-10-s-abusing-installutil.html",
+          "watch_url": "",
+          "theme": "code-integrity"
         },
         {
           "title": "Bypassing Driver Signature Enforcement: CI.DLL Internals",
@@ -331,6 +430,15 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "Profiling DEV-0270 / Storm-0270 (Phosphorus/Mint Sandstorm) ransomware operations",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence Center (MSTIC)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
           "title": "Credential Guard Bypass via WDigest g_IsCredGuardEnabled Patch",
           "year": "2022",
           "venue": "itm4n.github.io",
@@ -383,6 +491,33 @@
           "theme": "fuzzing"
         },
         {
+          "title": "New TTPs observed in Mint Sandstorm campaign targeting high-profile individuals at universities",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/01/17/new-ttps-observed-in-mint-sandstorm-campaign-targeting-high-profile-individuals-at-universities-and-research-orgs/",
+          "watch_url": "",
+          "theme": "malware"
+        },
+        {
+          "title": "Malware AV evasion tricks. Cryptography in malware",
+          "year": "2023",
+          "venue": "Hack.lu, Luxembourg (16 October 2023)",
+          "speaker": "cocomelonc",
+          "url": "https://pretalx.com/hack-lu-2023/schedule/?format=list",
+          "watch_url": "https://www.youtube.com/watch?v=0Xa4E4ZpX2E",
+          "theme": "malware"
+        },
+        {
+          "title": "GoldMax, GoldFinder, and Sibot: Analyzing NOBELIUM's layered persistence",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence Center (MSTIC)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
           "title": "Zerologon: Unauthenticated Domain Controller Compromise by Subverting Netlogon Cryptography",
           "year": "2020",
           "venue": "September 2020 — Secura whitepaper; CVE patched August 2020 Patch Tuesday",
@@ -392,6 +527,15 @@
           "theme": "ad-attack"
         },
         {
+          "title": "On Deception-Based Protection Against Cryptographic Ransomware",
+          "year": "2019",
+          "venue": "DIMVA 2019",
+          "speaker": "Ziya Alper Genç; Gabriele Lenzini; Daniele Sgandurra (Univ. Luxembourg)",
+          "url": "https://doi.org/10.1007/978-3-030-22038-9_11",
+          "watch_url": "",
+          "theme": "malware"
+        },
+        {
           "title": "Finding a Needle in an Encrypted Haystack: Leveraging Cryptography to Detect AD Attacks",
           "year": "2019",
           "venue": "Black Hat USA 2019",
@@ -399,6 +543,15 @@
           "url": null,
           "watch_url": "https://www.youtube.com/watch?v=2L7JpcLZ05Q",
           "theme": "edr-bypass"
+        },
+        {
+          "title": "What are Little PatchGuards Made Of",
+          "year": "2015",
+          "venue": "alex-ionescu.com blog",
+          "speaker": "Alex Ionescu",
+          "url": "https://www.alex-ionescu.com/what-are-little-patchguards-made-of/",
+          "watch_url": "",
+          "theme": "defense-evasion"
         }
       ]
     },
@@ -467,6 +620,15 @@
           "theme": "kernel-exploit"
         },
         {
+          "title": "SoK: On the Effectiveness of Control-Flow Integrity in Practice",
+          "year": "2024",
+          "venue": "WOOT 2024",
+          "speaker": "Becker; Hollick; Classen",
+          "url": "https://www.usenix.org/conference/woot24",
+          "watch_url": "https://www.youtube.com/watch?v=e5g9blIkp0g",
+          "theme": "browser-sandbox"
+        },
+        {
           "title": "Dirty Vanity: A New Approach to Code Injection and EDR Bypass",
           "year": "2022",
           "venue": "MSRC Security Research / GitHub (GitHub blog equivalent)",
@@ -519,6 +681,15 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "SoK: On the Effectiveness of Control-Flow Integrity in Practice",
+          "year": "2024",
+          "venue": "WOOT 2024",
+          "speaker": "Becker; Hollick; Classen",
+          "url": "https://www.usenix.org/conference/woot24",
+          "watch_url": "https://www.youtube.com/watch?v=e5g9blIkp0g",
+          "theme": "browser-sandbox"
+        },
+        {
           "title": "CET on Windows (Kernel & User-Mode Intel CET Shadow Stacks)",
           "year": "2020",
           "venue": "",
@@ -526,6 +697,15 @@
           "url": "https://windows-internals.com/cet-on-windows/",
           "watch_url": "",
           "theme": "kernel-exploit"
+        },
+        {
+          "title": "CET on Windows",
+          "year": "2020",
+          "venue": "windows-internals.com blog",
+          "speaker": "Yarden Shafir / Alex Ionescu (Winsider Seminars)",
+          "url": "https://windows-internals.com/cet-on-windows/",
+          "watch_url": "",
+          "theme": "rce"
         }
       ]
     },
@@ -562,6 +742,15 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "Windows security best practices for integrating and managing security tools",
+          "year": "2024",
+          "venue": "MSRC Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft) / MSRC",
+          "url": "https://msrc.microsoft.com/blog/2024/08/windows-security-best-practices-for-integrating-and-managing-security-tools/",
+          "watch_url": "https://www.youtube.com/watch?v=l_Zb07nuONQ",
+          "theme": "vbs-bypass"
+        },
+        {
           "title": "Windows Internals: Dissecting Secure Image Objects — Part 1",
           "year": "2024",
           "venue": "",
@@ -577,6 +766,15 @@
           "speaker": "Alessandro Magnosi",
           "url": "https://troopers.de/troopers24/talks/uvefjb/",
           "watch_url": "https://www.youtube.com/watch?v=1Sg_bbfp2o4",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "New Windows 11 features strengthen security to address evolving cyberthreat landscape",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/",
+          "watch_url": "",
           "theme": "vbs-bypass"
         },
         {
@@ -596,6 +794,15 @@
           "url": "https://connormcgarr.github.io/hvci/",
           "watch_url": "",
           "theme": "vbs-bypass"
+        },
+        {
+          "title": "Improve kernel security with the new Microsoft Vulnerable and Malicious Driver Reporting Center",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Windows Security Team / Microsoft Defender Research",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/12/08/improve-kernel-security-with-the-new-microsoft-vulnerable-and-malicious-driver-reporting-center/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
         }
       ]
     },
@@ -612,6 +819,33 @@
           "url": "https://troopers.de/troopers25/talks/e8vz8y/",
           "watch_url": "https://www.youtube.com/watch?v=UZPrE-sY4Ok",
           "theme": "ad-attack"
+        },
+        {
+          "title": "Results of major technical investigations for Storm-0558 key acquisition",
+          "year": "2023",
+          "venue": "MSRC Blog",
+          "speaker": "Microsoft Security Response Center",
+          "url": "https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Microsoft mitigates China-based threat actor Storm-0558 targeting of customer email",
+          "year": "2023",
+          "venue": "MSRC Blog",
+          "speaker": "Microsoft Security Response Center",
+          "url": "https://msrc.microsoft.com/blog/2023/07/microsoft-mitigates-china-based-threat-actor-storm-0558-targeting-of-customer-email/",
+          "watch_url": "",
+          "theme": "identity"
+        },
+        {
+          "title": "Analysis of Storm-0558 techniques for unauthorized email access",
+          "year": "2023",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
         }
       ]
     },
@@ -648,6 +882,15 @@
           "theme": "edr-bypass"
         },
         {
+          "title": "Detecting and preventing LSASS credential dumping attacks",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Defender Research Team",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/",
+          "watch_url": "",
+          "theme": "credentials"
+        },
+        {
           "title": "Windows Defender — Demystifying and Bypassing ASR by Understanding the AV's Signatures",
           "year": "2021",
           "venue": "Black Hat Europe 2021",
@@ -655,6 +898,15 @@
           "url": null,
           "watch_url": "",
           "theme": "edr-bypass"
+        },
+        {
+          "title": "Improve kernel security with the new Microsoft Vulnerable and Malicious Driver Reporting Center",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Windows Security Team / Microsoft Defender Research",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/12/08/improve-kernel-security-with-the-new-microsoft-vulnerable-and-malicious-driver-reporting-center/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
         },
         {
           "title": "How to use Windows Defender to Execute Code (Wscript)",
@@ -689,6 +941,15 @@
           "url": "https://outflank.nl/blog/2025/08/07/training-specialist-models/",
           "watch_url": "https://www.youtube.com/watch?v=WKmEzRJZ6H4",
           "theme": "defense-evasion"
+        },
+        {
+          "title": "What the log?! So many events, so little time…",
+          "year": "2020",
+          "venue": "Hack.lu, Luxembourg (Virtual edition due to COVID-19)",
+          "speaker": "Miriam Wiesner (Microsoft Defender ATP, Program Manager)",
+          "url": "",
+          "watch_url": "https://archive.org/details/youtube-3x5-nZ2bfbo",
+          "theme": "uncategorized"
         }
       ]
     },
@@ -697,6 +958,15 @@
       "category": "cloud_services",
       "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_entra_id",
       "talks": [
+        {
+          "title": "Auditing Application Permissions in Microsoft Entra ID",
+          "year": "2026",
+          "venue": "Quarkslab blog",
+          "speaker": "Quarkslab",
+          "url": null,
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
         {
           "title": "Restless Guest: A Novel Entra ID Vulnerability",
           "year": "2025",
@@ -714,6 +984,15 @@
           "url": "https://troopers.de/troopers25/talks/dukg9p/",
           "watch_url": "https://www.youtube.com/watch?v=6GTmsPgIy5c",
           "theme": "ad-attack"
+        },
+        {
+          "title": "Phishing for Codes: Russian Threat Actors Target Microsoft 365 OAuth Workflows",
+          "year": "2025",
+          "venue": "Volexity blog",
+          "speaker": "Volexity",
+          "url": "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/",
+          "watch_url": "",
+          "theme": "cloud-identity"
         },
         {
           "title": "Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery",
@@ -860,6 +1139,24 @@
           "theme": "ad-attack"
         },
         {
+          "title": "Results of major technical investigations for Storm-0558 key acquisition",
+          "year": "2023",
+          "venue": "MSRC Blog",
+          "speaker": "Microsoft Security Response Center",
+          "url": "https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
+          "title": "Midnight Blizzard conducts targeted social engineering over Microsoft Teams",
+          "year": "2023",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams/",
+          "watch_url": "",
+          "theme": "cloud-identity"
+        },
+        {
           "title": "BingBang: Hacking Bing.com (and Much More) with Azure Active Directory",
           "year": "2023",
           "venue": "Black Hat USA 2023",
@@ -867,6 +1164,15 @@
           "url": "https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4",
           "watch_url": "https://www.youtube.com/watch?v=l4hA2eZuMF8",
           "theme": "ad-attack"
+        },
+        {
+          "title": "Analysis of Storm-0558 techniques for unauthorized email access",
+          "year": "2023",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
         },
         {
           "title": "Backdooring and Hijacking Azure AD Accounts by Abusing External Identities",
@@ -921,6 +1227,22 @@
           "url": null,
           "watch_url": "",
           "theme": "cloud-identity"
+        }
+      ]
+    },
+    "microsoft_entra_private_access": {
+      "name": "Entra Private Access",
+      "category": "cloud_services",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=microsoft_entra_private_access",
+      "talks": [
+        {
+          "title": "What Windows Server 2025 Quietly Did to Your NTLM Relay",
+          "year": "2026",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2026/02/25/what-windows-server-2025-quietly-did-to-your-ntlm-relay/",
+          "watch_url": "",
+          "theme": "ipc-rpc"
         }
       ]
     },
@@ -1009,6 +1331,15 @@
           "theme": "byovd"
         },
         {
+          "title": "Abusing the SeRelabelPrivilege",
+          "year": "2024",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2024/05/30/abusing-the-serelabelprivilege/",
+          "watch_url": "",
+          "theme": "post-exploit"
+        },
+        {
           "title": "Debugging Protected Processes (PP/PPL)",
           "year": "2023",
           "venue": "itm4n.github.io",
@@ -1016,6 +1347,15 @@
           "url": "https://itm4n.github.io/debugging-protected-processes/",
           "watch_url": "",
           "theme": "uncategorized"
+        },
+        {
+          "title": "Detecting and preventing LSASS credential dumping attacks",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Defender Research Team",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/",
+          "watch_url": "",
+          "theme": "credentials"
         },
         {
           "title": "LSASS RunAsPPL — Introduction to LSA Protection",
@@ -1034,6 +1374,24 @@
           "url": "https://itm4n.github.io/bypassing-lsa-protection-userland/",
           "watch_url": "",
           "theme": "kernel-exploit"
+        },
+        {
+          "title": "The Evolution of Protected Processes Part 2 — Exploit/Jailbreak Mitigations, Unkillable Processes, and Protected Services",
+          "year": "2013",
+          "venue": "alex-ionescu.com blog",
+          "speaker": "Alex Ionescu",
+          "url": "https://www.alex-ionescu.com/wip-draft-the-evolution-of-protected-processes-part-2-exploitjailbreak-mitigations-unkillable-processes-and-protected-services/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "The Evolution of Protected Processes Part 1 — Pass-the-Hash Mitigations in Windows 8.1",
+          "year": "2013",
+          "venue": "alex-ionescu.com blog",
+          "speaker": "Alex Ionescu",
+          "url": "https://www.alex-ionescu.com/the-evolution-of-protected-processes-pass-the-hash-mitigations-in-windows-8-1/",
+          "watch_url": "",
+          "theme": "credentials"
         }
       ]
     },
@@ -1050,6 +1408,76 @@
           "url": "",
           "watch_url": "https://www.youtube.com/watch?v=wj_gFhKIJ6w",
           "theme": "byovd"
+        },
+        {
+          "title": "The (Almost) Forgotten Vulnerable Driver",
+          "year": "2025",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2025/01/09/the-almost-forgotten-vulnerable-driver/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "BYOVD to the Next Level (Part 2) — Rootkit Like It's 2025",
+          "year": "2025",
+          "venue": "Quarkslab blog",
+          "speaker": "Quarkslab",
+          "url": null,
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "BYOVD to the Next Level (Part 1) — Exploiting a Vulnerable Driver (CVE-2025-8061)",
+          "year": "2025",
+          "venue": "Quarkslab blog",
+          "speaker": "Quarkslab",
+          "url": null,
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Security Vulnerability Research (MSVR)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/08/08/chained-for-attack-openvpn-vulnerabilities-discovered-leading-to-rce-and-lpe/",
+          "watch_url": "",
+          "theme": "byovd"
+        },
+        {
+          "title": "Improve kernel security with the new Microsoft Vulnerable and Malicious Driver Reporting Center",
+          "year": "2021",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Windows Security Team / Microsoft Defender Research",
+          "url": "https://www.microsoft.com/en-us/security/blog/2021/12/08/improve-kernel-security-with-the-new-microsoft-vulnerable-and-malicious-driver-reporting-center/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Exploit Development: CVE-2021-21551 — Dell 'dbutil_2_3.sys' Kernel Exploit Writeup",
+          "year": "2021",
+          "venue": "connormcgarr.github.io blog",
+          "speaker": "Connor McGarr",
+          "url": "https://connormcgarr.github.io/cve-2020-21551-sploit/",
+          "watch_url": "",
+          "theme": "byovd"
+        }
+      ]
+    },
+    "rust_for_windows": {
+      "name": "Rust for Windows",
+      "category": "security_foundation",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=rust_for_windows",
+      "talks": [
+        {
+          "title": "The many lives of BlackCat ransomware",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft 365 Defender Research Team",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
         }
       ]
     },
@@ -1066,6 +1494,15 @@
           "url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Alejandro%20Vazquez%20Vazquez%20Maria%20San%20Jose%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20Bootkits%20and%20Rootkits%20Development%20Presentation.pdf",
           "watch_url": "https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/DEF%20CON%2033%20-%20Infecting%20the%20Boot%20to%20Own%20the%20Kernel%20-%20Bootkits%20and%20Rootkits%20Development%20-%20Alejandro%20Vazquez%2C%20Maria%20San%20Jose.mp4",
           "theme": "kernel-exploit"
+        },
+        {
+          "title": "Analyzing open-source bootloaders: Finding vulnerabilities faster with AI",
+          "year": "2025",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/31/analyzing-open-source-bootloaders-finding-vulnerabilities-faster-with-ai/",
+          "watch_url": "",
+          "theme": "boot-firmware"
         },
         {
           "title": "UEFI and the Task of the Translator: Using Cross-Architecture UEFI Quines as a Framework for UEFI Exploit Development",
@@ -1111,6 +1548,15 @@
       "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=server_message_block_smb_for_remote_connections",
       "talks": [
         {
+          "title": "What Windows Server 2025 Quietly Did to Your NTLM Relay",
+          "year": "2026",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2026/02/25/what-windows-server-2025-quietly-did-to-your-ntlm-relay/",
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        },
+        {
           "title": "Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)",
           "year": "2025",
           "venue": "",
@@ -1120,6 +1566,15 @@
           "theme": "filesystem"
         },
         {
+          "title": "NTLM Reflection Is Dead, Long Live NTLM Reflection: An In-Depth Analysis of CVE-2025-33073",
+          "year": "2025",
+          "venue": "Synacktiv blog",
+          "speaker": "Synacktiv",
+          "url": "https://www.synacktiv.com/en/publications/ntlm-reflection-is-dead-long-live-ntlm-reflection-an-in-depth-analysis-of-cve-2025.html",
+          "watch_url": "https://www.youtube.com/watch?v=IiT3iHc2_b8",
+          "theme": "ipc-rpc"
+        },
+        {
           "title": "Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U)",
           "year": "2025",
           "venue": "2025 / TROOPERS 25, Heidelberg",
@@ -1127,6 +1582,15 @@
           "url": "https://troopers.de/troopers25/talks/afv8bw/",
           "watch_url": "https://www.youtube.com/watch?v=gDMqswqMH3g",
           "theme": "cloud-identity"
+        },
+        {
+          "title": "Relaying Kerberos over SMB Using KrbRelayX",
+          "year": "2024",
+          "venue": "Synacktiv blog",
+          "speaker": "Synacktiv",
+          "url": "https://www.synacktiv.com/en/publications/relaying-kerberos-over-smb-using-krbrelayx.html",
+          "watch_url": "",
+          "theme": "ad-attack"
         },
         {
           "title": "Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover",
@@ -1145,6 +1609,24 @@
           "url": null,
           "watch_url": "",
           "theme": "fuzzing"
+        },
+        {
+          "title": "LocalPotato — When Swapping the Context Leads You to SYSTEM",
+          "year": "2023",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it), Antonio Cocomazzi (splinter_code)",
+          "url": "https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system/",
+          "watch_url": "",
+          "theme": "ipc-rpc"
+        },
+        {
+          "title": "The many lives of BlackCat ransomware",
+          "year": "2022",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft 365 Defender Research Team",
+          "url": "https://www.microsoft.com/en-us/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware/",
+          "watch_url": "",
+          "theme": "kernel-exploit"
         },
         {
           "title": "PrintNightmare (CVE-2021-1675 / CVE-2021-34527)",
@@ -1174,6 +1656,15 @@
           "theme": "post-exploit"
         },
         {
+          "title": "Abusing Mount Points over the SMB Protocol",
+          "year": "2018",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2018/12/abusing-mount-points-over-smb-protocol.html",
+          "watch_url": "",
+          "theme": "filesystem"
+        },
+        {
           "title": "Attacking Network Protocols: Windows SMB Deep Dive",
           "year": "2017",
           "venue": "REcon 2017",
@@ -1198,6 +1689,15 @@
       "category": "application",
       "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=smart_app_control",
       "talks": [
+        {
+          "title": "New Windows 11 features strengthen security to address evolving cyberthreat landscape",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
         {
           "title": "Deep Dive into Windows Defender: Smart App Control and ETW",
           "year": "2024",
@@ -1264,6 +1764,15 @@
       "category": "operating_system",
       "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=trusted_platform_module_tpm_2_0",
       "talks": [
+        {
+          "title": "False Promises of Passwordless: Defeating Windows Hello through TPM Misuses",
+          "year": "2025",
+          "venue": "ACSAC 2025",
+          "speaker": "Lee; Kang; Lee; Choi (Sungkyunkwan Univ.)",
+          "url": "https://www.acsac.org/2025/",
+          "watch_url": "https://www.youtube.com/watch?v=SMqzge09R-4",
+          "theme": "credentials"
+        },
         {
           "title": "Authenticating through Windows Hello for Business — a Reverse Engineering Story",
           "year": "2025",
@@ -1380,11 +1889,29 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "Windows security best practices for integrating and managing security tools",
+          "year": "2024",
+          "venue": "MSRC Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft) / MSRC",
+          "url": "https://msrc.microsoft.com/blog/2024/08/windows-security-best-practices-for-integrating-and-managing-security-tools/",
+          "watch_url": "https://www.youtube.com/watch?v=l_Zb07nuONQ",
+          "theme": "vbs-bypass"
+        },
+        {
           "title": "Secure Image Objects — VBS Internals",
           "year": "2024",
           "venue": "connormcgarr.github.io",
           "speaker": "Connor McGarr (CrowdStrike)",
           "url": "https://connormcgarr.github.io/secure-images/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "New Windows 11 features strengthen security to address evolving cyberthreat landscape",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/",
           "watch_url": "",
           "theme": "vbs-bypass"
         },
@@ -1407,6 +1934,15 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "Debugging Windows Isolated User Mode (IUM) Processes",
+          "year": "2023",
+          "venue": "Quarkslab blog",
+          "speaker": "Quarkslab",
+          "url": "https://blog.quarkslab.com/debugging-windows-isolated-user-mode-ium-processes.html",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        },
+        {
           "title": "g_CiOptions in a Virtualized World — Bypassing VBS/HVCI",
           "year": "2022",
           "venue": "blog.xpnsec.com",
@@ -1425,12 +1961,30 @@
           "theme": "vbs-bypass"
         },
         {
+          "title": "From Hyper-V Admin to SYSTEM",
+          "year": "2020",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2020/01/20/from-hyper-v-admin-to-system/",
+          "watch_url": "",
+          "theme": "hyper-v"
+        },
+        {
           "title": "Breaking VSM by Attacking SecureKernel",
           "year": "2020",
           "venue": "Black Hat USA 2020",
           "speaker": "Saar Amar, Daniel King",
           "url": "https://i.blackhat.com/USA-20/Thursday/us-20-Amar-Breaking-VSM-By-Attacking-SecureKernel.pdf",
           "watch_url": "https://www.youtube.com/watch?v=pm1ejZ3LkYU",
+          "theme": "vbs-bypass"
+        },
+        {
+          "title": "Shellcode: In-Memory Execution of JavaScript, VBScript, JScript and XSL",
+          "year": "2019",
+          "venue": "modexp.wordpress.com blog",
+          "speaker": "odzhan (modexp)",
+          "url": "https://modexp.wordpress.com/2019/07/21/inmem-exec-script/",
+          "watch_url": "",
           "theme": "vbs-bypass"
         },
         {
@@ -1441,6 +1995,31 @@
           "url": "https://www.youtube.com/watch?v=_646Gmr_uo0",
           "watch_url": "https://www.youtube.com/watch?v=_646Gmr_uo0",
           "theme": "vbs-bypass"
+        },
+        {
+          "title": "The Evolution of Protected Processes Part 2 — Exploit/Jailbreak Mitigations, Unkillable Processes, and Protected Services",
+          "year": "2013",
+          "venue": "alex-ionescu.com blog",
+          "speaker": "Alex Ionescu",
+          "url": "https://www.alex-ionescu.com/wip-draft-the-evolution-of-protected-processes-part-2-exploitjailbreak-mitigations-unkillable-processes-and-protected-services/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "windows_firewall": {
+      "name": "Windows Firewall",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_firewall",
+      "talks": [
+        {
+          "title": "How the Windows Firewall RPC Filter Works",
+          "year": "2021",
+          "venue": "tiraniddo.dev blog",
+          "speaker": "James Forshaw (tiraniddo)",
+          "url": "https://www.tiraniddo.dev/2021/08/how-windows-firewall-rpc-filter-works.html",
+          "watch_url": "",
+          "theme": "ipc-rpc"
         }
       ]
     },
@@ -1459,12 +2038,30 @@
           "theme": "credentials"
         },
         {
+          "title": "False Promises of Passwordless: Defeating Windows Hello through TPM Misuses",
+          "year": "2025",
+          "venue": "ACSAC 2025",
+          "speaker": "Lee; Kang; Lee; Choi (Sungkyunkwan Univ.)",
+          "url": "https://www.acsac.org/2025/",
+          "watch_url": "https://www.youtube.com/watch?v=SMqzge09R-4",
+          "theme": "credentials"
+        },
+        {
           "title": "Authenticating through Windows Hello for Business — a Reverse Engineering Story",
           "year": "2025",
           "venue": "2025 / TROOPERS 25, Heidelberg",
           "speaker": "Dr. Baptiste David, Tillmann Oßwald",
           "url": "https://troopers.de/troopers25/talks/ma3bfe/",
           "watch_url": "https://www.youtube.com/watch?v=Frzg4S7XE3c",
+          "theme": "credentials"
+        },
+        {
+          "title": "Midnight Blizzard conducts large-scale spear-phishing campaign using RDP files",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/",
+          "watch_url": "",
           "theme": "credentials"
         },
         {
@@ -1502,6 +2099,38 @@
           "url": null,
           "watch_url": "https://www.youtube.com/watch?v=u22XC01ewn0",
           "theme": "credentials"
+        }
+      ]
+    },
+    "windows_hello_enhanced_sign_in_security": {
+      "name": "Windows Hello ESS",
+      "category": "identity",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_hello_enhanced_sign_in_security",
+      "talks": [
+        {
+          "title": "New Windows 11 features strengthen security to address evolving cyberthreat landscape",
+          "year": "2024",
+          "venue": "Microsoft Security Blog",
+          "speaker": "David Weston (VP Enterprise & OS Security, Microsoft)",
+          "url": "https://www.microsoft.com/en-us/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/",
+          "watch_url": "",
+          "theme": "vbs-bypass"
+        }
+      ]
+    },
+    "windows_protected_process": {
+      "name": "Windows Protected Process",
+      "category": "operating_system",
+      "post_url": "https://maliparag.github.io/WindowsSecurity/post_template.html?post=windows_protected_process",
+      "talks": [
+        {
+          "title": "Abusing the SeRelabelPrivilege",
+          "year": "2024",
+          "venue": "decoder.cloud blog",
+          "speaker": "Andrea Pierini (decoder_it)",
+          "url": "https://decoder.cloud/2024/05/30/abusing-the-serelabelprivilege/",
+          "watch_url": "",
+          "theme": "post-exploit"
         }
       ]
     },

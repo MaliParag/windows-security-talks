@@ -1,4 +1,4 @@
-# blackhat-usa (100)
+# blackhat-usa (99)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -23,7 +23,6 @@
 | 2023 | rce | Second Breakfast: Implicit and Mutation-Based Serialization Vulnerabilities in .NET | Jonathan Birch | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Second%20Breakfast%20Implicit%20and%20Mutation-Based%20Serialization%20Vulnerabilities%20in%20.NET.mp4) |  |
 | 2023 | cloud-identity | One Drive, Double Agent: Clouded OneDrive Turns Sides | Shlomi Zarfati | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/One%20Drive%2C%20Double%20Agent%20Clouded%20OneDrive%20Turns%20Sides.mp4) |  |
 | 2023 | vbs-bypass | Lost Control: Breaking Hardware-Assisted Kernel Control-Flow Integrity with Page-Oriented  | Dougall Johnson | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lost%20Control-Breaking%20Hardware-Assisted%20Kernel%20Control-Flow%20Integrity%20with%20Page-Oriented%20Programming.mp4) |  |
-| 2023 | ipc-rpc | Lifting the Fog of War: Monitoring, Identifying and Mitigating MS-RPC Based Threats | Stiv Kupchik | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Lifting%20the%20Fog%20of%20War%20-%20Monitoring%2C%20Identifying%20and%20Mitigating%20MS-RPC%20Based%20Threats.mp4) |  |
 | 2023 | post-exploit | I Watched You Roll the Die: Unparalleled RDP Monitoring Reveals Attackers' Tradecraft | Tomer Peled | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/I%20Watched%20You%20Roll%20the%20Die%20Unparalleled%20RDP%20Monitoring%20Reveal%20Attackers%27%20Tradecraft.mp4) |  |
 | 2023 | forensics | From Dead Data to Digestion: Extracting Windows Fibers for Digital Forensics | Andreas Marth | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/From%20Dead%20Data%20to%20Digestion%20Extracting%20Windows%20Fibers%20for%20Your%20Digital%20Forensics%20Diet.mp4) |  |
 | 2023 | byovd | EDR = Erase Data Remotely: Abusing EDR Drivers to Wipe Endpoint Data | Omer Yair | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/EDR%20%3D%20Erase%20Data%20Remotely%2C%20By%20Cooking%20An%20Unforgettable%20%28Byte%29%20Signature%20Dish.mp4) |  |

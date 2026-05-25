@@ -4,7 +4,7 @@
 
 **Category:** Identity
 
-**9 matching talks** across the corpus.
+**10 matching talks** across the corpus.
 
 | Year | Title | Speaker | Venue | Material |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@
 | 2024 | Ghost in the PPL Part 2: From BYOVDLL to Arbitrary Code Execution in LSASS | Clément Labro (itm4n) |  | [slides](https://itm4n.github.io/ghost-in-the-ppl-part-2/) |
 | 2024 | Exploring Dual Edges of SRAM Data Remanence in SoCs: Covert Storage and Exfiltration Risks in TEE | Not listed on archive page | 2024 / Hardwear.io USA, Santa Clara | [slides](https://hardwear.io/usa-2024/) |
 | 2024 | A New Root of Trust: Changing Computing with TEE | Not listed on archive page | 2024 / Hardwear.io USA, Santa Clara | [slides](https://hardwear.io/usa-2024/) · [watch](https://www.youtube.com/watch?v=pzWaXD5zklI) |
+| 2022 | Profiling DEV-0270 / Storm-0270 (Phosphorus/Mint Sandstorm) ransomware operations | Microsoft Threat Intelligence Center (MSTIC) | Microsoft Security Blog | [slides](https://www.microsoft.com/en-us/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/) |
 | 2022 | Credential Guard Bypass via WDigest g_IsCredGuardEnabled Patch | itm4n (Clément Labro) | itm4n.github.io | [slides](https://itm4n.github.io/credential-guard-bypass/) |
 | 2021 | LSASS RunAsPPL — Introduction to LSA Protection | itm4n (Clément Labro) | itm4n.github.io | [slides](https://itm4n.github.io/lsass-runasppl/) |
 | 2021 | Bypassing LSA Protection (RunAsPPL) with Kernel Exploit | Clément Labro / itm4n (Independent) | itm4n.github.io | [slides](https://itm4n.github.io/bypassing-lsa-protection-userland/) |

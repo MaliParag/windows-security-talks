@@ -1,16 +1,19 @@
 # cloud-identity
 
-_25 talks_
+_30 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
+| 2026 | Auditing Application Permissions in Microsoft Entra ID | Quarkslab | Quarkslab blog | [link](https://blog.quarkslab.com/auditing-application-permissions-in-microsoft-entra-id.html) |  |
 | 2025 | Turning Microsoft's Login Page into our Phishing Infrastructure | Keanu Nys | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Keanu%20Nys%20-%20Turning%20Microsoft%27s%20Login%20Page%20into%20our%20Phishing%20Infrastructure.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | Restless Guest: A Novel Entra ID Vulnerability | Simon Maxwell-Stewart | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/yh3x7e/) |  |
+| 2025 | Phishing for Codes: Russian Threat Actors Target Microsoft 365 OAuth Workflows | Volexity | Volexity blog | [link](https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/) |  |
 | 2025 | Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery | Shang-De Jiang ("Kazma"); Dong-Yi Ye; Tung-Lin Lee | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tok | Dirk-jan Mollema (dirkjanm) |  | [link](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/) |  |
 | 2025 | Mind the Data Voids: Hijacking Copilot Trust to Deliver C2 Instructions with Microsoft Aut | Tobias Diehl | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Tobias%20Diehl%20-%20Mind%20the%20Data%20Voids%20Hijacking%20Copilot%20Trust%20to%20Deliver%20C2%20Instructions%20with%20Microsoft%20Authority.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | Hopping Across Devices: Expanding Lateral Movement through Pass-the-Certificate (PKU2U) | Yuya Chudo | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/afv8bw/) |  |
 | 2025 | Finding Entra ID Conditional Access Bypasses — the Structured Way | Dirk-jan Mollema, Fabian Bader | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/tfsfqs/) |  |
+| 2025 | Double-Tap Campaign: Russia-Nexus APT Conducts Cyber Espionage Operations Against Central  | Sekoia TDR | Sekoia blog | [link](https://blog.sekoia.io/double-tap-campaign-russia-nexus-apt-conducts-cyber-espionage-operations-against-central-asian-nations/) |  |
 | 2025 | Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applica | Vaisha Bernard (Eye Research / Eye Security) | Black Hat USA 2025 | [link](https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Bernard-Consent-and-Compromise-Abusing-Entra.pdf) |  |
 | 2025 | Beyond LSASS: Cutting-Edge Techniques for Undetectable Threat Emulation | Priyank Nigam | 2025 / TROOPERS 25, Heidelberg | [link](https://troopers.de/troopers25/talks/rwhyvb/) |  |
 | 2024 | UnOAuthorized: A Technique to Privilege Escalation to Global Administrator | Brian Woodruff (affiliation unverified) |  |  |  |
@@ -22,7 +25,9 @@ _25 talks_
 | 2024 | Deprecating Azure AD Graph API is Easy and Other Lies We Tell Ourselves | Nestori Syynimaa, Microsoft (MYSTIC team) |  | [link](https://www.youtube.com/watch?v=wgXichA5ukY) | [link](https://www.youtube.com/watch?v=wgXichA5ukY) |
 | 2024 | Attacking Primary Refresh Tokens using their macOS Implementation | Olaf Hartong, Dirk-jan Mollema | 2024 / TROOPERS 24, Heidelberg | [link](https://troopers.de/troopers24/talks/3vlccy/) | [link](https://www.youtube.com/watch?v=wFhe0-RRkFA) |
 | 2023 | Uncovering Azure's Silent Threats: A Journey into Cloud Vulnerabilities | Nitesh Surana | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Uncovering%20Azure%27s%20Silent%20Threats%20A%20Journey%20into%20Cloud%20Vulnerabilities.mp4) |  |
+| 2023 | Results of major technical investigations for Storm-0558 key acquisition | Microsoft Security Response Center | MSRC Blog | [link](https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/) |  |
 | 2023 | One Drive, Double Agent: Clouded OneDrive Turns Sides | Shlomi Zarfati | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/One%20Drive%2C%20Double%20Agent%20Clouded%20OneDrive%20Turns%20Sides.mp4) |  |
+| 2023 | Midnight Blizzard conducts targeted social engineering over Microsoft Teams | Microsoft Threat Intelligence | Microsoft Security Blog | [link](https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams/) |  |
 | 2022 | I Am Whoever I Say I Am: Infiltrating Identity Providers Using a 0-Click Exploit | Yaron Zinar, Marina Simakov | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Zinar-Simakov-I-Am-Whoever-I-Say-I-Am-Infiltrating-Identity-Providers.pdf) |  |
 | 2021 | Cloudy with a Chance of APT: Novel Microsoft 365 Attacks in the Wild | Steph Carruthers | Black Hat USA 2021 | [link](https://i.blackhat.com/USA-21/Thursday/us-21-Carruthers-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks.pdf) |  |
 | 2020 | My Cloud is APT's Cloud: Investigating and Defending Office 365 | Doug Bienstock, Josh Madeley | Black Hat USA 2020 | [link](https://i.blackhat.com/USA-20/Thursday/us-20-Bienstock-Madeley-My-Cloud-Is-APTs-Cloud-Investigating-And-Defending-Office-365.pdf) |  |

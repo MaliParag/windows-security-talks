@@ -4,12 +4,14 @@
 
 **Category:** Cloud Services
 
-**25 matching talks** across the corpus.
+**30 matching talks** across the corpus.
 
 | Year | Title | Speaker | Venue | Material |
 |---|---|---|---|---|
+| 2026 | Auditing Application Permissions in Microsoft Entra ID | Quarkslab | Quarkslab blog | — |
 | 2025 | Restless Guest: A Novel Entra ID Vulnerability | Simon Maxwell-Stewart | 2025 / TROOPERS 25, Heidelberg | [slides](https://troopers.de/troopers25/talks/yh3x7e/) |
 | 2025 | RBAC: The Shady Place Behind Basic Entra ID Security | Martin Haller | 2025 / TROOPERS 25, Heidelberg | [slides](https://troopers.de/troopers25/talks/dukg9p/) · [watch](https://www.youtube.com/watch?v=6GTmsPgIy5c) |
+| 2025 | Phishing for Codes: Russian Threat Actors Target Microsoft 365 OAuth Workflows | Volexity | Volexity blog | [slides](https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/) |
 | 2025 | Original Sin of SSO: macOS PRT Cookie Theft & Entra ID Persistence via Device Forgery | Shang-De Jiang ("Kazma"); Dong-Yi Ye; Tung-Lin Lee ("Echo") | DEF CON 33 | [slides](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Shang-De%20Jiang%20Kazma%20Ye%20Echo%20Lee%20-%20Original%20Sin%20of%20SSO%20macOS%20PRT%20Cookie%20Theft%20%26%20Entra%20ID%20Persistence%20via%20Device%20Forgery.pdf) · [watch](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2025 | One Token to rule them all — Obtaining Global Admin in every Entra ID tenant via Actor tokens (CVE-2025-55241) | Dirk-jan Mollema (dirkjanm) |  | [slides](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/) |
 | 2025 | Finding Entra ID Conditional Access Bypasses — the Structured Way | Dirk-jan Mollema, Fabian Bader | 2025 / TROOPERS 25, Heidelberg | [slides](https://troopers.de/troopers25/talks/tfsfqs/) · [watch](https://www.youtube.com/watch?v=yYQBeDFEkps) |
@@ -26,7 +28,10 @@
 | 2024 | Azure AD / Entra ID Kerberos Integration Attack Paths | Eloy Pérez / Tarlogic team |  | [slides](https://www.tarlogic.com/blog/) |
 | 2024 | Attacking Primary Refresh Tokens using their macOS Implementation | Olaf Hartong, Dirk-jan Mollema | 2024 / TROOPERS 24, Heidelberg | [slides](https://troopers.de/troopers24/talks/3vlccy/) · [watch](https://www.youtube.com/watch?v=wFhe0-RRkFA) |
 | 2024 | A Decade of Active Directory Attacks: What We've Learned & What's Next | Sean Metcalf | 2024 / TROOPERS 24, Heidelberg | [slides](https://troopers.de/troopers24/talks/vxs8wy/) · [watch](https://www.youtube.com/watch?v=iTS14FhRlVA) |
+| 2023 | Results of major technical investigations for Storm-0558 key acquisition | Microsoft Security Response Center | MSRC Blog | [slides](https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/) |
+| 2023 | Midnight Blizzard conducts targeted social engineering over Microsoft Teams | Microsoft Threat Intelligence | Microsoft Security Blog | [slides](https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams/) |
 | 2023 | BingBang: Hacking Bing.com (and Much More) with Azure Active Directory | Hillai Ben-Sasson | Black Hat USA 2023 | [slides](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/BingBang%20Hacking%20Bing.com%20%28and%20much%20more%29%20with%20Azure%20Active%20Directory.mp4) · [watch](https://www.youtube.com/watch?v=l4hA2eZuMF8) |
+| 2023 | Analysis of Storm-0558 techniques for unauthorized email access | Microsoft Threat Intelligence | Microsoft Security Blog | [slides](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) |
 | 2022 | Backdooring and Hijacking Azure AD Accounts by Abusing External Identities | Dirk-jan Mollema | Black Hat USA 2022 | [slides](https://i.blackhat.com/USA-22/Wednesday/us-22-Mollema-Backdooring-And-Hijacking-Azure-AD-Accounts-By-Abusing-External-Identities.pdf) · [watch](https://www.youtube.com/watch?v=uKDS2t9_KsA) |
 | 2022 | AAD Joined Machines: The New Lateral Movement | Mor Rubin, Tom Doron | Black Hat USA 2022 | [slides](https://i.blackhat.com/USA-22/Wednesday/us-22-Rubin-Doron-AAD-Joined-Machines-The-New-Lateral-Movement.pdf) · [watch](https://www.youtube.com/watch?v=ZPI2OB0g028) |
 | 2019 | Impersonating Office 365 Users on Azure AD Joined Machines | Dirk-jan Mollema (dirkjanm.io) | dirkjanm.io | — |

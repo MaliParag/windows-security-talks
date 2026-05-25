@@ -1,14 +1,16 @@
 # edr-bypass
 
-_33 talks_
+_44 talks_
 
 | Year | Title | Speakers | Venue | Slides | Watch |
 |---|---|---|---|---|---|
 | 2026 | Windows Internals: Check Your Privilege — The Curious Case of ETW's SecurityTrace Flag | Connor McGarr (Origin/Prelude Security) |  | [link](https://connormcgarr.github.io/securitytrace-etw-ppl/) |  |
 | 2026 | How real-world malware disables EDR systems | Holger Unterbrink — Cisco Talos | Recon 2026 | [link](https://cfp.recon.cx/recon-2026/talk/GG7SEM/) |  |
 | 2025 | WinpMem: Volatility's driver that lets malware volatilize | Dr. Baptiste David — ERNW | Recon 2025 | [link](https://recon.cx/2025/sessions.html) |  |
+| 2025 | Windows plays Jenga: Uncovering Design Weaknesses in Windows File System Security | Dong-uk Kim; JunYoung Park; Sanghak Oh; Hyoungshic | ACM CCS 2025 | [link](https://doi.org/10.1145/3719027.3765217) |  |
 | 2025 | Training Specialist Models: Automating Malware Development | Kyle Avery (Outflank) |  |  |  |
 | 2025 | Reinventing PowerShell in C/C++ | Clément Labro (itm4n) |  | [link](https://itm4n.github.io/reinventing-powershell/) |  |
+| 2025 | LSA Secrets: Revisiting Secretsdump | Synacktiv | Synacktiv blog | [link](https://www.synacktiv.com/en/publications/lsa-secrets-revisiting-secretsdump.html) |  |
 | 2025 | Ghost Calls: Abusing Web Conferencing for Covert Command & Control | Adam Crosser | DEF CON 33 | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20presentations/Adam%20Crosser%20-%20Ghost%20Calls%20Abusing%20Web%20Conferencing%20for%20Covert%20Command%20%26%20Control.pdf) | [link](https://media.defcon.org/DEF%20CON%2033/DEF%20CON%2033%20video%20and%20slides/) |
 | 2024 | Unmanaged .NET Patching | Outflank team |  | [link](https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/) |  |
 | 2024 | Three Decades of Network Security Evolution | Vern Paxson, Corelight |  | [link](https://www.youtube.com/watch?v=YFThifuJbMM) | [link](https://www.youtube.com/watch?v=YFThifuJbMM) |
@@ -19,21 +21,30 @@ _33 talks_
 | 2024 | Introducing Early Cascade Injection: From Windows Process Creation to Stealthy Injection | Guido Miggelenbrink, Outflank |  | [link](https://outflank.nl/blog/2024/10/15/introducing-early-cascade-injection-from-windows-process-creation-to-stealthy-injection/) |  |
 | 2024 | HookChain: A new perspective for Bypassing EDR Solutions | Helvio Carvalho Junior | DEF CON 32 | [link](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Helvio%20Carvalho%20Junior%20-%20HookChain%20A%20new%20perspective%20for%20Bypassing%20EDR%20Solutions.pdf) | [link](https://www.youtube.com/watch?v=0L6TlFYwy2U) |
 | 2024 | EDR Internals for macOS and Linux | Outflank team |  | [link](https://outflank.nl/blog/2024/06/03/edr-internals-macos-linux/) |  |
+| 2023 | Using Memory Analysis to Detect EDR-Nullifying Malware | Volexity | Volexity blog | [link](https://www.volexity.com/blog/2023/03/28/using-memory-analysis-to-detect-edr-nullifying-malware/) |  |
 | 2023 | Hunting for Bugs in Windows Event Tracing (ETW Internals for Security Research) — Trail of | Yarden Shafir (Trail of Bits) |  | [link](https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/) |  |
 | 2023 | Defender-Pretender: When Windows Defender Updates Become a Security Risk | Tomer Bar, Omer Attias | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Defender-Pretender%20When%20Windows%20Defender%20Updates%20Become%20a%20Security%20Risk.mp4) |  |
 | 2023 | Close Encounters of the Advanced Persistent Kind: Leveraging Rootkits for Post-Exploitatio | Itamar Mizrahi, Arie Olshtein | Black Hat USA 2023 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202023/Close%20Encounters%20of%20the%20Advanced%20Persistent%20Kind%20Leveraging%20Rootkits%20for%20Post-Exploitation.mp4) |  |
 | 2022 | Windows Syscall Hooking with the Nt Kernel Module: A New Evasion Technique | Yarden Shafir (CrowdStrike) | CrowdStrike blog | [link](https://www.crowdstrike.com/blog/windows-syscall-hooking-nt-kernel-module/) |  |
 | 2022 | Dirty Vanity: A New Approach to Code Injection and EDR Bypass | Saar Amar (Microsoft MSRC) | MSRC Security Research / GitHu | [link](https://github.com/saaramar/DirtyVanity/blob/main/dirtyvanity_blog_post.md) |  |
 | 2022 | Blasting Event-Driven Cornucopia: WMI-Based User-Space Attacks Blind SIEMs and EDRs | Claudiu Teodorescu | Black Hat USA 2022 | [link](https://i.blackhat.com/USA-22/Wednesday/us-22-Teodorescu-Blasting-Event-Driven-Cornucopia-WMI-Based-User-Space-Attacks-Blind-SIEMs-And-EDRs.pdf) |  |
+| 2022 | Analyzing attacks using the Exchange vulnerabilities CVE-2022-41040 and CVE-2022-41082 (Pr | Microsoft Threat Intelligence (MSTIC) | Microsoft Security Blog | [link](https://www.microsoft.com/en-us/security/blog/2022/09/30/analyzing-attacks-using-the-exchange-vulnerabilities-cve-2022-41040-and-cve-2022-41082/) |  |
 | 2021 | Windows Defender — Demystifying and Bypassing ASR by Understanding the AV's Signatures | Gal Kristal | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-Defender-ASR-Bypass.mp4) |  |
 | 2021 | Veni, No Vidi, No Vici: Attacks on ETW Blind EDR Sensors | Claudiu Teodorescu, Igor Korkin, Andrey Golchikov | Black Hat Europe 2021 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20Europe/Black%20Hat%20Europe%202021/BHEurope2021-ETW-Attacks.mp4) |  |
 | 2020 | Hiding Your .NET — COMPlus_ETWEnabled | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/hiding-your-dotnet-complus-etwenabled/) |  |
 | 2020 | Hiding Your .NET ETW Provider | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/hiding-your-dotnet-etw/) |  |
+| 2020 | From NETWORK SERVICE to SYSTEM | Andrea Pierini (decoder_it) | decoder.cloud blog | [link](https://decoder.cloud/2020/05/04/from-network-service-to-system/) |  |
+| 2020 | Fast and Furious: Outrunning Windows Kernel Notification Routines from User-Mode | Paul Ciholas; Alexandre Lenoir; Sonia Laniepce; Ju | DIMVA 2020 | [link](https://doi.org/10.1007/978-3-030-52683-2_4) |  |
+| 2019 | Shellcode: Loading .NET Assemblies From Memory | odzhan (modexp) | modexp.wordpress.com blog | [link](https://modexp.wordpress.com/2019/05/10/dotnet-loader-shellcode/) |  |
+| 2019 | PowerDrive: Accurate De-obfuscation and Analysis of PowerShell Malware | D. Ugarte; Davide Maiorca; Fabrizio Cara; Giorgio  | DIMVA 2019 | [link](https://doi.org/10.1007/978-3-030-22038-9_12) |  |
 | 2019 | Outflank: Unhooking the Hooks — Bypass EDR Userland Hooks | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://www.outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/) |  |
 | 2019 | Finding a Needle in an Encrypted Haystack: Leveraging Cryptography to Detect AD Attacks | Marina Simakov, Yaron Zinar | Black Hat USA 2019 | [link](https://infocon.org/cons/Black%20Hat/Black%20Hat%20USA/Black%20Hat%20USA%202019/BH-USA-2019-NTLM-Detection.mp4) |  |
 | 2019 | Direct Syscalls in C — Avoiding Userland Hooks | Stan Hegt (Outflank) | outflank.nl/blog | [link](https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/) |  |
 | 2019 | Bypass Windows Exploit Guard ASR | Philip Tsukerman | DEF CON 27 | [link](https://infocon.org/cons/DEF%20CON/DEF%20CON%2027/DEF%20CON%2027%20video%20and%20slides/DEF%20CON%2027%20-%20Philip%20Tsukerman%20-%20Bypass-ASR.mp4) |  |
+| 2019 | A Game of "Cut and Mouse": Bypassing Antivirus by Simulating User Inputs | Ziya Alper Genç; Gabriele Lenzini; Daniele Sgandur | ACSAC 2019 | [link](https://doi.org/10.1145/3359789.3359844) |  |
 | 2018 | In-Memory Persistence: Terminate & Stay Resident Redux | Joe Desimone | DerbyCon 8.0 Evolution | [link](https://infocon.org/cons/DerbyCon/DerbyCon%208%202018/In-Memory-Persistence.mp4) |  |
 | 2018 | Exploring PowerShell AMSI and Logging Evasion | Adam Chester (xpnsec) | blog.xpnsec.com | [link](https://blog.xpnsec.com/exploring-powershell-amsi-and-logging-evasion/) |  |
+| 2018 | Disabling AMSI in JScript with One Byte | James Forshaw (tiraniddo) | tiraniddo.dev blog | [link](https://www.tiraniddo.dev/2018/06/disabling-amsi-in-jscript-with-one.html) |  |
+| 2018 | Detecting Malicious PowerShell Commands Using Deep Neural Networks | Danny Hendler; Shay Kels; Amir Rubin | AsiaCCS 2018 | [link](https://dl.acm.org/doi/10.1145/3196494.3196511) |  |
 | 2017 | Tracing Adversaries: Detecting Attacks with ETW | Zac Brown, Microsoft Office 365 Security Team | DerbyCon 7.0 Legacy | [link](https://infocon.org/cons/DerbyCon/DerbyCon%207%202017/Tracing%20Adversaries%20Detecting%20Attacks%20with%20ETW.mp4) |  |
 | 2016 | Bypassing AMSI via .NET Reflection | Matt Graeber (@mattifestation) — SpecterOps | June 2016 — Twitter one-liner; |  |  |

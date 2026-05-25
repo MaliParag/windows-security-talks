@@ -1,4 +1,4 @@
-# ndss (9)
+# ndss (12)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -11,3 +11,6 @@
 | 2025 | boot-firmware | FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2 | Connor Glosner, Aravind Machiry (Purdue University |  |  |
 | 2025 | office-attack | Be Careful of What You Embed: Demystifying OLE Vulnerabilities | Yunpeng Tian, Tianyu Chen, Xu Zhou, Zhenyu Ning, K |  |  |
 | 2024 | post-exploit | File Hijacking Vulnerability: The Elephant in the Room | Chendong Yu, Yang Xiao, Yeting Li, Yifan Dong, Jia |  |  |
+| 2022 | hyper-v | Chosen-Instruction Attack Against Commercial Code Virtualization Obfuscators | Shijia Li; Chunfu Jia; Pengda Qiu; Qiyuan Chen; Ji | [link](https://www.ndss-symposium.org/ndss-paper/auto-draft-210/) |  |
+| 2021 | fuzzing | WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning | Jinho Jung; Stephen Tong; Hong Hu; Jungwon Lim; Yo | [link](https://www.ndss-symposium.org/ndss-paper/winnie/) |  |
+| 2020 | kernel-exploit | Prevalence and Impact of Low-Entropy Packing Schemes in the Malware Ecosystem | Alessandro Mantovani; Simone Aonzo; Xabier Ugarte- | [link](https://www.ndss-symposium.org/ndss-paper/prevalence-and-impact-of-low-entropy-packing-schemes-in-the-malware-ecosystem/) |  |

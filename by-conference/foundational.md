@@ -1,4 +1,4 @@
-# foundational (20)
+# foundational (19)
 
 | Year | Category | Title | Speakers | Slides | Watch |
 |---|---|---|---|---|---|
@@ -12,7 +12,6 @@
 | 2018 | ad-attack | SpoolSample — Forcing a Windows Host to Authenticate via MS-RPRN | Lee Christensen (@tifkin_) — SpecterOps | [link](https://github.com/leechristensen/SpoolSample) |  |
 | 2018 | credentials | SharpDPAPI | Will Schroeder (@harmj0y) — SpecterOps (port of Be | [link](https://github.com/GhostPack/SharpDPAPI) |  |
 | 2018 | ad-attack | Rubeus | Will Schroeder (@harmj0y) — SpecterOps; co-contrib | [link](https://github.com/GhostPack/Rubeus) |  |
-| 2018 | ipc-rpc | Juicy Potato (abusing the golden privileges) | Andrea Pierini (@decoder_it) + Giuseppe Trotta (@G | [link](https://github.com/ohpe/juicy-potato) |  |
 | 2018 | post-exploit | Investigating COM Hijacking Techniques for Persistence and Privilege Escalation | Will Dormann (@wdormann) — CERT/CC; documented and |  |  |
 | 2016 | ipc-rpc | Rotten Potato — Privilege Escalation from Service Accounts to SYSTEM | Stephen Breen (@breenmachine) + Chris Mallz (@vval | [link](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/) |  |
 | 2016 | ipc-rpc | Hot Potato — Privilege Escalation on Windows 7, 8, 10, Server 2008, Server 2012 | Stephen Breen (@breenmachine) — Foxglove Security | [link](https://foxglovesecurity.com/2016/01/16/hot-potato/) |  |
